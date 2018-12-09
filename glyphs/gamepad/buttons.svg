@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="buttons.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="520.28477"
+     inkscape:cy="383.54152"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1270"
+     inkscape:window-height="1153"
+     inkscape:window-x="2566"
+     inkscape:window-y="45"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.08361578;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path1225"
+       cx="25"
+       cy="230.85416"
+       r="25" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:19.21366692;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 250 0 A 94.488189 94.488189 0 0 0 155.51172 94.488281 A 94.488189 94.488189 0 0 0 250 188.97656 A 94.488189 94.488189 0 0 0 344.48828 94.488281 A 94.488189 94.488189 0 0 0 250 0 z M 250 18.572266 A 75.91676 75.91676 0 0 1 325.91602 94.488281 A 75.91676 75.91676 0 0 1 250 170.4043 A 75.91676 75.91676 0 0 1 174.08398 94.488281 A 75.91676 75.91676 0 0 1 250 18.572266 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,164.70832)"
+       id="path1225-8" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.08361626;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 66.145833,246.99994 a 25,25 0 0 0 -25.000024,25.00002 25,25 0 0 0 25.000024,25.00003 25,25 0 0 0 25.000024,-25.00003 25,25 0 0 0 -25.000024,-25.00002 z m 0,4.91391 A 20.086309,20.086309 0 0 1 86.231947,271.99996 20.086309,20.086309 0 0 1 66.145833,292.08608 20.086309,20.086309 0 0 1 46.05972,271.99996 20.086309,20.086309 0 0 1 66.145833,251.91385 Z"
+       id="path1225-8-0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.08361673;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 107.29164,205.85413 a 25,25 0 0 0 -25.000021,25.00002 25,25 0 0 0 25.000021,25.00003 25,25 0 0 0 25.00003,-25.00003 25,25 0 0 0 -25.00003,-25.00002 z m 0,4.91391 a 20.086309,20.086309 0 0 1 20.08612,20.08611 20.086309,20.086309 0 0 1 -20.08612,20.08612 20.086309,20.086309 0 0 1 -20.08611,-20.08612 20.086309,20.086309 0 0 1 20.08611,-20.08611 z"
+       id="path1225-8-0-2" />
+  </g>
+</svg>
