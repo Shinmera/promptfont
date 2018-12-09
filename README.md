@@ -6,37 +6,6 @@ PromptFont is based on the Xolonium font by Severin Meyer.
 ## Special Glyphs
 The following characters produce special glyphs for button prompts:
 
-* `U+0080` Ctrl
-* `U+0081` Alt
-* `U+0082` Shift
-* `U+0083` Super
-* `U+0084` Tab
-* `U+0085` Caps
-* `U+0086` Backspace
-* `U+0087` Enter
-* `U+0088` Esc
-* `U+0089` PrtSc
-* `U+008A` ScrLk
-* `U+008B` Pause
-* `U+008C` NumLock
-* `U+008D` Insert
-* `U+008E` Home
-* `U+008F` Page Up
-* `U+0090` Delete
-* `U+0091` End
-* `U+0092` Page Down
-* `U+0093` F1
-* `U+0094` F2
-* `U+0095` F3
-* `U+0096` F4
-* `U+0097` F5
-* `U+0098` F6
-* `U+0099` F7
-* `U+009A` F8
-* `U+009B` F9
-* `U+009C` F10
-* `U+009D` F11
-* `U+009E` F12
 * `U+219E` Dpad Left
 * `U+219F` Dpad Up
 * `U+21A0` Dpad Right
@@ -70,3 +39,34 @@ The following characters produce special glyphs for button prompts:
 * `U+21F7` Select/Share
 * `U+21F8` Start
 * `U+21F9` Home/Menu
+* `U+2427` Ctrl
+* `U+2428` Alt
+* `U+2429` Shift
+* `U+242A` Super
+* `U+242B` Tab
+* `U+242C` Caps
+* `U+242D` Backspace
+* `U+242E` Enter
+* `U+242F` Esc
+* `U+2430` PrtSc
+* `U+2431` ScrLk
+* `U+2432` Pause
+* `U+2433` NumLock
+* `U+2434` Insert
+* `U+2435` Home
+* `U+2436` Page Up
+* `U+2437` Delete
+* `U+2438` End
+* `U+2439` Page Down
+* `U+2460` F1
+* `U+2461` F2
+* `U+2462` F3
+* `U+2463` F4
+* `U+2464` F5
+* `U+2465` F6
+* `U+2466` F7
+* `U+2467` F8
+* `U+2468` F9
+* `U+2469` F10
+* `U+246A` F11
+* `U+246B` F12

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
+  <head>
+    <meta charset="utf-8"/>
+    <title>PromptFont - A Font for Button Prompts</title>
+    <style type="text/css">
+      @font-face {
+          font-family: 'promptfont';
+          src: url('PromptFont.ttf');
+      }
+      body {
+          font-family: sans-serif;
+          font-size: 14pt;
+          margin: 0;
+      }
+      header {
+          padding: 1em;
+          border-bottom: 3px solid #CCCCCC;
+      }
+      a.button {
+          font-size: 18pt;
+          font-weight: normal;
+          color: black;
+          background: #EEEEEE;
+          border: 2px solid #CCCCCC;
+          border-radius: .2em;
+          padding: .2em .4em;
+          margin: .2em;
+          text-decoration: none;
+      }
+      a.button:hover {
+          background: #CCCCCC;
+      }
+      main section {
+          background: #EEEEEE;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      main section h2 {
+          width: 100%;
+          text-align: center;
+      }
+      .glyph {
+          text-align: center;
+          margin: 1em;
+          width: 8em;
+      }
+      .glyph span {
+          display: block;
+      }
+      .glyph code {
+          display: block;
+      }
+      .glyph i {
+          display: block;
+          font-family: promptfont;
+          font-size: 32pt;
+          font-style: normal;
+          transition: font-size .5s;
+      }
+      .glyph:hover i{
+          font-size: 8em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        PromptFont
+        <a class="button" href="https://github.com/Shinmera/promptfont/">GitHub</a>
+        <a class="button" href="https://github.com/Shinmera/promptfont/raw/master/PromptFont.otf">Download</a>
+      </h1>
+      <p>This is a font designed for button prompts in games. It includes the base alphabet, as well as icons for modifier and control keys, and gamepad buttons.</p>
+      <p>PromptFont is based on the Xolonium font by Severin Meyer and licenced under the SIL Open Font Licence.</p>
+    </header>
+    <main>
+      <section id="alphabet">
+        <h2>Base Ascii</h2>
+        <div class="glyph"><i>&#x0021;</i><code>U+0021</code><span>!</span></div>
+        <div class="glyph"><i>&#x0022;</i><code>U+0022</code><span>"</span></div>
+        <div class="glyph"><i>&#x0023;</i><code>U+0023</code><span>#</span></div>
+        <div class="glyph"><i>&#x0024;</i><code>U+0024</code><span>$</span></div>
+        <div class="glyph"><i>&#x0025;</i><code>U+0025</code><span>%</span></div>
+        <div class="glyph"><i>&#x0026;</i><code>U+0026</code><span>&</span></div>
+        <div class="glyph"><i>&#x0027;</i><code>U+0027</code><span>'</span></div>
+        <div class="glyph"><i>&#x0028;</i><code>U+0028</code><span>(</span></div>
+        <div class="glyph"><i>&#x0029;</i><code>U+0029</code><span>)</span></div>
+        <div class="glyph"><i>&#x002A;</i><code>U+002A</code><span>*</span></div>
+        <div class="glyph"><i>&#x002B;</i><code>U+002B</code><span>+</span></div>
+        <div class="glyph"><i>&#x002C;</i><code>U+002C</code><span>,</span></div>
+        <div class="glyph"><i>&#x002D;</i><code>U+002D</code><span>-</span></div>
+        <div class="glyph"><i>&#x002E;</i><code>U+002E</code><span>.</span></div>
+        <div class="glyph"><i>&#x002F;</i><code>U+002F</code><span>/</span></div>
+        <div class="glyph"><i>&#x0030;</i><code>U+0030</code><span>0</span></div>
+        <div class="glyph"><i>&#x0031;</i><code>U+0031</code><span>1</span></div>
+        <div class="glyph"><i>&#x0032;</i><code>U+0032</code><span>2</span></div>
+        <div class="glyph"><i>&#x0033;</i><code>U+0033</code><span>3</span></div>
+        <div class="glyph"><i>&#x0034;</i><code>U+0034</code><span>4</span></div>
+        <div class="glyph"><i>&#x0035;</i><code>U+0035</code><span>5</span></div>
+        <div class="glyph"><i>&#x0036;</i><code>U+0036</code><span>6</span></div>
+        <div class="glyph"><i>&#x0037;</i><code>U+0037</code><span>7</span></div>
+        <div class="glyph"><i>&#x0038;</i><code>U+0038</code><span>8</span></div>
+        <div class="glyph"><i>&#x0039;</i><code>U+0039</code><span>9</span></div>
+        <div class="glyph"><i>&#x003A;</i><code>U+003A</code><span>:</span></div>
+        <div class="glyph"><i>&#x003B;</i><code>U+003B</code><span>;</span></div>
+        <div class="glyph"><i>&#x003C;</i><code>U+003C</code><span><</span></div>
+        <div class="glyph"><i>&#x003D;</i><code>U+003D</code><span>=</span></div>
+        <div class="glyph"><i>&#x003E;</i><code>U+003E</code><span>></span></div>
+        <div class="glyph"><i>&#x003F;</i><code>U+003F</code><span>?</span></div>
+        <div class="glyph"><i>&#x0040;</i><code>U+0040</code><span>@</span></div>
+        <div class="glyph"><i>&#x0041;</i><code>U+0041</code><span>A</span></div>
+        <div class="glyph"><i>&#x0042;</i><code>U+0042</code><span>B</span></div>
+        <div class="glyph"><i>&#x0043;</i><code>U+0043</code><span>C</span></div>
+        <div class="glyph"><i>&#x0044;</i><code>U+0044</code><span>D</span></div>
+        <div class="glyph"><i>&#x0045;</i><code>U+0045</code><span>E</span></div>
+        <div class="glyph"><i>&#x0046;</i><code>U+0046</code><span>F</span></div>
+        <div class="glyph"><i>&#x0047;</i><code>U+0047</code><span>G</span></div>
+        <div class="glyph"><i>&#x0048;</i><code>U+0048</code><span>H</span></div>
+        <div class="glyph"><i>&#x0049;</i><code>U+0049</code><span>I</span></div>
+        <div class="glyph"><i>&#x004A;</i><code>U+004A</code><span>J</span></div>
+        <div class="glyph"><i>&#x004B;</i><code>U+004B</code><span>K</span></div>
+        <div class="glyph"><i>&#x004C;</i><code>U+004C</code><span>L</span></div>
+        <div class="glyph"><i>&#x004D;</i><code>U+004D</code><span>M</span></div>
+        <div class="glyph"><i>&#x004E;</i><code>U+004E</code><span>N</span></div>
+        <div class="glyph"><i>&#x004F;</i><code>U+004F</code><span>O</span></div>
+        <div class="glyph"><i>&#x0050;</i><code>U+0050</code><span>P</span></div>
+        <div class="glyph"><i>&#x0051;</i><code>U+0051</code><span>Q</span></div>
+        <div class="glyph"><i>&#x0052;</i><code>U+0052</code><span>R</span></div>
+        <div class="glyph"><i>&#x0053;</i><code>U+0053</code><span>S</span></div>
+        <div class="glyph"><i>&#x0054;</i><code>U+0054</code><span>T</span></div>
+        <div class="glyph"><i>&#x0055;</i><code>U+0055</code><span>U</span></div>
+        <div class="glyph"><i>&#x0056;</i><code>U+0056</code><span>V</span></div>
+        <div class="glyph"><i>&#x0057;</i><code>U+0057</code><span>W</span></div>
+        <div class="glyph"><i>&#x0058;</i><code>U+0058</code><span>X</span></div>
+        <div class="glyph"><i>&#x0059;</i><code>U+0059</code><span>Y</span></div>
+        <div class="glyph"><i>&#x005A;</i><code>U+005A</code><span>Z</span></div>
+        <div class="glyph"><i>&#x005B;</i><code>U+005B</code><span>[</span></div>
+        <div class="glyph"><i>&#x005C;</i><code>U+005C</code><span>\</span></div>
+        <div class="glyph"><i>&#x005D;</i><code>U+005D</code><span>]</span></div>
+        <div class="glyph"><i>&#x005E;</i><code>U+005E</code><span>^</span></div>
+        <div class="glyph"><i>&#x005F;</i><code>U+005F</code><span>_</span></div>
+        <div class="glyph"><i>&#x0060;</i><code>U+0060</code><span>`</span></div>
+        <div class="glyph"><i>&#x0061;</i><code>U+0061</code><span>a</span></div>
+        <div class="glyph"><i>&#x0062;</i><code>U+0062</code><span>b</span></div>
+        <div class="glyph"><i>&#x0063;</i><code>U+0063</code><span>c</span></div>
+        <div class="glyph"><i>&#x0064;</i><code>U+0064</code><span>d</span></div>
+        <div class="glyph"><i>&#x0065;</i><code>U+0065</code><span>e</span></div>
+        <div class="glyph"><i>&#x0066;</i><code>U+0066</code><span>f</span></div>
+        <div class="glyph"><i>&#x0067;</i><code>U+0067</code><span>g</span></div>
+        <div class="glyph"><i>&#x0068;</i><code>U+0068</code><span>h</span></div>
+        <div class="glyph"><i>&#x0069;</i><code>U+0069</code><span>i</span></div>
+        <div class="glyph"><i>&#x006A;</i><code>U+006A</code><span>j</span></div>
+        <div class="glyph"><i>&#x006B;</i><code>U+006B</code><span>k</span></div>
+        <div class="glyph"><i>&#x006C;</i><code>U+006C</code><span>l</span></div>
+        <div class="glyph"><i>&#x006D;</i><code>U+006D</code><span>m</span></div>
+        <div class="glyph"><i>&#x006E;</i><code>U+006E</code><span>n</span></div>
+        <div class="glyph"><i>&#x006F;</i><code>U+006F</code><span>o</span></div>
+        <div class="glyph"><i>&#x0070;</i><code>U+0070</code><span>p</span></div>
+        <div class="glyph"><i>&#x0071;</i><code>U+0071</code><span>q</span></div>
+        <div class="glyph"><i>&#x0072;</i><code>U+0072</code><span>r</span></div>
+        <div class="glyph"><i>&#x0073;</i><code>U+0073</code><span>s</span></div>
+        <div class="glyph"><i>&#x0074;</i><code>U+0074</code><span>t</span></div>
+        <div class="glyph"><i>&#x0075;</i><code>U+0075</code><span>u</span></div>
+        <div class="glyph"><i>&#x0076;</i><code>U+0076</code><span>v</span></div>
+        <div class="glyph"><i>&#x0077;</i><code>U+0077</code><span>w</span></div>
+        <div class="glyph"><i>&#x0078;</i><code>U+0078</code><span>x</span></div>
+        <div class="glyph"><i>&#x0079;</i><code>U+0079</code><span>y</span></div>
+        <div class="glyph"><i>&#x007A;</i><code>U+007A</code><span>z</span></div>
+        <div class="glyph"><i>&#x007B;</i><code>U+007B</code><span>{</span></div>
+        <div class="glyph"><i>&#x007C;</i><code>U+007C</code><span>|</span></div>
+        <div class="glyph"><i>&#x007D;</i><code>U+007D</code><span>}</span></div>
+        <div class="glyph"><i>&#x007E;</i><code>U+007E</code><span>~</span></div>
+      </section>
+
+      <section id="gamepad">
+        <h2>Gamepad Glyphs</h2>
+        <div class="glyph"><i>&#x219E;</i><code>U+219E</code><span>Dpad Left</span></div>
+        <div class="glyph"><i>&#x219F;</i><code>U+219F</code><span>Dpad Up</span></div>
+        <div class="glyph"><i>&#x21A0;</i><code>U+21A0</code><span>Dpad Right</span></div>
+        <div class="glyph"><i>&#x21A1;</i><code>U+21A1</code><span>Dpad Down</span></div>
+        <div class="glyph"><i>&#x21A4;</i><code>U+21A4</code><span>Button Left (X)</span></div>
+        <div class="glyph"><i>&#x21A5;</i><code>U+21A5</code><span>Button Up (Y)</span></div>
+        <div class="glyph"><i>&#x21A6;</i><code>U+21A6</code><span>Button Right (B)</span></div>
+        <div class="glyph"><i>&#x21A7;</i><code>U+21A7</code><span>Button Down (A)</span></div>
+        <div class="glyph"><i>&#x21B0;</i><code>U+21B0</code><span>Left Shoulder (L1)</span></div>
+        <div class="glyph"><i>&#x21B1;</i><code>U+21B1</code><span>Right Shoulder (R1)</span></div>
+        <div class="glyph"><i>&#x21B2;</i><code>U+21B2</code><span>Left Trigger (L2)</span></div>
+        <div class="glyph"><i>&#x21B3;</i><code>U+21B3</code><span>Right Trigger (R2)</span></div>
+        <div class="glyph"><i>&#x21BA;</i><code>U+21BA</code><span>Left Analog</span></div>
+        <div class="glyph"><i>&#x21BB;</i><code>U+21BB</code><span>Right Analog</span></div>
+        <div class="glyph"><i>&#x21BC;</i><code>U+21BC</code><span>Left Analog Left</span></div>
+        <div class="glyph"><i>&#x21BD;</i><code>U+21BD</code><span>Right Analog Left</span></div>
+        <div class="glyph"><i>&#x21BE;</i><code>U+21BE</code><span>Left Analog Up</span></div>
+        <div class="glyph"><i>&#x21BF;</i><code>U+21BF</code><span>Right Analog Up</span></div>
+        <div class="glyph"><i>&#x21C0;</i><code>U+21C0</code><span>Left Analog Right</span></div>
+        <div class="glyph"><i>&#x21C1;</i><code>U+21C1</code><span>Right Analog Right</span></div>
+        <div class="glyph"><i>&#x21C2;</i><code>U+21C2</code><span>Left Analog Down</span></div>
+        <div class="glyph"><i>&#x21C3;</i><code>U+21C3</code><span>Right Analog Down</span></div>
+        <div class="glyph"><i>&#x21C7;</i><code>U+21C7</code><span>Analog Left</span></div>
+        <div class="glyph"><i>&#x21C8;</i><code>U+21C8</code><span>Analog Up</span></div>
+        <div class="glyph"><i>&#x21C9;</i><code>U+21C9</code><span>Analog Right</span></div>
+        <div class="glyph"><i>&#x21CA;</i><code>U+21CA</code><span>Analog Down</span></div>
+        <div class="glyph"><i>&#x21D6;</i><code>U+21D6</code><span>Analog Up Left</span></div>
+        <div class="glyph"><i>&#x21D7;</i><code>U+21D7</code><span>Analog Up Right</span></div>
+        <div class="glyph"><i>&#x21D8;</i><code>U+21D8</code><span>Analog Down Right</span></div>
+        <div class="glyph"><i>&#x21D9;</i><code>U+21D9</code><span>Analog Down Left</span></div>
+        <div class="glyph"><i>&#x21F7;</i><code>U+21F7</code><span>Select/Share</span></div>
+        <div class="glyph"><i>&#x21F8;</i><code>U+21F8</code><span>Start</span></div>
+        <div class="glyph"><i>&#x21F9;</i><code>U+21F9</code><span>Home/Menu</span></div>
+      </section>
+
+      <section id="keyboard">
+        <h2>Keyboard Glyhs</h2>
+        <div class="glyph"><i>&#x2427;</i><code>U+2427</code><span>Ctrl</span></div>
+        <div class="glyph"><i>&#x2428;</i><code>U+2428</code><span>Alt</span></div>
+        <div class="glyph"><i>&#x2429;</i><code>U+2429</code><span>Shift</span></div>
+        <div class="glyph"><i>&#x242A;</i><code>U+242A</code><span>Super</span></div>
+        <div class="glyph"><i>&#x242B;</i><code>U+242B</code><span>Tab</span></div>
+        <div class="glyph"><i>&#x242C;</i><code>U+242C</code><span>Caps</span></div>
+        <div class="glyph"><i>&#x242D;</i><code>U+242D</code><span>Backspace</span></div>
+        <div class="glyph"><i>&#x242E;</i><code>U+242E</code><span>Enter</span></div>
+        <div class="glyph"><i>&#x242F;</i><code>U+242F</code><span>Esc</span></div>
+        <div class="glyph"><i>&#x2430;</i><code>U+2430</code><span>PrtSc</span></div>
+        <div class="glyph"><i>&#x2431;</i><code>U+2431</code><span>ScrLk</span></div>
+        <div class="glyph"><i>&#x2432;</i><code>U+2432</code><span>Pause</span></div>
+        <div class="glyph"><i>&#x2433;</i><code>U+2433</code><span>NumLock</span></div>
+        <div class="glyph"><i>&#x2434;</i><code>U+2434</code><span>Insert</span></div>
+        <div class="glyph"><i>&#x2435;</i><code>U+2435</code><span>Home</span></div>
+        <div class="glyph"><i>&#x2436;</i><code>U+2436</code><span>Page Up</span></div>
+        <div class="glyph"><i>&#x2437;</i><code>U+2437</code><span>Delete</span></div>
+        <div class="glyph"><i>&#x2438;</i><code>U+2438</code><span>End</span></div>
+        <div class="glyph"><i>&#x2439;</i><code>U+2439</code><span>Page Down</span></div>
+        <div class="glyph"><i>&#x2460;</i><code>U+2460</code><span>F1</span></div>
+        <div class="glyph"><i>&#x2461;</i><code>U+2461</code><span>F2</span></div>
+        <div class="glyph"><i>&#x2462;</i><code>U+2462</code><span>F3</span></div>
+        <div class="glyph"><i>&#x2463;</i><code>U+2463</code><span>F4</span></div>
+        <div class="glyph"><i>&#x2464;</i><code>U+2464</code><span>F5</span></div>
+        <div class="glyph"><i>&#x2465;</i><code>U+2465</code><span>F6</span></div>
+        <div class="glyph"><i>&#x2466;</i><code>U+2466</code><span>F7</span></div>
+        <div class="glyph"><i>&#x2467;</i><code>U+2467</code><span>F8</span></div>
+        <div class="glyph"><i>&#x2468;</i><code>U+2468</code><span>F9</span></div>
+        <div class="glyph"><i>&#x2469;</i><code>U+2469</code><span>F10</span></div>
+        <div class="glyph"><i>&#x246A;</i><code>U+246A</code><span>F11</span></div>
+        <div class="glyph"><i>&#x246B;</i><code>U+246B</code><span>F12</span></div>
+      </section>
+    </main>
+  </body>
+</html>
