@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="R2.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="229.65466"
+     inkscape:cy="198.75285"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1435"
+     inkscape:window-height="1153"
+     inkscape:window-x="2401"
+     inkscape:window-y="45"
+     inkscape:window-maximized="0"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4988"
+       spacingx="66.145832"
+       spacingy="66.145832"
+       snapvisiblegridlinesonly="true"
+       enabled="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:22.25533295;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 143.17578 11.439453 C 122.5267 11.439453 105.90234 26.22701 105.90234 44.595703 L 105.90234 419.92969 C 138.2277 508.74972 360.8659 514.08762 394.09766 419.92969 L 394.09766 44.595703 C 394.09766 26.22701 377.47334 11.439453 356.82422 11.439453 L 143.17578 11.439453 z M 120.39062 188.85742 L 211.17773 188.85742 C 232.17617 188.85742 242.67578 197.25594 242.67578 214.05469 L 242.67578 239.625 C 242.67578 254.44743 234.33734 262.84594 217.66211 264.82227 L 248.23438 311.14258 L 208.21289 311.14258 L 177.64258 264.82227 L 157.44727 264.82227 L 157.44727 311.14258 L 120.39062 311.14258 L 120.39062 188.85742 z M 274 188.85742 L 348.11133 188.85742 C 369.10977 188.85742 379.60938 197.25594 379.60938 214.05469 L 379.60938 233.13867 C 379.60938 249.93742 369.10977 258.33789 348.11133 258.33789 L 308.27734 258.33789 C 303.95414 258.33789 301.79102 260.06682 301.79102 263.52539 L 301.79102 288.9082 L 379.60938 288.9082 L 379.60938 311.14258 L 264.73633 311.14258 L 264.73633 261.30273 C 264.73633 244.50398 275.23398 236.10352 296.23242 236.10352 L 336.06836 236.10352 C 340.39157 236.10352 342.55273 234.37458 342.55273 230.91602 L 342.55273 216.2793 C 342.55273 212.82073 340.39157 211.0918 336.06836 211.0918 L 274 211.0918 L 274 188.85742 z M 157.44727 211.0918 L 157.44727 242.58789 L 199.13477 242.58789 C 203.45797 242.58789 205.61914 240.85896 205.61914 237.40039 L 205.61914 216.2793 C 205.61914 212.82073 203.45797 211.0918 199.13477 211.0918 L 157.44727 211.0918 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,164.70832)"
+       id="rect6526" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Xolonium;-inkscape-font-specification:Xolonium;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="52.919361"
+       y="223.76813"
+       id="text1408"><tspan
+         sodipodi:role="line"
+         id="tspan1406"
+         x="52.919361"
+         y="229.8246"
+         style="stroke-width:0.26458332px" /></text>
+  </g>
+</svg>
