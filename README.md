@@ -39,6 +39,10 @@ The following characters produce special glyphs for button prompts:
 * `U+21F7` Select/Share
 * `U+21F8` Start
 * `U+21F9` Home/Menu
+* `U+243C` Gamepad
+* `U+243D` Keyboard
+* `U+243E` Mouse
+* `U+243F` Mouse and Keyboard
 * `U+2427` Ctrl
 * `U+2428` Alt
 * `U+2429` Shift
