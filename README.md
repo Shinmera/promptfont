@@ -74,3 +74,8 @@ The following characters produce special glyphs for button prompts:
 * `U+2469` F10
 * `U+246A` F11
 * `U+246B` F12
+* `U+27F0` Scroll Up
+* `U+27F1` Scroll Down
+* `U+27F5` Left Click
+* `U+27F6` Right Click
+* `U+27F7` Middle Click
