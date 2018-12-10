@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="keyboard.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="256.29265"
+     inkscape:cy="2.5618507"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1221"
+     inkscape:window-height="1153"
+     inkscape:window-x="2615"
+     inkscape:window-y="45"
+     inkscape:window-maximized="0"
+     showguides="false"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-others="true"
+     inkscape:object-nodes="false"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4988"
+       spacingx="2.6458333"
+       spacingy="2.6458333"
+       snapvisiblegridlinesonly="true"
+       enabled="true"
+       dotted="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <path
+       style="opacity:1;fill:#1b0b0b;fill-opacity:1;stroke:none;stroke-width:4.87349653;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 5.541872,202.48635 c -1.4287048,0 -2.578892,1.15018 -2.578892,2.57888 v 51.57785 c 0,1.4287 1.1501872,2.57888 2.578892,2.57888 H 126.7498 c 1.4287,0 2.57889,-1.15018 2.57889,-2.57888 v -51.57785 c 0,-1.4287 -1.15019,-2.57888 -2.57889,-2.57888 z m 2.5788919,5.15778 h 5.1577851 v 5.15778 H 8.1207639 Z m 15.6577031,0 h 5.157782 v 5.15778 h -5.157782 z m 7.736674,0 h 5.157785 v 5.15778 h -5.157785 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157785 v 5.15778 h -5.157785 z m 12.89446,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736677,0 h 5.157782 v 5.15778 H 67.61963 Z m 7.736674,0 h 5.157785 v 5.15778 h -5.157785 z m 7.736676,0 h 5.157784 v 5.15778 H 83.09298 Z m 12.89446,0 h 5.15778 v 5.15778 h -5.15778 z m 7.73669,0 h 5.15777 v 5.15778 h -5.15777 z m 7.73667,0 h 5.15778 v 5.15778 h -5.15778 z m 7.73668,0 h 5.15778 v 5.15778 h -5.15778 z M 8.1207639,217.9597 h 5.1577851 v 5.15778 H 8.1207639 Z m 7.7366761,0 h 5.157784 v 5.15778 H 15.85744 Z m 7.736677,0 h 5.157782 v 5.15778 h -5.157782 z m 7.736675,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736677,0 h 5.157782 v 5.15778 h -5.157782 z m 7.736674,0 h 5.157785 v 5.15778 h -5.157785 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736675,0 h 5.157789 v 5.15778 h -5.157789 z m 7.736682,0 h 5.15778 v 5.15778 h -5.15778 z m 7.92102,0 h 15.47336 v 5.15778 H 108.8819 Z M 8.1207639,225.69637 H 18.436332 v 5.15778 H 8.1207639 Z m 12.8944601,0 h 5.157785 v 5.15778 h -5.157785 z m 7.736675,0 h 5.157785 v 5.15778 h -5.157785 z m 7.736677,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736675,0 h 5.157785 v 5.15778 h -5.157785 z m 7.736677,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736675,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157783 v 5.15778 h -5.157783 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157783 v 5.15778 h -5.157783 z m 7.73668,0 h 5.157783 v 5.15778 h -5.157783 z m 7.736673,0 h 5.15778 v 5.15778 h -5.15778 z m 7.92103,0 h 2.57889 7.73668 v 12.89445 h -7.73668 v -7.73667 h -2.57889 z M 8.1207639,233.43304 H 21.015224 v 5.15778 H 8.1207639 Z m 15.4733531,0 h 5.157782 v 5.15778 h -5.157782 z m 7.736675,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736677,0 h 5.157782 v 5.15778 h -5.157782 z m 7.736674,0 h 5.157785 v 5.15778 h -5.157785 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15778 h -5.157784 z m 7.736675,0 h 5.157789 v 5.15778 h -5.157789 z m 7.736682,0 h 5.15778 v 5.15778 h -5.15778 z m 7.73668,0 h 5.15779 v 5.15778 h -5.15779 z M 8.1207639,241.16973 H 15.85744 v 5.15777 H 8.1207639 Z m 10.3155681,0 h 5.157785 v 5.15777 h -5.157785 z m 7.736677,0 h 5.157783 v 5.15777 h -5.157783 z m 7.736675,0 h 5.157785 v 5.15777 h -5.157785 z m 7.736676,0 h 5.157783 v 5.15777 H 41.64636 Z m 7.736676,0 h 5.157783 v 5.15777 h -5.157783 z m 7.736676,0 h 5.157783 v 5.15777 h -5.157783 z m 7.736675,0 h 5.157784 v 5.15777 h -5.157784 z m 7.736676,0 h 5.157784 v 5.15777 h -5.157784 z m 7.736675,0 h 5.157785 v 5.15777 h -5.157785 z m 7.736677,0 h 5.157783 v 5.15777 h -5.157783 z m 7.736675,0 h 5.15779 v 5.15777 h -5.15779 z m 7.92104,0 h 20.63113 v 5.15777 H 103.72413 Z M 8.1207639,248.9064 H 15.85744 v 5.15777 H 8.1207639 Z m 10.3155681,0 h 7.736677 v 5.15777 h -7.736677 z m 10.315567,0 h 7.736677 v 5.15777 h -7.736677 z m 10.31557,0 H 83.09298 v 5.15777 H 39.067469 Z m 46.604403,0 h 7.736677 v 5.15777 h -7.736677 z m 10.315568,0 h 7.73669 v 5.15777 h -7.73669 z m 10.31557,0 h 7.73668 v 5.15777 h -7.73668 z m 10.31557,0 h 7.73668 v 5.15777 h -7.73668 z"
+       id="rect2269"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Xolonium;-inkscape-font-specification:Xolonium;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="52.919361"
+       y="223.76813"
+       id="text1408"><tspan
+         sodipodi:role="line"
+         id="tspan1406"
+         x="52.919361"
+         y="229.8246"
+         style="stroke-width:0.26458332px" /></text>
+    <g
+       id="g883"
+       transform="matrix(0.65386199,0,0,0.65386157,56.84395,34.173573)"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <g
+       id="g883-3"
+       transform="matrix(0.65386199,0,0,0.65386157,56.84395,45.35804)"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <g
+       id="g883-3-2"
+       transform="matrix(0,0.65386157,-0.65386199,0,264.14776,172.79763)"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+  </g>
+</svg>
