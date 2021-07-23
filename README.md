@@ -62,6 +62,7 @@ The following characters produce special glyphs for button prompts:
 * `U+2437` Delete
 * `U+2438` End
 * `U+2439` Page Down
+* `U+243A` Space
 * `U+2460` F1
 * `U+2461` F2
 * `U+2462` F3
