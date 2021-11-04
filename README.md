@@ -6,6 +6,10 @@ PromptFont is based on the Xolonium font by Severin Meyer.
 ## Special Glyphs
 The following characters produce special glyphs for button prompts:
 
+* `U+2196` Left Trigger (LT)
+* `U+2197` Right Trigger (RT)
+* `U+2198` Left Shoulder (LB)
+* `U+2199` Right Shoulder (RB)
 * `U+219E` Dpad Left
 * `U+219F` Dpad Up
 * `U+21A0` Dpad Right
@@ -28,17 +32,35 @@ The following characters produce special glyphs for button prompts:
 * `U+21C1` Right Analog Right
 * `U+21C2` Left Analog Down
 * `U+21C3` Right Analog Down
+* `U+21C4` Left Analog Left/Right
+* `U+21C5` Right Analog Left/Right
+* `U+21C6` Left Analog Up/Down
 * `U+21C7` Analog Left
 * `U+21C8` Analog Up
 * `U+21C9` Analog Right
 * `U+21CA` Analog Down
+* `U+21D0` Button 'X'
+* `U+21D1` Button 'Y'
+* `U+21D2` Button 'B'
+* `U+21D3` Button 'A'
 * `U+21D6` Analog Up Left
 * `U+21D7` Analog Up Right
 * `U+21D8` Analog Down Right
 * `U+21D9` Analog Down Left
+* `U+21E0` Button 'Square'
+* `U+21E1` Button 'Triangle'
+* `U+21E2` Button 'Circle'
+* `U+21E3` Button 'Cross'
+* `U+21F1` Left Analog Any
+* `U+21F2` Right Analog Any
+* `U+21F5` Right Analog Up/Down
 * `U+21F7` Select/Share
 * `U+21F8` Start
 * `U+21F9` Home/Menu
+* `U+21FA` Share/Capture
+* `U+21FB` Burger Menu
+* `U+21FD` Button 'Minus'
+* `U+21FE` Button 'Plus'
 * `U+243C` Gamepad
 * `U+243D` Keyboard
 * `U+243E` Mouse
