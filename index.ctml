@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
+  <head>
+    <meta charset="utf-8"/>
+    <title>PromptFont - A Font for Button Prompts</title>
+    <style type="text/css">
+      @font-face {
+          font-family: 'promptfont';
+          src: url('PromptFont.ttf');
+      }
+      body {
+          font-family: sans-serif;
+          font-size: 14pt;
+          margin: 0;
+      }
+      header {
+          padding: 1em;
+          border-bottom: 3px solid #CCCCCC;
+      }
+      a.button {
+          font-size: 18pt;
+          font-weight: normal;
+          color: black;
+          background: #EEEEEE;
+          border: 2px solid #CCCCCC;
+          border-radius: .2em;
+          padding: .2em .4em;
+          margin: .2em;
+          text-decoration: none;
+      }
+      a.button:hover {
+          background: #CCCCCC;
+      }
+      main section {
+          background: #EEEEEE;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      main section h2 {
+          width: 100%;
+          text-align: center;
+      }
+      .glyph {
+          text-align: center;
+          margin: 1em;
+          width: 8em;
+      }
+      .glyph span {
+          display: block;
+      }
+      .glyph code {
+          display: block;
+      }
+      .glyph i {
+          display: block;
+          font-family: promptfont;
+          font-size: 32pt;
+          font-style: normal;
+          transition: font-size .5s;
+      }
+      .glyph:hover i{
+          font-size: 8em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        PromptFont
+        <a class="button" href="https://github.com/Shinmera/promptfont/">GitHub</a>
+        <a class="button" href="https://github.com/Shinmera/promptfont/raw/master/PromptFont.otf">Download</a>
+      </h1>
+      <p>This is a font designed for button prompts in games. It includes the base alphabet, as well as icons for modifier and control keys, and gamepad buttons.</p>
+      <p>PromptFont is based on the Xolonium font by Severin Meyer and licenced under the SIL Open Font Licence.</p>
+    </header>
+    <main iterate="sections">
+      <section lquery="(attr :id name)">
+        <h2 lquery="(text name)"></h2>
+        <c:splice iterate="glyphs">
+          <div class="glyph">
+            <i lquery='(html (code-char codepoint))'>&#x0021;</i>
+            <code lquery='(text code)'>U+0021</code>
+            <span lquery="(text name)">!</span>
+          </div>
+        </c:splice>
+      </section>
+    </main>
+  </body>
+</html>
