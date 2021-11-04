@@ -1,0 +1,1416 @@
+[
+  {
+    "character": "!",
+    "code": "U+0021",
+    "codepoint": 33,
+    "category": "alphabet",
+    "name": "!"
+  },
+  {
+    "character": "\"",
+    "code": "U+0022",
+    "codepoint": 34,
+    "category": "alphabet",
+    "name": "\""
+  },
+  {
+    "character": "#",
+    "code": "U+0023",
+    "codepoint": 35,
+    "category": "alphabet",
+    "name": "#"
+  },
+  {
+    "character": "$",
+    "code": "U+0024",
+    "codepoint": 36,
+    "category": "alphabet",
+    "name": "$"
+  },
+  {
+    "character": "%",
+    "code": "U+0025",
+    "codepoint": 37,
+    "category": "alphabet",
+    "name": "%"
+  },
+  {
+    "character": "&",
+    "code": "U+0026",
+    "codepoint": 38,
+    "category": "alphabet",
+    "name": "&"
+  },
+  {
+    "character": "'",
+    "code": "U+0027",
+    "codepoint": 39,
+    "category": "alphabet",
+    "name": "'"
+  },
+  {
+    "character": "(",
+    "code": "U+0028",
+    "codepoint": 40,
+    "category": "alphabet",
+    "name": "("
+  },
+  {
+    "character": ")",
+    "code": "U+0029",
+    "codepoint": 41,
+    "category": "alphabet",
+    "name": ")"
+  },
+  {
+    "character": "*",
+    "code": "U+002A",
+    "codepoint": 42,
+    "category": "alphabet",
+    "name": "*"
+  },
+  {
+    "character": "+",
+    "code": "U+002B",
+    "codepoint": 43,
+    "category": "alphabet",
+    "name": "+"
+  },
+  {
+    "character": ",",
+    "code": "U+002C",
+    "codepoint": 44,
+    "category": "alphabet",
+    "name": ","
+  },
+  {
+    "character": "-",
+    "code": "U+002D",
+    "codepoint": 45,
+    "category": "alphabet",
+    "name": "-"
+  },
+  {
+    "character": ".",
+    "code": "U+002E",
+    "codepoint": 46,
+    "category": "alphabet",
+    "name": "."
+  },
+  {
+    "character": "/",
+    "code": "U+002F",
+    "codepoint": 47,
+    "category": "alphabet",
+    "name": "/"
+  },
+  {
+    "character": "0",
+    "code": "U+0030",
+    "codepoint": 48,
+    "category": "alphabet",
+    "name": "0"
+  },
+  {
+    "character": "1",
+    "code": "U+0031",
+    "codepoint": 49,
+    "category": "alphabet",
+    "name": "1"
+  },
+  {
+    "character": "2",
+    "code": "U+0032",
+    "codepoint": 50,
+    "category": "alphabet",
+    "name": "2"
+  },
+  {
+    "character": "3",
+    "code": "U+0033",
+    "codepoint": 51,
+    "category": "alphabet",
+    "name": "3"
+  },
+  {
+    "character": "4",
+    "code": "U+0034",
+    "codepoint": 52,
+    "category": "alphabet",
+    "name": "4"
+  },
+  {
+    "character": "5",
+    "code": "U+0035",
+    "codepoint": 53,
+    "category": "alphabet",
+    "name": "5"
+  },
+  {
+    "character": "6",
+    "code": "U+0036",
+    "codepoint": 54,
+    "category": "alphabet",
+    "name": "6"
+  },
+  {
+    "character": "7",
+    "code": "U+0037",
+    "codepoint": 55,
+    "category": "alphabet",
+    "name": "7"
+  },
+  {
+    "character": "8",
+    "code": "U+0038",
+    "codepoint": 56,
+    "category": "alphabet",
+    "name": "8"
+  },
+  {
+    "character": "9",
+    "code": "U+0039",
+    "codepoint": 57,
+    "category": "alphabet",
+    "name": "9"
+  },
+  {
+    "character": ":",
+    "code": "U+003A",
+    "codepoint": 58,
+    "category": "alphabet",
+    "name": ":"
+  },
+  {
+    "character": ";",
+    "code": "U+003B",
+    "codepoint": 59,
+    "category": "alphabet",
+    "name": ";"
+  },
+  {
+    "character": "<",
+    "code": "U+003C",
+    "codepoint": 60,
+    "category": "alphabet",
+    "name": "<"
+  },
+  {
+    "character": "=",
+    "code": "U+003D",
+    "codepoint": 61,
+    "category": "alphabet",
+    "name": "="
+  },
+  {
+    "character": ">",
+    "code": "U+003E",
+    "codepoint": 62,
+    "category": "alphabet",
+    "name": ">"
+  },
+  {
+    "character": "?",
+    "code": "U+003F",
+    "codepoint": 63,
+    "category": "alphabet",
+    "name": "?"
+  },
+  {
+    "character": "@",
+    "code": "U+0040",
+    "codepoint": 64,
+    "category": "alphabet",
+    "name": "@"
+  },
+  {
+    "character": "A",
+    "code": "U+0041",
+    "codepoint": 65,
+    "category": "alphabet",
+    "name": "A"
+  },
+  {
+    "character": "B",
+    "code": "U+0042",
+    "codepoint": 66,
+    "category": "alphabet",
+    "name": "B"
+  },
+  {
+    "character": "C",
+    "code": "U+0043",
+    "codepoint": 67,
+    "category": "alphabet",
+    "name": "C"
+  },
+  {
+    "character": "D",
+    "code": "U+0044",
+    "codepoint": 68,
+    "category": "alphabet",
+    "name": "D"
+  },
+  {
+    "character": "E",
+    "code": "U+0045",
+    "codepoint": 69,
+    "category": "alphabet",
+    "name": "E"
+  },
+  {
+    "character": "F",
+    "code": "U+0046",
+    "codepoint": 70,
+    "category": "alphabet",
+    "name": "F"
+  },
+  {
+    "character": "G",
+    "code": "U+0047",
+    "codepoint": 71,
+    "category": "alphabet",
+    "name": "G"
+  },
+  {
+    "character": "H",
+    "code": "U+0048",
+    "codepoint": 72,
+    "category": "alphabet",
+    "name": "H"
+  },
+  {
+    "character": "I",
+    "code": "U+0049",
+    "codepoint": 73,
+    "category": "alphabet",
+    "name": "I"
+  },
+  {
+    "character": "J",
+    "code": "U+004A",
+    "codepoint": 74,
+    "category": "alphabet",
+    "name": "J"
+  },
+  {
+    "character": "K",
+    "code": "U+004B",
+    "codepoint": 75,
+    "category": "alphabet",
+    "name": "K"
+  },
+  {
+    "character": "L",
+    "code": "U+004C",
+    "codepoint": 76,
+    "category": "alphabet",
+    "name": "L"
+  },
+  {
+    "character": "M",
+    "code": "U+004D",
+    "codepoint": 77,
+    "category": "alphabet",
+    "name": "M"
+  },
+  {
+    "character": "N",
+    "code": "U+004E",
+    "codepoint": 78,
+    "category": "alphabet",
+    "name": "N"
+  },
+  {
+    "character": "O",
+    "code": "U+004F",
+    "codepoint": 79,
+    "category": "alphabet",
+    "name": "O"
+  },
+  {
+    "character": "P",
+    "code": "U+0050",
+    "codepoint": 80,
+    "category": "alphabet",
+    "name": "P"
+  },
+  {
+    "character": "Q",
+    "code": "U+0051",
+    "codepoint": 81,
+    "category": "alphabet",
+    "name": "Q"
+  },
+  {
+    "character": "R",
+    "code": "U+0052",
+    "codepoint": 82,
+    "category": "alphabet",
+    "name": "R"
+  },
+  {
+    "character": "S",
+    "code": "U+0053",
+    "codepoint": 83,
+    "category": "alphabet",
+    "name": "S"
+  },
+  {
+    "character": "T",
+    "code": "U+0054",
+    "codepoint": 84,
+    "category": "alphabet",
+    "name": "T"
+  },
+  {
+    "character": "U",
+    "code": "U+0055",
+    "codepoint": 85,
+    "category": "alphabet",
+    "name": "U"
+  },
+  {
+    "character": "V",
+    "code": "U+0056",
+    "codepoint": 86,
+    "category": "alphabet",
+    "name": "V"
+  },
+  {
+    "character": "W",
+    "code": "U+0057",
+    "codepoint": 87,
+    "category": "alphabet",
+    "name": "W"
+  },
+  {
+    "character": "X",
+    "code": "U+0058",
+    "codepoint": 88,
+    "category": "alphabet",
+    "name": "X"
+  },
+  {
+    "character": "Y",
+    "code": "U+0059",
+    "codepoint": 89,
+    "category": "alphabet",
+    "name": "Y"
+  },
+  {
+    "character": "Z",
+    "code": "U+005A",
+    "codepoint": 90,
+    "category": "alphabet",
+    "name": "Z"
+  },
+  {
+    "character": "[",
+    "code": "U+005B",
+    "codepoint": 91,
+    "category": "alphabet",
+    "name": "["
+  },
+  {
+    "character": "\\",
+    "code": "U+005C",
+    "codepoint": 92,
+    "category": "alphabet",
+    "name": "\\"
+  },
+  {
+    "character": "]",
+    "code": "U+005D",
+    "codepoint": 93,
+    "category": "alphabet",
+    "name": "]"
+  },
+  {
+    "character": "^",
+    "code": "U+005E",
+    "codepoint": 94,
+    "category": "alphabet",
+    "name": "^"
+  },
+  {
+    "character": "_",
+    "code": "U+005F",
+    "codepoint": 95,
+    "category": "alphabet",
+    "name": "_"
+  },
+  {
+    "character": "`",
+    "code": "U+0060",
+    "codepoint": 96,
+    "category": "alphabet",
+    "name": "`"
+  },
+  {
+    "character": "a",
+    "code": "U+0061",
+    "codepoint": 97,
+    "category": "alphabet",
+    "name": "a"
+  },
+  {
+    "character": "b",
+    "code": "U+0062",
+    "codepoint": 98,
+    "category": "alphabet",
+    "name": "b"
+  },
+  {
+    "character": "c",
+    "code": "U+0063",
+    "codepoint": 99,
+    "category": "alphabet",
+    "name": "c"
+  },
+  {
+    "character": "d",
+    "code": "U+0064",
+    "codepoint": 100,
+    "category": "alphabet",
+    "name": "d"
+  },
+  {
+    "character": "e",
+    "code": "U+0065",
+    "codepoint": 101,
+    "category": "alphabet",
+    "name": "e"
+  },
+  {
+    "character": "f",
+    "code": "U+0066",
+    "codepoint": 102,
+    "category": "alphabet",
+    "name": "f"
+  },
+  {
+    "character": "g",
+    "code": "U+0067",
+    "codepoint": 103,
+    "category": "alphabet",
+    "name": "g"
+  },
+  {
+    "character": "h",
+    "code": "U+0068",
+    "codepoint": 104,
+    "category": "alphabet",
+    "name": "h"
+  },
+  {
+    "character": "i",
+    "code": "U+0069",
+    "codepoint": 105,
+    "category": "alphabet",
+    "name": "i"
+  },
+  {
+    "character": "j",
+    "code": "U+006A",
+    "codepoint": 106,
+    "category": "alphabet",
+    "name": "j"
+  },
+  {
+    "character": "k",
+    "code": "U+006B",
+    "codepoint": 107,
+    "category": "alphabet",
+    "name": "k"
+  },
+  {
+    "character": "l",
+    "code": "U+006C",
+    "codepoint": 108,
+    "category": "alphabet",
+    "name": "l"
+  },
+  {
+    "character": "m",
+    "code": "U+006D",
+    "codepoint": 109,
+    "category": "alphabet",
+    "name": "m"
+  },
+  {
+    "character": "n",
+    "code": "U+006E",
+    "codepoint": 110,
+    "category": "alphabet",
+    "name": "n"
+  },
+  {
+    "character": "o",
+    "code": "U+006F",
+    "codepoint": 111,
+    "category": "alphabet",
+    "name": "o"
+  },
+  {
+    "character": "p",
+    "code": "U+0070",
+    "codepoint": 112,
+    "category": "alphabet",
+    "name": "p"
+  },
+  {
+    "character": "q",
+    "code": "U+0071",
+    "codepoint": 113,
+    "category": "alphabet",
+    "name": "q"
+  },
+  {
+    "character": "r",
+    "code": "U+0072",
+    "codepoint": 114,
+    "category": "alphabet",
+    "name": "r"
+  },
+  {
+    "character": "s",
+    "code": "U+0073",
+    "codepoint": 115,
+    "category": "alphabet",
+    "name": "s"
+  },
+  {
+    "character": "t",
+    "code": "U+0074",
+    "codepoint": 116,
+    "category": "alphabet",
+    "name": "t"
+  },
+  {
+    "character": "u",
+    "code": "U+0075",
+    "codepoint": 117,
+    "category": "alphabet",
+    "name": "u"
+  },
+  {
+    "character": "v",
+    "code": "U+0076",
+    "codepoint": 118,
+    "category": "alphabet",
+    "name": "v"
+  },
+  {
+    "character": "w",
+    "code": "U+0077",
+    "codepoint": 119,
+    "category": "alphabet",
+    "name": "w"
+  },
+  {
+    "character": "x",
+    "code": "U+0078",
+    "codepoint": 120,
+    "category": "alphabet",
+    "name": "x"
+  },
+  {
+    "character": "y",
+    "code": "U+0079",
+    "codepoint": 121,
+    "category": "alphabet",
+    "name": "y"
+  },
+  {
+    "character": "z",
+    "code": "U+007A",
+    "codepoint": 122,
+    "category": "alphabet",
+    "name": "z"
+  },
+  {
+    "character": "{",
+    "code": "U+007B",
+    "codepoint": 123,
+    "category": "alphabet",
+    "name": "{"
+  },
+  {
+    "character": "|",
+    "code": "U+007C",
+    "codepoint": 124,
+    "category": "alphabet",
+    "name": "|"
+  },
+  {
+    "character": "}",
+    "code": "U+007D",
+    "codepoint": 125,
+    "category": "alphabet",
+    "name": "}"
+  },
+  {
+    "character": "~",
+    "code": "U+007E",
+    "codepoint": 126,
+    "category": "alphabet",
+    "name": "~"
+  },
+  {
+    "character": "␼",
+    "code": "U+243C",
+    "codepoint": 9276,
+    "category": "device",
+    "name": "Gamepad"
+  },
+  {
+    "character": "␽",
+    "code": "U+243D",
+    "codepoint": 9277,
+    "category": "device",
+    "name": "Keyboard"
+  },
+  {
+    "character": "␾",
+    "code": "U+243E",
+    "codepoint": 9278,
+    "category": "device",
+    "name": "Mouse"
+  },
+  {
+    "character": "␿",
+    "code": "U+243F",
+    "codepoint": 9279,
+    "category": "device",
+    "name": "Mouse and Keyboard"
+  },
+  {
+    "character": "↞",
+    "code": "U+219E",
+    "codepoint": 8606,
+    "category": "gamepad",
+    "name": "Dpad Left"
+  },
+  {
+    "character": "↟",
+    "code": "U+219F",
+    "codepoint": 8607,
+    "category": "gamepad",
+    "name": "Dpad Up"
+  },
+  {
+    "character": "↠",
+    "code": "U+21A0",
+    "codepoint": 8608,
+    "category": "gamepad",
+    "name": "Dpad Right"
+  },
+  {
+    "character": "↡",
+    "code": "U+21A1",
+    "codepoint": 8609,
+    "category": "gamepad",
+    "name": "Dpad Down"
+  },
+  {
+    "character": "↤",
+    "code": "U+21A4",
+    "codepoint": 8612,
+    "category": "gamepad",
+    "name": "Button Left (X)"
+  },
+  {
+    "character": "⇐",
+    "code": "U+21D0",
+    "codepoint": 8656,
+    "category": "gamepad",
+    "name": "Button X"
+  },
+  {
+    "character": "⇠",
+    "code": "U+21E0",
+    "codepoint": 8672,
+    "category": "gamepad",
+    "name": "Button Square"
+  },
+  {
+    "character": "↥",
+    "code": "U+21A5",
+    "codepoint": 8613,
+    "category": "gamepad",
+    "name": "Button Up (Y)"
+  },
+  {
+    "character": "⇑",
+    "code": "U+21D1",
+    "codepoint": 8657,
+    "category": "gamepad",
+    "name": "Button Y"
+  },
+  {
+    "character": "⇡",
+    "code": "U+21E1",
+    "codepoint": 8673,
+    "category": "gamepad",
+    "name": "Button Triangle"
+  },
+  {
+    "character": "↦",
+    "code": "U+21A6",
+    "codepoint": 8614,
+    "category": "gamepad",
+    "name": "Button Right (B)"
+  },
+  {
+    "character": "⇒",
+    "code": "U+21D2",
+    "codepoint": 8658,
+    "category": "gamepad",
+    "name": "Button B"
+  },
+  {
+    "character": "⇢",
+    "code": "U+21E2",
+    "codepoint": 8674,
+    "category": "gamepad",
+    "name": "Button Circle"
+  },
+  {
+    "character": "↧",
+    "code": "U+21A7",
+    "codepoint": 8615,
+    "category": "gamepad",
+    "name": "Button Down (A)"
+  },
+  {
+    "character": "⇓",
+    "code": "U+21D3",
+    "codepoint": 8659,
+    "category": "gamepad",
+    "name": "Button A"
+  },
+  {
+    "character": "⇣",
+    "code": "U+21E3",
+    "codepoint": 8675,
+    "category": "gamepad",
+    "name": "Button Cross"
+  },
+  {
+    "character": "↰",
+    "code": "U+21B0",
+    "codepoint": 8624,
+    "category": "gamepad",
+    "name": "Left Shoulder (L1)"
+  },
+  {
+    "character": "↘",
+    "code": "U+2198",
+    "codepoint": 8600,
+    "category": "gamepad",
+    "name": "Left Shoulder (LB)"
+  },
+  {
+    "character": "↱",
+    "code": "U+21B1",
+    "codepoint": 8625,
+    "category": "gamepad",
+    "name": "Right Shoulder (R1)"
+  },
+  {
+    "character": "↙",
+    "code": "U+2199",
+    "codepoint": 8601,
+    "category": "gamepad",
+    "name": "Right Shoulder (RB)"
+  },
+  {
+    "character": "↲",
+    "code": "U+21B2",
+    "codepoint": 8626,
+    "category": "gamepad",
+    "name": "Left Trigger (L2)"
+  },
+  {
+    "character": "↖",
+    "code": "U+2196",
+    "codepoint": 8598,
+    "category": "gamepad",
+    "name": "Left Trigger (LT)"
+  },
+  {
+    "character": "↳",
+    "code": "U+21B3",
+    "codepoint": 8627,
+    "category": "gamepad",
+    "name": "Right Trigger (R2)"
+  },
+  {
+    "character": "↗",
+    "code": "U+2197",
+    "codepoint": 8599,
+    "category": "gamepad",
+    "name": "Right Trigger (RT)"
+  },
+  {
+    "character": "↺",
+    "code": "U+21BA",
+    "codepoint": 8634,
+    "category": "gamepad",
+    "name": "Left Analog"
+  },
+  {
+    "character": "↻",
+    "code": "U+21BB",
+    "codepoint": 8635,
+    "category": "gamepad",
+    "name": "Right Analog"
+  },
+  {
+    "character": "↼",
+    "code": "U+21BC",
+    "codepoint": 8636,
+    "category": "gamepad",
+    "name": "Left Analog Left"
+  },
+  {
+    "character": "↽",
+    "code": "U+21BD",
+    "codepoint": 8637,
+    "category": "gamepad",
+    "name": "Right Analog Left"
+  },
+  {
+    "character": "↾",
+    "code": "U+21BE",
+    "codepoint": 8638,
+    "category": "gamepad",
+    "name": "Left Analog Up"
+  },
+  {
+    "character": "↿",
+    "code": "U+21BF",
+    "codepoint": 8639,
+    "category": "gamepad",
+    "name": "Right Analog Up"
+  },
+  {
+    "character": "⇀",
+    "code": "U+21C0",
+    "codepoint": 8640,
+    "category": "gamepad",
+    "name": "Left Analog Right"
+  },
+  {
+    "character": "⇁",
+    "code": "U+21C1",
+    "codepoint": 8641,
+    "category": "gamepad",
+    "name": "Right Analog Right"
+  },
+  {
+    "character": "⇂",
+    "code": "U+21C2",
+    "codepoint": 8642,
+    "category": "gamepad",
+    "name": "Left Analog Down"
+  },
+  {
+    "character": "⇃",
+    "code": "U+21C3",
+    "codepoint": 8643,
+    "category": "gamepad",
+    "name": "Right Analog Down"
+  },
+  {
+    "character": "⇄",
+    "code": "U+21C4",
+    "codepoint": 8644,
+    "category": "gamepad",
+    "name": "Left Analog Left/Right"
+  },
+  {
+    "character": "⇅",
+    "code": "U+21C5",
+    "codepoint": 8645,
+    "category": "gamepad",
+    "name": "Right Analog Left/Right"
+  },
+  {
+    "character": "⇆",
+    "code": "U+21C6",
+    "codepoint": 8646,
+    "category": "gamepad",
+    "name": "Left Analog Up/Down"
+  },
+  {
+    "character": "⇵",
+    "code": "U+21F5",
+    "codepoint": 8693,
+    "category": "gamepad",
+    "name": "Right Analog Up/Down"
+  },
+  {
+    "character": "⇱",
+    "code": "U+21F1",
+    "codepoint": 8689,
+    "category": "gamepad",
+    "name": "Left Analog Any"
+  },
+  {
+    "character": "⇲",
+    "code": "U+21F2",
+    "codepoint": 8690,
+    "category": "gamepad",
+    "name": "Right Analog Any"
+  },
+  {
+    "character": "↩",
+    "code": "U+21A9",
+    "codepoint": 8617,
+    "category": "gamepad",
+    "name": "Left Analog Clockwise"
+  },
+  {
+    "character": "↫",
+    "code": "U+21AB",
+    "codepoint": 8619,
+    "category": "gamepad",
+    "name": "Right Analog Clockwise"
+  },
+  {
+    "character": "↪",
+    "code": "U+21AA",
+    "codepoint": 8618,
+    "category": "gamepad",
+    "name": "Left Analog Counter"
+  },
+  {
+    "character": "↬",
+    "code": "U+21AC",
+    "codepoint": 8620,
+    "category": "gamepad",
+    "name": "Right Analog Counter"
+  },
+  {
+    "character": "⇇",
+    "code": "U+21C7",
+    "codepoint": 8647,
+    "category": "gamepad",
+    "name": "Analog Left"
+  },
+  {
+    "character": "⇈",
+    "code": "U+21C8",
+    "codepoint": 8648,
+    "category": "gamepad",
+    "name": "Analog Up"
+  },
+  {
+    "character": "⇉",
+    "code": "U+21C9",
+    "codepoint": 8649,
+    "category": "gamepad",
+    "name": "Analog Right"
+  },
+  {
+    "character": "⇊",
+    "code": "U+21CA",
+    "codepoint": 8650,
+    "category": "gamepad",
+    "name": "Analog Down"
+  },
+  {
+    "character": "⇖",
+    "code": "U+21D6",
+    "codepoint": 8662,
+    "category": "gamepad",
+    "name": "Analog Up Left"
+  },
+  {
+    "character": "⇗",
+    "code": "U+21D7",
+    "codepoint": 8663,
+    "category": "gamepad",
+    "name": "Analog Up Right"
+  },
+  {
+    "character": "⇘",
+    "code": "U+21D8",
+    "codepoint": 8664,
+    "category": "gamepad",
+    "name": "Analog Down Right"
+  },
+  {
+    "character": "⇙",
+    "code": "U+21D9",
+    "codepoint": 8665,
+    "category": "gamepad",
+    "name": "Analog Down Left"
+  },
+  {
+    "character": "⇔",
+    "code": "U+21D4",
+    "codepoint": 8660,
+    "category": "gamepad",
+    "name": "Analog Left/Right"
+  },
+  {
+    "character": "⇕",
+    "code": "U+21D5",
+    "codepoint": 8661,
+    "category": "gamepad",
+    "name": "Analog Up/Down"
+  },
+  {
+    "character": "⇳",
+    "code": "U+21F3",
+    "codepoint": 8691,
+    "category": "gamepad",
+    "name": "Analog Any"
+  },
+  {
+    "character": "↶",
+    "code": "U+21B6",
+    "codepoint": 8630,
+    "category": "gamepad",
+    "name": "Analog Clockwise"
+  },
+  {
+    "character": "↷",
+    "code": "U+21B7",
+    "codepoint": 8631,
+    "category": "gamepad",
+    "name": "Analog Counter"
+  },
+  {
+    "character": "↹",
+    "code": "U+21B9",
+    "codepoint": 8633,
+    "category": "gamepad",
+    "name": "Both Analog"
+  },
+  {
+    "character": "↭",
+    "code": "U+21AD",
+    "codepoint": 8621,
+    "category": "gamepad",
+    "name": "Both Analog Clockwise"
+  },
+  {
+    "character": "↮",
+    "code": "U+21AE",
+    "codepoint": 8622,
+    "category": "gamepad",
+    "name": "Both Analog Counter"
+  },
+  {
+    "character": "⇷",
+    "code": "U+21F7",
+    "codepoint": 8695,
+    "category": "gamepad",
+    "name": "Select/Share"
+  },
+  {
+    "character": "⇺",
+    "code": "U+21FA",
+    "codepoint": 8698,
+    "category": "gamepad",
+    "name": "Share/Capture"
+  },
+  {
+    "character": "⇽",
+    "code": "U+21FD",
+    "codepoint": 8701,
+    "category": "gamepad",
+    "name": "Minus"
+  },
+  {
+    "character": "⇸",
+    "code": "U+21F8",
+    "codepoint": 8696,
+    "category": "gamepad",
+    "name": "Start"
+  },
+  {
+    "character": "⇻",
+    "code": "U+21FB",
+    "codepoint": 8699,
+    "category": "gamepad",
+    "name": "Burger Menu"
+  },
+  {
+    "character": "⇾",
+    "code": "U+21FE",
+    "codepoint": 8702,
+    "category": "gamepad",
+    "name": "Plus"
+  },
+  {
+    "character": "⇹",
+    "code": "U+21F9",
+    "codepoint": 8697,
+    "category": "gamepad",
+    "name": "Home/Menu"
+  },
+  {
+    "character": "␧",
+    "code": "U+2427",
+    "codepoint": 9255,
+    "category": "keyboard",
+    "name": "Ctrl"
+  },
+  {
+    "character": "␨",
+    "code": "U+2428",
+    "codepoint": 9256,
+    "category": "keyboard",
+    "name": "Alt"
+  },
+  {
+    "character": "␩",
+    "code": "U+2429",
+    "codepoint": 9257,
+    "category": "keyboard",
+    "name": "Shift"
+  },
+  {
+    "character": "␪",
+    "code": "U+242A",
+    "codepoint": 9258,
+    "category": "keyboard",
+    "name": "Super"
+  },
+  {
+    "character": "␫",
+    "code": "U+242B",
+    "codepoint": 9259,
+    "category": "keyboard",
+    "name": "Tab"
+  },
+  {
+    "character": "␬",
+    "code": "U+242C",
+    "codepoint": 9260,
+    "category": "keyboard",
+    "name": "Caps"
+  },
+  {
+    "character": "␭",
+    "code": "U+242D",
+    "codepoint": 9261,
+    "category": "keyboard",
+    "name": "Backspace"
+  },
+  {
+    "character": "␮",
+    "code": "U+242E",
+    "codepoint": 9262,
+    "category": "keyboard",
+    "name": "Enter"
+  },
+  {
+    "character": "␯",
+    "code": "U+242F",
+    "codepoint": 9263,
+    "category": "keyboard",
+    "name": "Esc"
+  },
+  {
+    "character": "␰",
+    "code": "U+2430",
+    "codepoint": 9264,
+    "category": "keyboard",
+    "name": "PrtSc"
+  },
+  {
+    "character": "␱",
+    "code": "U+2431",
+    "codepoint": 9265,
+    "category": "keyboard",
+    "name": "ScrLk"
+  },
+  {
+    "character": "␲",
+    "code": "U+2432",
+    "codepoint": 9266,
+    "category": "keyboard",
+    "name": "Pause"
+  },
+  {
+    "character": "␳",
+    "code": "U+2433",
+    "codepoint": 9267,
+    "category": "keyboard",
+    "name": "NumLock"
+  },
+  {
+    "character": "␴",
+    "code": "U+2434",
+    "codepoint": 9268,
+    "category": "keyboard",
+    "name": "Insert"
+  },
+  {
+    "character": "␵",
+    "code": "U+2435",
+    "codepoint": 9269,
+    "category": "keyboard",
+    "name": "Home"
+  },
+  {
+    "character": "␶",
+    "code": "U+2436",
+    "codepoint": 9270,
+    "category": "keyboard",
+    "name": "Page Up"
+  },
+  {
+    "character": "␷",
+    "code": "U+2437",
+    "codepoint": 9271,
+    "category": "keyboard",
+    "name": "Delete"
+  },
+  {
+    "character": "␸",
+    "code": "U+2438",
+    "codepoint": 9272,
+    "category": "keyboard",
+    "name": "End"
+  },
+  {
+    "character": "␹",
+    "code": "U+2439",
+    "codepoint": 9273,
+    "category": "keyboard",
+    "name": "Page Down"
+  },
+  {
+    "character": "␺",
+    "code": "U+243A",
+    "codepoint": 9274,
+    "category": "keyboard",
+    "name": "Space"
+  },
+  {
+    "character": "①",
+    "code": "U+2460",
+    "codepoint": 9312,
+    "category": "keyboard",
+    "name": "F1"
+  },
+  {
+    "character": "②",
+    "code": "U+2461",
+    "codepoint": 9313,
+    "category": "keyboard",
+    "name": "F2"
+  },
+  {
+    "character": "③",
+    "code": "U+2462",
+    "codepoint": 9314,
+    "category": "keyboard",
+    "name": "F3"
+  },
+  {
+    "character": "④",
+    "code": "U+2463",
+    "codepoint": 9315,
+    "category": "keyboard",
+    "name": "F4"
+  },
+  {
+    "character": "⑤",
+    "code": "U+2464",
+    "codepoint": 9316,
+    "category": "keyboard",
+    "name": "F5"
+  },
+  {
+    "character": "⑥",
+    "code": "U+2465",
+    "codepoint": 9317,
+    "category": "keyboard",
+    "name": "F6"
+  },
+  {
+    "character": "⑦",
+    "code": "U+2466",
+    "codepoint": 9318,
+    "category": "keyboard",
+    "name": "F7"
+  },
+  {
+    "character": "⑧",
+    "code": "U+2467",
+    "codepoint": 9319,
+    "category": "keyboard",
+    "name": "F8"
+  },
+  {
+    "character": "⑨",
+    "code": "U+2468",
+    "codepoint": 9320,
+    "category": "keyboard",
+    "name": "F9"
+  },
+  {
+    "character": "⑩",
+    "code": "U+2469",
+    "codepoint": 9321,
+    "category": "keyboard",
+    "name": "F10"
+  },
+  {
+    "character": "⑪",
+    "code": "U+246A",
+    "codepoint": 9322,
+    "category": "keyboard",
+    "name": "F11"
+  },
+  {
+    "character": "⑫",
+    "code": "U+246B",
+    "codepoint": 9323,
+    "category": "keyboard",
+    "name": "F12"
+  },
+  {
+    "character": "⟰",
+    "code": "U+27F0",
+    "codepoint": 10224,
+    "category": "mouse",
+    "name": "Scroll Up"
+  },
+  {
+    "character": "⟱",
+    "code": "U+27F1",
+    "codepoint": 10225,
+    "category": "mouse",
+    "name": "Scroll Down"
+  },
+  {
+    "character": "⟵",
+    "code": "U+27F5",
+    "codepoint": 10229,
+    "category": "mouse",
+    "name": "Left Click"
+  },
+  {
+    "character": "⟶",
+    "code": "U+27F6",
+    "codepoint": 10230,
+    "category": "mouse",
+    "name": "Right Click"
+  },
+  {
+    "character": "⟷",
+    "code": "U+27F7",
+    "codepoint": 10231,
+    "category": "mouse",
+    "name": "Middle Click"
+  },
+]
