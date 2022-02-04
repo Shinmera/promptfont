@@ -1413,4 +1413,25 @@
     "category": "mouse",
     "name": "Middle Click"
   },
+  {
+    "character": "",
+    "code": "U+E000",
+    "codepoint": 57344,
+    "category": "logo",
+    "name": "PlayStation"
+  },
+  {
+    "character": "",
+    "code": "U+E001",
+    "codepoint": 57345,
+    "category": "logo",
+    "name": "Xbox"
+  },
+  {
+    "character": "",
+    "code": "U+E002",
+    "codepoint": 57346,
+    "category": "logo",
+    "name": "Nintendo Switch"
+  }
 ]
