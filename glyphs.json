@@ -1433,5 +1433,26 @@
     "codepoint": 57346,
     "category": "logo",
     "name": "Nintendo Switch"
+  },
+  {
+    "character": "⇦",
+    "code": "U+21E6",
+    "codepoint": 8678,
+    "category": "gamepad",
+    "name": "DualShock Share"
+  },
+  {
+    "character": "⇧",
+    "code": "U+21E7",
+    "codepoint": 8679,
+    "category": "gamepad",
+    "name": "DualShock Touchpad"
+  },
+  {
+    "character": "⇨",
+    "code": "U+21E8",
+    "codepoint": 8680,
+    "category": "gamepad",
+    "name": "DualShock Options"
   }
 ]
