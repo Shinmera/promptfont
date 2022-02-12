@@ -21,7 +21,7 @@ sbcl --noinform --load "$0" --eval '(generate)' --quit; exit
     (loop for name being the hash-keys of sections
           for glyphs being the hash-values of sections
           collect (list :name name
-                        :glyphs glyphs))))
+                        :glyphs (sort glyphs #'< :key (lambda (a) (getf a :codepoint)))))))
 
 (defun generate (&key (input (file "index" "ctml")) (output (file "index" "html")))
   (let ((sections (parse-glyphs)))
