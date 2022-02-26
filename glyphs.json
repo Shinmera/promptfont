@@ -1454,5 +1454,159 @@
     "codepoint": 8680,
     "category": "gamepad",
     "name": "DualShock Options"
+  },
+  {
+    "character": "⓵",
+    "code": "U+24F5",
+    "codepoint": 9461,
+    "category": "icon",
+    "name": "1"
+  },
+  {
+    "character": "⓶",
+    "code": "U+24F6",
+    "codepoint": 9462,
+    "category": "icon",
+    "name": "2"
+  },
+  {
+    "character": "⓷",
+    "code": "U+24F7",
+    "codepoint": 9463,
+    "category": "icon",
+    "name": "3"
+  },
+  {
+    "character": "⓸",
+    "code": "U+24F8",
+    "codepoint": 9464,
+    "category": "icon",
+    "name": "4"
+  },
+  {
+    "character": "⓹",
+    "code": "U+24F9",
+    "codepoint": 9465,
+    "category": "icon",
+    "name": "5"
+  },
+  {
+    "character": "⓺",
+    "code": "U+24FA",
+    "codepoint": 9466,
+    "category": "icon",
+    "name": "6"
+  },
+  {
+    "character": "⓻",
+    "code": "U+24FB",
+    "codepoint": 9467,
+    "category": "icon",
+    "name": "7"
+  },
+  {
+    "character": "⓼",
+    "code": "U+24FC",
+    "codepoint": 9468,
+    "category": "icon",
+    "name": "8"
+  },
+  {
+    "character": "⓽",
+    "code": "U+24FD",
+    "codepoint": 9469,
+    "category": "icon",
+    "name": "9"
+  },
+  {
+    "character": "⓿",
+    "code": "U+24FF",
+    "codepoint": 9471,
+    "category": "icon",
+    "name": "0"
+  },
+  {
+    "code": "U+2194",
+    "category": "icon",
+    "name": "exchange",
+    "character": "↔",
+    "codepoint": 8596
+  },
+  {
+    "code": "U+2316",
+    "category": "icon",
+    "name": "pin",
+    "character": "⌖",
+    "codepoint": 8982
+  },
+  {
+    "code": "U+263A",
+    "category": "icon",
+    "name": "smile",
+    "character": "☺",
+    "codepoint": 9786
+  },
+  {
+    "code": "U+2639",
+    "category": "icon",
+    "name": "frown",
+    "character": "☹",
+    "codepoint": 9785
+  },
+  {
+    "code": "U+2717",
+    "category": "icon",
+    "name": "cross",
+    "character": "✗",
+    "codepoint": 10007
+  },
+  {
+    "code": "U+2620",
+    "category": "icon",
+    "name": "skull",
+    "character": "☠",
+    "codepoint": 9760
+  },
+  {
+    "code": "U+2605",
+    "category": "icon",
+    "name": "star",
+    "character": "★",
+    "codepoint": 9733
+  },
+  {
+    "code": "U+2691",
+    "category": "icon",
+    "name": "flag",
+    "character": "⚑",
+    "codepoint": 9873
+  },
+  {
+    "code": "U+2665",
+    "category": "icon",
+    "name": "heart",
+    "character": "♥",
+    "codepoint": 9829
+  },
+  {
+    "code": "U+1F41F",
+    "category": "icon",
+    "name": "fish",
+    "character": "🐟",
+    "codepoint": 128031
+  },
+  {
+    "code": "U+2757",
+    "category": "icon",
+    "name": "exclamation",
+    "character": "❗",
+    "codepoint": 10071
+  },
+  {
+    "code": "U+2753",
+    "category": "icon",
+    "name": "question",
+    "character": "❓",
+    "codepoint": 10067
   }
 ]

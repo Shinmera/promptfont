@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="icon-9.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <rect
+       x="55.575269"
+       y="30.159666"
+       width="57.597946"
+       height="89.310749"
+       id="rect8511" />
+    <rect
+       x="149.54845"
+       y="177.66132"
+       width="463.95497"
+       height="453.97097"
+       id="rect23850" />
+    <rect
+       x="147.25193"
+       y="156.08336"
+       width="361.72093"
+       height="326.91555"
+       id="rect5407" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.83861515"
+     inkscape:cx="372.04193"
+     inkscape:cy="199.73405"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="956"
+     inkscape:window-height="1029"
+     inkscape:window-x="960"
+     inkscape:window-y="49"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:object-paths="true"
+     inkscape:snap-object-midpoints="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <path
+       id="path14139"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:99.9938"
+       d="M 248.79297,63.761719 A 186.24153,186.24153 0 0 0 63.759766,250.80469 186.24153,186.24153 0 0 0 250.40234,436.24023 186.24153,186.24153 0 0 0 436.24219,250 l -0.008,-1.60938 A 186.24153,186.24153 0 0 0 248.79297,63.761719 Z m -4.26563,50.359371 c 26.73238,0 48.17891,4.61675 64.33985,13.85157 16.16093,9.11331 29.04127,23.69486 38.64062,43.74414 9.72087,19.92777 14.58008,46.2956 14.58008,79.10351 0,48.23979 -10.1452,83.59863 -30.4375,106.07813 -20.2923,22.35798 -48.42148,33.53711 -84.38867,33.53711 -21.26439,0 -38.03405,-2.43059 -50.30664,-7.29102 -12.27259,-4.98194 -22.47987,-12.21161 -30.6211,-21.68945 -8.14122,-9.47784 -14.39904,-21.32425 -18.77343,-35.54102 l 73.81836,-9.29492 c 1.94417,10.32842 5.22438,17.61822 9.84179,21.87109 4.61741,4.25288 10.26808,6.37891 16.95118,6.37891 11.90805,0 21.20362,-6.0134 27.88671,-18.04297 4.86044,-8.87029 8.50533,-27.64376 10.93555,-56.32031 -8.87029,9.11331 -17.98351,15.79595 -27.33984,20.04883 -9.35633,4.25288 -20.17077,6.3789 -32.44336,6.3789 -23.93763,0 -44.16789,-8.50606 -60.69336,-25.51757 -16.40396,-17.01152 -24.60547,-38.51818 -24.60547,-64.52149 0,-17.74058 4.19193,-33.90112 12.57617,-48.48242 8.38425,-14.5813 19.9261,-25.57808 34.62891,-32.99023 14.7028,-7.53367 33.17368,-11.30079 55.41015,-11.30079 z m 2.1875,46.29493 c -9.84237,0 -18.04584,3.70698 -24.60742,11.11914 -6.44007,7.41215 -9.66015,18.52919 -9.66015,33.35351 0,14.94583 3.34229,26.36743 10.02539,34.26563 6.8046,7.8982 15.25054,11.84765 25.33593,11.84765 10.44993,0 19.13639,-3.82724 26.0625,-11.48242 6.92612,-7.65518 10.39063,-18.59183 10.39063,-32.80859 0,-14.45979 -3.64685,-25.75917 -10.9375,-33.90039 -7.29065,-8.26274 -16.15945,-12.39453 -26.60938,-12.39453 z"
+       transform="matrix(0.26458333,0,0,0.26458333,0,164.70832)" />
+  </g>
+</svg>
