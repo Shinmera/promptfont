@@ -812,6 +812,13 @@
     "name": "Left Shoulder (LB)"
   },
   {
+    "code": "U+219C",
+    "category": "gamepad",
+    "name": "Left Shoulder (L)",
+    "character": "↜",
+    "codepoint": 8604
+  },
+  {
     "character": "↱",
     "code": "U+21B1",
     "codepoint": 8625,
@@ -824,6 +831,13 @@
     "codepoint": 8601,
     "category": "gamepad",
     "name": "Right Shoulder (RB)"
+  },
+  {
+    "code": "U+219D",
+    "category": "gamepad",
+    "name": "Right Shoulder (L)",
+    "character": "↝",
+    "codepoint": 8605
   },
   {
     "character": "↲",
@@ -840,6 +854,13 @@
     "name": "Left Trigger (LT)"
   },
   {
+    "code": "U+219A",
+    "category": "gamepad",
+    "name": "Left Trigger (ZL)",
+    "character": "↚",
+    "codepoint": 8602
+  },
+  {
     "character": "↳",
     "code": "U+21B3",
     "codepoint": 8627,
@@ -852,6 +873,13 @@
     "codepoint": 8599,
     "category": "gamepad",
     "name": "Right Trigger (RT)"
+  },
+  {
+    "code": "U+219B",
+    "category": "gamepad",
+    "name": "Right Trigger (ZR)",
+    "character": "↛",
+    "codepoint": 8603
   },
   {
     "character": "↺",
