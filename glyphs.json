@@ -1636,5 +1636,12 @@
     "name": "question",
     "character": "❓",
     "codepoint": 10067
+  },
+    {
+      "code": "U+1F4BE",
+      "category": "icon",
+      "name": "diskette",
+      "character": "💾",
+      "codepoint": 128190
   }
 ]
