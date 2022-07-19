@@ -1,0 +1,33 @@
+name: Rebuild Index
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install sbcl
+      run: |
+        sudo apt-get -qq update | true
+        sudo apt-get -qq install sbcl curl
+    - name: Install Quicklisp
+      run: |
+        curl -o ~/quicklisp.lisp https://beta.quicklisp.org/quicklisp.lisp
+        sbcl --load ~/quicklisp.lisp --eval '(quicklisp-quickstart:install)' --eval '(ql-util:without-prompting (ql:add-to-init-file))' --quit
+    - name: Rebuild the index
+      run: |
+        sbcl --noinform --load "compile.lisp" --eval '(generate)' --quit
+    - name: GH Pages deploy
+      if: github.head_ref == null
+      run: |
+        git config --global user.name "CI"
+        git config --global user.email "shinmera@tymoon.eu"
+        git clone --quiet --branch=gh-pages https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git ~/gh-pages
+        cp index.html PromptFont.ttf ~/gh-pages/
+        cd ~/gh-pages
+        git add index.html PromptFont.ttf
+        git commit -qm "CI index rebuild." || echo "Nothing to commit."
+        git push -q origin gh-pages
