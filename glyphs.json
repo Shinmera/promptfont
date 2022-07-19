@@ -963,14 +963,14 @@
     "code": "U+21C5",
     "codepoint": 8645,
     "category": "gamepad",
-    "name": "Right Analog Left/Right"
+    "name": "Left Analog Up/Down"
   },
   {
     "character": "⇆",
     "code": "U+21C6",
     "codepoint": 8646,
     "category": "gamepad",
-    "name": "Left Analog Up/Down"
+    "name": "Right Analog Left/Right"
   },
   {
     "character": "⇵",
