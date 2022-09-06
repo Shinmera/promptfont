@@ -14,5 +14,6 @@ sbcl --noinform --load "$0" --eval '(fixup)' --quit; exit
           do (setf (gethash "character" entry) (string (code-char cp)))
              (setf (gethash "codepoint" entry) cp)
              (setf (gethash "code" entry) (format NIL "U+~4,'0x" cp)))
+    (sort data #'< :key (lambda (entry) (gethash "codepoint" entry)))
     (with-open-file (stream file :direction :output :if-exists :supersede)
       (shasht:write-json data stream))))
