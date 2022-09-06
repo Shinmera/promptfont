@@ -658,32 +658,74 @@
     "name": "~"
   },
   {
-    "character": "␼",
-    "code": "U+243C",
-    "codepoint": 9276,
-    "category": "device",
-    "name": "Gamepad"
+    "code": "U+2194",
+    "category": "icon",
+    "name": "exchange",
+    "character": "↔",
+    "codepoint": 8596
   },
   {
-    "character": "␽",
-    "code": "U+243D",
-    "codepoint": 9277,
-    "category": "device",
-    "name": "Keyboard"
+    "code": "U+2195",
+    "category": "icon",
+    "name": "reverse",
+    "character": "↕",
+    "codepoint": 8597
   },
   {
-    "character": "␾",
-    "code": "U+243E",
-    "codepoint": 9278,
-    "category": "device",
-    "name": "Mouse"
+    "character": "↖",
+    "code": "U+2196",
+    "codepoint": 8598,
+    "category": "gamepad",
+    "name": "Left Trigger (LT)"
   },
   {
-    "character": "␿",
-    "code": "U+243F",
-    "codepoint": 9279,
-    "category": "device",
-    "name": "Mouse and Keyboard"
+    "character": "↗",
+    "code": "U+2197",
+    "codepoint": 8599,
+    "category": "gamepad",
+    "name": "Right Trigger (RT)"
+  },
+  {
+    "character": "↘",
+    "code": "U+2198",
+    "codepoint": 8600,
+    "category": "gamepad",
+    "name": "Left Shoulder (LB)"
+  },
+  {
+    "character": "↙",
+    "code": "U+2199",
+    "codepoint": 8601,
+    "category": "gamepad",
+    "name": "Right Shoulder (RB)"
+  },
+  {
+    "code": "U+219A",
+    "category": "gamepad",
+    "name": "Left Trigger (ZL)",
+    "character": "↚",
+    "codepoint": 8602
+  },
+  {
+    "code": "U+219B",
+    "category": "gamepad",
+    "name": "Right Trigger (ZR)",
+    "character": "↛",
+    "codepoint": 8603
+  },
+  {
+    "code": "U+219C",
+    "category": "gamepad",
+    "name": "Left Shoulder (L)",
+    "character": "↜",
+    "codepoint": 8604
+  },
+  {
+    "code": "U+219D",
+    "category": "gamepad",
+    "name": "Right Shoulder (L)",
+    "character": "↝",
+    "codepoint": 8605
   },
   {
     "character": "↞",
@@ -721,39 +763,11 @@
     "name": "Button Left (X)"
   },
   {
-    "character": "⇐",
-    "code": "U+21D0",
-    "codepoint": 8656,
-    "category": "gamepad",
-    "name": "Button X"
-  },
-  {
-    "character": "⇠",
-    "code": "U+21E0",
-    "codepoint": 8672,
-    "category": "gamepad",
-    "name": "Button Square"
-  },
-  {
     "character": "↥",
     "code": "U+21A5",
     "codepoint": 8613,
     "category": "gamepad",
     "name": "Button Up (Y)"
-  },
-  {
-    "character": "⇑",
-    "code": "U+21D1",
-    "codepoint": 8657,
-    "category": "gamepad",
-    "name": "Button Y"
-  },
-  {
-    "character": "⇡",
-    "code": "U+21E1",
-    "codepoint": 8673,
-    "category": "gamepad",
-    "name": "Button Triangle"
   },
   {
     "character": "↦",
@@ -763,20 +777,6 @@
     "name": "Button Right (B)"
   },
   {
-    "character": "⇒",
-    "code": "U+21D2",
-    "codepoint": 8658,
-    "category": "gamepad",
-    "name": "Button B"
-  },
-  {
-    "character": "⇢",
-    "code": "U+21E2",
-    "codepoint": 8674,
-    "category": "gamepad",
-    "name": "Button Circle"
-  },
-  {
     "character": "↧",
     "code": "U+21A7",
     "codepoint": 8615,
@@ -784,18 +784,46 @@
     "name": "Button Down (A)"
   },
   {
-    "character": "⇓",
-    "code": "U+21D3",
-    "codepoint": 8659,
+    "character": "↩",
+    "code": "U+21A9",
+    "codepoint": 8617,
     "category": "gamepad",
-    "name": "Button A"
+    "name": "Left Analog Clockwise"
   },
   {
-    "character": "⇣",
-    "code": "U+21E3",
-    "codepoint": 8675,
+    "character": "↪",
+    "code": "U+21AA",
+    "codepoint": 8618,
     "category": "gamepad",
-    "name": "Button Cross"
+    "name": "Left Analog Counter"
+  },
+  {
+    "character": "↫",
+    "code": "U+21AB",
+    "codepoint": 8619,
+    "category": "gamepad",
+    "name": "Right Analog Clockwise"
+  },
+  {
+    "character": "↬",
+    "code": "U+21AC",
+    "codepoint": 8620,
+    "category": "gamepad",
+    "name": "Right Analog Counter"
+  },
+  {
+    "character": "↭",
+    "code": "U+21AD",
+    "codepoint": 8621,
+    "category": "gamepad",
+    "name": "Both Analog Clockwise"
+  },
+  {
+    "character": "↮",
+    "code": "U+21AE",
+    "codepoint": 8622,
+    "category": "gamepad",
+    "name": "Both Analog Counter"
   },
   {
     "character": "↰",
@@ -805,39 +833,11 @@
     "name": "Left Shoulder (L1)"
   },
   {
-    "character": "↘",
-    "code": "U+2198",
-    "codepoint": 8600,
-    "category": "gamepad",
-    "name": "Left Shoulder (LB)"
-  },
-  {
-    "code": "U+219C",
-    "category": "gamepad",
-    "name": "Left Shoulder (L)",
-    "character": "↜",
-    "codepoint": 8604
-  },
-  {
     "character": "↱",
     "code": "U+21B1",
     "codepoint": 8625,
     "category": "gamepad",
     "name": "Right Shoulder (R1)"
-  },
-  {
-    "character": "↙",
-    "code": "U+2199",
-    "codepoint": 8601,
-    "category": "gamepad",
-    "name": "Right Shoulder (RB)"
-  },
-  {
-    "code": "U+219D",
-    "category": "gamepad",
-    "name": "Right Shoulder (L)",
-    "character": "↝",
-    "codepoint": 8605
   },
   {
     "character": "↲",
@@ -847,20 +847,6 @@
     "name": "Left Trigger (L2)"
   },
   {
-    "character": "↖",
-    "code": "U+2196",
-    "codepoint": 8598,
-    "category": "gamepad",
-    "name": "Left Trigger (LT)"
-  },
-  {
-    "code": "U+219A",
-    "category": "gamepad",
-    "name": "Left Trigger (ZL)",
-    "character": "↚",
-    "codepoint": 8602
-  },
-  {
     "character": "↳",
     "code": "U+21B3",
     "codepoint": 8627,
@@ -868,18 +854,25 @@
     "name": "Right Trigger (R2)"
   },
   {
-    "character": "↗",
-    "code": "U+2197",
-    "codepoint": 8599,
+    "character": "↶",
+    "code": "U+21B6",
+    "codepoint": 8630,
     "category": "gamepad",
-    "name": "Right Trigger (RT)"
+    "name": "Analog Clockwise"
   },
   {
-    "code": "U+219B",
+    "character": "↷",
+    "code": "U+21B7",
+    "codepoint": 8631,
     "category": "gamepad",
-    "name": "Right Trigger (ZR)",
-    "character": "↛",
-    "codepoint": 8603
+    "name": "Analog Counter"
+  },
+  {
+    "character": "↹",
+    "code": "U+21B9",
+    "codepoint": 8633,
+    "category": "gamepad",
+    "name": "Both Analog"
   },
   {
     "character": "↺",
@@ -973,55 +966,6 @@
     "name": "Right Analog Left/Right"
   },
   {
-    "character": "⇵",
-    "code": "U+21F5",
-    "codepoint": 8693,
-    "category": "gamepad",
-    "name": "Right Analog Up/Down"
-  },
-  {
-    "character": "⇱",
-    "code": "U+21F1",
-    "codepoint": 8689,
-    "category": "gamepad",
-    "name": "Left Analog Any"
-  },
-  {
-    "character": "⇲",
-    "code": "U+21F2",
-    "codepoint": 8690,
-    "category": "gamepad",
-    "name": "Right Analog Any"
-  },
-  {
-    "character": "↩",
-    "code": "U+21A9",
-    "codepoint": 8617,
-    "category": "gamepad",
-    "name": "Left Analog Clockwise"
-  },
-  {
-    "character": "↫",
-    "code": "U+21AB",
-    "codepoint": 8619,
-    "category": "gamepad",
-    "name": "Right Analog Clockwise"
-  },
-  {
-    "character": "↪",
-    "code": "U+21AA",
-    "codepoint": 8618,
-    "category": "gamepad",
-    "name": "Left Analog Counter"
-  },
-  {
-    "character": "↬",
-    "code": "U+21AC",
-    "codepoint": 8620,
-    "category": "gamepad",
-    "name": "Right Analog Counter"
-  },
-  {
     "character": "⇇",
     "code": "U+21C7",
     "codepoint": 8647,
@@ -1048,6 +992,69 @@
     "codepoint": 8650,
     "category": "gamepad",
     "name": "Analog Down"
+  },
+  {
+    "code": "U+21CB",
+    "category": "gamepad",
+    "name": "Left Analog",
+    "character": "⇋",
+    "codepoint": 8651
+  },
+  {
+    "code": "U+21CC",
+    "category": "gamepad",
+    "name": "Right Analog",
+    "character": "⇌",
+    "codepoint": 8652
+  },
+  {
+    "code": "U+21CE",
+    "category": "gamepad",
+    "name": "Dpad",
+    "character": "⇎",
+    "codepoint": 8654
+  },
+  {
+    "character": "⇐",
+    "code": "U+21D0",
+    "codepoint": 8656,
+    "category": "gamepad",
+    "name": "Button X"
+  },
+  {
+    "character": "⇑",
+    "code": "U+21D1",
+    "codepoint": 8657,
+    "category": "gamepad",
+    "name": "Button Y"
+  },
+  {
+    "character": "⇒",
+    "code": "U+21D2",
+    "codepoint": 8658,
+    "category": "gamepad",
+    "name": "Button B"
+  },
+  {
+    "character": "⇓",
+    "code": "U+21D3",
+    "codepoint": 8659,
+    "category": "gamepad",
+    "name": "Button A"
+  },
+  {
+    "character": "⇔",
+    "code": "U+21D4",
+    "codepoint": 8660,
+    "category": "gamepad",
+    "name": "Analog Left/Right"
+  },
+  {
+    "character": "⇕",
+    "code": "U+21D5",
+    "codepoint": 8661,
+    "category": "gamepad",
+    "name": "Analog Up/Down"
   },
   {
     "character": "⇖",
@@ -1078,18 +1085,67 @@
     "name": "Analog Down Left"
   },
   {
-    "character": "⇔",
-    "code": "U+21D4",
-    "codepoint": 8660,
+    "character": "⇠",
+    "code": "U+21E0",
+    "codepoint": 8672,
     "category": "gamepad",
-    "name": "Analog Left/Right"
+    "name": "Button Square"
   },
   {
-    "character": "⇕",
-    "code": "U+21D5",
-    "codepoint": 8661,
+    "character": "⇡",
+    "code": "U+21E1",
+    "codepoint": 8673,
     "category": "gamepad",
-    "name": "Analog Up/Down"
+    "name": "Button Triangle"
+  },
+  {
+    "character": "⇢",
+    "code": "U+21E2",
+    "codepoint": 8674,
+    "category": "gamepad",
+    "name": "Button Circle"
+  },
+  {
+    "character": "⇣",
+    "code": "U+21E3",
+    "codepoint": 8675,
+    "category": "gamepad",
+    "name": "Button Cross"
+  },
+  {
+    "character": "⇦",
+    "code": "U+21E6",
+    "codepoint": 8678,
+    "category": "gamepad",
+    "name": "DualShock Share"
+  },
+  {
+    "character": "⇧",
+    "code": "U+21E7",
+    "codepoint": 8679,
+    "category": "gamepad",
+    "name": "DualShock Touchpad"
+  },
+  {
+    "character": "⇨",
+    "code": "U+21E8",
+    "codepoint": 8680,
+    "category": "gamepad",
+    "name": "DualShock Options"
+  },
+  {
+    "character": "⇱",
+    "code": "U+21F1",
+    "codepoint": 8689,
+    "category": "gamepad",
+    "name": "Left Analog Any"
+  },
+  {
+    "character": "⇲",
+    "code": "U+21F2",
+    "codepoint": 8690,
+    "category": "gamepad",
+    "name": "Right Analog Any"
   },
   {
     "character": "⇳",
@@ -1099,39 +1155,11 @@
     "name": "Analog Any"
   },
   {
-    "character": "↶",
-    "code": "U+21B6",
-    "codepoint": 8630,
+    "character": "⇵",
+    "code": "U+21F5",
+    "codepoint": 8693,
     "category": "gamepad",
-    "name": "Analog Clockwise"
-  },
-  {
-    "character": "↷",
-    "code": "U+21B7",
-    "codepoint": 8631,
-    "category": "gamepad",
-    "name": "Analog Counter"
-  },
-  {
-    "character": "↹",
-    "code": "U+21B9",
-    "codepoint": 8633,
-    "category": "gamepad",
-    "name": "Both Analog"
-  },
-  {
-    "character": "↭",
-    "code": "U+21AD",
-    "codepoint": 8621,
-    "category": "gamepad",
-    "name": "Both Analog Clockwise"
-  },
-  {
-    "character": "↮",
-    "code": "U+21AE",
-    "codepoint": 8622,
-    "category": "gamepad",
-    "name": "Both Analog Counter"
+    "name": "Right Analog Up/Down"
   },
   {
     "character": "⇷",
@@ -1141,25 +1169,25 @@
     "name": "Select/Share"
   },
   {
-    "character": "⇺",
-    "code": "U+21FA",
-    "codepoint": 8698,
-    "category": "gamepad",
-    "name": "Share/Capture"
-  },
-  {
-    "character": "⇽",
-    "code": "U+21FD",
-    "codepoint": 8701,
-    "category": "gamepad",
-    "name": "Minus"
-  },
-  {
     "character": "⇸",
     "code": "U+21F8",
     "codepoint": 8696,
     "category": "gamepad",
     "name": "Start"
+  },
+  {
+    "character": "⇹",
+    "code": "U+21F9",
+    "codepoint": 8697,
+    "category": "gamepad",
+    "name": "Home/Menu"
+  },
+  {
+    "character": "⇺",
+    "code": "U+21FA",
+    "codepoint": 8698,
+    "category": "gamepad",
+    "name": "Share/Capture"
   },
   {
     "character": "⇻",
@@ -1169,6 +1197,13 @@
     "name": "Burger Menu"
   },
   {
+    "character": "⇽",
+    "code": "U+21FD",
+    "codepoint": 8701,
+    "category": "gamepad",
+    "name": "Minus"
+  },
+  {
     "character": "⇾",
     "code": "U+21FE",
     "codepoint": 8702,
@@ -1176,11 +1211,11 @@
     "name": "Plus"
   },
   {
-    "character": "⇹",
-    "code": "U+21F9",
-    "codepoint": 8697,
-    "category": "gamepad",
-    "name": "Home/Menu"
+    "code": "U+2316",
+    "category": "icon",
+    "name": "pin",
+    "character": "⌖",
+    "codepoint": 8982
   },
   {
     "character": "␧",
@@ -1323,6 +1358,34 @@
     "name": "Space"
   },
   {
+    "character": "␼",
+    "code": "U+243C",
+    "codepoint": 9276,
+    "category": "device",
+    "name": "Gamepad"
+  },
+  {
+    "character": "␽",
+    "code": "U+243D",
+    "codepoint": 9277,
+    "category": "device",
+    "name": "Keyboard"
+  },
+  {
+    "character": "␾",
+    "code": "U+243E",
+    "codepoint": 9278,
+    "category": "device",
+    "name": "Mouse"
+  },
+  {
+    "character": "␿",
+    "code": "U+243F",
+    "codepoint": 9279,
+    "category": "device",
+    "name": "Mouse and Keyboard"
+  },
+  {
     "character": "①",
     "code": "U+2460",
     "codepoint": 9312,
@@ -1407,83 +1470,6 @@
     "name": "F12"
   },
   {
-    "character": "⟰",
-    "code": "U+27F0",
-    "codepoint": 10224,
-    "category": "mouse",
-    "name": "Scroll Up"
-  },
-  {
-    "character": "⟱",
-    "code": "U+27F1",
-    "codepoint": 10225,
-    "category": "mouse",
-    "name": "Scroll Down"
-  },
-  {
-    "character": "⟵",
-    "code": "U+27F5",
-    "codepoint": 10229,
-    "category": "mouse",
-    "name": "Left Click"
-  },
-  {
-    "character": "⟶",
-    "code": "U+27F6",
-    "codepoint": 10230,
-    "category": "mouse",
-    "name": "Right Click"
-  },
-  {
-    "character": "⟷",
-    "code": "U+27F7",
-    "codepoint": 10231,
-    "category": "mouse",
-    "name": "Middle Click"
-  },
-  {
-    "character": "",
-    "code": "U+E000",
-    "codepoint": 57344,
-    "category": "logo",
-    "name": "PlayStation"
-  },
-  {
-    "character": "",
-    "code": "U+E001",
-    "codepoint": 57345,
-    "category": "logo",
-    "name": "Xbox"
-  },
-  {
-    "character": "",
-    "code": "U+E002",
-    "codepoint": 57346,
-    "category": "logo",
-    "name": "Nintendo Switch"
-  },
-  {
-    "character": "⇦",
-    "code": "U+21E6",
-    "codepoint": 8678,
-    "category": "gamepad",
-    "name": "DualShock Share"
-  },
-  {
-    "character": "⇧",
-    "code": "U+21E7",
-    "codepoint": 8679,
-    "category": "gamepad",
-    "name": "DualShock Touchpad"
-  },
-  {
-    "character": "⇨",
-    "code": "U+21E8",
-    "codepoint": 8680,
-    "category": "gamepad",
-    "name": "DualShock Options"
-  },
-  {
     "character": "⓵",
     "code": "U+24F5",
     "codepoint": 9461,
@@ -1554,39 +1540,11 @@
     "name": "0"
   },
   {
-    "code": "U+2194",
+    "code": "U+2605",
     "category": "icon",
-    "name": "exchange",
-    "character": "↔",
-    "codepoint": 8596
-  },
-  {
-    "code": "U+2316",
-    "category": "icon",
-    "name": "pin",
-    "character": "⌖",
-    "codepoint": 8982
-  },
-  {
-    "code": "U+263A",
-    "category": "icon",
-    "name": "smile",
-    "character": "☺",
-    "codepoint": 9786
-  },
-  {
-    "code": "U+2639",
-    "category": "icon",
-    "name": "frown",
-    "character": "☹",
-    "codepoint": 9785
-  },
-  {
-    "code": "U+2717",
-    "category": "icon",
-    "name": "cross",
-    "character": "✗",
-    "codepoint": 10007
+    "name": "star",
+    "character": "★",
+    "codepoint": 9733
   },
   {
     "code": "U+2620",
@@ -1596,18 +1554,18 @@
     "codepoint": 9760
   },
   {
-    "code": "U+2605",
+    "code": "U+2639",
     "category": "icon",
-    "name": "star",
-    "character": "★",
-    "codepoint": 9733
+    "name": "frown",
+    "character": "☹",
+    "codepoint": 9785
   },
   {
-    "code": "U+2691",
+    "code": "U+263A",
     "category": "icon",
-    "name": "flag",
-    "character": "⚑",
-    "codepoint": 9873
+    "name": "smile",
+    "character": "☺",
+    "codepoint": 9786
   },
   {
     "code": "U+2665",
@@ -1617,11 +1575,25 @@
     "codepoint": 9829
   },
   {
-    "code": "U+1F41F",
+    "code": "U+2691",
     "category": "icon",
-    "name": "fish",
-    "character": "🐟",
-    "codepoint": 128031
+    "name": "flag",
+    "character": "⚑",
+    "codepoint": 9873
+  },
+  {
+    "code": "U+2717",
+    "category": "icon",
+    "name": "cross",
+    "character": "✗",
+    "codepoint": 10007
+  },
+  {
+    "code": "U+2753",
+    "category": "icon",
+    "name": "question",
+    "character": "❓",
+    "codepoint": 10067
   },
   {
     "code": "U+2757",
@@ -1631,17 +1603,73 @@
     "codepoint": 10071
   },
   {
-    "code": "U+2753",
-    "category": "icon",
-    "name": "question",
-    "character": "❓",
-    "codepoint": 10067
+    "character": "⟰",
+    "code": "U+27F0",
+    "codepoint": 10224,
+    "category": "mouse",
+    "name": "Scroll Up"
   },
-    {
-      "code": "U+1F4BE",
-      "category": "icon",
-      "name": "diskette",
-      "character": "💾",
-      "codepoint": 128190
+  {
+    "character": "⟱",
+    "code": "U+27F1",
+    "codepoint": 10225,
+    "category": "mouse",
+    "name": "Scroll Down"
+  },
+  {
+    "character": "⟵",
+    "code": "U+27F5",
+    "codepoint": 10229,
+    "category": "mouse",
+    "name": "Left Click"
+  },
+  {
+    "character": "⟶",
+    "code": "U+27F6",
+    "codepoint": 10230,
+    "category": "mouse",
+    "name": "Right Click"
+  },
+  {
+    "character": "⟷",
+    "code": "U+27F7",
+    "codepoint": 10231,
+    "category": "mouse",
+    "name": "Middle Click"
+  },
+  {
+    "character": "",
+    "code": "U+E000",
+    "codepoint": 57344,
+    "category": "logo",
+    "name": "PlayStation"
+  },
+  {
+    "character": "",
+    "code": "U+E001",
+    "codepoint": 57345,
+    "category": "logo",
+    "name": "Xbox"
+  },
+  {
+    "character": "",
+    "code": "U+E002",
+    "codepoint": 57346,
+    "category": "logo",
+    "name": "Nintendo Switch"
+  },
+  {
+    "code": "U+1F41F",
+    "category": "icon",
+    "name": "fish",
+    "character": "🐟",
+    "codepoint": 128031
+  },
+  {
+    "code": "U+1F4BE",
+    "category": "icon",
+    "name": "diskette",
+    "character": "💾",
+    "codepoint": 128190
   }
 ]
