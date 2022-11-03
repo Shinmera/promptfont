@@ -8,6 +8,11 @@
           font-family: 'promptfont';
           src: url('PromptFont.ttf');
       }
+      @keyframes fadeOut {
+          0% { opacity: 1;}
+          50% { opacity: 1;}
+          100% { opacity: 0;}
+      }
       body {
           font-family: sans-serif;
           font-size: 14pt;
@@ -62,6 +67,27 @@
       .glyph:hover i{
           font-size: 8em;
       }
+      .notice{
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          text-align: center;
+          padding: 0.5em 1em;
+          font-size: 1.5em;
+          background: white;
+          color: black;
+          border-bottom: 2px solid #CCCCCC;
+          opacity: 1;
+          animation: fadeOut 2s;
+          animation-fill-mode: forwards;
+      }
+      .notice i{
+          font-family: promptfont;
+          font-style: normal;
+          display: inline-block;
+          width: 1em;
+      }
     </style>
   </head>
   <body>
@@ -86,5 +112,30 @@
         </c:splice>
       </section>
     </main>
+    <script type="text/javascript">
+      let notice = null;
+      let clearNotice = ()=>{
+          if(notice){
+              clearTimeout(notice.timeout);
+              document.body.removeChild(notice.element);
+              notice = null;
+          }
+      }
+      let showNotice = (html)=>{
+          clearNotice();
+          notice = {};
+          notice.element = document.createElement("div");
+          notice.element.setAttribute("class", "notice");
+          notice.element.innerHTML = html;
+          document.body.appendChild(notice.element);
+          notice.timeout = setTimeout(clearNotice, 2000);
+      };
+      document.querySelectorAll(".glyph").forEach((element)=>element.addEventListener("click", (ev)=>{
+          let glyph = element.querySelector("i").innerText;
+          navigator.clipboard.writeText(glyph).then(
+              ()=>showNotice("<i>"+glyph+"</i> copied to clipboard!"),
+              ()=>showNotice("Failed to copy glyph to clipboard."));
+      }));
+    </script>
   </body>
 </html>
