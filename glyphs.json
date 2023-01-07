@@ -756,6 +756,20 @@
     "name": "Dpad Down"
   },
   {
+    "code": "U+21A2",
+    "category": "gamepad",
+    "name": "Dpad Left/Right",
+    "character": "↢",
+    "codepoint": 8610
+  },
+  {
+    "code": "U+21A3",
+    "category": "gamepad",
+    "name": "Dpad Up/Down",
+    "character": "↣",
+    "codepoint": 8611
+  },
+  {
     "character": "↤",
     "code": "U+21A4",
     "codepoint": 8612,
@@ -852,6 +866,20 @@
     "codepoint": 8627,
     "category": "gamepad",
     "name": "Right Trigger (R2)"
+  },
+  {
+    "code": "U+21B4",
+    "category": "gamepad",
+    "name": "Dpad Left/Down",
+    "character": "↴",
+    "codepoint": 8628
+  },
+  {
+    "code": "U+21B5",
+    "category": "gamepad",
+    "name": "Dpad Up/Right",
+    "character": "↵",
+    "codepoint": 8629
   },
   {
     "character": "↶",
@@ -1470,6 +1498,13 @@
     "name": "F12"
   },
   {
+    "code": "U+248F",
+    "category": "keyboard",
+    "name": "Empty Keycap",
+    "character": "⒏",
+    "codepoint": 9359
+  },
+  {
     "character": "⓵",
     "code": "U+24F5",
     "codepoint": 9461,
@@ -1603,6 +1638,62 @@
     "codepoint": 10071
   },
   {
+    "code": "U+278A",
+    "category": "mouse",
+    "name": "Mouse Button 1",
+    "character": "➊",
+    "codepoint": 10122
+  },
+  {
+    "code": "U+278B",
+    "category": "mouse",
+    "name": "Mouse Button 2",
+    "character": "➋",
+    "codepoint": 10123
+  },
+  {
+    "code": "U+278C",
+    "category": "mouse",
+    "name": "Mouse Button 3",
+    "character": "➌",
+    "codepoint": 10124
+  },
+  {
+    "code": "U+278D",
+    "category": "mouse",
+    "name": "Mouse Button 4",
+    "character": "➍",
+    "codepoint": 10125
+  },
+  {
+    "code": "U+278E",
+    "category": "mouse",
+    "name": "Mouse Button 5",
+    "character": "➎",
+    "codepoint": 10126
+  },
+  {
+    "code": "U+278F",
+    "category": "mouse",
+    "name": "Mouse Button 6",
+    "character": "➏",
+    "codepoint": 10127
+  },
+  {
+    "code": "U+2790",
+    "category": "mouse",
+    "name": "Mouse Button 7",
+    "character": "➐",
+    "codepoint": 10128
+  },
+  {
+    "code": "U+2791",
+    "category": "mouse",
+    "name": "Mouse Button 8",
+    "character": "➑",
+    "codepoint": 10129
+  },
+  {
     "character": "⟰",
     "code": "U+27F0",
     "codepoint": 10224,
@@ -1636,6 +1727,27 @@
     "codepoint": 10231,
     "category": "mouse",
     "name": "Middle Click"
+  },
+  {
+    "code": "U+27FA",
+    "category": "mouse",
+    "name": "Mouse Left/Right",
+    "character": "⟺",
+    "codepoint": 10234
+  },
+  {
+    "code": "U+27FB",
+    "category": "mouse",
+    "name": "Mouse Up/Down",
+    "character": "⟻",
+    "codepoint": 10235
+  },
+  {
+    "code": "U+27FC",
+    "category": "mouse",
+    "name": "Mouse Any",
+    "character": "⟼",
+    "codepoint": 10236
   },
   {
     "character": "",
