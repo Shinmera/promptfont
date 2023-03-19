@@ -2,7 +2,8 @@
 sbcl --noinform --load "$0" --eval '(fixup)' --quit; exit
 |#
 
-(ql:quickload :shasht)
+(ql:quickload :shasht :silent T)
+
 (defvar *here* #. (make-pathname :name NIL :type NIL :defaults *load-pathname*))
 
 (defun fixup (&optional (file (merge-pathnames "glyphs.json" *here*)))
