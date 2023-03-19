@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 439.4 439.4">
-  <path d="M361.34,0H78.07C34.95,0,0,34.95,0,78.06V369.14c0,38.8,31.46,70.26,70.26,70.26H369.15c38.8,0,70.25-31.46,70.25-70.26V78.06C439.4,34.95,404.45,0,361.34,0Zm27.01,342.69c0,25.17-20.48,45.65-45.65,45.65H96.72c-25.18,0-45.66-20.48-45.66-45.65V104.52c0-29.48,23.99-53.46,53.47-53.46h203.9c-2.61,6.84-4.04,14.25-4.04,22H104.53c-17.35,0-31.47,14.11-31.47,31.46v238.17c0,13.04,10.61,23.65,23.66,23.65h245.98c13.04,0,23.65-10.61,23.65-23.65V135.01c7.75,0,15.16-1.43,22-4.04v211.72Zm-86.2-66.23v32.44H137.26V130.5h54.06v145.96h110.83Zm64.2-168.45c-19.31,0-34.96-15.65-34.96-34.95s15.65-34.96,34.96-34.96,34.95,15.65,34.95,34.96-15.65,34.95-34.95,34.95Z"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="touchpad-l-touch.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
+     id="defs2"><rect
+       x="18.920168"
+       y="-58.629632"
+       width="468.1622"
+       height="102.723"
+       id="rect5337" /></defs><sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0035313"
+     inkscape:cx="347.27367"
+     inkscape:cy="275.02879"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1582"
+     inkscape:window-height="2109"
+     inkscape:window-x="6094"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-global="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"><inkscape:grid
+       type="xygrid"
+       id="grid4988"
+       spacingx="66.145832"
+       spacingy="66.145832"
+       snapvisiblegridlinesonly="true"
+       enabled="false" /></sodipodi:namedview><metadata
+     id="metadata5"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)"><path
+       d="M 103.62142,172.72519 H 28.67289 c -11.408833,0 -20.6560213,9.24719 -20.6560213,20.65337 v 77.01492 c 0,10.26583 8.3237923,18.58963 18.5896253,18.58963 h 79.081316 c 10.26584,0 18.58699,-8.3238 18.58699,-18.58963 v -77.01492 c 0,-11.40618 -9.24719,-20.65337 -20.65338,-20.65337 z m 7.1464,90.67006 c 0,6.65956 -5.41867,12.07823 -12.078246,12.07823 H 33.607369 c -6.662208,0 -12.080875,-5.41867 -12.080875,-12.07823 v -63.01581 c 0,-7.79992 6.347354,-14.14463 14.147271,-14.14463 h 53.948539 c -0.69056,1.80975 -1.06891,3.77032 -1.06891,5.82084 H 35.673765 c -4.590521,0 -8.326438,3.73327 -8.326438,8.32379 v 63.01581 c 0,3.45017 2.807229,6.2574 6.260042,6.2574 h 65.082205 c 3.450176,0 6.257406,-2.80723 6.257406,-6.2574 v -54.94866 c 2.05052,0 4.01109,-0.37836 5.82084,-1.06892 z M 87.960724,245.8719 v 8.58308 H 44.333577 v -47.20167 h 14.303375 v 38.61859 z m 16.986256,-44.56906 c -5.109106,0 -9.249836,-4.14073 -9.249836,-9.24719 0,-5.10646 4.14073,-9.24984 9.249836,-9.24984 5.10911,0 9.24719,4.14073 9.24719,9.24984 0,5.1091 -4.14073,9.24719 -9.24719,9.24719 z"
+       id="path645"
+       style="stroke-width:0.264583" /></g></svg>
