@@ -1113,6 +1113,34 @@
     "name": "Analog Down Left"
   },
   {
+    "code": "U+21DA",
+    "category": "gamepad",
+    "name": "Left Analog Touch",
+    "character": "⇚",
+    "codepoint": 8666
+  },
+  {
+    "code": "U+21DB",
+    "category": "gamepad",
+    "name": "Right Analog Touch",
+    "character": "⇛",
+    "codepoint": 8667
+  },
+  {
+    "code": "U+21DC",
+    "category": "gamepad",
+    "name": "Left Trigger Pull",
+    "character": "⇜",
+    "codepoint": 8668
+  },
+  {
+    "code": "U+21DD",
+    "category": "gamepad",
+    "name": "Right Trigger Pull",
+    "character": "⇝",
+    "codepoint": 8669
+  },
+  {
     "character": "⇠",
     "code": "U+21E0",
     "codepoint": 8672,
@@ -1139,6 +1167,20 @@
     "codepoint": 8675,
     "category": "gamepad",
     "name": "Button Cross"
+  },
+  {
+    "code": "U+21E4",
+    "category": "gamepad",
+    "name": "Steam Menu",
+    "character": "⇤",
+    "codepoint": 8676
+  },
+  {
+    "code": "U+21E5",
+    "category": "gamepad",
+    "name": "Options Menu",
+    "character": "⇥",
+    "codepoint": 8677
   },
   {
     "character": "⇦",
@@ -1237,6 +1279,104 @@
     "codepoint": 8702,
     "category": "gamepad",
     "name": "Plus"
+  },
+  {
+    "code": "U+2264",
+    "category": "gamepad",
+    "name": "Left Trackpad Any",
+    "character": "≤",
+    "codepoint": 8804
+  },
+  {
+    "code": "U+2265",
+    "category": "gamepad",
+    "name": "Right Trackpad Any",
+    "character": "≥",
+    "codepoint": 8805
+  },
+  {
+    "code": "U+2266",
+    "category": "gamepad",
+    "name": "Left Trackpad Click",
+    "character": "≦",
+    "codepoint": 8806
+  },
+  {
+    "code": "U+2267",
+    "category": "gamepad",
+    "name": "Right Trackpad Click",
+    "character": "≧",
+    "codepoint": 8807
+  },
+  {
+    "code": "U+2268",
+    "category": "gamepad",
+    "name": "Left Trackpad Touch",
+    "character": "≨",
+    "codepoint": 8808
+  },
+  {
+    "code": "U+2269",
+    "category": "gamepad",
+    "name": "Right Trackpad Touch",
+    "character": "≩",
+    "codepoint": 8809
+  },
+  {
+    "code": "U+226E",
+    "category": "gamepad",
+    "name": "Left Trackpad Left",
+    "character": "≮",
+    "codepoint": 8814
+  },
+  {
+    "code": "U+226F",
+    "category": "gamepad",
+    "name": "Right Trackpad Left",
+    "character": "≯",
+    "codepoint": 8815
+  },
+  {
+    "code": "U+2270",
+    "category": "gamepad",
+    "name": "Left Trackpad Up",
+    "character": "≰",
+    "codepoint": 8816
+  },
+  {
+    "code": "U+2271",
+    "category": "gamepad",
+    "name": "Right Trackpad Up",
+    "character": "≱",
+    "codepoint": 8817
+  },
+  {
+    "code": "U+2272",
+    "category": "gamepad",
+    "name": "Left Trackpad Right",
+    "character": "≲",
+    "codepoint": 8818
+  },
+  {
+    "code": "U+2273",
+    "category": "gamepad",
+    "name": "Right Trackpad Right",
+    "character": "≳",
+    "codepoint": 8819
+  },
+  {
+    "code": "U+2274",
+    "category": "gamepad",
+    "name": "Left Trackpad Down",
+    "character": "≴",
+    "codepoint": 8820
+  },
+  {
+    "code": "U+2275",
+    "category": "gamepad",
+    "name": "Right Trackpad Down",
+    "character": "≵",
+    "codepoint": 8821
   },
   {
     "code": "U+2316",
