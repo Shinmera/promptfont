@@ -7,9 +7,9 @@ PromptFont is based on the Xolonium font by Severin Meyer.
 Please see the included ``glyphs.json`` file for all the relevant glyphs in the font.
 
 
-## How to import and use the font in Unity with TextMeshPro
+## Import and use the font in Unity (TextMeshPro)
 
-# import
+### Import
 
 Import the font in your project (place it in the *resources* folder specified in your Text Mesh Pro project settings).
 
@@ -23,6 +23,12 @@ Click Generate Font Atlas.
 
 **Don't forget to save.**
 
-# use
+### Use
 
-In a Text Mesh Pro text component, you can now use the font with the tag <font="PromptFont SDF">\uE001</font> (\uE001 is a unicode example, see glyph.json to find the one you need).
+In a Text Mesh Pro text component, you can now use the font with the font tag.
+
+```
+<font="PromptFont SDF">\uE001</font> 
+```
+
+*\uE001* is a unicode example, see glyph.json to find the one you need).
