@@ -1204,6 +1204,41 @@
     "name": "DualShock Options"
   },
   {
+    "code": "U+21EA",
+    "category": "gamepad",
+    "name": "Back Trigger (Z)",
+    "character": "⇪",
+    "codepoint": 8682
+  },
+  {
+    "code": "U+21EB",
+    "category": "gamepad",
+    "name": "Button C",
+    "character": "⇫",
+    "codepoint": 8683
+  },
+  {
+    "code": "U+21EC",
+    "category": "gamepad",
+    "name": "Button Z",
+    "character": "⇬",
+    "codepoint": 8684
+  },
+  {
+    "code": "U+21ED",
+    "category": "gamepad",
+    "name": "Button Alt 1",
+    "character": "⇭",
+    "codepoint": 8685
+  },
+  {
+    "code": "U+21EE",
+    "category": "gamepad",
+    "name": "Button Alt 2",
+    "character": "⇮",
+    "codepoint": 8686
+  },
+  {
     "character": "⇱",
     "code": "U+21F1",
     "codepoint": 8689,
