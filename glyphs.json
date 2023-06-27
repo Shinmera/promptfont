@@ -1316,6 +1316,27 @@
     "name": "Plus"
   },
   {
+    "code": "U+2206",
+    "category": "gamepad",
+    "name": "DualSense Share",
+    "character": "∆",
+    "codepoint": 8710
+  },
+  {
+    "code": "U+2207",
+    "category": "gamepad",
+    "name": "DualSense Touchpad",
+    "character": "∇",
+    "codepoint": 8711
+  },
+  {
+    "code": "U+2208",
+    "category": "gamepad",
+    "name": "DualSense Options",
+    "character": "∈",
+    "codepoint": 8712
+  },
+  {
     "code": "U+2264",
     "category": "gamepad",
     "name": "Left Trackpad Any",
