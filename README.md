@@ -13,3 +13,10 @@ This repository is not the right place to get support for trouble with your engi
 
 ## Contributing Glyphs
 For a brief guide on what to watch out for if you'd like to contribute to this font, please see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## Support
+If you'd like to support the continued development of PromptFont, please consider becoming a backer on Patreon:
+
+<a href="https://patreon.com/shinmera">
+  <img alt="Patreon" src="https://filebox.tymoon.eu//file/TWpjeU9RPT0=" />
+</a>
