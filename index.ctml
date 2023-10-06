@@ -22,6 +22,11 @@
           padding: 1em;
           border-bottom: 3px solid #CCCCCC;
       }
+      footer {
+          padding: 1em;
+          border-top: 3px solid #CCCCCC;
+          text-align: center;
+      }
       a.button {
           font-size: 18pt;
           font-weight: normal;
@@ -36,8 +41,11 @@
       a.button:hover {
           background: #CCCCCC;
       }
-      main section {
+      main {
           background: #EEEEEE;
+          padding: 4em 0;
+      }
+      main section {
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
@@ -88,6 +96,9 @@
           display: inline-block;
           width: 1em;
       }
+      img{
+          max-width: 100%;
+      }
     </style>
   </head>
   <body>
@@ -112,6 +123,13 @@
         </c:splice>
       </section>
     </main>
+    <footer>
+      Please consider supporting the continued development of this Font by supporting me on Patreon:
+
+      <a href="https://patreon.com/shinmera">
+        <img alt="Patreon" style="max-width:50em" src="https://filebox.tymoon.eu//file/TWpjeU9RPT0=" />
+      </a>
+    </footer>
     <script type="text/javascript">
       let notice = null;
       let clearNotice = ()=>{
