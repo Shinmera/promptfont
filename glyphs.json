@@ -1204,6 +1204,13 @@
     "name": "DualShock Options"
   },
   {
+    "code": "U+21E9",
+    "name": "Gamecube Z",
+    "category": "gamepad",
+    "character": "⇩",
+    "codepoint": 8681
+  },
+  {
     "code": "U+21EA",
     "category": "gamepad",
     "name": "Back Trigger (Z)",
@@ -1316,6 +1323,55 @@
     "name": "Plus"
   },
   {
+    "code": "U+21FF",
+    "name": "Joycon Dpad Left",
+    "category": "gamepad",
+    "character": "⇿",
+    "codepoint": 8703
+  },
+  {
+    "code": "U+2200",
+    "name": "Joycon Dpad Up",
+    "category": "gamepad",
+    "character": "∀",
+    "codepoint": 8704
+  },
+  {
+    "code": "U+2201",
+    "name": "Joycon Dpad Right",
+    "category": "gamepad",
+    "character": "∁",
+    "codepoint": 8705
+  },
+  {
+    "code": "U+2202",
+    "name": "Joycon Dpad Down",
+    "category": "gamepad",
+    "character": "∂",
+    "codepoint": 8706
+  },
+  {
+    "code": "U+2203",
+    "name": "Joycon SL",
+    "category": "gamepad",
+    "character": "∃",
+    "codepoint": 8707
+  },
+  {
+    "code": "U+2204",
+    "name": "Joycon SR",
+    "category": "gamepad",
+    "character": "∄",
+    "codepoint": 8708
+  },
+  {
+    "code": "U+2205",
+    "name": "Lenovo Legion Quick Settings",
+    "category": "gamepad",
+    "character": "∅",
+    "codepoint": 8709
+  },
+  {
     "code": "U+2206",
     "category": "gamepad",
     "name": "DualSense Share",
@@ -1335,6 +1391,83 @@
     "name": "DualSense Options",
     "character": "∈",
     "codepoint": 8712
+  },
+  {
+    "code": "U+2209",
+    "name": "Ayaeno LC",
+    "category": "gamepad",
+    "character": "∉",
+    "codepoint": 8713
+  },
+  {
+    "code": "U+220A",
+    "name": "Ayaeno RC",
+    "category": "gamepad",
+    "character": "∊",
+    "codepoint": 8714
+  },
+  {
+    "code": "U+220B",
+    "name": "Ayaeno Wave",
+    "category": "gamepad",
+    "character": "∋",
+    "codepoint": 8715
+  },
+  {
+    "code": "U+220C",
+    "name": "AYN Home",
+    "category": "gamepad",
+    "character": "∌",
+    "codepoint": 8716
+  },
+  {
+    "code": "U+220D",
+    "name": "AYN LCC",
+    "category": "gamepad",
+    "character": "∍",
+    "codepoint": 8717
+  },
+  {
+    "code": "U+220E",
+    "name": "GPD C1",
+    "category": "gamepad",
+    "character": "∎",
+    "codepoint": 8718
+  },
+  {
+    "code": "U+220F",
+    "name": "GPD C2",
+    "category": "gamepad",
+    "character": "∏",
+    "codepoint": 8719
+  },
+  {
+    "code": "U+2210",
+    "name": "Onexplayer Keyboard",
+    "category": "gamepad",
+    "character": "∐",
+    "codepoint": 8720
+  },
+  {
+    "code": "U+2211",
+    "name": "Onexplayer Turbo",
+    "category": "gamepad",
+    "character": "∑",
+    "codepoint": 8721
+  },
+  {
+    "code": "U+2212",
+    "name": "Rog Ally M1",
+    "category": "gamepad",
+    "character": "−",
+    "codepoint": 8722
+  },
+  {
+    "code": "U+2213",
+    "name": "Rog Ally M2",
+    "category": "gamepad",
+    "character": "∓",
+    "codepoint": 8723
   },
   {
     "code": "U+2264",
@@ -1433,6 +1566,111 @@
     "name": "Right Trackpad Down",
     "character": "≵",
     "codepoint": 8821
+  },
+  {
+    "code": "U+2276",
+    "name": "SteamDeck L4",
+    "category": "gamepad",
+    "character": "≶",
+    "codepoint": 8822
+  },
+  {
+    "code": "U+2277",
+    "name": "SteamDeck R4",
+    "category": "gamepad",
+    "character": "≷",
+    "codepoint": 8823
+  },
+  {
+    "code": "U+2278",
+    "name": "SteamDeck L5",
+    "category": "gamepad",
+    "character": "≸",
+    "codepoint": 8824
+  },
+  {
+    "code": "U+2279",
+    "name": "SteamDeck R5",
+    "category": "gamepad",
+    "character": "≹",
+    "codepoint": 8825
+  },
+  {
+    "code": "U+227A",
+    "name": "Xbox Dpad Left",
+    "category": "gamepad",
+    "character": "≺",
+    "codepoint": 8826
+  },
+  {
+    "code": "U+227B",
+    "name": "Xbox Dpad Up",
+    "category": "gamepad",
+    "character": "≻",
+    "codepoint": 8827
+  },
+  {
+    "code": "U+227C",
+    "name": "Xbox Dpad Right",
+    "category": "gamepad",
+    "character": "≼",
+    "codepoint": 8828
+  },
+  {
+    "code": "U+227D",
+    "name": "Xbox Dpad Down",
+    "category": "gamepad",
+    "character": "≽",
+    "codepoint": 8829
+  },
+  {
+    "code": "U+227E",
+    "name": "Xbox Dpad Left Right",
+    "category": "gamepad",
+    "character": "≾",
+    "codepoint": 8830
+  },
+  {
+    "code": "U+227F",
+    "name": "Xbox Dpad Up Down",
+    "category": "gamepad",
+    "character": "≿",
+    "codepoint": 8831
+  },
+  {
+    "code": "U+2280",
+    "name": "Xbox Dpad Left Up",
+    "category": "gamepad",
+    "character": "⊀",
+    "codepoint": 8832
+  },
+  {
+    "code": "U+2281",
+    "name": "Xbox Dpad Right Up",
+    "category": "gamepad",
+    "character": "⊁",
+    "codepoint": 8833
+  },
+  {
+    "code": "U+2282",
+    "name": "Xbox Dpad Left Down",
+    "category": "gamepad",
+    "character": "⊂",
+    "codepoint": 8834
+  },
+  {
+    "code": "U+2283",
+    "name": "Xbox Dpad Right Down",
+    "category": "gamepad",
+    "character": "⊃",
+    "codepoint": 8835
+  },
+  {
+    "code": "U+2284",
+    "name": "Xbox Dpad",
+    "category": "gamepad",
+    "character": "⊄",
+    "codepoint": 8836
   },
   {
     "code": "U+2316",
@@ -1965,6 +2203,34 @@
     "codepoint": 57346,
     "category": "logo",
     "name": "Nintendo Switch"
+  },
+  {
+    "code": "U+E003",
+    "name": "Ayaeno",
+    "category": "logo",
+    "character": "",
+    "codepoint": 57347
+  },
+  {
+    "code": "U+E004",
+    "name": "Lenovo Legion",
+    "category": "logo",
+    "character": "",
+    "codepoint": 57348
+  },
+  {
+    "code": "U+E005",
+    "name": "Rog Ally Armoury",
+    "category": "gamepad",
+    "character": "",
+    "codepoint": 57349
+  },
+  {
+    "code": "U+E006",
+    "name": "Rog Alloy Command",
+    "category": "gamepad",
+    "character": "",
+    "codepoint": 57350
   },
   {
     "code": "U+1F41F",
