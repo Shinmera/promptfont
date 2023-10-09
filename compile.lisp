@@ -15,9 +15,9 @@ exec sbcl --noinform --disable-debugger --load "$0" --eval '(fixup)' --eval '(ge
   (let ((sections (make-hash-table :test 'equal)))
     (loop for glyph across (with-open-file (stream file)
                              (shasht:read-json stream))
-          do (push (list :code (gethash "code" glyph)
-                         :codepoint (gethash "codepoint" glyph)
-                         :name (gethash "name" glyph))
+          do (push (loop for k being the hash-keys of glyph using (hash-value v)
+                         collect (intern (string-upcase k) "KEYWORD")
+                         collect v)
                    (gethash (gethash "category" glyph) sections)))
     (loop for name being the hash-keys of sections
           for glyphs being the hash-values of sections

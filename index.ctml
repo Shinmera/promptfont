@@ -137,7 +137,7 @@
         <section class="glyphsection" lquery="(attr :id name)">
           <h2 lquery="(text name)"></h2>
           <c:splice iterate="glyphs">
-            <div class="glyph">
+            <div class="glyph" lquery="(data :category category :tags tags :code code :name name)">
               <i lquery='(html (code-char codepoint))'>&#x0021;</i>
               <code lquery='(text code)'>U+0021</code>
               <span lquery="(text name)">!</span>
@@ -185,6 +185,9 @@
           query = query.trim().toLowerCase();
           if(query === "") return true;
           let inner = el.innerText.toLowerCase();
+          for(let k in el.dataset){
+              inner += " "+k+":"+el.dataset[k].toLowerCase();
+          }
           for(let part of query.split(/ +/)){
               if(!inner.includes(part))
                   return false;
