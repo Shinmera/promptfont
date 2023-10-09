@@ -1,8 +1,13 @@
 #|
-exec sbcl --noinform --disable-debugger --load "$0" --eval '(fixup)' --eval '(generate)' --quit
+exec sbcl \
+  --noinform \
+  --disable-debugger \
+  --eval "(ql:quickload '(clip shasht) :silent T)" \
+  --load "$0" \
+  --eval '(fixup)' --eval '(generate)' \
+  --quit \
+  --end-toplevel-options "${@:1}"
 |#
-
-(ql:quickload '(clip shasht) :silent T)
 
 (defvar *here* #.(or *compile-file-pathname*
                      *load-pathname*
