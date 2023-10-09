@@ -55,12 +55,19 @@
           background: #EEEEEE;
           padding: 4em 0;
       }
-      main section {
+      .search {
+          box-sizing: border-box;
+          font-size: 1.5em;
+          width: 20em;
+          display: block;
+          margin: 0 auto;
+      }
+      .glyphsection {
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
       }
-      main section h2 {
+      .glyphsection h2 {
           width: 100%;
           text-align: center;
       }
@@ -109,6 +116,9 @@
       img{
           max-width: 100%;
       }
+      .hidden{
+          display: none !important;
+      }
     </style>
   </head>
   <body>
@@ -121,27 +131,31 @@
       <p>This is a font designed for button prompts in games. It includes the base alphabet, as well as icons for modifier and control keys, and gamepad buttons.</p>
       <p>PromptFont is based on the Xolonium font by Severin Meyer and licenced under the SIL Open Font Licence.</p>
     </header>
-    <main iterate="sections">
-      <section lquery="(attr :id name)">
-        <h2 lquery="(text name)"></h2>
-        <c:splice iterate="glyphs">
-          <div class="glyph">
-            <i lquery='(html (code-char codepoint))'>&#x0021;</i>
-            <code lquery='(text code)'>U+0021</code>
-            <span lquery="(text name)">!</span>
-          </div>
-        </c:splice>
-      </section>
+    <main>
+      <input class="search" type="search" placeholder="Search..." spellcheck="false">
+      <c:splice iterate="sections">
+        <section class="glyphsection" lquery="(attr :id name)">
+          <h2 lquery="(text name)"></h2>
+          <c:splice iterate="glyphs">
+            <div class="glyph">
+              <i lquery='(html (code-char codepoint))'>&#x0021;</i>
+              <code lquery='(text code)'>U+0021</code>
+              <span lquery="(text name)">!</span>
+            </div>
+          </c:splice>
+        </section>
+      </c:splice>
     </main>
     <footer>
       Please consider supporting the continued development of this Font by supporting me on Patreon:
 
       <a href="https://patreon.com/shinmera">
-        <img alt="Patreon" style="max-width:50em" src="https://filebox.tymoon.eu//file/TWpjeU9RPT0=" />
+        <img alt="Patreon" src="https://filebox.tymoon.eu//file/TWpjeU9RPT0=" />
       </a>
     </footer>
     <script type="text/javascript">
       let notice = null;
+      
       let clearNotice = ()=>{
           if(notice){
               clearTimeout(notice.timeout);
@@ -149,6 +163,7 @@
               notice = null;
           }
       }
+      
       let showNotice = (html)=>{
           clearNotice();
           notice = {};
@@ -158,12 +173,41 @@
           document.body.appendChild(notice.element);
           notice.timeout = setTimeout(clearNotice, 2000);
       };
+      
       document.querySelectorAll(".glyph").forEach((element)=>element.addEventListener("click", (ev)=>{
           let glyph = element.querySelector("i").innerText;
           navigator.clipboard.writeText(glyph).then(
               ()=>showNotice("<i>"+glyph+"</i> copied to clipboard!"),
               ()=>showNotice("Failed to copy glyph to clipboard."));
       }));
+
+      let match = (query, el)=>{
+          query = query.trim().toLowerCase();
+          if(query === "") return true;
+          let inner = el.innerText.toLowerCase();
+          for(let part of query.split(/ +/)){
+              if(!inner.includes(part))
+                  return false;
+          }
+          return true;
+      };
+      
+      let search = document.querySelector("input[type=search]");
+      search.addEventListener("input", (ev)=>{
+          let query = search.value;
+          for(let glyph of document.querySelectorAll(".glyph")){
+              if(match(query, glyph))
+                  glyph.classList.remove("hidden");
+              else
+                  glyph.classList.add("hidden");
+          }
+          for(let section of document.querySelectorAll(".glyphsection")){
+              if(section.querySelector(".glyph:not(.hidden)") !== null)
+                  section.classList.remove("hidden");
+              else
+                  section.classList.add("hidden");
+          }
+          });
     </script>
   </body>
 </html>

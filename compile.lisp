@@ -1,5 +1,5 @@
 #|
-sbcl --noinform --load "$0" --eval '(generate)' --quit; exit
+exec sbcl --noinform --disable-debugger --load "$0" --eval '(generate)' --quit
 |#
 
 (ql:quickload '(clip shasht) :silent T)
