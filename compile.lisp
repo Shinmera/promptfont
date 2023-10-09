@@ -1,5 +1,5 @@
 #|
-exec sbcl --noinform --disable-debugger --load "$0" --eval '(generate)' --quit
+exec sbcl --noinform --disable-debugger --load "$0" --eval '(fixup)' --eval '(generate)' --quit
 |#
 
 (ql:quickload '(clip shasht) :silent T)
@@ -25,8 +25,19 @@ exec sbcl --noinform --disable-debugger --load "$0" --eval '(generate)' --quit
                         :glyphs (sort glyphs #'< :key (lambda (a) (getf a :codepoint)))))))
 
 (defun generate (&key (input (file "index" "ctml")) (output (file "index" "html")))
-  (load (file "fixup" "lisp"))
-  (fixup)
   (let ((sections (parse-glyphs)))
     (with-open-file (stream output :direction :output :if-exists :supersede)
       (plump:serialize (clip:process input :sections sections) stream))))
+
+(defun fixup (&optional (file (merge-pathnames "glyphs.json" *here*)))
+  (let ((data (with-open-file (stream file)
+                (shasht:read-json stream))))
+    (loop for entry across data
+          for cp = (or (gethash "codepoint" entry)
+                       (parse-integer (gethash "code" entry) :start 2 :radix 16))
+          do (setf (gethash "character" entry) (string (code-char cp)))
+             (setf (gethash "codepoint" entry) cp)
+             (setf (gethash "code" entry) (format NIL "U+~4,'0x" cp)))
+    (sort data #'< :key (lambda (entry) (gethash "codepoint" entry)))
+    (with-open-file (stream file :direction :output :if-exists :supersede)
+      (shasht:write-json data stream))))
