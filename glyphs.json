@@ -1394,21 +1394,21 @@
   },
   {
     "code": "U+2209",
-    "name": "Ayaeno LC",
+    "name": "Ayaneo LC",
     "category": "gamepad",
     "character": "∉",
     "codepoint": 8713
   },
   {
     "code": "U+220A",
-    "name": "Ayaeno RC",
+    "name": "Ayaneo RC",
     "category": "gamepad",
     "character": "∊",
     "codepoint": 8714
   },
   {
     "code": "U+220B",
-    "name": "Ayaeno Wave",
+    "name": "Ayaneo Wave",
     "category": "gamepad",
     "character": "∋",
     "codepoint": 8715
@@ -2206,7 +2206,7 @@
   },
   {
     "code": "U+E003",
-    "name": "Ayaeno",
+    "name": "Ayaneo",
     "category": "logo",
     "character": "",
     "codepoint": 57347
