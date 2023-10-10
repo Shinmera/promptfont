@@ -1778,6 +1778,13 @@
     "codepoint": 9253
   },
   {
+    "code": "U+2426",
+    "category": "keyboard",
+    "name": "Fn",
+    "character": "␦",
+    "codepoint": 9254
+  },
+  {
     "character": "␧",
     "code": "U+2427",
     "codepoint": 9255,
@@ -1944,13 +1951,6 @@
     "codepoint": 9279,
     "category": "device",
     "name": "Mouse and Keyboard"
-  },
-  {
-    "code": "U+244C",
-    "category": "keyboard",
-    "name": "Fn",
-    "character": "⑌",
-    "codepoint": 9292
   },
   {
     "character": "①",
