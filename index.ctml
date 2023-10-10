@@ -132,7 +132,7 @@
       <p>PromptFont is based on the Xolonium font by Severin Meyer and licenced under the SIL Open Font Licence.</p>
     </header>
     <main>
-      <input class="search" type="search" placeholder="Search..." spellcheck="false">
+      <input class="search" type="search" placeholder="Search..." spellcheck="false" autofocus>
       <c:splice iterate="sections">
         <section class="glyphsection" lquery="(attr :id name)">
           <h2 lquery="(text name)"></h2>

@@ -1470,6 +1470,13 @@
     "codepoint": 8723
   },
   {
+    "code": "U+2261",
+    "category": "icon",
+    "name": "empty heart",
+    "character": "≡",
+    "codepoint": 8801
+  },
+  {
     "code": "U+2264",
     "category": "gamepad",
     "name": "Left Trackpad Any",
@@ -1680,6 +1687,97 @@
     "codepoint": 8982
   },
   {
+    "code": "U+23CD",
+    "category": "android",
+    "name": "Tabs",
+    "character": "⏍",
+    "codepoint": 9165
+  },
+  {
+    "code": "U+23CE",
+    "category": "android",
+    "name": "Back",
+    "character": "⏎",
+    "codepoint": 9166
+  },
+  {
+    "code": "U+23CF",
+    "category": "android",
+    "name": "Home",
+    "character": "⏏",
+    "codepoint": 9167
+  },
+  {
+    "code": "U+23D0",
+    "category": "android",
+    "name": "Horizontal Dots",
+    "character": "⏐",
+    "codepoint": 9168
+  },
+  {
+    "code": "U+23D1",
+    "category": "android",
+    "name": "Vertical Dots",
+    "character": "⏑",
+    "codepoint": 9169
+  },
+  {
+    "code": "U+23D2",
+    "category": "android",
+    "name": "Hamburger Menu",
+    "character": "⏒",
+    "codepoint": 9170
+  },
+  {
+    "code": "U+23F4",
+    "category": "keyboard",
+    "name": "Arrow Left",
+    "character": "⏴",
+    "codepoint": 9204
+  },
+  {
+    "code": "U+23F5",
+    "category": "keyboard",
+    "name": "Arrow Up",
+    "character": "⏵",
+    "codepoint": 9205
+  },
+  {
+    "code": "U+23F6",
+    "category": "keyboard",
+    "name": "Arrow Right",
+    "character": "⏶",
+    "codepoint": 9206
+  },
+  {
+    "code": "U+23F7",
+    "category": "keyboard",
+    "name": "Arrow Down",
+    "character": "⏷",
+    "codepoint": 9207
+  },
+  {
+    "code": "U+2423",
+    "category": "keyboard",
+    "name": "WASD",
+    "character": "␣",
+    "codepoint": 9251
+  },
+  {
+    "code": "U+2424",
+    "category": "keyboard",
+    "name": "Arrow Keys",
+    "character": "␤",
+    "codepoint": 9252
+  },
+  {
+    "code": "U+2425",
+    "category": "keyboard",
+    "name": "IJKL",
+    "character": "␥",
+    "codepoint": 9253
+  },
+  {
     "character": "␧",
     "code": "U+2427",
     "codepoint": 9255,
@@ -1846,6 +1944,13 @@
     "codepoint": 9279,
     "category": "device",
     "name": "Mouse and Keyboard"
+  },
+  {
+    "code": "U+244C",
+    "category": "keyboard",
+    "name": "Fn",
+    "character": "⑌",
+    "codepoint": 9292
   },
   {
     "character": "①",
@@ -2044,11 +2149,102 @@
     "codepoint": 9829
   },
   {
+    "code": "U+2673",
+    "category": "icon",
+    "name": "D4",
+    "character": "♳",
+    "codepoint": 9843
+  },
+  {
+    "code": "U+2674",
+    "category": "icon",
+    "name": "D6",
+    "character": "♴",
+    "codepoint": 9844
+  },
+  {
+    "code": "U+2675",
+    "category": "icon",
+    "name": "D8",
+    "character": "♵",
+    "codepoint": 9845
+  },
+  {
+    "code": "U+2676",
+    "category": "icon",
+    "name": "D10",
+    "character": "♶",
+    "codepoint": 9846
+  },
+  {
+    "code": "U+2677",
+    "category": "icon",
+    "name": "D12",
+    "character": "♷",
+    "codepoint": 9847
+  },
+  {
+    "code": "U+2678",
+    "category": "icon",
+    "name": "D20",
+    "character": "♸",
+    "codepoint": 9848
+  },
+  {
+    "code": "U+2680",
+    "category": "icon",
+    "name": "D6 1",
+    "character": "⚀",
+    "codepoint": 9856
+  },
+  {
+    "code": "U+2681",
+    "category": "icon",
+    "name": "D6 2",
+    "character": "⚁",
+    "codepoint": 9857
+  },
+  {
+    "code": "U+2682",
+    "category": "icon",
+    "name": "D6 3",
+    "character": "⚂",
+    "codepoint": 9858
+  },
+  {
+    "code": "U+2683",
+    "category": "icon",
+    "name": "D6 4",
+    "character": "⚃",
+    "codepoint": 9859
+  },
+  {
+    "code": "U+2684",
+    "category": "icon",
+    "name": "D6 5",
+    "character": "⚄",
+    "codepoint": 9860
+  },
+  {
+    "code": "U+2685",
+    "category": "icon",
+    "name": "D6 6",
+    "character": "⚅",
+    "codepoint": 9861
+  },
+  {
     "code": "U+2691",
     "category": "icon",
     "name": "flag",
     "character": "⚑",
     "codepoint": 9873
+  },
+  {
+    "code": "U+2699",
+    "category": "icon",
+    "name": "Gears / Options / Settings",
+    "character": "⚙",
+    "codepoint": 9881
   },
   {
     "code": "U+2717",
@@ -2184,6 +2380,13 @@
     "codepoint": 10236
   },
   {
+    "code": "U+2B1B",
+    "category": "icon",
+    "name": "Box / Crate",
+    "character": "⬛",
+    "codepoint": 11035
+  },
+  {
     "character": "",
     "code": "U+E000",
     "codepoint": 57344,
@@ -2233,6 +2436,300 @@
     "codepoint": 57350
   },
   {
+    "code": "U+E007",
+    "category": "icon",
+    "name": "Apple / Mac",
+    "character": "",
+    "codepoint": 57351
+  },
+  {
+    "code": "U+E008",
+    "category": "icon",
+    "name": "Windows",
+    "character": "",
+    "codepoint": 57352
+  },
+  {
+    "code": "U+E009",
+    "category": "icon",
+    "name": "Linux",
+    "character": "",
+    "codepoint": 57353
+  },
+  {
+    "code": "U+E00A",
+    "category": "icon",
+    "name": "BSD",
+    "character": "",
+    "codepoint": 57354
+  },
+  {
+    "code": "U+FF10",
+    "category": "keyboard",
+    "name": "0",
+    "character": "０",
+    "codepoint": 65296
+  },
+  {
+    "code": "U+FF11",
+    "category": "keyboard",
+    "name": "1",
+    "character": "１",
+    "codepoint": 65297
+  },
+  {
+    "code": "U+FF12",
+    "category": "keyboard",
+    "name": "2",
+    "character": "２",
+    "codepoint": 65298
+  },
+  {
+    "code": "U+FF13",
+    "category": "keyboard",
+    "name": "3",
+    "character": "３",
+    "codepoint": 65299
+  },
+  {
+    "code": "U+FF14",
+    "category": "keyboard",
+    "name": "4",
+    "character": "４",
+    "codepoint": 65300
+  },
+  {
+    "code": "U+FF15",
+    "category": "keyboard",
+    "name": "5",
+    "character": "５",
+    "codepoint": 65301
+  },
+  {
+    "code": "U+FF16",
+    "category": "keyboard",
+    "name": "6",
+    "character": "６",
+    "codepoint": 65302
+  },
+  {
+    "code": "U+FF17",
+    "category": "keyboard",
+    "name": "7",
+    "character": "７",
+    "codepoint": 65303
+  },
+  {
+    "code": "U+FF18",
+    "category": "keyboard",
+    "name": "8",
+    "character": "８",
+    "codepoint": 65304
+  },
+  {
+    "code": "U+FF19",
+    "category": "keyboard",
+    "name": "9",
+    "character": "９",
+    "codepoint": 65305
+  },
+  {
+    "code": "U+FF21",
+    "category": "keyboard",
+    "name": "A",
+    "character": "Ａ",
+    "codepoint": 65313
+  },
+  {
+    "code": "U+FF22",
+    "category": "keyboard",
+    "name": "B",
+    "character": "Ｂ",
+    "codepoint": 65314
+  },
+  {
+    "code": "U+FF23",
+    "category": "keyboard",
+    "name": "C",
+    "character": "Ｃ",
+    "codepoint": 65315
+  },
+  {
+    "code": "U+FF24",
+    "category": "keyboard",
+    "name": "D",
+    "character": "Ｄ",
+    "codepoint": 65316
+  },
+  {
+    "code": "U+FF25",
+    "category": "keyboard",
+    "name": "E",
+    "character": "Ｅ",
+    "codepoint": 65317
+  },
+  {
+    "code": "U+FF26",
+    "category": "keyboard",
+    "name": "F",
+    "character": "Ｆ",
+    "codepoint": 65318
+  },
+  {
+    "code": "U+FF27",
+    "category": "keyboard",
+    "name": "G",
+    "character": "Ｇ",
+    "codepoint": 65319
+  },
+  {
+    "code": "U+FF28",
+    "category": "keyboard",
+    "name": "H",
+    "character": "Ｈ",
+    "codepoint": 65320
+  },
+  {
+    "code": "U+FF29",
+    "category": "keyboard",
+    "name": "I",
+    "character": "Ｉ",
+    "codepoint": 65321
+  },
+  {
+    "code": "U+FF2A",
+    "category": "keyboard",
+    "name": "J",
+    "character": "Ｊ",
+    "codepoint": 65322
+  },
+  {
+    "code": "U+FF2B",
+    "category": "keyboard",
+    "name": "K",
+    "character": "Ｋ",
+    "codepoint": 65323
+  },
+  {
+    "code": "U+FF2C",
+    "category": "keyboard",
+    "name": "L",
+    "character": "Ｌ",
+    "codepoint": 65324
+  },
+  {
+    "code": "U+FF2D",
+    "category": "keyboard",
+    "name": "M",
+    "character": "Ｍ",
+    "codepoint": 65325
+  },
+  {
+    "code": "U+FF2E",
+    "category": "keyboard",
+    "name": "N",
+    "character": "Ｎ",
+    "codepoint": 65326
+  },
+  {
+    "code": "U+FF2F",
+    "category": "keyboard",
+    "name": "O",
+    "character": "Ｏ",
+    "codepoint": 65327
+  },
+  {
+    "code": "U+FF30",
+    "category": "keyboard",
+    "name": "P",
+    "character": "Ｐ",
+    "codepoint": 65328
+  },
+  {
+    "code": "U+FF31",
+    "category": "keyboard",
+    "name": "Q",
+    "character": "Ｑ",
+    "codepoint": 65329
+  },
+  {
+    "code": "U+FF32",
+    "category": "keyboard",
+    "name": "R",
+    "character": "Ｒ",
+    "codepoint": 65330
+  },
+  {
+    "code": "U+FF33",
+    "category": "keyboard",
+    "name": "S",
+    "character": "Ｓ",
+    "codepoint": 65331
+  },
+  {
+    "code": "U+FF34",
+    "category": "keyboard",
+    "name": "T",
+    "character": "Ｔ",
+    "codepoint": 65332
+  },
+  {
+    "code": "U+FF35",
+    "category": "keyboard",
+    "name": "U",
+    "character": "Ｕ",
+    "codepoint": 65333
+  },
+  {
+    "code": "U+FF36",
+    "category": "keyboard",
+    "name": "V",
+    "character": "Ｖ",
+    "codepoint": 65334
+  },
+  {
+    "code": "U+FF37",
+    "category": "keyboard",
+    "name": "W",
+    "character": "Ｗ",
+    "codepoint": 65335
+  },
+  {
+    "code": "U+FF38",
+    "category": "keyboard",
+    "name": "X",
+    "character": "Ｘ",
+    "codepoint": 65336
+  },
+  {
+    "code": "U+FF39",
+    "category": "keyboard",
+    "name": "Y",
+    "character": "Ｙ",
+    "codepoint": 65337
+  },
+  {
+    "code": "U+FF3A",
+    "category": "keyboard",
+    "name": "Z",
+    "character": "Ｚ",
+    "codepoint": 65338
+  },
+  {
+    "code": "U+1F3A7",
+    "category": "icon",
+    "name": "Headphones",
+    "character": "🎧",
+    "codepoint": 127911
+  },
+  {
+    "code": "U+1F3B6",
+    "category": "icon",
+    "name": "Music",
+    "character": "🎶",
+    "codepoint": 127926
+  },
+  {
     "code": "U+1F41F",
     "category": "icon",
     "name": "fish",
@@ -2240,10 +2737,199 @@
     "codepoint": 128031
   },
   {
+    "code": "U+1F483",
+    "category": "device",
+    "name": "Dance Pad",
+    "character": "💃",
+    "codepoint": 128131
+  },
+  {
+    "code": "U+1F4BB",
+    "category": "icon",
+    "name": "Laptop",
+    "character": "💻",
+    "codepoint": 128187
+  },
+  {
     "code": "U+1F4BE",
     "category": "icon",
     "name": "diskette",
     "character": "💾",
     "codepoint": 128190
+  },
+  {
+    "code": "U+1F4DD",
+    "category": "icon",
+    "name": "Write",
+    "character": "📝",
+    "codepoint": 128221
+  },
+  {
+    "code": "U+1F4F1",
+    "category": "icon",
+    "name": "Phone",
+    "character": "📱",
+    "codepoint": 128241
+  },
+  {
+    "code": "U+1F4F7",
+    "category": "icon",
+    "name": "Camera",
+    "character": "📷",
+    "codepoint": 128247
+  },
+  {
+    "code": "U+1F508",
+    "category": "icon",
+    "name": "Speaker",
+    "character": "🔈",
+    "codepoint": 128264
+  },
+  {
+    "code": "U+1F52B",
+    "category": "device",
+    "name": "Light Gun",
+    "character": "🔫",
+    "codepoint": 128299
+  },
+  {
+    "code": "U+1F56C",
+    "category": "icon",
+    "name": "SFX / Sound Effect / Noise",
+    "character": "🕬",
+    "codepoint": 128364
+  },
+  {
+    "code": "U+1F578",
+    "category": "device",
+    "name": "Steering WHeel",
+    "character": "🕸",
+    "codepoint": 128376
+  },
+  {
+    "code": "U+1F579",
+    "category": "icon",
+    "name": "Fight Stick / Joystick",
+    "character": "🕹",
+    "codepoint": 128377
+  },
+  {
+    "code": "U+1F57B",
+    "category": "device",
+    "name": "VR Headset",
+    "character": "🕻",
+    "codepoint": 128379
+  },
+  {
+    "code": "U+1F57C",
+    "category": "device",
+    "name": "VR Controller",
+    "character": "🕼",
+    "codepoint": 128380
+  },
+  {
+    "code": "U+1F57D",
+    "category": "device",
+    "name": "Flight Stick",
+    "character": "🕽",
+    "codepoint": 128381
+  },
+  {
+    "code": "U+1F5A5",
+    "category": "icon",
+    "name": "CPU / Processor",
+    "character": "🖥",
+    "codepoint": 128421
+  },
+  {
+    "code": "U+1F5A7",
+    "category": "icon",
+    "name": "Web / Internet / Link",
+    "character": "🖧",
+    "codepoint": 128423
+  },
+  {
+    "code": "U+1F5A8",
+    "category": "icon",
+    "name": "GPU / Graphics Card",
+    "character": "🖨",
+    "codepoint": 128424
+  },
+  {
+    "code": "U+1F5AA",
+    "category": "icon",
+    "name": "RAM / Memory",
+    "character": "🖪",
+    "codepoint": 128426
+  },
+  {
+    "code": "U+1F5AB",
+    "category": "icon",
+    "name": "USB Stick",
+    "character": "🖫",
+    "codepoint": 128427
+  },
+  {
+    "code": "U+1F5AC",
+    "category": "icon",
+    "name": "Database",
+    "character": "🖬",
+    "codepoint": 128428
+  },
+  {
+    "code": "U+1F5B4",
+    "category": "icon",
+    "name": "Hard Disk / Drive",
+    "character": "🖴",
+    "codepoint": 128436
+  },
+  {
+    "code": "U+1F5B5",
+    "category": "icon",
+    "name": "Screen / Video",
+    "character": "🖵",
+    "codepoint": 128437
+  },
+  {
+    "code": "U+1F5B9",
+    "category": "icon",
+    "name": "Text Entry / Edit",
+    "character": "🖹",
+    "codepoint": 128441
+  },
+  {
+    "code": "U+1F5E3",
+    "category": "icon",
+    "name": "Speaking Voice",
+    "character": "🗣",
+    "codepoint": 128483
+  },
+  {
+    "code": "U+1F5E9",
+    "category": "icon",
+    "name": "Language",
+    "character": "🗩",
+    "codepoint": 128489
+  },
+  {
+    "code": "U+1F6AA",
+    "category": "icon",
+    "name": "Exit / Quit / Leave",
+    "character": "🚪",
+    "codepoint": 128682
+  },
+  {
+    "code": "U+1F6C8",
+    "category": "icon",
+    "name": "Information",
+    "character": "🛈",
+    "codepoint": 128712
+  },
+  {
+    "code": "U+1F6D2",
+    "category": "icon",
+    "name": "Shopping Cart",
+    "character": "🛒",
+    "codepoint": 128722
   }
 ]
