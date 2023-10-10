@@ -19,7 +19,7 @@ jobs:
         sbcl --load ~/quicklisp.lisp --eval '(quicklisp-quickstart:install)' --eval '(ql-util:without-prompting (ql:add-to-init-file))' --quit
     - name: Rebuild the index
       run: |
-        sbcl --noinform --load "compile.lisp" --eval '(generate)' --quit
+        ./compile.lisp
     - name: GH Pages deploy
       if: github.head_ref == null
       run: |
