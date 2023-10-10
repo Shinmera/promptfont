@@ -1470,13 +1470,6 @@
     "codepoint": 8723
   },
   {
-    "code": "U+2261",
-    "category": "icon",
-    "name": "empty heart",
-    "character": "≡",
-    "codepoint": 8801
-  },
-  {
     "code": "U+2264",
     "category": "gamepad",
     "name": "Left Trackpad Any",
@@ -2140,6 +2133,13 @@
     "name": "smile",
     "character": "☺",
     "codepoint": 9786
+  },
+  {
+    "code": "U+2661",
+    "category": "icon",
+    "name": "empty heart",
+    "character": "♡",
+    "codepoint": 9825
   },
   {
     "code": "U+2665",
