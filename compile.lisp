@@ -4,7 +4,7 @@ exec sbcl \
   --disable-debugger \
   --eval "(ql:quickload '(clip shasht) :silent T)" \
   --load "$0" \
-  --eval '(fixup)' --eval '(generate)' \
+  --eval '(main)' \
   --quit \
   --end-toplevel-options "${@:1}"
 |#
@@ -29,10 +29,16 @@ exec sbcl \
           collect (list :name name
                         :glyphs (sort glyphs #'< :key (lambda (a) (getf a :codepoint)))))))
 
-(defun generate (&key (input (file "index" "ctml")) (output (file "index" "html")))
+(defun web (&key (input (file "index" "ctml")) (output (file "index" "html")))
   (let ((sections (parse-glyphs)))
     (with-open-file (stream output :direction :output :if-exists :supersede)
       (plump:serialize (clip:process input :sections sections) stream))))
+
+(defun txt (&key (file (file "glyphs" "json")) (output (file "chars" "txt")))
+  (with-open-file (stream output :direction :output :if-exists :supersede)
+    (loop for glyph across (with-open-file (stream file)
+                             (shasht:read-json stream))
+          do (write-string (gethash "character" glyph) stream))))
 
 (defun fixup (&optional (file (merge-pathnames "glyphs.json" *here*)))
   (let ((data (with-open-file (stream file)
@@ -46,3 +52,29 @@ exec sbcl \
     (sort data #'< :key (lambda (entry) (gethash "codepoint" entry)))
     (with-open-file (stream file :direction :output :if-exists :supersede)
       (shasht:write-json data stream))))
+
+(defun all ()
+  (fixup)
+  (txt)
+  (web))
+
+(defun help ()
+  (format T "PromptFont data management utilities
+
+Commands:
+  help   --- Show this help screen
+  all    --- Performs all below commands. This is run by default
+  fixup  --- Fixes up the glyphs.json file
+  txt    --- Generates the chars.txt file
+  web    --- Generates the index.html file
+
+You typically do not need this utility as it is run automatically by
+the GitHub CI when you create a PR.
+
+https://github.com/shinmera/promptfont
+"))
+
+(defun main ()
+  (destructuring-bind (argv0 &optional (command "all") &rest args) (uiop:raw-command-line-arguments)
+    (declare (ignore argv0))
+    (apply (intern (format NIL "~:@(~a~)" command) #.*package*) args)))

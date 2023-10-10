@@ -26,8 +26,9 @@ jobs:
         git config --global user.name "CI"
         git config --global user.email "shinmera@tymoon.eu"
         git clone --quiet --branch=gh-pages https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git ~/gh-pages
-        cp index.html PromptFont.ttf ~/gh-pages/
-        cd ~/gh-pages
-        git add index.html PromptFont.ttf
-        git commit -qm "CI index rebuild." || echo "Nothing to commit."
-        git push -q origin gh-pages
+        cp $FILES ~/gh-pages/
+        git -C ~/gh-pages add $FILES
+        git -C ~/gh-pages commit -qm "CI index rebuild." || echo "Nothing to commit."
+        git -C ~/gh-pages push -q origin gh-pages
+      env:
+        FILES: index.html glyphs.json chars.txt PromptFont.ttf PromptFont.otf

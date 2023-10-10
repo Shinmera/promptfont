@@ -126,7 +126,10 @@
       <h1>
         PromptFont
         <a class="button" href="https://github.com/Shinmera/promptfont/">GitHub</a>
-        <a class="button" href="https://github.com/Shinmera/promptfont/raw/master/PromptFont.otf">Download</a>
+        <a class="button" href="PromptFont.otf">OpenType</a>
+        <a class="button" href="PromptFont.ttf">TrueType</a>
+        <a class="button" href="glyphs.json">Metadata JSON</a>
+        <a class="button" href="chars.txt">Character List</a>
       </h1>
       <p>This is a font designed for button prompts in games. It includes the base alphabet, as well as icons for modifier and control keys, and gamepad buttons.</p>
       <p>PromptFont is based on the Xolonium font by Severin Meyer and licenced under the SIL Open Font Licence.</p>
