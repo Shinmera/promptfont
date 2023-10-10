@@ -2437,28 +2437,28 @@
   },
   {
     "code": "U+E007",
-    "category": "icon",
+    "category": "logo",
     "name": "Apple / Mac",
     "character": "",
     "codepoint": 57351
   },
   {
     "code": "U+E008",
-    "category": "icon",
+    "category": "logo",
     "name": "Windows",
     "character": "",
     "codepoint": 57352
   },
   {
     "code": "U+E009",
-    "category": "icon",
+    "category": "logo",
     "name": "Linux",
     "character": "",
     "codepoint": 57353
   },
   {
     "code": "U+E00A",
-    "category": "icon",
+    "category": "logo",
     "name": "BSD",
     "character": "",
     "codepoint": 57354
@@ -2802,7 +2802,7 @@
   {
     "code": "U+1F578",
     "category": "device",
-    "name": "Steering WHeel",
+    "name": "Steering Wheel",
     "character": "🕸",
     "codepoint": 128376
   },
