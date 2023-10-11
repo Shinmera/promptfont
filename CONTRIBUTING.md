@@ -15,3 +15,22 @@ When creating new glyphs, make sure you save every variant except for pure rotat
   - The files are hyphenated
 
 Once you've added the glyphs, please open a pull request and we will handle importing the glyph into the font and updating the metadata files.
+
+# Allocating Glyphs
+If you want to actually allocate new glyphs into the font yourself, you'll need FontForge to import the SVG files and SBCL to fix up the json file and generate the ancillary files.
+
+1. Open the PromptFont.sfd file with FontForge
+2. Find suitable spaces for your glyphs and import the SVGs. Preferably group the glyphs together with the existing ones, and for the generic icons use the appropriate Unicode codepoint if there is one
+3. Export the TrueType and OpenType font versions, save the SFD file
+4. Update the `glyphs.json` file with your new entries. Add your new entries to the bottom of the file as follows:
+   ```json
+   {
+     "code": "U+BEEF",
+     "name": "my character",
+     "category": "gamepad"
+   }
+   ```
+   The available categories are: alphabet, android, device, gamepad, icon, keyboard, logo, mouse
+5. Run the `compile.lisp` script to fix up the `glyphs.json` file
+6. If any of the names of your new glyphs are already taken, the script will warn you about it. Please update the names if that's the case, they should be globally unique
+7. Commit the sfd, ttf, otf, and json files
