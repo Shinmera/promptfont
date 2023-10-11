@@ -4,658 +4,658 @@
     "code": "U+0021",
     "codepoint": 33,
     "category": "alphabet",
-    "name": "!"
+    "name": "ASCII !"
   },
   {
     "character": "\"",
     "code": "U+0022",
     "codepoint": 34,
     "category": "alphabet",
-    "name": "\""
+    "name": "ASCII \""
   },
   {
     "character": "#",
     "code": "U+0023",
     "codepoint": 35,
     "category": "alphabet",
-    "name": "#"
+    "name": "ASCII #"
   },
   {
     "character": "$",
     "code": "U+0024",
     "codepoint": 36,
     "category": "alphabet",
-    "name": "$"
+    "name": "ASCII $"
   },
   {
     "character": "%",
     "code": "U+0025",
     "codepoint": 37,
     "category": "alphabet",
-    "name": "%"
+    "name": "ASCII %"
   },
   {
     "character": "&",
     "code": "U+0026",
     "codepoint": 38,
     "category": "alphabet",
-    "name": "&"
+    "name": "ASCII &"
   },
   {
     "character": "'",
     "code": "U+0027",
     "codepoint": 39,
     "category": "alphabet",
-    "name": "'"
+    "name": "ASCII '"
   },
   {
     "character": "(",
     "code": "U+0028",
     "codepoint": 40,
     "category": "alphabet",
-    "name": "("
+    "name": "ASCII ("
   },
   {
     "character": ")",
     "code": "U+0029",
     "codepoint": 41,
     "category": "alphabet",
-    "name": ")"
+    "name": "ASCII )"
   },
   {
     "character": "*",
     "code": "U+002A",
     "codepoint": 42,
     "category": "alphabet",
-    "name": "*"
+    "name": "ASCII *"
   },
   {
     "character": "+",
     "code": "U+002B",
     "codepoint": 43,
     "category": "alphabet",
-    "name": "+"
+    "name": "ASCII +"
   },
   {
     "character": ",",
     "code": "U+002C",
     "codepoint": 44,
     "category": "alphabet",
-    "name": ","
+    "name": "ASCII ,"
   },
   {
     "character": "-",
     "code": "U+002D",
     "codepoint": 45,
     "category": "alphabet",
-    "name": "-"
+    "name": "ASCII -"
   },
   {
     "character": ".",
     "code": "U+002E",
     "codepoint": 46,
     "category": "alphabet",
-    "name": "."
+    "name": "ASCII ."
   },
   {
     "character": "/",
     "code": "U+002F",
     "codepoint": 47,
     "category": "alphabet",
-    "name": "/"
+    "name": "ASCII /"
   },
   {
     "character": "0",
     "code": "U+0030",
     "codepoint": 48,
     "category": "alphabet",
-    "name": "0"
+    "name": "ASCII 0"
   },
   {
     "character": "1",
     "code": "U+0031",
     "codepoint": 49,
     "category": "alphabet",
-    "name": "1"
+    "name": "ASCII 1"
   },
   {
     "character": "2",
     "code": "U+0032",
     "codepoint": 50,
     "category": "alphabet",
-    "name": "2"
+    "name": "ASCII 2"
   },
   {
     "character": "3",
     "code": "U+0033",
     "codepoint": 51,
     "category": "alphabet",
-    "name": "3"
+    "name": "ASCII 3"
   },
   {
     "character": "4",
     "code": "U+0034",
     "codepoint": 52,
     "category": "alphabet",
-    "name": "4"
+    "name": "ASCII 4"
   },
   {
     "character": "5",
     "code": "U+0035",
     "codepoint": 53,
     "category": "alphabet",
-    "name": "5"
+    "name": "ASCII 5"
   },
   {
     "character": "6",
     "code": "U+0036",
     "codepoint": 54,
     "category": "alphabet",
-    "name": "6"
+    "name": "ASCII 6"
   },
   {
     "character": "7",
     "code": "U+0037",
     "codepoint": 55,
     "category": "alphabet",
-    "name": "7"
+    "name": "ASCII 7"
   },
   {
     "character": "8",
     "code": "U+0038",
     "codepoint": 56,
     "category": "alphabet",
-    "name": "8"
+    "name": "ASCII 8"
   },
   {
     "character": "9",
     "code": "U+0039",
     "codepoint": 57,
     "category": "alphabet",
-    "name": "9"
+    "name": "ASCII 9"
   },
   {
     "character": ":",
     "code": "U+003A",
     "codepoint": 58,
     "category": "alphabet",
-    "name": ":"
+    "name": "ASCII :"
   },
   {
     "character": ";",
     "code": "U+003B",
     "codepoint": 59,
     "category": "alphabet",
-    "name": ";"
+    "name": "ASCII ;"
   },
   {
     "character": "<",
     "code": "U+003C",
     "codepoint": 60,
     "category": "alphabet",
-    "name": "<"
+    "name": "ASCII <"
   },
   {
     "character": "=",
     "code": "U+003D",
     "codepoint": 61,
     "category": "alphabet",
-    "name": "="
+    "name": "ASCII ="
   },
   {
     "character": ">",
     "code": "U+003E",
     "codepoint": 62,
     "category": "alphabet",
-    "name": ">"
+    "name": "ASCII >"
   },
   {
     "character": "?",
     "code": "U+003F",
     "codepoint": 63,
     "category": "alphabet",
-    "name": "?"
+    "name": "ASCII ?"
   },
   {
     "character": "@",
     "code": "U+0040",
     "codepoint": 64,
     "category": "alphabet",
-    "name": "@"
+    "name": "ASCII @"
   },
   {
     "character": "A",
     "code": "U+0041",
     "codepoint": 65,
     "category": "alphabet",
-    "name": "A"
+    "name": "ASCII A"
   },
   {
     "character": "B",
     "code": "U+0042",
     "codepoint": 66,
     "category": "alphabet",
-    "name": "B"
+    "name": "ASCII B"
   },
   {
     "character": "C",
     "code": "U+0043",
     "codepoint": 67,
     "category": "alphabet",
-    "name": "C"
+    "name": "ASCII C"
   },
   {
     "character": "D",
     "code": "U+0044",
     "codepoint": 68,
     "category": "alphabet",
-    "name": "D"
+    "name": "ASCII D"
   },
   {
     "character": "E",
     "code": "U+0045",
     "codepoint": 69,
     "category": "alphabet",
-    "name": "E"
+    "name": "ASCII E"
   },
   {
     "character": "F",
     "code": "U+0046",
     "codepoint": 70,
     "category": "alphabet",
-    "name": "F"
+    "name": "ASCII F"
   },
   {
     "character": "G",
     "code": "U+0047",
     "codepoint": 71,
     "category": "alphabet",
-    "name": "G"
+    "name": "ASCII G"
   },
   {
     "character": "H",
     "code": "U+0048",
     "codepoint": 72,
     "category": "alphabet",
-    "name": "H"
+    "name": "ASCII H"
   },
   {
     "character": "I",
     "code": "U+0049",
     "codepoint": 73,
     "category": "alphabet",
-    "name": "I"
+    "name": "ASCII I"
   },
   {
     "character": "J",
     "code": "U+004A",
     "codepoint": 74,
     "category": "alphabet",
-    "name": "J"
+    "name": "ASCII J"
   },
   {
     "character": "K",
     "code": "U+004B",
     "codepoint": 75,
     "category": "alphabet",
-    "name": "K"
+    "name": "ASCII K"
   },
   {
     "character": "L",
     "code": "U+004C",
     "codepoint": 76,
     "category": "alphabet",
-    "name": "L"
+    "name": "ASCII L"
   },
   {
     "character": "M",
     "code": "U+004D",
     "codepoint": 77,
     "category": "alphabet",
-    "name": "M"
+    "name": "ASCII M"
   },
   {
     "character": "N",
     "code": "U+004E",
     "codepoint": 78,
     "category": "alphabet",
-    "name": "N"
+    "name": "ASCII N"
   },
   {
     "character": "O",
     "code": "U+004F",
     "codepoint": 79,
     "category": "alphabet",
-    "name": "O"
+    "name": "ASCII O"
   },
   {
     "character": "P",
     "code": "U+0050",
     "codepoint": 80,
     "category": "alphabet",
-    "name": "P"
+    "name": "ASCII P"
   },
   {
     "character": "Q",
     "code": "U+0051",
     "codepoint": 81,
     "category": "alphabet",
-    "name": "Q"
+    "name": "ASCII Q"
   },
   {
     "character": "R",
     "code": "U+0052",
     "codepoint": 82,
     "category": "alphabet",
-    "name": "R"
+    "name": "ASCII R"
   },
   {
     "character": "S",
     "code": "U+0053",
     "codepoint": 83,
     "category": "alphabet",
-    "name": "S"
+    "name": "ASCII S"
   },
   {
     "character": "T",
     "code": "U+0054",
     "codepoint": 84,
     "category": "alphabet",
-    "name": "T"
+    "name": "ASCII T"
   },
   {
     "character": "U",
     "code": "U+0055",
     "codepoint": 85,
     "category": "alphabet",
-    "name": "U"
+    "name": "ASCII U"
   },
   {
     "character": "V",
     "code": "U+0056",
     "codepoint": 86,
     "category": "alphabet",
-    "name": "V"
+    "name": "ASCII V"
   },
   {
     "character": "W",
     "code": "U+0057",
     "codepoint": 87,
     "category": "alphabet",
-    "name": "W"
+    "name": "ASCII W"
   },
   {
     "character": "X",
     "code": "U+0058",
     "codepoint": 88,
     "category": "alphabet",
-    "name": "X"
+    "name": "ASCII X"
   },
   {
     "character": "Y",
     "code": "U+0059",
     "codepoint": 89,
     "category": "alphabet",
-    "name": "Y"
+    "name": "ASCII Y"
   },
   {
     "character": "Z",
     "code": "U+005A",
     "codepoint": 90,
     "category": "alphabet",
-    "name": "Z"
+    "name": "ASCII Z"
   },
   {
     "character": "[",
     "code": "U+005B",
     "codepoint": 91,
     "category": "alphabet",
-    "name": "["
+    "name": "ASCII ["
   },
   {
     "character": "\\",
     "code": "U+005C",
     "codepoint": 92,
     "category": "alphabet",
-    "name": "\\"
+    "name": "ASCII \\"
   },
   {
     "character": "]",
     "code": "U+005D",
     "codepoint": 93,
     "category": "alphabet",
-    "name": "]"
+    "name": "ASCII ]"
   },
   {
     "character": "^",
     "code": "U+005E",
     "codepoint": 94,
     "category": "alphabet",
-    "name": "^"
+    "name": "ASCII ^"
   },
   {
     "character": "_",
     "code": "U+005F",
     "codepoint": 95,
     "category": "alphabet",
-    "name": "_"
+    "name": "ASCII _"
   },
   {
     "character": "`",
     "code": "U+0060",
     "codepoint": 96,
     "category": "alphabet",
-    "name": "`"
+    "name": "ASCII `"
   },
   {
     "character": "a",
     "code": "U+0061",
     "codepoint": 97,
     "category": "alphabet",
-    "name": "a"
+    "name": "ASCII lowercase a"
   },
   {
     "character": "b",
     "code": "U+0062",
     "codepoint": 98,
     "category": "alphabet",
-    "name": "b"
+    "name": "ASCII lowercase b"
   },
   {
     "character": "c",
     "code": "U+0063",
     "codepoint": 99,
     "category": "alphabet",
-    "name": "c"
+    "name": "ASCII lowercase c"
   },
   {
     "character": "d",
     "code": "U+0064",
     "codepoint": 100,
     "category": "alphabet",
-    "name": "d"
+    "name": "ASCII lowercase d"
   },
   {
     "character": "e",
     "code": "U+0065",
     "codepoint": 101,
     "category": "alphabet",
-    "name": "e"
+    "name": "ASCII lowercase e"
   },
   {
     "character": "f",
     "code": "U+0066",
     "codepoint": 102,
     "category": "alphabet",
-    "name": "f"
+    "name": "ASCII lowercase f"
   },
   {
     "character": "g",
     "code": "U+0067",
     "codepoint": 103,
     "category": "alphabet",
-    "name": "g"
+    "name": "ASCII lowercase g"
   },
   {
     "character": "h",
     "code": "U+0068",
     "codepoint": 104,
     "category": "alphabet",
-    "name": "h"
+    "name": "ASCII lowercase h"
   },
   {
     "character": "i",
     "code": "U+0069",
     "codepoint": 105,
     "category": "alphabet",
-    "name": "i"
+    "name": "ASCII lowercase i"
   },
   {
     "character": "j",
     "code": "U+006A",
     "codepoint": 106,
     "category": "alphabet",
-    "name": "j"
+    "name": "ASCII lowercase j"
   },
   {
     "character": "k",
     "code": "U+006B",
     "codepoint": 107,
     "category": "alphabet",
-    "name": "k"
+    "name": "ASCII lowercase k"
   },
   {
     "character": "l",
     "code": "U+006C",
     "codepoint": 108,
     "category": "alphabet",
-    "name": "l"
+    "name": "ASCII lowercase l"
   },
   {
     "character": "m",
     "code": "U+006D",
     "codepoint": 109,
     "category": "alphabet",
-    "name": "m"
+    "name": "ASCII lowercase m"
   },
   {
     "character": "n",
     "code": "U+006E",
     "codepoint": 110,
     "category": "alphabet",
-    "name": "n"
+    "name": "ASCII lowercase n"
   },
   {
     "character": "o",
     "code": "U+006F",
     "codepoint": 111,
     "category": "alphabet",
-    "name": "o"
+    "name": "ASCII lowercase o"
   },
   {
     "character": "p",
     "code": "U+0070",
     "codepoint": 112,
     "category": "alphabet",
-    "name": "p"
+    "name": "ASCII lowercase p"
   },
   {
     "character": "q",
     "code": "U+0071",
     "codepoint": 113,
     "category": "alphabet",
-    "name": "q"
+    "name": "ASCII lowercase q"
   },
   {
     "character": "r",
     "code": "U+0072",
     "codepoint": 114,
     "category": "alphabet",
-    "name": "r"
+    "name": "ASCII lowercase r"
   },
   {
     "character": "s",
     "code": "U+0073",
     "codepoint": 115,
     "category": "alphabet",
-    "name": "s"
+    "name": "ASCII lowercase s"
   },
   {
     "character": "t",
     "code": "U+0074",
     "codepoint": 116,
     "category": "alphabet",
-    "name": "t"
+    "name": "ASCII lowercase t"
   },
   {
     "character": "u",
     "code": "U+0075",
     "codepoint": 117,
     "category": "alphabet",
-    "name": "u"
+    "name": "ASCII lowercase u"
   },
   {
     "character": "v",
     "code": "U+0076",
     "codepoint": 118,
     "category": "alphabet",
-    "name": "v"
+    "name": "ASCII lowercase v"
   },
   {
     "character": "w",
     "code": "U+0077",
     "codepoint": 119,
     "category": "alphabet",
-    "name": "w"
+    "name": "ASCII lowercase w"
   },
   {
     "character": "x",
     "code": "U+0078",
     "codepoint": 120,
     "category": "alphabet",
-    "name": "x"
+    "name": "ASCII lowercase x"
   },
   {
     "character": "y",
     "code": "U+0079",
     "codepoint": 121,
     "category": "alphabet",
-    "name": "y"
+    "name": "ASCII lowercase y"
   },
   {
     "character": "z",
     "code": "U+007A",
     "codepoint": 122,
     "category": "alphabet",
-    "name": "z"
+    "name": "ASCII lowercase z"
   },
   {
     "character": "{",
     "code": "U+007B",
     "codepoint": 123,
     "category": "alphabet",
-    "name": "{"
+    "name": "ASCII {"
   },
   {
     "character": "|",
     "code": "U+007C",
     "codepoint": 124,
     "category": "alphabet",
-    "name": "|"
+    "name": "ASCII |"
   },
   {
     "character": "}",
     "code": "U+007D",
     "codepoint": 125,
     "category": "alphabet",
-    "name": "}"
+    "name": "ASCII }"
   },
   {
     "character": "~",
     "code": "U+007E",
     "codepoint": 126,
     "category": "alphabet",
-    "name": "~"
+    "name": "ASCII ~"
   },
   {
     "code": "U+2194",
@@ -900,21 +900,21 @@
     "code": "U+21B9",
     "codepoint": 8633,
     "category": "gamepad",
-    "name": "Both Analog"
+    "name": "Both Analog Click"
   },
   {
     "character": "↺",
     "code": "U+21BA",
     "codepoint": 8634,
     "category": "gamepad",
-    "name": "Left Analog"
+    "name": "Left Analog Click"
   },
   {
     "character": "↻",
     "code": "U+21BB",
     "codepoint": 8635,
     "category": "gamepad",
-    "name": "Right Analog"
+    "name": "Right Analog Click"
   },
   {
     "character": "↼",
@@ -1696,7 +1696,7 @@
   {
     "code": "U+23CF",
     "category": "android",
-    "name": "Home",
+    "name": "Home Screen",
     "character": "⏏",
     "codepoint": 9167
   },
@@ -2466,252 +2466,252 @@
   {
     "code": "U+FF10",
     "category": "keyboard",
-    "name": "0",
+    "name": "Key 0",
     "character": "０",
     "codepoint": 65296
   },
   {
     "code": "U+FF11",
     "category": "keyboard",
-    "name": "1",
+    "name": "Key 1",
     "character": "１",
     "codepoint": 65297
   },
   {
     "code": "U+FF12",
     "category": "keyboard",
-    "name": "2",
+    "name": "Key 2",
     "character": "２",
     "codepoint": 65298
   },
   {
     "code": "U+FF13",
     "category": "keyboard",
-    "name": "3",
+    "name": "Key 3",
     "character": "３",
     "codepoint": 65299
   },
   {
     "code": "U+FF14",
     "category": "keyboard",
-    "name": "4",
+    "name": "Key 4",
     "character": "４",
     "codepoint": 65300
   },
   {
     "code": "U+FF15",
     "category": "keyboard",
-    "name": "5",
+    "name": "Key 5",
     "character": "５",
     "codepoint": 65301
   },
   {
     "code": "U+FF16",
     "category": "keyboard",
-    "name": "6",
+    "name": "Key 6",
     "character": "６",
     "codepoint": 65302
   },
   {
     "code": "U+FF17",
     "category": "keyboard",
-    "name": "7",
+    "name": "Key 7",
     "character": "７",
     "codepoint": 65303
   },
   {
     "code": "U+FF18",
     "category": "keyboard",
-    "name": "8",
+    "name": "Key 8",
     "character": "８",
     "codepoint": 65304
   },
   {
     "code": "U+FF19",
     "category": "keyboard",
-    "name": "9",
+    "name": "Key 9",
     "character": "９",
     "codepoint": 65305
   },
   {
     "code": "U+FF21",
     "category": "keyboard",
-    "name": "A",
+    "name": "Key A",
     "character": "Ａ",
     "codepoint": 65313
   },
   {
     "code": "U+FF22",
     "category": "keyboard",
-    "name": "B",
+    "name": "Key B",
     "character": "Ｂ",
     "codepoint": 65314
   },
   {
     "code": "U+FF23",
     "category": "keyboard",
-    "name": "C",
+    "name": "Key C",
     "character": "Ｃ",
     "codepoint": 65315
   },
   {
     "code": "U+FF24",
     "category": "keyboard",
-    "name": "D",
+    "name": "Key D",
     "character": "Ｄ",
     "codepoint": 65316
   },
   {
     "code": "U+FF25",
     "category": "keyboard",
-    "name": "E",
+    "name": "Key E",
     "character": "Ｅ",
     "codepoint": 65317
   },
   {
     "code": "U+FF26",
     "category": "keyboard",
-    "name": "F",
+    "name": "Key F",
     "character": "Ｆ",
     "codepoint": 65318
   },
   {
     "code": "U+FF27",
     "category": "keyboard",
-    "name": "G",
+    "name": "Key G",
     "character": "Ｇ",
     "codepoint": 65319
   },
   {
     "code": "U+FF28",
     "category": "keyboard",
-    "name": "H",
+    "name": "Key H",
     "character": "Ｈ",
     "codepoint": 65320
   },
   {
     "code": "U+FF29",
     "category": "keyboard",
-    "name": "I",
+    "name": "Key I",
     "character": "Ｉ",
     "codepoint": 65321
   },
   {
     "code": "U+FF2A",
     "category": "keyboard",
-    "name": "J",
+    "name": "Key J",
     "character": "Ｊ",
     "codepoint": 65322
   },
   {
     "code": "U+FF2B",
     "category": "keyboard",
-    "name": "K",
+    "name": "Key K",
     "character": "Ｋ",
     "codepoint": 65323
   },
   {
     "code": "U+FF2C",
     "category": "keyboard",
-    "name": "L",
+    "name": "Key L",
     "character": "Ｌ",
     "codepoint": 65324
   },
   {
     "code": "U+FF2D",
     "category": "keyboard",
-    "name": "M",
+    "name": "Key M",
     "character": "Ｍ",
     "codepoint": 65325
   },
   {
     "code": "U+FF2E",
     "category": "keyboard",
-    "name": "N",
+    "name": "Key N",
     "character": "Ｎ",
     "codepoint": 65326
   },
   {
     "code": "U+FF2F",
     "category": "keyboard",
-    "name": "O",
+    "name": "Key O",
     "character": "Ｏ",
     "codepoint": 65327
   },
   {
     "code": "U+FF30",
     "category": "keyboard",
-    "name": "P",
+    "name": "Key P",
     "character": "Ｐ",
     "codepoint": 65328
   },
   {
     "code": "U+FF31",
     "category": "keyboard",
-    "name": "Q",
+    "name": "Key Q",
     "character": "Ｑ",
     "codepoint": 65329
   },
   {
     "code": "U+FF32",
     "category": "keyboard",
-    "name": "R",
+    "name": "Key R",
     "character": "Ｒ",
     "codepoint": 65330
   },
   {
     "code": "U+FF33",
     "category": "keyboard",
-    "name": "S",
+    "name": "Key S",
     "character": "Ｓ",
     "codepoint": 65331
   },
   {
     "code": "U+FF34",
     "category": "keyboard",
-    "name": "T",
+    "name": "Key T",
     "character": "Ｔ",
     "codepoint": 65332
   },
   {
     "code": "U+FF35",
     "category": "keyboard",
-    "name": "U",
+    "name": "Key U",
     "character": "Ｕ",
     "codepoint": 65333
   },
   {
     "code": "U+FF36",
     "category": "keyboard",
-    "name": "V",
+    "name": "Key V",
     "character": "Ｖ",
     "codepoint": 65334
   },
   {
     "code": "U+FF37",
     "category": "keyboard",
-    "name": "W",
+    "name": "Key W",
     "character": "Ｗ",
     "codepoint": 65335
   },
   {
     "code": "U+FF38",
     "category": "keyboard",
-    "name": "X",
+    "name": "Key X",
     "character": "Ｘ",
     "codepoint": 65336
   },
   {
     "code": "U+FF39",
     "category": "keyboard",
-    "name": "Y",
+    "name": "Key Y",
     "character": "Ｙ",
     "codepoint": 65337
   },
   {
     "code": "U+FF3A",
     "category": "keyboard",
-    "name": "Z",
+    "name": "Key Z",
     "character": "Ｚ",
     "codepoint": 65338
   },

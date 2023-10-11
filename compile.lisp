@@ -42,13 +42,18 @@ exec sbcl \
 
 (defun fixup (&optional (file (merge-pathnames "glyphs.json" *here*)))
   (let ((data (with-open-file (stream file)
-                (shasht:read-json stream))))
+                (shasht:read-json stream)))
+        (names (make-hash-table :test 'equalp)))
     (loop for entry across data
           for cp = (or (gethash "codepoint" entry)
                        (parse-integer (gethash "code" entry) :start 2 :radix 16))
           do (setf (gethash "character" entry) (string (code-char cp)))
              (setf (gethash "codepoint" entry) cp)
-             (setf (gethash "code" entry) (format NIL "U+~4,'0x" cp)))
+             (setf (gethash "code" entry) (format NIL "U+~4,'0x" cp))
+             (if (gethash (gethash "name" entry) names)
+                 (format T "~&Character ~a has name ~s, which is already taken by ~a~%"
+                         (gethash "code" entry) (gethash "name" entry) (gethash (gethash "name" entry) names))
+                 (setf (gethash (gethash "name" entry) names) (gethash "code" entry))))
     (sort data #'< :key (lambda (entry) (gethash "codepoint" entry)))
     (with-open-file (stream file :direction :output :if-exists :supersede)
       (shasht:write-json data stream))))
