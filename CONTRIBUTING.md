@@ -33,4 +33,4 @@ If you want to actually allocate new glyphs into the font yourself, you'll need 
    The available categories are: alphabet, android, device, gamepad, icon, keyboard, logo, mouse
 5. Run the `compile.lisp` script to fix up the `glyphs.json` file
 6. If any of the names of your new glyphs are already taken, the script will warn you about it. Please update the names if that's the case, they should be globally unique
-7. Commit the sfd, ttf, otf, and json files
+7. Commit the sfd and json files
