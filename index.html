@@ -1,0 +1,2765 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <title>PromptFont - A Font for Button Prompts</title>
+    <meta name="description" content="This is a font with special glyphs to display button prompts in games and applications with special input devices.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PromptFont - A Font for Button Prompts">
+    <meta property="og:description" content="This is a font with special glyphs to display button prompts in games and applications with special input devices.">
+    <meta property="og:image" content="https://shinmera.github.io/promptfont/preview.png">
+    <meta property="og:image:alt" content="PromptFont Preview">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <style type="text/css">
+      @font-face {
+          font-family: 'promptfont';
+          src: url('promptfont.ttf');
+      }
+      @keyframes fadeOut {
+          0% { opacity: 1;}
+          50% { opacity: 1;}
+          100% { opacity: 0;}
+      }
+      body {
+          font-family: sans-serif;
+          font-size: 14pt;
+          margin: 0;
+          overflow-y: scroll;
+      }
+      header {
+          padding: 1em;
+          border-bottom: 3px solid #CCCCCC;
+      }
+      footer {
+          padding: 1em;
+          border-top: 3px solid #CCCCCC;
+          text-align: center;
+      }
+      a.button {
+          font-size: 18pt;
+          font-weight: normal;
+          color: black;
+          background: #EEEEEE;
+          border: 2px solid #CCCCCC;
+          border-radius: .2em;
+          padding: .2em .4em;
+          margin: .2em;
+          text-decoration: none;
+      }
+      a.button:hover {
+          background: #CCCCCC;
+      }
+      main {
+          background: #EEEEEE;
+          padding: 4em 0;
+      }
+      .search {
+          box-sizing: border-box;
+          font-size: 1.5em;
+          width: 20em;
+          display: block;
+          margin: 0 auto;
+          padding: 0.2em 0.5em;
+          border: 1px solid #CCCCCC;
+          border-radius: 0.2em;
+      }
+      .glyphsection {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .glyphsection h2 {
+          width: 100%;
+          text-align: center;
+      }
+      .glyph {
+          text-align: center;
+          margin: 1em;
+          width: 8em;
+      }
+      .glyph span {
+          display: block;
+      }
+      .glyph code {
+          display: block;
+      }
+      .glyph i {
+          display: block;
+          font-family: promptfont;
+          font-size: 32pt;
+          font-style: normal;
+          transition: font-size .5s;
+      }
+      .glyph:hover i{
+          font-size: 8em;
+      }
+      .notice{
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          text-align: center;
+          padding: 0.5em 1em;
+          font-size: 1.5em;
+          background: white;
+          color: black;
+          border-bottom: 2px solid #CCCCCC;
+          opacity: 1;
+          animation: fadeOut 2s;
+          animation-fill-mode: forwards;
+      }
+      .notice i{
+          font-family: promptfont;
+          font-style: normal;
+          display: inline-block;
+          width: 1em;
+      }
+      img{
+          max-width: 100%;
+      }
+      .hidden{
+          display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        PromptFont
+        <a class="button" href="https://github.com/Shinmera/promptfont/">GitHub</a>
+        <a class="button" href="https://github.com/Shinmera/promptfont/archive/refs/heads/gh-pages.zip">Download</a>
+      </h1>
+      <p>This is a font designed for button prompts in games. It includes the base alphabet, as well as icons for modifier and control keys, and gamepad buttons. All the icons included in the font are custom made and available under the same <a href="LICENSE.txt">SIL Open Font Licence</a>. Included trademarks however of course still belong to their respective owners.</p>
+      <p>If you use this font in your project please leave an attribution notice in your credits like this:
+        <blockquote>PromptFont by Yukari &quot;Shinmera&quot; Hafner, available at https://shinmera.com/promptfont</blockquote>
+      </p>
+    </header>
+    <main>
+      <input class="search" type="search" placeholder="Search..." spellcheck="false" autofocus="">
+      
+        <section class="glyphsection" id="alphabet">
+          <h2>alphabet</h2>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0021" data-name="ASCII !">
+              <i>!</i>
+              <code>U+0021</code>
+              <span>ASCII !</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0022" data-name="ASCII &quot;">
+              <i>&quot;</i>
+              <code>U+0022</code>
+              <span>ASCII &quot;</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0023" data-name="ASCII #">
+              <i>#</i>
+              <code>U+0023</code>
+              <span>ASCII #</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0024" data-name="ASCII $">
+              <i>$</i>
+              <code>U+0024</code>
+              <span>ASCII $</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0025" data-name="ASCII %">
+              <i>%</i>
+              <code>U+0025</code>
+              <span>ASCII %</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0026" data-name="ASCII &amp;">
+              <i>&amp;</i>
+              <code>U+0026</code>
+              <span>ASCII &amp;</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0027" data-name="ASCII '">
+              <i>'</i>
+              <code>U+0027</code>
+              <span>ASCII '</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0028" data-name="ASCII (">
+              <i>(</i>
+              <code>U+0028</code>
+              <span>ASCII (</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0029" data-name="ASCII )">
+              <i>)</i>
+              <code>U+0029</code>
+              <span>ASCII )</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+002A" data-name="ASCII *">
+              <i>*</i>
+              <code>U+002A</code>
+              <span>ASCII *</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+002B" data-name="ASCII +">
+              <i>+</i>
+              <code>U+002B</code>
+              <span>ASCII +</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+002C" data-name="ASCII ,">
+              <i>,</i>
+              <code>U+002C</code>
+              <span>ASCII ,</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+002D" data-name="ASCII -">
+              <i>-</i>
+              <code>U+002D</code>
+              <span>ASCII -</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+002E" data-name="ASCII .">
+              <i>.</i>
+              <code>U+002E</code>
+              <span>ASCII .</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+002F" data-name="ASCII /">
+              <i>/</i>
+              <code>U+002F</code>
+              <span>ASCII /</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0030" data-name="ASCII 0">
+              <i>0</i>
+              <code>U+0030</code>
+              <span>ASCII 0</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0031" data-name="ASCII 1">
+              <i>1</i>
+              <code>U+0031</code>
+              <span>ASCII 1</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0032" data-name="ASCII 2">
+              <i>2</i>
+              <code>U+0032</code>
+              <span>ASCII 2</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0033" data-name="ASCII 3">
+              <i>3</i>
+              <code>U+0033</code>
+              <span>ASCII 3</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0034" data-name="ASCII 4">
+              <i>4</i>
+              <code>U+0034</code>
+              <span>ASCII 4</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0035" data-name="ASCII 5">
+              <i>5</i>
+              <code>U+0035</code>
+              <span>ASCII 5</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0036" data-name="ASCII 6">
+              <i>6</i>
+              <code>U+0036</code>
+              <span>ASCII 6</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0037" data-name="ASCII 7">
+              <i>7</i>
+              <code>U+0037</code>
+              <span>ASCII 7</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0038" data-name="ASCII 8">
+              <i>8</i>
+              <code>U+0038</code>
+              <span>ASCII 8</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0039" data-name="ASCII 9">
+              <i>9</i>
+              <code>U+0039</code>
+              <span>ASCII 9</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+003A" data-name="ASCII :">
+              <i>:</i>
+              <code>U+003A</code>
+              <span>ASCII :</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+003B" data-name="ASCII ;">
+              <i>;</i>
+              <code>U+003B</code>
+              <span>ASCII ;</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+003C" data-name="ASCII &lt;">
+              <i>&lt;</i>
+              <code>U+003C</code>
+              <span>ASCII &lt;</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+003D" data-name="ASCII =">
+              <i>=</i>
+              <code>U+003D</code>
+              <span>ASCII =</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+003E" data-name="ASCII &gt;">
+              <i>&gt;</i>
+              <code>U+003E</code>
+              <span>ASCII &gt;</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+003F" data-name="ASCII ?">
+              <i>?</i>
+              <code>U+003F</code>
+              <span>ASCII ?</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0040" data-name="ASCII @">
+              <i>@</i>
+              <code>U+0040</code>
+              <span>ASCII @</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0041" data-name="ASCII A">
+              <i>A</i>
+              <code>U+0041</code>
+              <span>ASCII A</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0042" data-name="ASCII B">
+              <i>B</i>
+              <code>U+0042</code>
+              <span>ASCII B</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0043" data-name="ASCII C">
+              <i>C</i>
+              <code>U+0043</code>
+              <span>ASCII C</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0044" data-name="ASCII D">
+              <i>D</i>
+              <code>U+0044</code>
+              <span>ASCII D</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0045" data-name="ASCII E">
+              <i>E</i>
+              <code>U+0045</code>
+              <span>ASCII E</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0046" data-name="ASCII F">
+              <i>F</i>
+              <code>U+0046</code>
+              <span>ASCII F</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0047" data-name="ASCII G">
+              <i>G</i>
+              <code>U+0047</code>
+              <span>ASCII G</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0048" data-name="ASCII H">
+              <i>H</i>
+              <code>U+0048</code>
+              <span>ASCII H</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0049" data-name="ASCII I">
+              <i>I</i>
+              <code>U+0049</code>
+              <span>ASCII I</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+004A" data-name="ASCII J">
+              <i>J</i>
+              <code>U+004A</code>
+              <span>ASCII J</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+004B" data-name="ASCII K">
+              <i>K</i>
+              <code>U+004B</code>
+              <span>ASCII K</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+004C" data-name="ASCII L">
+              <i>L</i>
+              <code>U+004C</code>
+              <span>ASCII L</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+004D" data-name="ASCII M">
+              <i>M</i>
+              <code>U+004D</code>
+              <span>ASCII M</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+004E" data-name="ASCII N">
+              <i>N</i>
+              <code>U+004E</code>
+              <span>ASCII N</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+004F" data-name="ASCII O">
+              <i>O</i>
+              <code>U+004F</code>
+              <span>ASCII O</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0050" data-name="ASCII P">
+              <i>P</i>
+              <code>U+0050</code>
+              <span>ASCII P</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0051" data-name="ASCII Q">
+              <i>Q</i>
+              <code>U+0051</code>
+              <span>ASCII Q</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0052" data-name="ASCII R">
+              <i>R</i>
+              <code>U+0052</code>
+              <span>ASCII R</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0053" data-name="ASCII S">
+              <i>S</i>
+              <code>U+0053</code>
+              <span>ASCII S</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0054" data-name="ASCII T">
+              <i>T</i>
+              <code>U+0054</code>
+              <span>ASCII T</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0055" data-name="ASCII U">
+              <i>U</i>
+              <code>U+0055</code>
+              <span>ASCII U</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0056" data-name="ASCII V">
+              <i>V</i>
+              <code>U+0056</code>
+              <span>ASCII V</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0057" data-name="ASCII W">
+              <i>W</i>
+              <code>U+0057</code>
+              <span>ASCII W</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0058" data-name="ASCII X">
+              <i>X</i>
+              <code>U+0058</code>
+              <span>ASCII X</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0059" data-name="ASCII Y">
+              <i>Y</i>
+              <code>U+0059</code>
+              <span>ASCII Y</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+005A" data-name="ASCII Z">
+              <i>Z</i>
+              <code>U+005A</code>
+              <span>ASCII Z</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+005B" data-name="ASCII [">
+              <i>[</i>
+              <code>U+005B</code>
+              <span>ASCII [</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+005C" data-name="ASCII \">
+              <i>\</i>
+              <code>U+005C</code>
+              <span>ASCII \</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+005D" data-name="ASCII ]">
+              <i>]</i>
+              <code>U+005D</code>
+              <span>ASCII ]</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+005E" data-name="ASCII ^">
+              <i>^</i>
+              <code>U+005E</code>
+              <span>ASCII ^</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+005F" data-name="ASCII _">
+              <i>_</i>
+              <code>U+005F</code>
+              <span>ASCII _</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0060" data-name="ASCII `">
+              <i>`</i>
+              <code>U+0060</code>
+              <span>ASCII `</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0061" data-name="ASCII lowercase a">
+              <i>a</i>
+              <code>U+0061</code>
+              <span>ASCII lowercase a</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0062" data-name="ASCII lowercase b">
+              <i>b</i>
+              <code>U+0062</code>
+              <span>ASCII lowercase b</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0063" data-name="ASCII lowercase c">
+              <i>c</i>
+              <code>U+0063</code>
+              <span>ASCII lowercase c</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0064" data-name="ASCII lowercase d">
+              <i>d</i>
+              <code>U+0064</code>
+              <span>ASCII lowercase d</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0065" data-name="ASCII lowercase e">
+              <i>e</i>
+              <code>U+0065</code>
+              <span>ASCII lowercase e</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0066" data-name="ASCII lowercase f">
+              <i>f</i>
+              <code>U+0066</code>
+              <span>ASCII lowercase f</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0067" data-name="ASCII lowercase g">
+              <i>g</i>
+              <code>U+0067</code>
+              <span>ASCII lowercase g</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0068" data-name="ASCII lowercase h">
+              <i>h</i>
+              <code>U+0068</code>
+              <span>ASCII lowercase h</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0069" data-name="ASCII lowercase i">
+              <i>i</i>
+              <code>U+0069</code>
+              <span>ASCII lowercase i</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+006A" data-name="ASCII lowercase j">
+              <i>j</i>
+              <code>U+006A</code>
+              <span>ASCII lowercase j</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+006B" data-name="ASCII lowercase k">
+              <i>k</i>
+              <code>U+006B</code>
+              <span>ASCII lowercase k</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+006C" data-name="ASCII lowercase l">
+              <i>l</i>
+              <code>U+006C</code>
+              <span>ASCII lowercase l</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+006D" data-name="ASCII lowercase m">
+              <i>m</i>
+              <code>U+006D</code>
+              <span>ASCII lowercase m</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+006E" data-name="ASCII lowercase n">
+              <i>n</i>
+              <code>U+006E</code>
+              <span>ASCII lowercase n</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+006F" data-name="ASCII lowercase o">
+              <i>o</i>
+              <code>U+006F</code>
+              <span>ASCII lowercase o</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0070" data-name="ASCII lowercase p">
+              <i>p</i>
+              <code>U+0070</code>
+              <span>ASCII lowercase p</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0071" data-name="ASCII lowercase q">
+              <i>q</i>
+              <code>U+0071</code>
+              <span>ASCII lowercase q</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0072" data-name="ASCII lowercase r">
+              <i>r</i>
+              <code>U+0072</code>
+              <span>ASCII lowercase r</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0073" data-name="ASCII lowercase s">
+              <i>s</i>
+              <code>U+0073</code>
+              <span>ASCII lowercase s</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0074" data-name="ASCII lowercase t">
+              <i>t</i>
+              <code>U+0074</code>
+              <span>ASCII lowercase t</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0075" data-name="ASCII lowercase u">
+              <i>u</i>
+              <code>U+0075</code>
+              <span>ASCII lowercase u</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0076" data-name="ASCII lowercase v">
+              <i>v</i>
+              <code>U+0076</code>
+              <span>ASCII lowercase v</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0077" data-name="ASCII lowercase w">
+              <i>w</i>
+              <code>U+0077</code>
+              <span>ASCII lowercase w</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0078" data-name="ASCII lowercase x">
+              <i>x</i>
+              <code>U+0078</code>
+              <span>ASCII lowercase x</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+0079" data-name="ASCII lowercase y">
+              <i>y</i>
+              <code>U+0079</code>
+              <span>ASCII lowercase y</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+007A" data-name="ASCII lowercase z">
+              <i>z</i>
+              <code>U+007A</code>
+              <span>ASCII lowercase z</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+007B" data-name="ASCII {">
+              <i>{</i>
+              <code>U+007B</code>
+              <span>ASCII {</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+007C" data-name="ASCII |">
+              <i>|</i>
+              <code>U+007C</code>
+              <span>ASCII |</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+007D" data-name="ASCII }">
+              <i>}</i>
+              <code>U+007D</code>
+              <span>ASCII }</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="alphabet" data-code="U+007E" data-name="ASCII ~">
+              <i>~</i>
+              <code>U+007E</code>
+              <span>ASCII ~</span>
+            </div>
+          
+        </section>
+      
+        <section class="glyphsection" id="icon">
+          <h2>icon</h2>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2194" data-name="exchange">
+              <i>↔</i>
+              <code>U+2194</code>
+              <span>exchange</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2195" data-name="reverse">
+              <i>↕</i>
+              <code>U+2195</code>
+              <span>reverse</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2316" data-name="pin">
+              <i>⌖</i>
+              <code>U+2316</code>
+              <span>pin</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24F5" data-name="1">
+              <i>⓵</i>
+              <code>U+24F5</code>
+              <span>1</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24F6" data-name="2">
+              <i>⓶</i>
+              <code>U+24F6</code>
+              <span>2</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24F7" data-name="3">
+              <i>⓷</i>
+              <code>U+24F7</code>
+              <span>3</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24F8" data-name="4">
+              <i>⓸</i>
+              <code>U+24F8</code>
+              <span>4</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24F9" data-name="5">
+              <i>⓹</i>
+              <code>U+24F9</code>
+              <span>5</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24FA" data-name="6">
+              <i>⓺</i>
+              <code>U+24FA</code>
+              <span>6</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24FB" data-name="7">
+              <i>⓻</i>
+              <code>U+24FB</code>
+              <span>7</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24FC" data-name="8">
+              <i>⓼</i>
+              <code>U+24FC</code>
+              <span>8</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24FD" data-name="9">
+              <i>⓽</i>
+              <code>U+24FD</code>
+              <span>9</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+24FF" data-name="0">
+              <i>⓿</i>
+              <code>U+24FF</code>
+              <span>0</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2605" data-name="star">
+              <i>★</i>
+              <code>U+2605</code>
+              <span>star</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2620" data-name="skull">
+              <i>☠</i>
+              <code>U+2620</code>
+              <span>skull</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2639" data-name="frown">
+              <i>☹</i>
+              <code>U+2639</code>
+              <span>frown</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+263A" data-name="smile">
+              <i>☺</i>
+              <code>U+263A</code>
+              <span>smile</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2661" data-name="empty heart">
+              <i>♡</i>
+              <code>U+2661</code>
+              <span>empty heart</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2665" data-name="heart">
+              <i>♥</i>
+              <code>U+2665</code>
+              <span>heart</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2673" data-name="D4">
+              <i>♳</i>
+              <code>U+2673</code>
+              <span>D4</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2674" data-name="D6">
+              <i>♴</i>
+              <code>U+2674</code>
+              <span>D6</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2675" data-name="D8">
+              <i>♵</i>
+              <code>U+2675</code>
+              <span>D8</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2676" data-name="D10">
+              <i>♶</i>
+              <code>U+2676</code>
+              <span>D10</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2677" data-name="D12">
+              <i>♷</i>
+              <code>U+2677</code>
+              <span>D12</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2678" data-name="D20">
+              <i>♸</i>
+              <code>U+2678</code>
+              <span>D20</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2680" data-name="D6 1">
+              <i>⚀</i>
+              <code>U+2680</code>
+              <span>D6 1</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2681" data-name="D6 2">
+              <i>⚁</i>
+              <code>U+2681</code>
+              <span>D6 2</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2682" data-name="D6 3">
+              <i>⚂</i>
+              <code>U+2682</code>
+              <span>D6 3</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2683" data-name="D6 4">
+              <i>⚃</i>
+              <code>U+2683</code>
+              <span>D6 4</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2684" data-name="D6 5">
+              <i>⚄</i>
+              <code>U+2684</code>
+              <span>D6 5</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2685" data-name="D6 6">
+              <i>⚅</i>
+              <code>U+2685</code>
+              <span>D6 6</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2691" data-name="flag">
+              <i>⚑</i>
+              <code>U+2691</code>
+              <span>flag</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2699" data-name="Gears / Options / Settings">
+              <i>⚙</i>
+              <code>U+2699</code>
+              <span>Gears / Options / Settings</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2717" data-name="cross">
+              <i>✗</i>
+              <code>U+2717</code>
+              <span>cross</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2753" data-name="question">
+              <i>❓</i>
+              <code>U+2753</code>
+              <span>question</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2757" data-name="exclamation">
+              <i>❗</i>
+              <code>U+2757</code>
+              <span>exclamation</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+2B1B" data-name="Box / Crate">
+              <i>⬛</i>
+              <code>U+2B1B</code>
+              <span>Box / Crate</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F3A7" data-name="Headphones">
+              <i>🎧</i>
+              <code>U+1F3A7</code>
+              <span>Headphones</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F3B6" data-name="Music">
+              <i>🎶</i>
+              <code>U+1F3B6</code>
+              <span>Music</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F41F" data-name="fish">
+              <i>🐟</i>
+              <code>U+1F41F</code>
+              <span>fish</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F4BB" data-name="Laptop">
+              <i>💻</i>
+              <code>U+1F4BB</code>
+              <span>Laptop</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F4BE" data-name="diskette">
+              <i>💾</i>
+              <code>U+1F4BE</code>
+              <span>diskette</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F4DD" data-name="Write">
+              <i>📝</i>
+              <code>U+1F4DD</code>
+              <span>Write</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F4F1" data-name="Phone">
+              <i>📱</i>
+              <code>U+1F4F1</code>
+              <span>Phone</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F4F7" data-name="Camera">
+              <i>📷</i>
+              <code>U+1F4F7</code>
+              <span>Camera</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F508" data-name="Speaker">
+              <i>🔈</i>
+              <code>U+1F508</code>
+              <span>Speaker</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F56C" data-name="SFX / Sound Effect / Noise">
+              <i>🕬</i>
+              <code>U+1F56C</code>
+              <span>SFX / Sound Effect / Noise</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F579" data-name="Fight Stick / Joystick">
+              <i>🕹</i>
+              <code>U+1F579</code>
+              <span>Fight Stick / Joystick</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5A5" data-name="CPU / Processor">
+              <i>🖥</i>
+              <code>U+1F5A5</code>
+              <span>CPU / Processor</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5A7" data-name="Web / Internet / Link">
+              <i>🖧</i>
+              <code>U+1F5A7</code>
+              <span>Web / Internet / Link</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5A8" data-name="GPU / Graphics Card">
+              <i>🖨</i>
+              <code>U+1F5A8</code>
+              <span>GPU / Graphics Card</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5AA" data-name="RAM / Memory">
+              <i>🖪</i>
+              <code>U+1F5AA</code>
+              <span>RAM / Memory</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5AB" data-name="USB Stick">
+              <i>🖫</i>
+              <code>U+1F5AB</code>
+              <span>USB Stick</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5AC" data-name="Database">
+              <i>🖬</i>
+              <code>U+1F5AC</code>
+              <span>Database</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5B4" data-name="Hard Disk / Drive">
+              <i>🖴</i>
+              <code>U+1F5B4</code>
+              <span>Hard Disk / Drive</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5B5" data-name="Screen / Video">
+              <i>🖵</i>
+              <code>U+1F5B5</code>
+              <span>Screen / Video</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5B9" data-name="Text Entry / Edit">
+              <i>🖹</i>
+              <code>U+1F5B9</code>
+              <span>Text Entry / Edit</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5E3" data-name="Speaking Voice">
+              <i>🗣</i>
+              <code>U+1F5E3</code>
+              <span>Speaking Voice</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F5E9" data-name="Language">
+              <i>🗩</i>
+              <code>U+1F5E9</code>
+              <span>Language</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F6AA" data-name="Exit / Quit / Leave">
+              <i>🚪</i>
+              <code>U+1F6AA</code>
+              <span>Exit / Quit / Leave</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F6C8" data-name="Information">
+              <i>🛈</i>
+              <code>U+1F6C8</code>
+              <span>Information</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="icon" data-code="U+1F6D2" data-name="Shopping Cart">
+              <i>🛒</i>
+              <code>U+1F6D2</code>
+              <span>Shopping Cart</span>
+            </div>
+          
+        </section>
+      
+        <section class="glyphsection" id="gamepad">
+          <h2>gamepad</h2>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2196" data-name="Left Trigger (LT)">
+              <i>↖</i>
+              <code>U+2196</code>
+              <span>Left Trigger (LT)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2197" data-name="Right Trigger (RT)">
+              <i>↗</i>
+              <code>U+2197</code>
+              <span>Right Trigger (RT)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2198" data-name="Left Shoulder (LB)">
+              <i>↘</i>
+              <code>U+2198</code>
+              <span>Left Shoulder (LB)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2199" data-name="Right Shoulder (RB)">
+              <i>↙</i>
+              <code>U+2199</code>
+              <span>Right Shoulder (RB)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+219A" data-name="Left Trigger (ZL)">
+              <i>↚</i>
+              <code>U+219A</code>
+              <span>Left Trigger (ZL)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+219B" data-name="Right Trigger (ZR)">
+              <i>↛</i>
+              <code>U+219B</code>
+              <span>Right Trigger (ZR)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+219C" data-name="Left Shoulder (L)">
+              <i>↜</i>
+              <code>U+219C</code>
+              <span>Left Shoulder (L)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+219D" data-name="Right Shoulder (R)">
+              <i>↝</i>
+              <code>U+219D</code>
+              <span>Right Shoulder (R)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+219E" data-name="Dpad Left">
+              <i>↞</i>
+              <code>U+219E</code>
+              <span>Dpad Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+219F" data-name="Dpad Up">
+              <i>↟</i>
+              <code>U+219F</code>
+              <span>Dpad Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21A0" data-name="Dpad Right">
+              <i>↠</i>
+              <code>U+21A0</code>
+              <span>Dpad Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21A1" data-name="Dpad Down">
+              <i>↡</i>
+              <code>U+21A1</code>
+              <span>Dpad Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21A2" data-name="Dpad Left/Right">
+              <i>↢</i>
+              <code>U+21A2</code>
+              <span>Dpad Left/Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21A3" data-name="Dpad Up/Down">
+              <i>↣</i>
+              <code>U+21A3</code>
+              <span>Dpad Up/Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21A4" data-name="Button Left (X)">
+              <i>↤</i>
+              <code>U+21A4</code>
+              <span>Button Left (X)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21A5" data-name="Button Up (Y)">
+              <i>↥</i>
+              <code>U+21A5</code>
+              <span>Button Up (Y)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21A6" data-name="Button Right (B)">
+              <i>↦</i>
+              <code>U+21A6</code>
+              <span>Button Right (B)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21A7" data-name="Button Down (A)">
+              <i>↧</i>
+              <code>U+21A7</code>
+              <span>Button Down (A)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21A9" data-name="Left Analog Clockwise">
+              <i>↩</i>
+              <code>U+21A9</code>
+              <span>Left Analog Clockwise</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21AA" data-name="Left Analog Counter">
+              <i>↪</i>
+              <code>U+21AA</code>
+              <span>Left Analog Counter</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21AB" data-name="Right Analog Clockwise">
+              <i>↫</i>
+              <code>U+21AB</code>
+              <span>Right Analog Clockwise</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21AC" data-name="Right Analog Counter">
+              <i>↬</i>
+              <code>U+21AC</code>
+              <span>Right Analog Counter</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21AD" data-name="Both Analog Clockwise">
+              <i>↭</i>
+              <code>U+21AD</code>
+              <span>Both Analog Clockwise</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21AE" data-name="Both Analog Counter">
+              <i>↮</i>
+              <code>U+21AE</code>
+              <span>Both Analog Counter</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21B0" data-name="Left Shoulder (L1)">
+              <i>↰</i>
+              <code>U+21B0</code>
+              <span>Left Shoulder (L1)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21B1" data-name="Right Shoulder (R1)">
+              <i>↱</i>
+              <code>U+21B1</code>
+              <span>Right Shoulder (R1)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21B2" data-name="Left Trigger (L2)">
+              <i>↲</i>
+              <code>U+21B2</code>
+              <span>Left Trigger (L2)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21B3" data-name="Right Trigger (R2)">
+              <i>↳</i>
+              <code>U+21B3</code>
+              <span>Right Trigger (R2)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21B4" data-name="Dpad Left/Down">
+              <i>↴</i>
+              <code>U+21B4</code>
+              <span>Dpad Left/Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21B5" data-name="Dpad Up/Right">
+              <i>↵</i>
+              <code>U+21B5</code>
+              <span>Dpad Up/Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21B6" data-name="Analog Clockwise">
+              <i>↶</i>
+              <code>U+21B6</code>
+              <span>Analog Clockwise</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21B7" data-name="Analog Counter">
+              <i>↷</i>
+              <code>U+21B7</code>
+              <span>Analog Counter</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21B9" data-name="Both Analog Click">
+              <i>↹</i>
+              <code>U+21B9</code>
+              <span>Both Analog Click</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21BA" data-name="Left Analog Click">
+              <i>↺</i>
+              <code>U+21BA</code>
+              <span>Left Analog Click</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21BB" data-name="Right Analog Click">
+              <i>↻</i>
+              <code>U+21BB</code>
+              <span>Right Analog Click</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21BC" data-name="Left Analog Left">
+              <i>↼</i>
+              <code>U+21BC</code>
+              <span>Left Analog Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21BD" data-name="Right Analog Left">
+              <i>↽</i>
+              <code>U+21BD</code>
+              <span>Right Analog Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21BE" data-name="Left Analog Up">
+              <i>↾</i>
+              <code>U+21BE</code>
+              <span>Left Analog Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21BF" data-name="Right Analog Up">
+              <i>↿</i>
+              <code>U+21BF</code>
+              <span>Right Analog Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C0" data-name="Left Analog Right">
+              <i>⇀</i>
+              <code>U+21C0</code>
+              <span>Left Analog Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C1" data-name="Right Analog Right">
+              <i>⇁</i>
+              <code>U+21C1</code>
+              <span>Right Analog Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C2" data-name="Left Analog Down">
+              <i>⇂</i>
+              <code>U+21C2</code>
+              <span>Left Analog Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C3" data-name="Right Analog Down">
+              <i>⇃</i>
+              <code>U+21C3</code>
+              <span>Right Analog Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C4" data-name="Left Analog Left/Right">
+              <i>⇄</i>
+              <code>U+21C4</code>
+              <span>Left Analog Left/Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C5" data-name="Left Analog Up/Down">
+              <i>⇅</i>
+              <code>U+21C5</code>
+              <span>Left Analog Up/Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C6" data-name="Right Analog Left/Right">
+              <i>⇆</i>
+              <code>U+21C6</code>
+              <span>Right Analog Left/Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C7" data-name="Analog Left">
+              <i>⇇</i>
+              <code>U+21C7</code>
+              <span>Analog Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C8" data-name="Analog Up">
+              <i>⇈</i>
+              <code>U+21C8</code>
+              <span>Analog Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21C9" data-name="Analog Right">
+              <i>⇉</i>
+              <code>U+21C9</code>
+              <span>Analog Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21CA" data-name="Analog Down">
+              <i>⇊</i>
+              <code>U+21CA</code>
+              <span>Analog Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21CB" data-name="Left Analog">
+              <i>⇋</i>
+              <code>U+21CB</code>
+              <span>Left Analog</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21CC" data-name="Right Analog">
+              <i>⇌</i>
+              <code>U+21CC</code>
+              <span>Right Analog</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21CE" data-name="Dpad">
+              <i>⇎</i>
+              <code>U+21CE</code>
+              <span>Dpad</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D0" data-name="Button X">
+              <i>⇐</i>
+              <code>U+21D0</code>
+              <span>Button X</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D1" data-name="Button Y">
+              <i>⇑</i>
+              <code>U+21D1</code>
+              <span>Button Y</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D2" data-name="Button B">
+              <i>⇒</i>
+              <code>U+21D2</code>
+              <span>Button B</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D3" data-name="Button A">
+              <i>⇓</i>
+              <code>U+21D3</code>
+              <span>Button A</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D4" data-name="Analog Left/Right">
+              <i>⇔</i>
+              <code>U+21D4</code>
+              <span>Analog Left/Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D5" data-name="Analog Up/Down">
+              <i>⇕</i>
+              <code>U+21D5</code>
+              <span>Analog Up/Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D6" data-name="Analog Up Left">
+              <i>⇖</i>
+              <code>U+21D6</code>
+              <span>Analog Up Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D7" data-name="Analog Up Right">
+              <i>⇗</i>
+              <code>U+21D7</code>
+              <span>Analog Up Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D8" data-name="Analog Down Right">
+              <i>⇘</i>
+              <code>U+21D8</code>
+              <span>Analog Down Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21D9" data-name="Analog Down Left">
+              <i>⇙</i>
+              <code>U+21D9</code>
+              <span>Analog Down Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21DA" data-name="Left Analog Touch">
+              <i>⇚</i>
+              <code>U+21DA</code>
+              <span>Left Analog Touch</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21DB" data-name="Right Analog Touch">
+              <i>⇛</i>
+              <code>U+21DB</code>
+              <span>Right Analog Touch</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21DC" data-name="Left Trigger Pull">
+              <i>⇜</i>
+              <code>U+21DC</code>
+              <span>Left Trigger Pull</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21DD" data-name="Right Trigger Pull">
+              <i>⇝</i>
+              <code>U+21DD</code>
+              <span>Right Trigger Pull</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E0" data-name="Button Square">
+              <i>⇠</i>
+              <code>U+21E0</code>
+              <span>Button Square</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E1" data-name="Button Triangle">
+              <i>⇡</i>
+              <code>U+21E1</code>
+              <span>Button Triangle</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E2" data-name="Button Circle">
+              <i>⇢</i>
+              <code>U+21E2</code>
+              <span>Button Circle</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E3" data-name="Button Cross">
+              <i>⇣</i>
+              <code>U+21E3</code>
+              <span>Button Cross</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E4" data-name="Steam Menu">
+              <i>⇤</i>
+              <code>U+21E4</code>
+              <span>Steam Menu</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E5" data-name="Options Menu">
+              <i>⇥</i>
+              <code>U+21E5</code>
+              <span>Options Menu</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E6" data-name="DualShock Share">
+              <i>⇦</i>
+              <code>U+21E6</code>
+              <span>DualShock Share</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E7" data-name="DualShock Touchpad">
+              <i>⇧</i>
+              <code>U+21E7</code>
+              <span>DualShock Touchpad</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E8" data-name="DualShock Options">
+              <i>⇨</i>
+              <code>U+21E8</code>
+              <span>DualShock Options</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21E9" data-name="Gamecube Z">
+              <i>⇩</i>
+              <code>U+21E9</code>
+              <span>Gamecube Z</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21EA" data-name="Back Trigger (Z)">
+              <i>⇪</i>
+              <code>U+21EA</code>
+              <span>Back Trigger (Z)</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21EB" data-name="Button C">
+              <i>⇫</i>
+              <code>U+21EB</code>
+              <span>Button C</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21EC" data-name="Button Z">
+              <i>⇬</i>
+              <code>U+21EC</code>
+              <span>Button Z</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21ED" data-name="Button Alt 1">
+              <i>⇭</i>
+              <code>U+21ED</code>
+              <span>Button Alt 1</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21EE" data-name="Button Alt 2">
+              <i>⇮</i>
+              <code>U+21EE</code>
+              <span>Button Alt 2</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21F1" data-name="Left Analog Any">
+              <i>⇱</i>
+              <code>U+21F1</code>
+              <span>Left Analog Any</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21F2" data-name="Right Analog Any">
+              <i>⇲</i>
+              <code>U+21F2</code>
+              <span>Right Analog Any</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21F3" data-name="Analog Any">
+              <i>⇳</i>
+              <code>U+21F3</code>
+              <span>Analog Any</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21F5" data-name="Right Analog Up/Down">
+              <i>⇵</i>
+              <code>U+21F5</code>
+              <span>Right Analog Up/Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21F7" data-name="Select/Share">
+              <i>⇷</i>
+              <code>U+21F7</code>
+              <span>Select/Share</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21F8" data-name="Start">
+              <i>⇸</i>
+              <code>U+21F8</code>
+              <span>Start</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21F9" data-name="Home/Menu">
+              <i>⇹</i>
+              <code>U+21F9</code>
+              <span>Home/Menu</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21FA" data-name="Share/Capture">
+              <i>⇺</i>
+              <code>U+21FA</code>
+              <span>Share/Capture</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21FB" data-name="Burger Menu">
+              <i>⇻</i>
+              <code>U+21FB</code>
+              <span>Burger Menu</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21FD" data-name="Minus">
+              <i>⇽</i>
+              <code>U+21FD</code>
+              <span>Minus</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21FE" data-name="Plus">
+              <i>⇾</i>
+              <code>U+21FE</code>
+              <span>Plus</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+21FF" data-name="Joycon Dpad Left">
+              <i>⇿</i>
+              <code>U+21FF</code>
+              <span>Joycon Dpad Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2200" data-name="Joycon Dpad Up">
+              <i>∀</i>
+              <code>U+2200</code>
+              <span>Joycon Dpad Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2201" data-name="Joycon Dpad Right">
+              <i>∁</i>
+              <code>U+2201</code>
+              <span>Joycon Dpad Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2202" data-name="Joycon Dpad Down">
+              <i>∂</i>
+              <code>U+2202</code>
+              <span>Joycon Dpad Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2203" data-name="Joycon SL">
+              <i>∃</i>
+              <code>U+2203</code>
+              <span>Joycon SL</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2204" data-name="Joycon SR">
+              <i>∄</i>
+              <code>U+2204</code>
+              <span>Joycon SR</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2205" data-name="Lenovo Legion Quick Settings">
+              <i>∅</i>
+              <code>U+2205</code>
+              <span>Lenovo Legion Quick Settings</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2206" data-name="DualSense Share">
+              <i>∆</i>
+              <code>U+2206</code>
+              <span>DualSense Share</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2207" data-name="DualSense Touchpad">
+              <i>∇</i>
+              <code>U+2207</code>
+              <span>DualSense Touchpad</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2208" data-name="DualSense Options">
+              <i>∈</i>
+              <code>U+2208</code>
+              <span>DualSense Options</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2209" data-name="Ayaneo LC">
+              <i>∉</i>
+              <code>U+2209</code>
+              <span>Ayaneo LC</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+220A" data-name="Ayaneo RC">
+              <i>∊</i>
+              <code>U+220A</code>
+              <span>Ayaneo RC</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+220B" data-name="Ayaneo Wave">
+              <i>∋</i>
+              <code>U+220B</code>
+              <span>Ayaneo Wave</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+220C" data-name="AYN Home">
+              <i>∌</i>
+              <code>U+220C</code>
+              <span>AYN Home</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+220D" data-name="AYN LCC">
+              <i>∍</i>
+              <code>U+220D</code>
+              <span>AYN LCC</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+220E" data-name="GPD C1">
+              <i>∎</i>
+              <code>U+220E</code>
+              <span>GPD C1</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+220F" data-name="GPD C2">
+              <i>∏</i>
+              <code>U+220F</code>
+              <span>GPD C2</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2210" data-name="Onexplayer Keyboard">
+              <i>∐</i>
+              <code>U+2210</code>
+              <span>Onexplayer Keyboard</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2211" data-name="Onexplayer Turbo">
+              <i>∑</i>
+              <code>U+2211</code>
+              <span>Onexplayer Turbo</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2212" data-name="Rog Ally M1">
+              <i>−</i>
+              <code>U+2212</code>
+              <span>Rog Ally M1</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2213" data-name="Rog Ally M2">
+              <i>∓</i>
+              <code>U+2213</code>
+              <span>Rog Ally M2</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2264" data-name="Left Trackpad Any">
+              <i>≤</i>
+              <code>U+2264</code>
+              <span>Left Trackpad Any</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2265" data-name="Right Trackpad Any">
+              <i>≥</i>
+              <code>U+2265</code>
+              <span>Right Trackpad Any</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2266" data-name="Left Trackpad Click">
+              <i>≦</i>
+              <code>U+2266</code>
+              <span>Left Trackpad Click</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2267" data-name="Right Trackpad Click">
+              <i>≧</i>
+              <code>U+2267</code>
+              <span>Right Trackpad Click</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2268" data-name="Left Trackpad Touch">
+              <i>≨</i>
+              <code>U+2268</code>
+              <span>Left Trackpad Touch</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2269" data-name="Right Trackpad Touch">
+              <i>≩</i>
+              <code>U+2269</code>
+              <span>Right Trackpad Touch</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+226E" data-name="Left Trackpad Left">
+              <i>≮</i>
+              <code>U+226E</code>
+              <span>Left Trackpad Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+226F" data-name="Right Trackpad Left">
+              <i>≯</i>
+              <code>U+226F</code>
+              <span>Right Trackpad Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2270" data-name="Left Trackpad Up">
+              <i>≰</i>
+              <code>U+2270</code>
+              <span>Left Trackpad Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2271" data-name="Right Trackpad Up">
+              <i>≱</i>
+              <code>U+2271</code>
+              <span>Right Trackpad Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2272" data-name="Left Trackpad Right">
+              <i>≲</i>
+              <code>U+2272</code>
+              <span>Left Trackpad Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2273" data-name="Right Trackpad Right">
+              <i>≳</i>
+              <code>U+2273</code>
+              <span>Right Trackpad Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2274" data-name="Left Trackpad Down">
+              <i>≴</i>
+              <code>U+2274</code>
+              <span>Left Trackpad Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2275" data-name="Right Trackpad Down">
+              <i>≵</i>
+              <code>U+2275</code>
+              <span>Right Trackpad Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2276" data-name="SteamDeck L4">
+              <i>≶</i>
+              <code>U+2276</code>
+              <span>SteamDeck L4</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2277" data-name="SteamDeck R4">
+              <i>≷</i>
+              <code>U+2277</code>
+              <span>SteamDeck R4</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2278" data-name="SteamDeck L5">
+              <i>≸</i>
+              <code>U+2278</code>
+              <span>SteamDeck L5</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2279" data-name="SteamDeck R5">
+              <i>≹</i>
+              <code>U+2279</code>
+              <span>SteamDeck R5</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+227A" data-name="Xbox Dpad Left">
+              <i>≺</i>
+              <code>U+227A</code>
+              <span>Xbox Dpad Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+227B" data-name="Xbox Dpad Up">
+              <i>≻</i>
+              <code>U+227B</code>
+              <span>Xbox Dpad Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+227C" data-name="Xbox Dpad Right">
+              <i>≼</i>
+              <code>U+227C</code>
+              <span>Xbox Dpad Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+227D" data-name="Xbox Dpad Down">
+              <i>≽</i>
+              <code>U+227D</code>
+              <span>Xbox Dpad Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+227E" data-name="Xbox Dpad Left Right">
+              <i>≾</i>
+              <code>U+227E</code>
+              <span>Xbox Dpad Left Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+227F" data-name="Xbox Dpad Up Down">
+              <i>≿</i>
+              <code>U+227F</code>
+              <span>Xbox Dpad Up Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2280" data-name="Xbox Dpad Left Up">
+              <i>⊀</i>
+              <code>U+2280</code>
+              <span>Xbox Dpad Left Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2281" data-name="Xbox Dpad Right Up">
+              <i>⊁</i>
+              <code>U+2281</code>
+              <span>Xbox Dpad Right Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2282" data-name="Xbox Dpad Left Down">
+              <i>⊂</i>
+              <code>U+2282</code>
+              <span>Xbox Dpad Left Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2283" data-name="Xbox Dpad Right Down">
+              <i>⊃</i>
+              <code>U+2283</code>
+              <span>Xbox Dpad Right Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+2284" data-name="Xbox Dpad">
+              <i>⊄</i>
+              <code>U+2284</code>
+              <span>Xbox Dpad</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+E005" data-name="Rog Ally Armoury">
+              <i></i>
+              <code>U+E005</code>
+              <span>Rog Ally Armoury</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="gamepad" data-code="U+E006" data-name="Rog Alloy Command">
+              <i></i>
+              <code>U+E006</code>
+              <span>Rog Alloy Command</span>
+            </div>
+          
+        </section>
+      
+        <section class="glyphsection" id="android">
+          <h2>android</h2>
+          
+            <div class="glyph" title="Click to copy" data-category="android" data-code="U+23CD" data-name="Tabs">
+              <i>⏍</i>
+              <code>U+23CD</code>
+              <span>Tabs</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="android" data-code="U+23CE" data-name="Back">
+              <i>⏎</i>
+              <code>U+23CE</code>
+              <span>Back</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="android" data-code="U+23CF" data-name="Home Screen">
+              <i>⏏</i>
+              <code>U+23CF</code>
+              <span>Home Screen</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="android" data-code="U+23D0" data-name="Horizontal Dots">
+              <i>⏐</i>
+              <code>U+23D0</code>
+              <span>Horizontal Dots</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="android" data-code="U+23D1" data-name="Vertical Dots">
+              <i>⏑</i>
+              <code>U+23D1</code>
+              <span>Vertical Dots</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="android" data-code="U+23D2" data-name="Hamburger Menu">
+              <i>⏒</i>
+              <code>U+23D2</code>
+              <span>Hamburger Menu</span>
+            </div>
+          
+        </section>
+      
+        <section class="glyphsection" id="keyboard">
+          <h2>keyboard</h2>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+23F4" data-name="Arrow Left">
+              <i>⏴</i>
+              <code>U+23F4</code>
+              <span>Arrow Left</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+23F5" data-name="Arrow Up">
+              <i>⏵</i>
+              <code>U+23F5</code>
+              <span>Arrow Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+23F6" data-name="Arrow Right">
+              <i>⏶</i>
+              <code>U+23F6</code>
+              <span>Arrow Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+23F7" data-name="Arrow Down">
+              <i>⏷</i>
+              <code>U+23F7</code>
+              <span>Arrow Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2423" data-name="WASD">
+              <i>␣</i>
+              <code>U+2423</code>
+              <span>WASD</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2424" data-name="Arrow Keys">
+              <i>␤</i>
+              <code>U+2424</code>
+              <span>Arrow Keys</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2425" data-name="IJKL">
+              <i>␥</i>
+              <code>U+2425</code>
+              <span>IJKL</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2426" data-name="Fn">
+              <i>␦</i>
+              <code>U+2426</code>
+              <span>Fn</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2427" data-name="Ctrl">
+              <i>␧</i>
+              <code>U+2427</code>
+              <span>Ctrl</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2428" data-name="Alt">
+              <i>␨</i>
+              <code>U+2428</code>
+              <span>Alt</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2429" data-name="Shift">
+              <i>␩</i>
+              <code>U+2429</code>
+              <span>Shift</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+242A" data-name="Super">
+              <i>␪</i>
+              <code>U+242A</code>
+              <span>Super</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+242B" data-name="Tab">
+              <i>␫</i>
+              <code>U+242B</code>
+              <span>Tab</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+242C" data-name="Caps">
+              <i>␬</i>
+              <code>U+242C</code>
+              <span>Caps</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+242D" data-name="Backspace">
+              <i>␭</i>
+              <code>U+242D</code>
+              <span>Backspace</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+242E" data-name="Enter">
+              <i>␮</i>
+              <code>U+242E</code>
+              <span>Enter</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+242F" data-name="Esc">
+              <i>␯</i>
+              <code>U+242F</code>
+              <span>Esc</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2430" data-name="PrtSc">
+              <i>␰</i>
+              <code>U+2430</code>
+              <span>PrtSc</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2431" data-name="ScrLk">
+              <i>␱</i>
+              <code>U+2431</code>
+              <span>ScrLk</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2432" data-name="Pause">
+              <i>␲</i>
+              <code>U+2432</code>
+              <span>Pause</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2433" data-name="NumLock">
+              <i>␳</i>
+              <code>U+2433</code>
+              <span>NumLock</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2434" data-name="Insert">
+              <i>␴</i>
+              <code>U+2434</code>
+              <span>Insert</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2435" data-name="Home">
+              <i>␵</i>
+              <code>U+2435</code>
+              <span>Home</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2436" data-name="Page Up">
+              <i>␶</i>
+              <code>U+2436</code>
+              <span>Page Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2437" data-name="Delete">
+              <i>␷</i>
+              <code>U+2437</code>
+              <span>Delete</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2438" data-name="End">
+              <i>␸</i>
+              <code>U+2438</code>
+              <span>End</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2439" data-name="Page Down">
+              <i>␹</i>
+              <code>U+2439</code>
+              <span>Page Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+243A" data-name="Space">
+              <i>␺</i>
+              <code>U+243A</code>
+              <span>Space</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2460" data-name="F1">
+              <i>①</i>
+              <code>U+2460</code>
+              <span>F1</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2461" data-name="F2">
+              <i>②</i>
+              <code>U+2461</code>
+              <span>F2</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2462" data-name="F3">
+              <i>③</i>
+              <code>U+2462</code>
+              <span>F3</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2463" data-name="F4">
+              <i>④</i>
+              <code>U+2463</code>
+              <span>F4</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2464" data-name="F5">
+              <i>⑤</i>
+              <code>U+2464</code>
+              <span>F5</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2465" data-name="F6">
+              <i>⑥</i>
+              <code>U+2465</code>
+              <span>F6</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2466" data-name="F7">
+              <i>⑦</i>
+              <code>U+2466</code>
+              <span>F7</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2467" data-name="F8">
+              <i>⑧</i>
+              <code>U+2467</code>
+              <span>F8</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2468" data-name="F9">
+              <i>⑨</i>
+              <code>U+2468</code>
+              <span>F9</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+2469" data-name="F10">
+              <i>⑩</i>
+              <code>U+2469</code>
+              <span>F10</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+246A" data-name="F11">
+              <i>⑪</i>
+              <code>U+246A</code>
+              <span>F11</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+246B" data-name="F12">
+              <i>⑫</i>
+              <code>U+246B</code>
+              <span>F12</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+248F" data-name="Empty Keycap">
+              <i>⒏</i>
+              <code>U+248F</code>
+              <span>Empty Keycap</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF10" data-name="Key 0">
+              <i>０</i>
+              <code>U+FF10</code>
+              <span>Key 0</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF11" data-name="Key 1">
+              <i>１</i>
+              <code>U+FF11</code>
+              <span>Key 1</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF12" data-name="Key 2">
+              <i>２</i>
+              <code>U+FF12</code>
+              <span>Key 2</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF13" data-name="Key 3">
+              <i>３</i>
+              <code>U+FF13</code>
+              <span>Key 3</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF14" data-name="Key 4">
+              <i>４</i>
+              <code>U+FF14</code>
+              <span>Key 4</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF15" data-name="Key 5">
+              <i>５</i>
+              <code>U+FF15</code>
+              <span>Key 5</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF16" data-name="Key 6">
+              <i>６</i>
+              <code>U+FF16</code>
+              <span>Key 6</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF17" data-name="Key 7">
+              <i>７</i>
+              <code>U+FF17</code>
+              <span>Key 7</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF18" data-name="Key 8">
+              <i>８</i>
+              <code>U+FF18</code>
+              <span>Key 8</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF19" data-name="Key 9">
+              <i>９</i>
+              <code>U+FF19</code>
+              <span>Key 9</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF21" data-name="Key A">
+              <i>Ａ</i>
+              <code>U+FF21</code>
+              <span>Key A</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF22" data-name="Key B">
+              <i>Ｂ</i>
+              <code>U+FF22</code>
+              <span>Key B</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF23" data-name="Key C">
+              <i>Ｃ</i>
+              <code>U+FF23</code>
+              <span>Key C</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF24" data-name="Key D">
+              <i>Ｄ</i>
+              <code>U+FF24</code>
+              <span>Key D</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF25" data-name="Key E">
+              <i>Ｅ</i>
+              <code>U+FF25</code>
+              <span>Key E</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF26" data-name="Key F">
+              <i>Ｆ</i>
+              <code>U+FF26</code>
+              <span>Key F</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF27" data-name="Key G">
+              <i>Ｇ</i>
+              <code>U+FF27</code>
+              <span>Key G</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF28" data-name="Key H">
+              <i>Ｈ</i>
+              <code>U+FF28</code>
+              <span>Key H</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF29" data-name="Key I">
+              <i>Ｉ</i>
+              <code>U+FF29</code>
+              <span>Key I</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF2A" data-name="Key J">
+              <i>Ｊ</i>
+              <code>U+FF2A</code>
+              <span>Key J</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF2B" data-name="Key K">
+              <i>Ｋ</i>
+              <code>U+FF2B</code>
+              <span>Key K</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF2C" data-name="Key L">
+              <i>Ｌ</i>
+              <code>U+FF2C</code>
+              <span>Key L</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF2D" data-name="Key M">
+              <i>Ｍ</i>
+              <code>U+FF2D</code>
+              <span>Key M</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF2E" data-name="Key N">
+              <i>Ｎ</i>
+              <code>U+FF2E</code>
+              <span>Key N</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF2F" data-name="Key O">
+              <i>Ｏ</i>
+              <code>U+FF2F</code>
+              <span>Key O</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF30" data-name="Key P">
+              <i>Ｐ</i>
+              <code>U+FF30</code>
+              <span>Key P</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF31" data-name="Key Q">
+              <i>Ｑ</i>
+              <code>U+FF31</code>
+              <span>Key Q</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF32" data-name="Key R">
+              <i>Ｒ</i>
+              <code>U+FF32</code>
+              <span>Key R</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF33" data-name="Key S">
+              <i>Ｓ</i>
+              <code>U+FF33</code>
+              <span>Key S</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF34" data-name="Key T">
+              <i>Ｔ</i>
+              <code>U+FF34</code>
+              <span>Key T</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF35" data-name="Key U">
+              <i>Ｕ</i>
+              <code>U+FF35</code>
+              <span>Key U</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF36" data-name="Key V">
+              <i>Ｖ</i>
+              <code>U+FF36</code>
+              <span>Key V</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF37" data-name="Key W">
+              <i>Ｗ</i>
+              <code>U+FF37</code>
+              <span>Key W</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF38" data-name="Key X">
+              <i>Ｘ</i>
+              <code>U+FF38</code>
+              <span>Key X</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF39" data-name="Key Y">
+              <i>Ｙ</i>
+              <code>U+FF39</code>
+              <span>Key Y</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="keyboard" data-code="U+FF3A" data-name="Key Z">
+              <i>Ｚ</i>
+              <code>U+FF3A</code>
+              <span>Key Z</span>
+            </div>
+          
+        </section>
+      
+        <section class="glyphsection" id="device">
+          <h2>device</h2>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+243C" data-name="Gamepad">
+              <i>␼</i>
+              <code>U+243C</code>
+              <span>Gamepad</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+243D" data-name="Keyboard">
+              <i>␽</i>
+              <code>U+243D</code>
+              <span>Keyboard</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+243E" data-name="Mouse">
+              <i>␾</i>
+              <code>U+243E</code>
+              <span>Mouse</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+243F" data-name="Mouse and Keyboard">
+              <i>␿</i>
+              <code>U+243F</code>
+              <span>Mouse and Keyboard</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+1F483" data-name="Dance Pad">
+              <i>💃</i>
+              <code>U+1F483</code>
+              <span>Dance Pad</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+1F52B" data-name="Light Gun">
+              <i>🔫</i>
+              <code>U+1F52B</code>
+              <span>Light Gun</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+1F578" data-name="Steering Wheel">
+              <i>🕸</i>
+              <code>U+1F578</code>
+              <span>Steering Wheel</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+1F57B" data-name="VR Headset">
+              <i>🕻</i>
+              <code>U+1F57B</code>
+              <span>VR Headset</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+1F57C" data-name="VR Controller">
+              <i>🕼</i>
+              <code>U+1F57C</code>
+              <span>VR Controller</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="device" data-code="U+1F57D" data-name="Flight Stick">
+              <i>🕽</i>
+              <code>U+1F57D</code>
+              <span>Flight Stick</span>
+            </div>
+          
+        </section>
+      
+        <section class="glyphsection" id="mouse">
+          <h2>mouse</h2>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+278A" data-name="Mouse Button 1">
+              <i>➊</i>
+              <code>U+278A</code>
+              <span>Mouse Button 1</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+278B" data-name="Mouse Button 2">
+              <i>➋</i>
+              <code>U+278B</code>
+              <span>Mouse Button 2</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+278C" data-name="Mouse Button 3">
+              <i>➌</i>
+              <code>U+278C</code>
+              <span>Mouse Button 3</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+278D" data-name="Mouse Button 4">
+              <i>➍</i>
+              <code>U+278D</code>
+              <span>Mouse Button 4</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+278E" data-name="Mouse Button 5">
+              <i>➎</i>
+              <code>U+278E</code>
+              <span>Mouse Button 5</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+278F" data-name="Mouse Button 6">
+              <i>➏</i>
+              <code>U+278F</code>
+              <span>Mouse Button 6</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+2790" data-name="Mouse Button 7">
+              <i>➐</i>
+              <code>U+2790</code>
+              <span>Mouse Button 7</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+2791" data-name="Mouse Button 8">
+              <i>➑</i>
+              <code>U+2791</code>
+              <span>Mouse Button 8</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+27F0" data-name="Scroll Up">
+              <i>⟰</i>
+              <code>U+27F0</code>
+              <span>Scroll Up</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+27F1" data-name="Scroll Down">
+              <i>⟱</i>
+              <code>U+27F1</code>
+              <span>Scroll Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+27F5" data-name="Left Click">
+              <i>⟵</i>
+              <code>U+27F5</code>
+              <span>Left Click</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+27F6" data-name="Right Click">
+              <i>⟶</i>
+              <code>U+27F6</code>
+              <span>Right Click</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+27F7" data-name="Middle Click">
+              <i>⟷</i>
+              <code>U+27F7</code>
+              <span>Middle Click</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+27FA" data-name="Mouse Left/Right">
+              <i>⟺</i>
+              <code>U+27FA</code>
+              <span>Mouse Left/Right</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+27FB" data-name="Mouse Up/Down">
+              <i>⟻</i>
+              <code>U+27FB</code>
+              <span>Mouse Up/Down</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="mouse" data-code="U+27FC" data-name="Mouse Any">
+              <i>⟼</i>
+              <code>U+27FC</code>
+              <span>Mouse Any</span>
+            </div>
+          
+        </section>
+      
+        <section class="glyphsection" id="logo">
+          <h2>logo</h2>
+          
+            <div class="glyph" title="Click to copy" data-category="logo" data-code="U+E000" data-name="PlayStation">
+              <i></i>
+              <code>U+E000</code>
+              <span>PlayStation</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="logo" data-code="U+E001" data-name="Xbox">
+              <i></i>
+              <code>U+E001</code>
+              <span>Xbox</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="logo" data-code="U+E002" data-name="Nintendo Switch">
+              <i></i>
+              <code>U+E002</code>
+              <span>Nintendo Switch</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="logo" data-code="U+E003" data-name="Ayaneo">
+              <i></i>
+              <code>U+E003</code>
+              <span>Ayaneo</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="logo" data-code="U+E004" data-name="Lenovo Legion">
+              <i></i>
+              <code>U+E004</code>
+              <span>Lenovo Legion</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="logo" data-code="U+E007" data-name="Apple / Mac">
+              <i></i>
+              <code>U+E007</code>
+              <span>Apple / Mac</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="logo" data-code="U+E008" data-name="Windows">
+              <i></i>
+              <code>U+E008</code>
+              <span>Windows</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="logo" data-code="U+E009" data-name="Linux">
+              <i></i>
+              <code>U+E009</code>
+              <span>Linux</span>
+            </div>
+          
+            <div class="glyph" title="Click to copy" data-category="logo" data-code="U+E00A" data-name="BSD">
+              <i></i>
+              <code>U+E00A</code>
+              <span>BSD</span>
+            </div>
+          
+        </section>
+      
+    </main>
+    <footer>
+      Please consider supporting the continued development of this Font by supporting me on Patreon:
+
+      <a href="https://patreon.com/shinmera">
+        <img alt="Patreon" src="https://filebox.tymoon.eu//file/TWpjeU9RPT0=">
+      </a>
+    </footer>
+    <script type="text/javascript">
+      let notice = null;
+      
+      let clearNotice = ()=>{
+          if(notice){
+              clearTimeout(notice.timeout);
+              document.body.removeChild(notice.element);
+              notice = null;
+          }
+      }
+      
+      let showNotice = (html)=>{
+          clearNotice();
+          notice = {};
+          notice.element = document.createElement("div");
+          notice.element.setAttribute("class", "notice");
+          notice.element.innerHTML = html;
+          document.body.appendChild(notice.element);
+          notice.timeout = setTimeout(clearNotice, 2000);
+      };
+      
+      document.querySelectorAll(".glyph").forEach((element)=>element.addEventListener("click", (ev)=>{
+          let glyph = element.querySelector("i").innerText;
+          navigator.clipboard.writeText(glyph).then(
+              ()=>showNotice("<i>"+glyph+"</i> copied to clipboard!"),
+              ()=>showNotice("Failed to copy glyph to clipboard."));
+      }));
+
+      let match = (query, el)=>{
+          query = query.trim().toLowerCase();
+          if(query === "") return true;
+          let inner = el.innerText.toLowerCase();
+          for(let k in el.dataset){
+              inner += " "+k+":"+el.dataset[k].toLowerCase();
+          }
+          for(let part of query.split(/ +/)){
+              if(!inner.includes(part))
+                  return false;
+          }
+          return true;
+      };
+      
+      let search = document.querySelector("input[type=search]");
+      search.addEventListener("input", (ev)=>{
+          let query = search.value;
+          for(let glyph of document.querySelectorAll(".glyph")){
+              if(match(query, glyph))
+                  glyph.classList.remove("hidden");
+              else
+                  glyph.classList.add("hidden");
+          }
+          for(let section of document.querySelectorAll(".glyphsection")){
+              if(section.querySelector(".glyph:not(.hidden)") !== null)
+                  section.classList.remove("hidden");
+              else
+                  section.classList.add("hidden");
+          }
+          });
+    </script>
+  </body>
+</html>
