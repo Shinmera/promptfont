@@ -27,6 +27,7 @@
           font-family: sans-serif;
           font-size: 14pt;
           margin: 0;
+          overflow-y: scroll;
       }
       header {
           padding: 1em;
@@ -61,6 +62,9 @@
           width: 20em;
           display: block;
           margin: 0 auto;
+          padding: 0.2em 0.5em;
+          border: 1px solid #CCCCCC;
+          border-radius: 0.2em;
       }
       .glyphsection {
           display: flex;
@@ -126,13 +130,12 @@
       <h1>
         PromptFont
         <a class="button" href="https://github.com/Shinmera/promptfont/">GitHub</a>
-        <a class="button" href="PromptFont.otf">OpenType</a>
-        <a class="button" href="PromptFont.ttf">TrueType</a>
-        <a class="button" href="glyphs.json">Metadata JSON</a>
-        <a class="button" href="chars.txt">Character List</a>
+        <a class="button" href="https://github.com/Shinmera/promptfont/archive/refs/heads/gh-pages.zip">Download</a>
       </h1>
-      <p>This is a font designed for button prompts in games. It includes the base alphabet, as well as icons for modifier and control keys, and gamepad buttons.</p>
-      <p>PromptFont is based on the Xolonium font by Severin Meyer and licenced under the SIL Open Font Licence.</p>
+      <p>This is a font designed for button prompts in games. It includes the base alphabet, as well as icons for modifier and control keys, and gamepad buttons. All the icons included in the font are custom made and available under the same <a href="LICENSE.txt">SIL Open Font Licence</a>. Included trademarks however of course still belong to their respective owners.</p>
+      <p>If you use this font in your project please leave an attribution notice in your credits like this:
+        <blockquote>PromptFont by Yukari "Shinmera" Hafner, available at https://shinmera.com/promptfont</blockquote>
+      </p>
     </header>
     <main>
       <input class="search" type="search" placeholder="Search..." spellcheck="false" autofocus>
@@ -140,7 +143,7 @@
         <section class="glyphsection" lquery="(attr :id name)">
           <h2 lquery="(text name)"></h2>
           <c:splice iterate="glyphs">
-            <div class="glyph" lquery="(data :category category :tags tags :code code :name name)">
+            <div class="glyph" title="Click to copy" lquery="(data :category category :tags tags :code code :name name)">
               <i lquery='(html (code-char codepoint))'>&#x0021;</i>
               <code lquery='(text code)'>U+0021</code>
               <span lquery="(text name)">!</span>

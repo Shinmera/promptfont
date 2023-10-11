@@ -106,7 +106,7 @@ Commands:
 You typically do not need this utility as it is run automatically by
 the GitHub CI when you create a PR.
 
-https://github.com/shinmera/promptfont
+https://shinmera.com/promptfont
 "))
 
 (defun main ()
