@@ -4,31 +4,32 @@ on: [push, pull_request]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Install sbcl
+    - name: Setup
       run: |
-        sudo apt-get -qq update | true
+        git config --global user.name "CI"
+        git config --global user.email "shinmera@tymoon.eu"
         sudo apt-get -qq install sbcl curl
-    - name: Install Quicklisp
-      run: |
         curl -o ~/quicklisp.lisp https://beta.quicklisp.org/quicklisp.lisp
-        sbcl --load ~/quicklisp.lisp --eval '(quicklisp-quickstart:install)' --eval '(ql-util:without-prompting (ql:add-to-init-file))' --quit
-    - name: Rebuild the index
+        sbcl --load ~/quicklisp.lisp \
+             --eval '(quicklisp-quickstart:install)' \
+             --eval '(ql-util:without-prompting (ql:add-to-init-file))' \
+             --eval '(ql:quickload :shasht)' \
+             --eval '(ql:quickload :clip)' \
+             --quit
+    - uses: actions/checkout@v1
+    - name: Rebuild
       run: |
         ./compile.lisp
     - name: GH Pages deploy
       if: github.head_ref == null
       run: |
-        git config --global user.name "CI"
-        git config --global user.email "shinmera@tymoon.eu"
-        git clone --quiet --branch=gh-pages https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git ~/gh-pages
+        git clone -q --branch=gh-pages https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git ~/gh-pages
         cp $FILES ~/gh-pages/
         git -C ~/gh-pages add $FILES
         git -C ~/gh-pages commit -qm "CI index rebuild." || echo "Nothing to commit."
         git -C ~/gh-pages push -q origin gh-pages
       env:
-        FILES: index.html glyphs.json chars.txt PromptFont.ttf PromptFont.otf PromptFont.css
+        FILES: LICENSE.txt README.md index.html glyphs.json chars.txt PromptFont.ttf PromptFont.otf PromptFont.css
