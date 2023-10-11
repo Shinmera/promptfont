@@ -88,7 +88,7 @@ exec sbcl \
 
 (defun fonts (&optional (file (file "promptfont" "sfd")))
   (uiop:run-program (list "fontforge" "-c" "fnt = fontforge.open(argv[1])
-for file in argv[1:]:
+for file in argv[2:]:
   fnt.generate(file)"
                           (uiop:native-namestring file)
                           (uiop:native-namestring (make-pathname :type "ttf" :defaults file))
