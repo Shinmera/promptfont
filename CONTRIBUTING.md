@@ -19,9 +19,9 @@ Once you've added the glyphs, please open a pull request and we will handle impo
 # Allocating Glyphs
 If you want to actually allocate new glyphs into the font yourself, you'll need FontForge to import the SVG files and SBCL to fix up the json file and generate the ancillary files.
 
-1. Open the PromptFont.sfd file with FontForge
+1. Open the promptfont.sfd file with FontForge
 2. Find suitable spaces for your glyphs and import the SVGs. Preferably group the glyphs together with the existing ones, and for the generic icons use the appropriate Unicode codepoint if there is one
-3. Export the TrueType and OpenType font versions, save the SFD file
+3. Save the SFD file
 4. Update the `glyphs.json` file with your new entries. Add your new entries to the bottom of the file as follows:
    ```json
    {

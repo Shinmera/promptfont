@@ -16,7 +16,7 @@
     <style type="text/css">
       @font-face {
           font-family: 'promptfont';
-          src: url('PromptFont.ttf');
+          src: url('promptfont.ttf');
       }
       @keyframes fadeOut {
           0% { opacity: 1;}

@@ -1,4 +1,7 @@
 *.sfd-*
 index.html
 chars.txt
-PromptFont.css
+promptfont.css
+promptfont.ttf
+promptfont.otf
+promptfont.afm

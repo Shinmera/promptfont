@@ -57,9 +57,9 @@ exec sbcl \
                                  (process (char-name char)))))))
         (process name)))))
 
-(defun css (&optional (file (file "glyphs" "json")) (output (file "PromptFont" "css")))
+(defun css (&optional (file (file "glyphs" "json")) (output (file "promptfont" "css")))
   (with-open-file (stream output :direction :output :if-exists :supersede)
-    (format stream "~&@font-face{font-family:'promptfont'; src:url('PromptFont.ttf');}~%")
+    (format stream "~&@font-face{font-family:'promptfont'; src:url('promptfont.ttf');}~%")
     (format stream "~&.pf{font-family:promptfont;}~%")
     (loop for entry across (with-open-file (stream file)
                              (shasht:read-json stream))
@@ -86,8 +86,17 @@ exec sbcl \
     (with-open-file (stream file :direction :output :if-exists :supersede)
       (shasht:write-json data stream))))
 
+(defun fonts (&optional (file (file "promptfont" "sfd")))
+  (uiop:run-program (list "fontforge" "-c" "fnt = fontforge.open(argv[1])
+for file in argv[1:]:
+  fnt.generate(file)"
+                          (uiop:native-namestring file)
+                          (uiop:native-namestring (make-pathname :type "ttf" :defaults file))
+                          (uiop:native-namestring (make-pathname :type "otf" :defaults file)))))
+
 (defun all ()
   (fixup)
+  (fonts)
   (txt)
   (css)
   (web))
@@ -99,8 +108,9 @@ Commands:
   help   --- Show this help screen
   all    --- Performs all below commands. This is run by default
   fixup  --- Fixes up the glyphs.json file
+  fonts  --- Generates the promptfont.ttf and .otf files
   txt    --- Generates the chars.txt file
-  css    --- Generates the PromptFont.css file
+  css    --- Generates the promptfont.css file
   web    --- Generates the index.html file
 
 You typically do not need this utility as it is run automatically by
