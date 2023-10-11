@@ -29,18 +29,46 @@ exec sbcl \
           collect (list :name name
                         :glyphs (sort glyphs #'< :key (lambda (a) (getf a :codepoint)))))))
 
-(defun web (&key (input (file "index" "ctml")) (output (file "index" "html")))
+(defun web (&optional (input (file "index" "ctml")) (output (file "index" "html")))
   (let ((sections (parse-glyphs)))
     (with-open-file (stream output :direction :output :if-exists :supersede)
       (plump:serialize (clip:process input :sections sections) stream))))
 
-(defun txt (&key (file (file "glyphs" "json")) (output (file "chars" "txt")))
+(defun txt (&optional (file (file "glyphs" "json")) (output (file "chars" "txt")))
   (with-open-file (stream output :direction :output :if-exists :supersede)
     (loop for glyph across (with-open-file (stream file)
                              (shasht:read-json stream))
           do (write-string (gethash "character" glyph) stream))))
 
-(defun fixup (&optional (file (merge-pathnames "glyphs.json" *here*)))
+(defun css-safe-name (name)
+  (with-output-to-string (out)
+    (let ((was-dash T))
+      (labels ((process (name)
+                 (loop for char across name
+                       do (cond ((find char " -_/")
+                                 (unless was-dash
+                                   (write-char #\- out)
+                                   (setf was-dash T)))
+                                ((find char "()"))
+                                ((alphanumericp char)
+                                 (setf was-dash NIL)
+                                 (write-char (char-downcase char) out))
+                                (T
+                                 (process (char-name char)))))))
+        (process name)))))
+
+(defun css (&optional (file (file "glyphs" "json")) (output (file "PromptFont" "css")))
+  (with-open-file (stream output :direction :output :if-exists :supersede)
+    (format stream "~&@font-face{font-family:'promptfont'; src:url('PromptFont.ttf');}~%")
+    (format stream "~&.pf{font-family:promptfont;}~%")
+    (loop for entry across (with-open-file (stream file)
+                             (shasht:read-json stream))
+          unless (string= "alphabet" (gethash "category" entry))
+          do (format stream "~&.pf-~a::after{content:'\\u~x';}~%"
+                     (css-safe-name (gethash "name" entry))
+                     (gethash "codepoint" entry)))))
+
+(defun fixup (&optional (file (file "glyphs" "json")))
   (let ((data (with-open-file (stream file)
                 (shasht:read-json stream)))
         (names (make-hash-table :test 'equalp)))
@@ -61,6 +89,7 @@ exec sbcl \
 (defun all ()
   (fixup)
   (txt)
+  (css)
   (web))
 
 (defun help ()
@@ -71,6 +100,7 @@ Commands:
   all    --- Performs all below commands. This is run by default
   fixup  --- Fixes up the glyphs.json file
   txt    --- Generates the chars.txt file
+  css    --- Generates the PromptFont.css file
   web    --- Generates the index.html file
 
 You typically do not need this utility as it is run automatically by
