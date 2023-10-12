@@ -1141,6 +1141,20 @@
     "codepoint": 8669
   },
   {
+    "code": "U+21DE",
+    "category": "gamepad",
+    "name": "Dpad Right/Down",
+    "character": "⇞",
+    "codepoint": 8670
+  },
+  {
+    "code": "U+21DF",
+    "category": "gamepad",
+    "name": "Dpad Left/Up",
+    "character": "⇟",
+    "codepoint": 8671
+  },
+  {
     "character": "⇠",
     "code": "U+21E0",
     "codepoint": 8672,
