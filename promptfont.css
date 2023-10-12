@@ -69,6 +69,8 @@
 .pf-right-analog-touch::after{content:'\u21DB';}
 .pf-left-trigger-pull::after{content:'\u21DC';}
 .pf-right-trigger-pull::after{content:'\u21DD';}
+.pf-dpad-right-down::after{content:'\u21DE';}
+.pf-dpad-left-up::after{content:'\u21DF';}
 .pf-button-square::after{content:'\u21E0';}
 .pf-button-triangle::after{content:'\u21E1';}
 .pf-button-circle::after{content:'\u21E2';}
