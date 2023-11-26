@@ -116,8 +116,14 @@
 .pf-gpd-c2::after{content:'\u220F';}
 .pf-onexplayer-keyboard::after{content:'\u2210';}
 .pf-onexplayer-turbo::after{content:'\u2211';}
-.pf-rog-ally-m1::after{content:'\u2212';}
-.pf-rog-ally-m2::after{content:'\u2213';}
+.pf-m1::after{content:'\u2212';}
+.pf-m2::after{content:'\u2213';}
+.pf-m3::after{content:'\u2214';}
+.pf-y1::after{content:'\u2215';}
+.pf-y2::after{content:'\u2216';}
+.pf-y3::after{content:'\u2217';}
+.pf-onexplayer-function::after{content:'\u2218';}
+.pf-onexplayer-home::after{content:'\u2219';}
 .pf-left-trackpad-any::after{content:'\u2264';}
 .pf-right-trackpad-any::after{content:'\u2265';}
 .pf-left-trackpad-click::after{content:'\u2266';}
