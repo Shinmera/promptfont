@@ -1471,17 +1471,59 @@
   },
   {
     "code": "U+2212",
-    "name": "Rog Ally M1",
+    "name": "M1",
     "category": "gamepad",
     "character": "−",
     "codepoint": 8722
   },
   {
     "code": "U+2213",
-    "name": "Rog Ally M2",
+    "name": "M2",
     "category": "gamepad",
     "character": "∓",
     "codepoint": 8723
+  },
+  {
+    "code": "U+2214",
+    "category": "gamepad",
+    "name": "M3",
+    "character": "∔",
+    "codepoint": 8724
+  },
+  {
+    "code": "U+2215",
+    "category": "gamepad",
+    "name": "Y1",
+    "character": "∕",
+    "codepoint": 8725
+  },
+  {
+    "code": "U+2216",
+    "category": "gamepad",
+    "name": "Y2",
+    "character": "∖",
+    "codepoint": 8726
+  },
+  {
+    "code": "U+2217",
+    "category": "gamepad",
+    "name": "Y3",
+    "character": "∗",
+    "codepoint": 8727
+  },
+  {
+    "code": "U+2218",
+    "category": "gamepad",
+    "name": "Onexplayer Function",
+    "character": "∘",
+    "codepoint": 8728
+  },
+  {
+    "code": "U+2219",
+    "category": "gamepad",
+    "name": "Onexplayer Home",
+    "character": "∙",
+    "codepoint": 8729
   },
   {
     "code": "U+2264",
