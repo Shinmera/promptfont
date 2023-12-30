@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="500"
    height="500"
    viewBox="0 0 132.29166 132.29167"
    version="1.1"
    id="svg8"
    sodipodi:docname="key.svg"
-   inkscape:version="0.92.2 2405546, 2018-03-11">
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,26 +25,33 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="275.88906"
-     inkscape:cy="279.56506"
+     inkscape:zoom="0.55103965"
+     inkscape:cx="148.80962"
+     inkscape:cy="165.14238"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
-     inkscape:window-width="1231"
-     inkscape:window-height="1153"
-     inkscape:window-x="2605"
-     inkscape:window-y="45"
+     inkscape:window-width="956"
+     inkscape:window-height="1156"
+     inkscape:window-x="960"
+     inkscape:window-y="21"
      inkscape:window-maximized="0"
-     showguides="false">
+     showguides="false"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid4988"
        spacingx="66.145832"
        spacingy="66.145832"
        snapvisiblegridlinesonly="true"
-       enabled="false" />
+       enabled="false"
+       originx="0"
+       originy="0"
+       units="px"
+       visible="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -54,7 +61,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,40 +69,20 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-164.70832)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Xolonium;-inkscape-font-specification:Xolonium;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="52.919361"
-       y="223.76813"
-       id="text1408"><tspan
-         sodipodi:role="line"
-         id="tspan1406"
-         x="52.919361"
-         y="229.8246"
-         style="stroke-width:0.26458332px" /></text>
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect6592"
-       width="115.46043"
-       height="74.033661"
-       x="8.4156199"
-       y="185.95296"
-       ry="16.979372" />
     <path
+       id="rect6592"
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 8.4157475,250.49053 v 10.42365 c 0,9.40658 7.5727535,16.97933 16.9793255,16.97933 h 81.501487 c 9.40657,0 16.97932,-7.57275 16.97932,-16.97933 v -10.42365 c 0,9.40657 -7.57275,16.97984 -16.97932,16.97984 H 25.395073 c -9.406572,0 -16.9793255,-7.57327 -16.9793255,-16.97984 z"
-       id="rect6592-9"
-       inkscape:connector-curvature="0" />
+       d="M 25.394832 185.95302 C 15.98827 185.95302 8.415507 193.52578 8.415507 202.93234 L 8.415507 243.00742 C 8.415507 252.41398 15.98827 259.98674 25.394832 259.98674 L 106.89683 259.98674 C 116.3034 259.98674 123.87616 252.41398 123.87616 243.00742 L 123.87616 202.93234 C 123.87616 193.52578 116.3034 185.95302 106.89683 185.95302 L 25.394832 185.95302 z M 8.415507 250.49068 L 8.415507 260.91433 C 8.415507 270.3209 15.98827 277.89366 25.394832 277.89366 L 106.89632 277.89366 C 116.30288 277.89366 123.87564 270.3209 123.87564 260.91433 L 123.87564 250.49068 C 123.87564 259.89724 116.30288 267.47052 106.89632 267.47052 L 25.394832 267.47052 C 15.98827 267.47052 8.415507 259.89724 8.415507 250.49068 z " />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.31231308px;line-height:8.32019615px;font-family:Xolonium;-inkscape-font-specification:'Xolonium Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33280784px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3123px;line-height:8.3202px;font-family:Xolonium;-inkscape-font-specification:'Xolonium Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.332808px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="65.33461"
        y="233.51314"
        id="text6689"><tspan
          sodipodi:role="line"
-         id="tspan6687"
          x="65.33461"
          y="233.51314"
-         style="font-size:31.94955254px;fill:#ff0000;fill-opacity:1;stroke-width:0.33280784px">CTRL</tspan></text>
+         style="font-size:31.9496px;fill:#ff0000;fill-opacity:1;stroke-width:0.332808px"
+         id="tspan1" /></text>
   </g>
 </svg>
