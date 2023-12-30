@@ -18,6 +18,12 @@ jobs:
              --eval '(ql:quickload :clip)' \
              --eval '(ql:quickload :pathname-utils)' \
              --quit
+    - uses: actions/cache@v3
+      with:
+        path: |
+          ~/quicklisp/
+        key: ${{ runner.os }}
+        restore-keys: ${{ runner.os }}
     - uses: actions/checkout@v1
     - name: Rebuild
       run: |
