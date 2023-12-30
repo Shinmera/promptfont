@@ -16,15 +16,21 @@ exec sbcl \
   (make-pathname :name name :type type :defaults *here*))
 
 (defun run (program &rest args)
-  (flet ((normalize (arg)
-           (etypecase arg
-             (string arg)
-             (pathname (uiop:native-namestring arg))
-             (real (princ-to-string arg)))))
-    (uiop:run-program (list* program (loop for arg in args
-                                           append (if (listp arg) 
-                                                      (mapcar #'normalize arg)
-                                                      (list (normalize arg))))))))
+  (let ((program-args (loop for arg = (car args)
+                            until (or (null args) (keywordp arg))
+                            collect arg
+                            do (pop args))))
+    (flet ((normalize (arg)
+             (etypecase arg
+               (string arg)
+               (pathname (uiop:native-namestring arg))
+               (real (princ-to-string arg)))))
+      (apply #'uiop:run-program
+             (list* program (loop for arg in program-args
+                                  append (if (listp arg) 
+                                             (mapcar #'normalize arg)
+                                             (list (normalize arg)))))
+             args))))
 
 (defun outdated-p (out in)
   (or (not (probe-file out))
@@ -132,7 +138,7 @@ for file in argv[2:]:
            (atlas (pathname-utils:directory-name dir))))))
 
 (defun release (&optional (file (file "promptfont" "zip")))
-  (run "zip" "-j" file
+  (run "zip" "-j" "-X" file
        (file "LICENSE" "txt")
        (file "README" "md")
        (file "index" "html")
@@ -143,25 +149,25 @@ for file in argv[2:]:
        (file "promptfont" "css")
        (directory (file :wild "png"))))
 
-(defun all ()
-  (fixup)
-  (fonts)
-  (txt)
-  (css)
-  (web)
-  (atlas)
-  (release))
+(defun run-command (command &rest args)
+  (apply (intern (format NIL "~:@(~a~)" command) #.*package*) args))
+
+(defun all (&rest commands)
+  (dolist (command (or commands '(fixup fonts txt css web atlas release)))
+    (run-command command)))
 
 (defun help ()
   (format T "PromptFont data management utilities
 
 Commands:
   help    --- Show this help screen
-  all     --- Performs all below commands. This is run by default
+  all [command...]
+          --- Performs all below commands. This is run by default
   fixup   --- Fixes up the glyphs.json file
   fonts   --- Generates the promptfont.ttf and .otf files
   atlas [bank] [size] 
           --- Generates the glyph texture atlas files
+              Defaults to all banks and size of 64
   txt     --- Generates the chars.txt file
   css     --- Generates the promptfont.css file
   web     --- Generates the index.html file
@@ -176,4 +182,4 @@ https://shinmera.com/promptfont
 (defun main ()
   (destructuring-bind (argv0 &optional (command "all") &rest args) (uiop:raw-command-line-arguments)
     (declare (ignore argv0))
-    (apply (intern (format NIL "~:@(~a~)" command) #.*package*) args)))
+    (apply #'run-command command args)))

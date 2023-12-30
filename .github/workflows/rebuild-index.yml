@@ -21,10 +21,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Rebuild
       run: |
-        ./compile.lisp fonts
-        ./compile.lisp txt
-        ./compile.lisp css
-        ./compile.lisp web
+        ./compile.lisp all fonts txt css web
     - name: GH Pages deploy
       if: github.head_ref == null
       run: |
