@@ -131,26 +131,41 @@ for file in argv[2:]:
          (dolist (dir (directory (merge-pathnames "glyphs/*/" (file))))
            (atlas (pathname-utils:directory-name dir))))))
 
+(defun release (&optional (file (file "promptfont" "zip")))
+  (run "zip" "-j" file
+       (file "LICENSE" "txt")
+       (file "README" "md")
+       (file "index" "html")
+       (file "glyphs" "json")
+       (file "chars" "txt")
+       (file "promptfont" "ttf")
+       (file "promptfont" "otf")
+       (file "promptfont" "css")
+       (directory (file :wild "png"))))
+
 (defun all ()
   (fixup)
   (fonts)
   (txt)
   (css)
-  (web))
+  (web)
+  (atlas)
+  (release))
 
 (defun help ()
   (format T "PromptFont data management utilities
 
 Commands:
-  help   --- Show this help screen
-  all    --- Performs all below commands. This is run by default
-  fixup  --- Fixes up the glyphs.json file
-  fonts  --- Generates the promptfont.ttf and .otf files
+  help    --- Show this help screen
+  all     --- Performs all below commands. This is run by default
+  fixup   --- Fixes up the glyphs.json file
+  fonts   --- Generates the promptfont.ttf and .otf files
   atlas [bank] [size] 
-         --- Generates the glyph texture atlas files
-  txt    --- Generates the chars.txt file
-  css    --- Generates the promptfont.css file
-  web    --- Generates the index.html file
+          --- Generates the glyph texture atlas files
+  txt     --- Generates the chars.txt file
+  css     --- Generates the promptfont.css file
+  web     --- Generates the index.html file
+  release --- Generates a release zip
 
 You typically do not need this utility as it is run automatically by
 the GitHub CI when you create a PR.

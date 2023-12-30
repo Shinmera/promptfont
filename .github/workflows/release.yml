@@ -1,0 +1,36 @@
+name: Create release
+on: [create, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup
+      run: |
+        git config --global user.name "CI"
+        git config --global user.email "shinmera@tymoon.eu"
+        sudo apt-get -qq install sbcl curl fontforge imagemagick
+        curl -o ~/quicklisp.lisp https://beta.quicklisp.org/quicklisp.lisp
+        sbcl --load ~/quicklisp.lisp \
+             --eval '(quicklisp-quickstart:install)' \
+             --eval '(ql-util:without-prompting (ql:add-to-init-file))' \
+             --eval '(ql:quickload :shasht)' \
+             --eval '(ql:quickload :clip)' \
+             --eval '(ql:quickload :pathname-utils)' \
+             --quit
+    - uses: actions/checkout@v2
+    - name: Rebuild
+      run: |
+        ./compile.lisp all
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: promptfont-${{ github.ref }}
+        path: promptfont.zip
+    - name: Create release
+      id: create_release
+      uses: ncipollo/release-action@v1
+      with:
+        allowUpdates: true
+        name: Release ${{ github.ref }}
+        artifacts: promptfont.zip

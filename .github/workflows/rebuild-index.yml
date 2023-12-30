@@ -1,11 +1,9 @@
 name: Rebuild Index
-
 on: [push, pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Setup
       run: |
@@ -18,11 +16,15 @@ jobs:
              --eval '(ql-util:without-prompting (ql:add-to-init-file))' \
              --eval '(ql:quickload :shasht)' \
              --eval '(ql:quickload :clip)' \
+             --eval '(ql:quickload :pathname-utils)' \
              --quit
     - uses: actions/checkout@v1
     - name: Rebuild
       run: |
-        ./compile.lisp
+        ./compile.lisp fonts
+        ./compile.lisp txt
+        ./compile.lisp css
+        ./compile.lisp web
     - name: GH Pages deploy
       if: github.head_ref == null
       run: |
