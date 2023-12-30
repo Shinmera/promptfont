@@ -8,8 +8,30 @@ If you use this font in your project please leave an attribution notice in your 
 
 > PromptFont by Yukari "Shinmera" Hafner, available at https://shinmera.com/promptfont
 
-## Special Glyphs
-Please see the included ``glyphs.json`` file for all the relevant glyphs in the font. It includes the code point of every glyph along with a unique name to address it with and a general category. You should be able to use it to create an equivalent mapping of glyphs in your engine of choice.
+## Release Files
+The [PromptFont release](https://github.com/Shinmera/promptfont/archive/refs/heads/gh-pages.zip) includes a couple of files. Here's what they're for:
+
+- ``LICENSE.txt``
+  A copy of the SIL Open Font license
+- ``README.md``
+  A copy of this readme
+- ``index.html``
+  A copy of the [website](https://shinmera.github.io/promptfont) so you can use it offline as well
+- ``glyphs.json``
+  This is a JSON file with an array of the glyphs the font provides. Each glyph is an object with the following attributes:
+  - ``character`` The actual character as a one-character string
+  - ``code`` The unicode codepoint name (``U+XXXX``)
+  - ``codepoint`` The actual codepoint as an integer
+  - ``category`` The category the glyph belongs to
+  - ``name`` The unique human-readable name of the glyph
+- ``chars.txt``
+  A plaintext UTF-8 file that contains all the characters that the font provides.
+- ``promptfont.ttf`` and ``promptfont.otf``
+  TrueType and OpenType versions of the font, which you should be able to use directly in-engine or other programs.
+- ``promptfont.css``
+  A CSS file that includes CSS classes for every special glyph, so you can easily embed it in HTML pages and JS games.
+- ``atlas-*.png``
+  Texture atlases of the various glyphs. Each glyph is 64x64 pixels and has a 1 pixel margin around itself. They are ordered left to right top to bottom according to their filename in the ``glyphs/`` directory of this repository. Since these rasterised versions don't scale well we heavily recommend you to use the fonts directly.
 
 ## Engine Specifics
 Since there's far too many engines out there and their methods vary a lot, we can't include guides in this repository. For specifics on how to use this font in your engine of choice, please consult their documentation on importing custom fonts and custom glyph ranges, and how to write text with specific unicode codepoints. Since this is literally just a font, it should not prove too difficult.
