@@ -9,7 +9,7 @@ jobs:
       run: |
         git config --global user.name "CI"
         git config --global user.email "shinmera@tymoon.eu"
-        sudo apt-get -qq install sbcl curl fontforge imagemagick
+        sudo apt-get -qq install sbcl curl fontforge imagemagick inkscape
         curl -o ~/quicklisp.lisp https://beta.quicklisp.org/quicklisp.lisp
         sbcl --load ~/quicklisp.lisp \
              --eval '(quicklisp-quickstart:install)' \
