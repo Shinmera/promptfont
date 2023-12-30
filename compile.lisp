@@ -2,19 +2,39 @@
 exec sbcl \
   --noinform \
   --disable-debugger \
-  --eval "(ql:quickload '(clip shasht) :silent T)" \
+  --eval "(ql:quickload '(clip shasht pathname-utils) :silent T)" \
   --load "$0" \
   --eval '(main)' \
   --quit \
   --end-toplevel-options "${@:1}"
 |#
 
-(defvar *here* #.(or *compile-file-pathname*
-                     *load-pathname*
-                     (error "LOAD this file.")))
+(defvar *here* #.(make-pathname :name NIL :type NIL :defaults 
+                                (or *compile-file-pathname* *load-pathname* (error "LOAD this file."))))
 
-(defun file (name type)
+(defun file (&optional name type)
   (make-pathname :name name :type type :defaults *here*))
+
+(defun run (program &rest args)
+  (flet ((normalize (arg)
+           (etypecase arg
+             (string arg)
+             (pathname (uiop:native-namestring arg))
+             (real (princ-to-string arg)))))
+    (uiop:run-program (list* program (loop for arg in args
+                                           append (if (listp arg) 
+                                                      (mapcar #'normalize arg)
+                                                      (list (normalize arg))))))))
+
+(defun outdated-p (out in)
+  (or (not (probe-file out))
+      (< (file-write-date out) (file-write-date in))))
+
+(defun pathname< (a b)
+  (string< (pathname-name a) (pathname-name b)))
+
+(defun status (format &rest args)
+  (format *error-output* "~&; ~?~%" format args))
 
 (defun parse-glyphs (&optional (file (file "glyphs" "json")))
   (let ((sections (make-hash-table :test 'equal)))
@@ -79,7 +99,7 @@ exec sbcl \
              (setf (gethash "codepoint" entry) cp)
              (setf (gethash "code" entry) (format NIL "U+~4,'0x" cp))
              (if (gethash (gethash "name" entry) names)
-                 (format T "~&Character ~a has name ~s, which is already taken by ~a~%"
+                 (status "Character ~a has name ~s, which is already taken by ~a"
                          (gethash "code" entry) (gethash "name" entry) (gethash (gethash "name" entry) names))
                  (setf (gethash (gethash "name" entry) names) (gethash "code" entry))))
     (sort data #'< :key (lambda (entry) (gethash "codepoint" entry)))
@@ -87,12 +107,29 @@ exec sbcl \
       (shasht:write-json data stream))))
 
 (defun fonts (&optional (file (file "promptfont" "sfd")))
-  (uiop:run-program (list "fontforge" "-c" "fnt = fontforge.open(argv[1])
+  (run "fontforge" "-c" "fnt = fontforge.open(argv[1])
 for file in argv[2:]:
   fnt.generate(file)"
-                          (uiop:native-namestring file)
-                          (uiop:native-namestring (make-pathname :type "ttf" :defaults file))
-                          (uiop:native-namestring (make-pathname :type "otf" :defaults file)))))
+       file
+       (make-pathname :type "ttf" :defaults file)
+       (make-pathname :type "otf" :defaults file)))
+
+(defun atlas (&optional bank (s 64))
+  (cond ((and bank (not (equal "all" bank)))
+         (dolist (file (directory (merge-pathnames (format NIL "glyphs/~a/**/*.svg" bank) (file))))
+           (let ((out (make-pathname :type "png" :defaults file)))
+             (when (outdated-p out file)
+               (status "Compiling ~a" out)
+               (run "inkscape" "-w" s "-h" s file "-o" out))))
+         (status "Compiling atlas-~a" bank)
+         (run "montage"
+              (sort (directory (merge-pathnames (format NIL "glyphs/~a/**/*.png" bank) (file))) #'pathname<)
+              "-geometry" (format NIL "~ax~a+1+1" s s)
+              "-background" "none"
+              (file (format NIL "atlas-~a" bank) "png")))
+        (T
+         (dolist (dir (directory (merge-pathnames "glyphs/*/" (file))))
+           (atlas (pathname-utils:directory-name dir))))))
 
 (defun all ()
   (fixup)
@@ -109,6 +146,8 @@ Commands:
   all    --- Performs all below commands. This is run by default
   fixup  --- Fixes up the glyphs.json file
   fonts  --- Generates the promptfont.ttf and .otf files
+  atlas [bank] [size] 
+         --- Generates the glyph texture atlas files
   txt    --- Generates the chars.txt file
   css    --- Generates the promptfont.css file
   web    --- Generates the index.html file
