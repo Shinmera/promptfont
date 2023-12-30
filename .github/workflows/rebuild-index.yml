@@ -9,7 +9,7 @@ jobs:
       run: |
         git config --global user.name "CI"
         git config --global user.email "shinmera@tymoon.eu"
-        sudo apt-get -qq install sbcl curl fontforge
+        sudo apt-get -qq install sbcl curl fontforge imagemagick
         curl -o ~/quicklisp.lisp https://beta.quicklisp.org/quicklisp.lisp
         sbcl --load ~/quicklisp.lisp \
              --eval '(quicklisp-quickstart:install)' \
@@ -21,7 +21,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Rebuild
       run: |
-        ./compile.lisp all fonts txt css web
+        ./compile.lisp
     - name: GH Pages deploy
       if: github.head_ref == null
       run: |
@@ -31,4 +31,4 @@ jobs:
         git -C ~/gh-pages commit -qm "CI index rebuild." || echo "Nothing to commit."
         git -C ~/gh-pages push -q origin gh-pages
       env:
-        FILES: LICENSE.txt README.md index.html glyphs.json chars.txt promptfont.ttf promptfont.otf promptfont.css
+        FILES: LICENSE.txt README.md index.html glyphs.json chars.txt promptfont.ttf promptfont.otf promptfont.css atlas-android.png atlas-gamepad.png atlas-icons.png atlas-keyboard.png atlas-mouse.png
