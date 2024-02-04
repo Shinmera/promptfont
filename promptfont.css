@@ -266,6 +266,11 @@
 .pf-windows::after{content:'\uE008';}
 .pf-linux::after{content:'\uE009';}
 .pf-bsd::after{content:'\uE00A';}
+.pf-steam::after{content:'\uE00B';}
+.pf-itchfull-stopio::after{content:'\uE00C';}
+.pf-humble::after{content:'\uE00D';}
+.pf-epic-game-store::after{content:'\uE00E';}
+.pf-good-old-games-gog::after{content:'\uE00F';}
 .pf-key-0::after{content:'\uFF10';}
 .pf-key-1::after{content:'\uFF11';}
 .pf-key-2::after{content:'\uFF12';}
