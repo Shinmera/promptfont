@@ -77,7 +77,7 @@ exec sbcl \
     (let ((was-dash T))
       (labels ((process (name)
                  (loop for char across name
-                       do (cond ((find char " -_/")
+                       do (cond ((find char " -_/.")
                                  (unless was-dash
                                    (write-char #\- out)
                                    (setf was-dash T)))
@@ -96,7 +96,7 @@ exec sbcl \
     (loop for entry across (with-open-file (stream file)
                              (shasht:read-json stream))
           unless (string= "alphabet" (gethash "category" entry))
-          do (format stream "~&.pf-~a::after{content:'\\u~x';}~%"
+          do (format stream "~&.pf-~a:before{content:\"\\~x\"}~%"
                      (css-safe-name (gethash "name" entry))
                      (gethash "codepoint" entry)))))
 
