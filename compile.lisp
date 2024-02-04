@@ -4,10 +4,16 @@ exec sbcl \
   --disable-debugger \
   --eval "(ql:quickload '(clip shasht pathname-utils) :silent T)" \
   --load "$0" \
-  --eval '(main)' \
+  --eval '(promptfont-compiler::main)' \
   --quit \
   --end-toplevel-options "${@:1}"
 |#
+
+(defpackage #:promptfont-compiler
+  (:use #:cl)
+  (:export))
+
+(in-package #:promptfont-compiler)
 
 (defvar *here* #.(make-pathname :name NIL :type NIL :defaults 
                                 (or *compile-file-pathname* *load-pathname* (error "LOAD this file."))))
