@@ -2520,6 +2520,41 @@
     "codepoint": 57354
   },
   {
+    "code": "U+E00B",
+    "category": "icon",
+    "name": "Steam",
+    "character": "",
+    "codepoint": 57355
+  },
+  {
+    "code": "U+E00C",
+    "category": "icon",
+    "name": "Itch.io",
+    "character": "",
+    "codepoint": 57356
+  },
+  {
+    "code": "U+E00D",
+    "category": "icon",
+    "name": "Humble",
+    "character": "",
+    "codepoint": 57357
+  },
+  {
+    "code": "U+E00E",
+    "category": "icon",
+    "name": "Epic Game Store",
+    "character": "",
+    "codepoint": 57358
+  },
+  {
+    "code": "U+E00F",
+    "category": "icon",
+    "name": "Good Old Games (GOG)",
+    "character": "",
+    "codepoint": 57359
+  },
+  {
     "code": "U+FF10",
     "category": "keyboard",
     "name": "Key 0",
