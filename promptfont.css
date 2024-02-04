@@ -1,5 +1,5 @@
 @font-face{font-family:'promptfont'; src:url('promptfont.ttf');}
-.pf{font-family:promptfont;}
+.pf{font-family:promptfont;font-style:normal;}
 .pf-exchange:before{content:"\2194"}
 .pf-reverse:before{content:"\2195"}
 .pf-left-trigger-lt:before{content:"\2196"}
