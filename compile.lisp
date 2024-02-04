@@ -92,7 +92,7 @@ exec sbcl \
 (defun css (&optional (file (file "glyphs" "json")) (output (file "promptfont" "css")))
   (with-open-file (stream output :direction :output :if-exists :supersede)
     (format stream "~&@font-face{font-family:'promptfont'; src:url('promptfont.ttf');}~%")
-    (format stream "~&.pf{font-family:promptfont;}~%")
+    (format stream "~&.pf{font-family:promptfont;font-style:normal;}~%")
     (loop for entry across (with-open-file (stream file)
                              (shasht:read-json stream))
           unless (string= "alphabet" (gethash "category" entry))
