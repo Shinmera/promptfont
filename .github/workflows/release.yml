@@ -41,12 +41,11 @@ jobs:
         allowUpdates: true
         name: Release ${{ github.ref_name }}
         artifacts: promptfont.zip
-    - name: Upload to itchio
-      uses: manleydev/butler-publish-itchio-action@master
-      env:
-        BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
-        CHANNEL: all
-        ITCH_GAME: promptfont
-        ITCH_USER: shinmera
-        PACKAGE: promptfont
-        VERSION: ${{ github.ref_name }}
+    - uses: Ayowel/butler-to-itch@v1.0.0
+      with:
+        butler_key: ${{ secrets.BUTLER_CREDENTIALS }}
+        itch_user: shinmera
+        itch_game: promptfont
+        version: ${{ github.ref_name }}
+        files: all promptfont.zip
+
