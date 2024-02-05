@@ -31,12 +31,22 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v1
       with:
-        name: promptfont-${{ github.ref }}
+        name: promptfont-${{ github.ref_name }}
         path: promptfont.zip
     - name: Create release
       id: create_release
+      continue-on-error: true
       uses: ncipollo/release-action@v1
       with:
         allowUpdates: true
-        name: Release ${{ github.ref }}
+        name: Release ${{ github.ref_name }}
         artifacts: promptfont.zip
+    - name: Upload to itchio
+      uses: manleydev/butler-publish-itchio-action@master
+      env:
+        BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
+        CHANNEL: all
+        ITCH_GAME: promptfont
+        ITCH_USER: shinmera
+        PACKAGE: promptfont
+        VERSION: ${{ github.ref_name }}
