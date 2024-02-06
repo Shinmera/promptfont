@@ -72,23 +72,6 @@ exec sbcl \
                              (shasht:read-json stream))
           do (write-string (gethash "character" glyph) stream))))
 
-(defun css-safe-name (name)
-  (with-output-to-string (out)
-    (let ((was-dash T))
-      (labels ((process (name)
-                 (loop for char across name
-                       do (cond ((find char " -_/.")
-                                 (unless was-dash
-                                   (write-char #\- out)
-                                   (setf was-dash T)))
-                                ((find char "()"))
-                                ((alphanumericp char)
-                                 (setf was-dash NIL)
-                                 (write-char (char-downcase char) out))
-                                (T
-                                 (process (char-name char)))))))
-        (process name)))))
-
 (defun css (&optional (file (file "glyphs" "json")) (output (file "promptfont" "css")))
   (with-open-file (stream output :direction :output :if-exists :supersede)
     (format stream "~&@font-face{font-family:'promptfont'; src:url('promptfont.ttf');}~%")
@@ -97,7 +80,7 @@ exec sbcl \
                              (shasht:read-json stream))
           unless (string= "alphabet" (gethash "category" entry))
           do (format stream "~&.pf-~a:before{content:\"\\~x\"}~%"
-                     (css-safe-name (gethash "name" entry))
+                     (gethash "code-name" entry)
                      (gethash "codepoint" entry)))))
 
 (defun fixup (&optional (file (file "glyphs" "json")))
@@ -106,14 +89,24 @@ exec sbcl \
         (names (make-hash-table :test 'equalp)))
     (loop for entry across data
           for cp = (or (gethash "codepoint" entry)
-                       (parse-integer (gethash "code" entry) :start 2 :radix 16))
+                       (parse-integer (gethash "code" entry) :start 2 :radix 16)
+                       (error "Bad entry: character is missing both codepoint and code attributes!"))
           do (setf (gethash "character" entry) (string (code-char cp)))
              (setf (gethash "codepoint" entry) cp)
              (setf (gethash "code" entry) (format NIL "U+~4,'0x" cp))
-             (if (gethash (gethash "name" entry) names)
-                 (status "Character ~a has name ~s, which is already taken by ~a"
-                         (gethash "code" entry) (gethash "name" entry) (gethash (gethash "name" entry) names))
-                 (setf (gethash (gethash "name" entry) names) (gethash "code" entry))))
+             (when (= 0 (length (gethash "tags" entry)))
+               (status "Warning: character ~5,'0x is missing a tags array!" cp)
+               (setf (gethash "tags" entry) #()))
+             (cond ((null (gethash "code-name" entry))
+                    (error "Character ~5,'0x is missing the code-name entry."
+                           cp))
+                   ((gethash (gethash "code-name" entry) names)
+                    (error "Character ~5,'0x has code-name ~s, which is already taken by ~a"
+                           cp (gethash "code-name" entry) (gethash (gethash "code-name" entry) names)))
+                   (T
+                    (setf (gethash (gethash "name" entry) names) (gethash "code-name" entry))))
+             (when (null (gethash "name" entry))
+               (error "Character ~5,'0x is missing a name." cp)))
     (sort data #'< :key (lambda (entry) (gethash "codepoint" entry)))
     (with-open-file (stream file :direction :output :if-exists :supersede)
       (shasht:write-json data stream))))
