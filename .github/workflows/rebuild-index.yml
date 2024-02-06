@@ -37,4 +37,4 @@ jobs:
         git -C ~/gh-pages commit -qm "CI index rebuild." || echo "Nothing to commit."
         git -C ~/gh-pages push -q origin gh-pages
       env:
-        FILES: LICENSE.txt README.md index.html glyphs.json chars.txt promptfont.ttf promptfont.otf promptfont.css atlas-android.png atlas-gamepad.png atlas-icons.png atlas-keyboard.png atlas-mouse.png
+        FILES: LICENSE.txt README.md index.html index.css glyphs.json chars.txt promptfont.ttf promptfont.otf promptfont.css atlas-android.png atlas-gamepad.png atlas-icons.png atlas-keyboard.png atlas-mouse.png

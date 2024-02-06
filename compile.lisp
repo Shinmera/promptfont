@@ -48,6 +48,9 @@ exec sbcl \
 (defun status (format &rest args)
   (format *error-output* "~&; ~?~%" format args))
 
+(defun join (sequence)
+  (format NIL "~{~a~^ ~}" (coerce sequence 'list)))
+
 (defun parse-glyphs (&optional (file (file "glyphs" "json")))
   (let ((sections (make-hash-table :test 'equal)))
     (loop for glyph across (with-open-file (stream file)
@@ -141,6 +144,7 @@ for file in argv[2:]:
        (file "LICENSE" "txt")
        (file "README" "md")
        (file "index" "html")
+       (file "index" "css")
        (file "glyphs" "json")
        (file "chars" "txt")
        (file "promptfont" "ttf")

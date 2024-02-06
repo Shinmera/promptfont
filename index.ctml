@@ -13,117 +13,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <style type="text/css">
-      @font-face {
-          font-family: 'promptfont';
-          src: url('promptfont.ttf');
-      }
-      @keyframes fadeOut {
-          0% { opacity: 1;}
-          50% { opacity: 1;}
-          100% { opacity: 0;}
-      }
-      body {
-          font-family: sans-serif;
-          font-size: 14pt;
-          margin: 0;
-          overflow-y: scroll;
-      }
-      header {
-          padding: 1em;
-          border-bottom: 3px solid #CCCCCC;
-      }
-      footer {
-          padding: 1em;
-          border-top: 3px solid #CCCCCC;
-          text-align: center;
-      }
-      a.button {
-          font-size: 18pt;
-          font-weight: normal;
-          color: black;
-          background: #EEEEEE;
-          border: 2px solid #CCCCCC;
-          border-radius: .2em;
-          padding: .2em .4em;
-          margin: .2em;
-          text-decoration: none;
-      }
-      a.button:hover {
-          background: #CCCCCC;
-      }
-      main {
-          background: #EEEEEE;
-          padding: 4em 0;
-      }
-      .search {
-          box-sizing: border-box;
-          font-size: 1.5em;
-          width: 20em;
-          display: block;
-          margin: 0 auto;
-          padding: 0.2em 0.5em;
-          border: 1px solid #CCCCCC;
-          border-radius: 0.2em;
-      }
-      .glyphsection {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-      }
-      .glyphsection h2 {
-          width: 100%;
-          text-align: center;
-      }
-      .glyph {
-          text-align: center;
-          margin: 1em;
-          width: 8em;
-      }
-      .glyph span {
-          display: block;
-      }
-      .glyph code {
-          display: block;
-      }
-      .glyph i {
-          display: block;
-          font-family: promptfont;
-          font-size: 32pt;
-          font-style: normal;
-          transition: font-size .5s;
-      }
-      .glyph:hover i{
-          font-size: 8em;
-      }
-      .notice{
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          text-align: center;
-          padding: 0.5em 1em;
-          font-size: 1.5em;
-          background: white;
-          color: black;
-          border-bottom: 2px solid #CCCCCC;
-          opacity: 1;
-          animation: fadeOut 2s;
-          animation-fill-mode: forwards;
-      }
-      .notice i{
-          font-family: promptfont;
-          font-style: normal;
-          display: inline-block;
-          width: 1em;
-      }
-      img{
-          max-width: 100%;
-      }
-      .hidden{
-          display: none !important;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <header>
@@ -145,8 +35,8 @@
         <section class="glyphsection" lquery="(attr :id name)">
           <h2 lquery="(text name)"></h2>
           <c:splice iterate="glyphs">
-            <div class="glyph" title="Click to copy" lquery="(data :category category :tags tags :code code :name name)">
-              <i lquery='(html (code-char codepoint))'>&#x0021;</i>
+            <div class="glyph" title="Click to copy" lquery='(data :character character :category category :tags tags :code code :name name :code-name code-name :tags (promptfont-compiler::join tags))'>
+              <i lquery='(html character)'>&#x0021;</i>
               <code lquery='(text code)'>U+0021</code>
               <span lquery="(text name)">!</span>
             </div>
@@ -161,6 +51,47 @@
         <img alt="Patreon" src="https://filebox.tymoon.eu//file/TWpjeU9RPT0=" />
       </a>
     </footer>
+    <div id="popup" class="hidden">
+      <div class="box">
+        <nav>
+          <i class="copy" title="Copy glyph" data-value="character">&#x0021;</i>
+          <code class="copy" title="Copy unicode" data-value="code">U+0021</code>
+          <h2 class="copy" title="Copy name" data-value="name">Exclamation mark</h2>
+        </nav>
+        <div class="preview black"><i data-value="character">&#x0021;</i></div>
+        <div class="preview white"><i data-value="character">&#x0021;</i></div>
+        <div class="info">
+          <div class="row">
+            <label>Category:</label>
+            <span data-value="category">ascii</span>
+          </div>
+          <div class="row">
+            <label>Name:</label>
+            <span data-value="name" class="copy" title="Copy name">!</span>
+          </div>
+          <div class="row">
+            <label>Code Name:</label>
+            <code data-value="codeName" class="copy" title="Copy code name">exclamation</code>
+          </div>
+          <div class="row">
+            <label>Glyph:</label>
+            <span data-value="character" class="copy" title="Copy glyph">&#x0021;</span>
+          </div>
+          <div class="row">
+            <label>Unicode:</label>
+            <code data-value="code" class="copy" title="Copy unicode">U+0021</code>
+          </div>
+          <div class="row">
+            <label>Codepoint:</label>
+            <span data-value="codepoint" class="copy" title="Copy codepoint">33</span>
+          </div>
+          <div class="row">
+            <label>Tags:</label>
+            <span data-value="tags">ascii</span>
+          </div>
+        </div>
+      </div>
+    </div>
     <script type="text/javascript">
       let notice = null;
       
@@ -181,13 +112,31 @@
           document.body.appendChild(notice.element);
           notice.timeout = setTimeout(clearNotice, 2000);
       };
+
+      let copyToClipboard = (string)=>{
+          navigator.clipboard.writeText(string).then(
+              ()=>showNotice("<i>"+string+"</i> copied to clipboard!"),
+              ()=>showNotice("Failed to copy to clipboard."));
+      };
+
+      let popup = document.querySelector("#popup");
+      popup.addEventListener("click", ()=>popup.classList.add("hidden"));
+      popup.querySelector(".box").addEventListener("click", (ev)=>ev.stopPropagation());
+      let showPopup = (glyph)=>{
+          for(let el of popup.querySelectorAll("[data-value]")){
+              el.innerText = glyph.dataset[el.dataset.value];
+          }
+          popup.classList.remove("hidden");
+      };
+      for(let el of popup.querySelectorAll(".copy")){
+          el.addEventListener("click", ()=>{
+              copyToClipboard(el.innerText);
+          });
+      }
       
-      document.querySelectorAll(".glyph").forEach((element)=>element.addEventListener("click", (ev)=>{
-          let glyph = element.querySelector("i").innerText;
-          navigator.clipboard.writeText(glyph).then(
-              ()=>showNotice("<i>"+glyph+"</i> copied to clipboard!"),
-              ()=>showNotice("Failed to copy glyph to clipboard."));
-      }));
+      for(let el of document.querySelectorAll(".glyph")){
+          el.addEventListener("click", ()=>showPopup(el));
+      }
 
       let match = (query, el)=>{
           query = query.trim().toLowerCase();
