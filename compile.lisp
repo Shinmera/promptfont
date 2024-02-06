@@ -69,22 +69,101 @@ exec sbcl \
     (with-open-file (stream output :direction :output :if-exists :supersede)
       (plump:serialize (clip:process input :sections sections) stream))))
 
-(defun txt (&optional (file (file "glyphs" "json")) (output (file "chars" "txt")))
-  (with-open-file (stream output :direction :output :if-exists :supersede)
-    (loop for glyph across (with-open-file (stream file)
-                             (shasht:read-json stream))
-          do (write-string (gethash "character" glyph) stream))))
+(defmacro define-processor (type (stream &rest args) &body body)
+  (let ((glyph (gensym "GLYPH")))
+    `(defun ,type (&optional (file (file "glyphs" "json")) (output (file "promptfont" ,(string-downcase type))))
+       (with-open-file (,stream output :direction :output :if-exists :supersede)
+         ,(first body)
+         (loop for ,glyph across (with-open-file (stream file)
+                                   (shasht:read-json stream))
+               do (let ,(loop for arg in args
+                              collect `(,arg (gethash ,(string-downcase arg) ,glyph)))
+                    ,@(butlast (rest body))))
+         ,@(last body)))))
 
-(defun css (&optional (file (file "glyphs" "json")) (output (file "promptfont" "css")))
-  (with-open-file (stream output :direction :output :if-exists :supersede)
-    (format stream "~&@font-face{font-family:'promptfont'; src:url('promptfont.ttf');}~%")
-    (format stream "~&.pf{font-family:promptfont;font-style:normal;}~%")
-    (loop for entry across (with-open-file (stream file)
-                             (shasht:read-json stream))
-          unless (string= "alphabet" (gethash "category" entry))
-          do (format stream "~&.pf-~a:before{content:\"\\~x\"}~%"
-                     (gethash "code-name" entry)
-                     (gethash "codepoint" entry)))))
+(define-processor txt (stream character)
+  ()
+  (write-string character stream)
+  ())
+
+(define-processor css (stream category code-name codepoint)
+  (format stream "~
+// PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont
+@font-face{font-family:'promptfont'; src:url('promptfont.ttf');}
+.pf{font-family:promptfont;font-style:normal;}")
+  (unless (string= "alphabet" category)
+    (format stream "~&.pf-~a:before{content:\"\\~x\"}~%" code-name codepoint))
+  ())
+
+(defun to-c-name (name &key (upcase T))
+  (with-output-to-string (out)
+    (loop for c across name
+          do (case c
+               (#\- (write-char #\_ out))
+               (T (write-char (if upcase (char-upcase c) c) out))))))
+
+(define-processor h (stream code-name character codepoint)
+  (format stream "~
+// PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont
+#ifndef __PROMPTFONT_H__
+#define __PROMPTFONT_H__~%")
+  (format stream "~&#define PF_~a ~s~%" (to-c-name code-name) character)
+  (format stream "~&#define PF_~a_INT 0x~5,'0x~%" (to-c-name code-name) codepoint)
+  (format stream "~&#endif~%"))
+
+(define-processor cs (stream code-name character codepoint)
+  (format stream "~
+// PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont
+public static class PromptFont {~%")
+  (format stream "~&    public const string ~a = ~s;~%" (to-c-name code-name) character)
+  (format stream "~&    public const int ~a_INT = 0x~5,'0x;~%" (to-c-name code-name) codepoint)
+  (format stream "~&~
+    string Get(string name){
+      return (string)(typeof(PromptFont).GetProperty(name).GetValue(null));
+    }
+    int GetInt(string name){
+      return (int)(typeof(PromptFont).GetProperty(name+\"_INT\").GetValue(null));
+    }
+}~%"))
+
+(define-processor py (stream code-name character)
+  (format stream "~
+# PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont~%")
+  (format stream "~&~a = ~s~%" (to-c-name code-name) character)
+  ())
+
+(define-processor lisp (stream code-name character)
+  (format stream "~
+;;;; PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont
+\(defpackage #:org.shirakumo.fraf.promptfont (:use))
+\(in-package #:org.shirakumo.fraf.promptfont)~%~%")
+  (format stream "~&(cl:define-symbol-macro ~a ~s)~%" code-name character)
+  (format stream "~&~%~
+(cl:do-symbols (cl:symbol cl:*package*)
+  (cl:export cl:symbol))~%"))
+
+(define-processor lua (stream code-name character)
+  (format stream "~
+-- PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont
+local GLYPHS = {}~%")
+  (format stream "~&GLYPHS.~a = ~s~%" (to-c-name code-name) character)
+  (format stream "~&return GLYPHS~%"))
+
+(define-processor rs (stream code-name character codepoint)
+  (format stream "~
+// PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont~%")
+  (format stream "~&pub const ~a: &'static str = ~s;~%" (to-c-name code-name) character)
+  (format stream "~&pub const ~a_INT: u64 = ~a;~%" (to-c-name code-name) codepoint)
+  ())
+
+(define-processor gd (stream code-name character codepoint)
+  (format stream "~
+# PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont
+class_name PromptFont
+extends Resource~%")
+  (format stream "~&const ~a: StringName = &~s;~%" (to-c-name code-name) character)
+  (format stream "~&const ~a_INT: int = ~a;~%" (to-c-name code-name) codepoint)
+  ())
 
 (defun fixup (&optional (file (file "glyphs" "json")))
   (let ((data (with-open-file (stream file)
@@ -146,17 +225,24 @@ for file in argv[2:]:
        (file "index" "html")
        (file "index" "css")
        (file "glyphs" "json")
-       (file "chars" "txt")
+       (file "promptfont" "txt")
        (file "promptfont" "ttf")
        (file "promptfont" "otf")
        (file "promptfont" "css")
+       (file "promptfont" "h")
+       (file "promptfont" "cs")
+       (file "promptfont" "py")
+       (file "promptfont" "lisp")
+       (file "promptfont" "lua")
+       (file "promptfont" "rs")
+       (file "promptfont" "gd")
        (directory (file :wild "png"))))
 
 (defun run-command (command &rest args)
   (apply (intern (format NIL "~:@(~a~)" command) #.*package*) args))
 
 (defun all (&rest commands)
-  (dolist (command (or commands '(fixup fonts txt css web atlas release)))
+  (dolist (command (or commands '(fixup fonts txt css h cs py lisp lua rs gd web atlas release)))
     (run-command command)))
 
 (defun help ()

@@ -5,5 +5,13 @@ promptfont.css
 promptfont.ttf
 promptfont.otf
 promptfont.afm
+promptfont.txt
+promptfont.h
+promptfont.cs
+promptfont.py
+promptfont.lisp
+promptfont.lua
+promptfont.rs
+promptfont.gd
 *.png
 *.zip
