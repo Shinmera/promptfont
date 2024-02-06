@@ -35,7 +35,7 @@
         <section class="glyphsection" lquery="(attr :id name)">
           <h2 lquery="(text name)"></h2>
           <c:splice iterate="glyphs">
-            <div class="glyph" title="Click to copy" lquery='(data :character character :category category :tags tags :code code :name name :code-name code-name :tags (promptfont-compiler::join tags))'>
+            <div class="glyph" title="Click to view" lquery='(data :character character :category category :tags tags :code code :codepoint codepoint :name name :code-name code-name :tags (promptfont-compiler::join tags))'>
               <i lquery='(html character)'>&#x0021;</i>
               <code lquery='(text code)'>U+0021</code>
               <span lquery="(text name)">!</span>
