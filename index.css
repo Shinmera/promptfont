@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'promptfont';
+    src: url('promptfont.ttf');
+}
+@keyframes fadeOut {
+    0% { opacity: 1;}
+    50% { opacity: 1;}
+    100% { opacity: 0;}
+}
+@keyframes rainbow{
+	100%,0%{
+		color: rgb(255,0,0);
+	}
+	8%{
+		color: rgb(255,127,0);
+	}
+	16%{
+		color: rgb(255,255,0);
+	}
+	25%{
+		color: rgb(127,255,0);
+	}
+	33%{
+		color: rgb(0,255,0);
+	}
+	41%{
+		color: rgb(0,255,127);
+	}
+	50%{
+		color: rgb(0,255,255);
+	}
+	58%{
+		color: rgb(0,127,255);
+	}
+	66%{
+		color: rgb(0,0,255);
+	}
+	75%{
+		color: rgb(127,0,255);
+	}
+	83%{
+		color: rgb(255,0,255);
+	}
+	91%{
+		color: rgb(255,0,127);
+	}
+}
+body {
+    font-family: sans-serif;
+    font-size: 14pt;
+    margin: 0;
+    overflow-y: scroll;
+}
+header {
+    padding: 1em;
+    border-bottom: 3px solid #CCCCCC;
+}
+footer {
+    padding: 1em;
+    border-top: 3px solid #CCCCCC;
+    text-align: center;
+}
+a.button {
+    font-size: 18pt;
+    font-weight: normal;
+    color: black;
+    background: #EEEEEE;
+    border: 2px solid #CCCCCC;
+    border-radius: .2em;
+    padding: .2em .4em;
+    margin: .2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.button:hover {
+    background: #CCCCCC;
+}
+main {
+    background: #EEEEEE;
+    padding: 4em 0;
+}
+.search {
+    box-sizing: border-box;
+    font-size: 1.5em;
+    width: 20em;
+    display: block;
+    margin: 0 auto;
+    padding: 0.2em 0.5em;
+    border: 1px solid #CCCCCC;
+    border-radius: 0.2em;
+}
+.glyphsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.glyphsection h2 {
+    width: 100%;
+    text-align: center;
+}
+.glyph {
+    text-align: center;
+    margin: 1em;
+    width: 8em;
+    cursor: pointer;
+}
+.glyph span {
+    display: block;
+}
+.glyph code {
+    display: block;
+}
+.glyph i {
+    display: block;
+    font-family: promptfont;
+    font-size: 32pt;
+    font-style: normal;
+    transition: font-size .5s;
+}
+.glyph:hover i{
+    font-size: 8em;
+}
+.notice{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+    background: white;
+    color: black;
+    border-bottom: 2px solid #CCCCCC;
+    opacity: 1;
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+}
+.notice i{
+    font-family: promptfont;
+    font-style: normal;
+    display: inline-block;
+    min-width: 1em;
+}
+img{
+    max-width: 100%;
+}
+.hidden{
+    display: none !important;
+}
+#popup{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0; right: 0; top: 0; bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#popup .box{
+    flex-grow: 0;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em 1fr 1fr;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    font-size: 1.5em;
+    box-shadow: 0 0 5em rgba(0,0,0,0.2);
+}
+#popup .box i{
+    font-family: promptfont;
+    font-style: normal;
+}
+#popup .box nav{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    background: #303030;
+    color: #EFEFEF;
+}
+#popup .copy:hover{
+    color: orange;
+    cursor: pointer;
+}
+#popup .box nav *{
+    margin: 0.5em;
+}
+#popup .box nav i{
+    width: 1em;
+    text-align: center;
+}
+#popup .box nav h2{
+    flex-grow: 1;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#popup .box .preview{
+    grid-column: 1 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72pt;
+    padding: 0.5em 2em;
+    cursor: default;
+}
+#popup .box .preview.black{
+    grid-row: 2/3;
+    background: black;
+    color: white;
+}
+#popup .box .preview.white{
+    grid-row: 3/4;
+    background: white;
+    color: black;
+}
+#popup .box .preview i:hover{
+    animation: rainbow 2.5s linear;
+	animation-iteration-count: infinite;
+}
+#popup .box .info{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    padding: 1em;
+}
+#popup .box .info .row{
+    display: flex;
+}
+#popup .box .info .row *{
+    flex-grow: 1;
+}
+#popup .box .info .row label{
+    flex-grow: 0;
+    min-width: 6em;
+    display: inline-block;
+}
