@@ -36,8 +36,8 @@ The [PromptFont release](https://github.com/Shinmera/promptfont/archive/refs/hea
   TrueType and OpenType versions of the font, which you should be able to use directly in-engine or other programs.
 - ``promptfont.css``
   A CSS file that includes CSS classes for every special glyph, so you can easily embed it in HTML pages and JS games.
-- ``promptfont.h`` ``promptfont.cs`` ``promptfont.py`` ``promptfont.lua`` ``promptfont.lisp``
-  Source files that define constants for the special glyphs to allow easier embedding in C, C++, C#, Python, Lua, and Lisp.
+- ``promptfont.h`` ``promptfont.cs`` ``promptfont.py`` ``promptfont.lua`` ``promptfont.lisp`` ``promptfont.rs`` ``promptfont.gd``
+  Source files that define constants for the special glyphs to allow easier embedding in C, C++, C#, Python, Lua, Lisp, Rust, and GDScript.
 - ``atlas-*.png``
   Texture atlases of the various glyphs. Each glyph is 64x64 pixels and has a 1 pixel margin around itself. They are ordered left to right top to bottom according to their filename in the ``glyphs/`` directory of this repository. Since these rasterised versions don't scale well we heavily recommend you to use the fonts directly.
 

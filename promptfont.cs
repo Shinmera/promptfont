@@ -864,4 +864,10 @@ public static class PromptFont {
     public const int ICON_INFORMATION_INT = 0x1F6C8;
     public const string ICON_SHOPPING_CART = "🛒";
     public const int ICON_SHOPPING_CART_INT = 0x1F6D2;
+string Get(string name){
+      return (string)(typeof(PromptFont).GetProperty(name).GetValue(null));
+    }
+    int GetInt(string name){
+      return (int)(typeof(PromptFont).GetProperty(name+"_INT").GetValue(null));
+    }
 }
