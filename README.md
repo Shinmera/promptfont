@@ -24,6 +24,12 @@ The [PromptFont release](https://github.com/Shinmera/promptfont/archive/refs/hea
   - ``codepoint`` The actual codepoint as an integer
   - ``category`` The category the glyph belongs to
   - ``name`` The unique human-readable name of the glyph
+  - ``code-name`` The unique code-readable name of the glyph. It only contains lowercase characters a-z, numbers 0-9, and dashes. This should make it easy to turn into a code symbol
+  - ``tags`` A list of tags that apply to the glyph. The following tags are known:
+    - ``xbox`` Applies to Xbox style gamepads
+    - ``nintendo`` Applies to Nintendo style gamepads
+    - ``playstation`` Applies to Playstation style gamepads
+    - ``generic`` Applies to any gamepad
 - ``chars.txt``
   A plaintext UTF-8 file that contains all the characters that the font provides.
 - ``promptfont.ttf`` and ``promptfont.otf``

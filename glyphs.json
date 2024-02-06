@@ -4,3023 +4,3887 @@
     "code": "U+0021",
     "codepoint": 33,
     "category": "alphabet",
-    "name": "ASCII !"
+    "name": "ASCII !",
+    "code-name": "ascii-bang",
+    "tags": []
   },
   {
     "character": "\"",
     "code": "U+0022",
     "codepoint": 34,
     "category": "alphabet",
-    "name": "ASCII \""
+    "name": "ASCII \"",
+    "code-name": "ascii-doublequote",
+    "tags": []
   },
   {
     "character": "#",
     "code": "U+0023",
     "codepoint": 35,
     "category": "alphabet",
-    "name": "ASCII #"
+    "name": "ASCII #",
+    "code-name": "ascii-hash",
+    "tags": []
   },
   {
     "character": "$",
     "code": "U+0024",
     "codepoint": 36,
     "category": "alphabet",
-    "name": "ASCII $"
+    "name": "ASCII $",
+    "code-name": "ascii-dollar",
+    "tags": []
   },
   {
     "character": "%",
     "code": "U+0025",
     "codepoint": 37,
     "category": "alphabet",
-    "name": "ASCII %"
+    "name": "ASCII %",
+    "code-name": "ascii-percent",
+    "tags": []
   },
   {
     "character": "&",
     "code": "U+0026",
     "codepoint": 38,
     "category": "alphabet",
-    "name": "ASCII &"
+    "name": "ASCII &",
+    "code-name": "ascii-ampersand",
+    "tags": []
   },
   {
     "character": "'",
     "code": "U+0027",
     "codepoint": 39,
     "category": "alphabet",
-    "name": "ASCII '"
+    "name": "ASCII '",
+    "code-name": "ascii-quote",
+    "tags": []
   },
   {
     "character": "(",
     "code": "U+0028",
     "codepoint": 40,
     "category": "alphabet",
-    "name": "ASCII ("
+    "name": "ASCII (",
+    "code-name": "ascii-open-paren",
+    "tags": []
   },
   {
     "character": ")",
     "code": "U+0029",
     "codepoint": 41,
     "category": "alphabet",
-    "name": "ASCII )"
+    "name": "ASCII )",
+    "code-name": "ascii-close-paren",
+    "tags": []
   },
   {
     "character": "*",
     "code": "U+002A",
     "codepoint": 42,
     "category": "alphabet",
-    "name": "ASCII *"
+    "name": "ASCII *",
+    "code-name": "ascii-star",
+    "tags": []
   },
   {
     "character": "+",
     "code": "U+002B",
     "codepoint": 43,
     "category": "alphabet",
-    "name": "ASCII +"
+    "name": "ASCII +",
+    "code-name": "ascii-plus",
+    "tags": []
   },
   {
     "character": ",",
     "code": "U+002C",
     "codepoint": 44,
     "category": "alphabet",
-    "name": "ASCII ,"
+    "name": "ASCII ,",
+    "code-name": "ascii-comma",
+    "tags": []
   },
   {
     "character": "-",
     "code": "U+002D",
     "codepoint": 45,
     "category": "alphabet",
-    "name": "ASCII -"
+    "name": "ASCII -",
+    "code-name": "ascii-dash",
+    "tags": []
   },
   {
     "character": ".",
     "code": "U+002E",
     "codepoint": 46,
     "category": "alphabet",
-    "name": "ASCII ."
+    "name": "ASCII .",
+    "code-name": "ascii-period",
+    "tags": []
   },
   {
     "character": "/",
     "code": "U+002F",
     "codepoint": 47,
     "category": "alphabet",
-    "name": "ASCII /"
+    "name": "ASCII /",
+    "code-name": "ascii-slash",
+    "tags": []
   },
   {
     "character": "0",
     "code": "U+0030",
     "codepoint": 48,
     "category": "alphabet",
-    "name": "ASCII 0"
+    "name": "ASCII 0",
+    "code-name": "ascii-0",
+    "tags": []
   },
   {
     "character": "1",
     "code": "U+0031",
     "codepoint": 49,
     "category": "alphabet",
-    "name": "ASCII 1"
+    "name": "ASCII 1",
+    "code-name": "ascii-1",
+    "tags": []
   },
   {
     "character": "2",
     "code": "U+0032",
     "codepoint": 50,
     "category": "alphabet",
-    "name": "ASCII 2"
+    "name": "ASCII 2",
+    "code-name": "ascii-2",
+    "tags": []
   },
   {
     "character": "3",
     "code": "U+0033",
     "codepoint": 51,
     "category": "alphabet",
-    "name": "ASCII 3"
+    "name": "ASCII 3",
+    "code-name": "ascii-3",
+    "tags": []
   },
   {
     "character": "4",
     "code": "U+0034",
     "codepoint": 52,
     "category": "alphabet",
-    "name": "ASCII 4"
+    "name": "ASCII 4",
+    "code-name": "ascii-4",
+    "tags": []
   },
   {
     "character": "5",
     "code": "U+0035",
     "codepoint": 53,
     "category": "alphabet",
-    "name": "ASCII 5"
+    "name": "ASCII 5",
+    "code-name": "ascii-5",
+    "tags": []
   },
   {
     "character": "6",
     "code": "U+0036",
     "codepoint": 54,
     "category": "alphabet",
-    "name": "ASCII 6"
+    "name": "ASCII 6",
+    "code-name": "ascii-6",
+    "tags": []
   },
   {
     "character": "7",
     "code": "U+0037",
     "codepoint": 55,
     "category": "alphabet",
-    "name": "ASCII 7"
+    "name": "ASCII 7",
+    "code-name": "ascii-7",
+    "tags": []
   },
   {
     "character": "8",
     "code": "U+0038",
     "codepoint": 56,
     "category": "alphabet",
-    "name": "ASCII 8"
+    "name": "ASCII 8",
+    "code-name": "ascii-8",
+    "tags": []
   },
   {
     "character": "9",
     "code": "U+0039",
     "codepoint": 57,
     "category": "alphabet",
-    "name": "ASCII 9"
+    "name": "ASCII 9",
+    "code-name": "ascii-9",
+    "tags": []
   },
   {
     "character": ":",
     "code": "U+003A",
     "codepoint": 58,
     "category": "alphabet",
-    "name": "ASCII :"
+    "name": "ASCII :",
+    "code-name": "ascii-colon",
+    "tags": []
   },
   {
     "character": ";",
     "code": "U+003B",
     "codepoint": 59,
     "category": "alphabet",
-    "name": "ASCII ;"
+    "name": "ASCII ;",
+    "code-name": "ascii-semicolon",
+    "tags": []
   },
   {
     "character": "<",
     "code": "U+003C",
     "codepoint": 60,
     "category": "alphabet",
-    "name": "ASCII <"
+    "name": "ASCII <",
+    "code-name": "ascii-open-caret",
+    "tags": []
   },
   {
     "character": "=",
     "code": "U+003D",
     "codepoint": 61,
     "category": "alphabet",
-    "name": "ASCII ="
+    "name": "ASCII =",
+    "code-name": "ascii-equals",
+    "tags": []
   },
   {
     "character": ">",
     "code": "U+003E",
     "codepoint": 62,
     "category": "alphabet",
-    "name": "ASCII >"
+    "name": "ASCII >",
+    "code-name": "ascii-close-caret",
+    "tags": []
   },
   {
     "character": "?",
     "code": "U+003F",
     "codepoint": 63,
     "category": "alphabet",
-    "name": "ASCII ?"
+    "name": "ASCII ?",
+    "code-name": "ascii-question",
+    "tags": []
   },
   {
     "character": "@",
     "code": "U+0040",
     "codepoint": 64,
     "category": "alphabet",
-    "name": "ASCII @"
+    "name": "ASCII @",
+    "code-name": "ascii-at",
+    "tags": []
   },
   {
     "character": "A",
     "code": "U+0041",
     "codepoint": 65,
     "category": "alphabet",
-    "name": "ASCII A"
+    "name": "ASCII A",
+    "code-name": "ascii-upper-a",
+    "tags": []
   },
   {
     "character": "B",
     "code": "U+0042",
     "codepoint": 66,
     "category": "alphabet",
-    "name": "ASCII B"
+    "name": "ASCII B",
+    "code-name": "ascii-upper-b",
+    "tags": []
   },
   {
     "character": "C",
     "code": "U+0043",
     "codepoint": 67,
     "category": "alphabet",
-    "name": "ASCII C"
+    "name": "ASCII C",
+    "code-name": "ascii-upper-c",
+    "tags": []
   },
   {
     "character": "D",
     "code": "U+0044",
     "codepoint": 68,
     "category": "alphabet",
-    "name": "ASCII D"
+    "name": "ASCII D",
+    "code-name": "ascii-upper-d",
+    "tags": []
   },
   {
     "character": "E",
     "code": "U+0045",
     "codepoint": 69,
     "category": "alphabet",
-    "name": "ASCII E"
+    "name": "ASCII E",
+    "code-name": "ascii-upper-e",
+    "tags": []
   },
   {
     "character": "F",
     "code": "U+0046",
     "codepoint": 70,
     "category": "alphabet",
-    "name": "ASCII F"
+    "name": "ASCII F",
+    "code-name": "ascii-upper-f",
+    "tags": []
   },
   {
     "character": "G",
     "code": "U+0047",
     "codepoint": 71,
     "category": "alphabet",
-    "name": "ASCII G"
+    "name": "ASCII G",
+    "code-name": "ascii-upper-g",
+    "tags": []
   },
   {
     "character": "H",
     "code": "U+0048",
     "codepoint": 72,
     "category": "alphabet",
-    "name": "ASCII H"
+    "name": "ASCII H",
+    "code-name": "ascii-upper-h",
+    "tags": []
   },
   {
     "character": "I",
     "code": "U+0049",
     "codepoint": 73,
     "category": "alphabet",
-    "name": "ASCII I"
+    "name": "ASCII I",
+    "code-name": "ascii-upper-i",
+    "tags": []
   },
   {
     "character": "J",
     "code": "U+004A",
     "codepoint": 74,
     "category": "alphabet",
-    "name": "ASCII J"
+    "name": "ASCII J",
+    "code-name": "ascii-upper-j",
+    "tags": []
   },
   {
     "character": "K",
     "code": "U+004B",
     "codepoint": 75,
     "category": "alphabet",
-    "name": "ASCII K"
+    "name": "ASCII K",
+    "code-name": "ascii-upper-k",
+    "tags": []
   },
   {
     "character": "L",
     "code": "U+004C",
     "codepoint": 76,
     "category": "alphabet",
-    "name": "ASCII L"
+    "name": "ASCII L",
+    "code-name": "ascii-upper-l",
+    "tags": []
   },
   {
     "character": "M",
     "code": "U+004D",
     "codepoint": 77,
     "category": "alphabet",
-    "name": "ASCII M"
+    "name": "ASCII M",
+    "code-name": "ascii-upper-m",
+    "tags": []
   },
   {
     "character": "N",
     "code": "U+004E",
     "codepoint": 78,
     "category": "alphabet",
-    "name": "ASCII N"
+    "name": "ASCII N",
+    "code-name": "ascii-upper-n",
+    "tags": []
   },
   {
     "character": "O",
     "code": "U+004F",
     "codepoint": 79,
     "category": "alphabet",
-    "name": "ASCII O"
+    "name": "ASCII O",
+    "code-name": "ascii-upper-o",
+    "tags": []
   },
   {
     "character": "P",
     "code": "U+0050",
     "codepoint": 80,
     "category": "alphabet",
-    "name": "ASCII P"
+    "name": "ASCII P",
+    "code-name": "ascii-upper-p",
+    "tags": []
   },
   {
     "character": "Q",
     "code": "U+0051",
     "codepoint": 81,
     "category": "alphabet",
-    "name": "ASCII Q"
+    "name": "ASCII Q",
+    "code-name": "ascii-upper-q",
+    "tags": []
   },
   {
     "character": "R",
     "code": "U+0052",
     "codepoint": 82,
     "category": "alphabet",
-    "name": "ASCII R"
+    "name": "ASCII R",
+    "code-name": "ascii-upper-r",
+    "tags": []
   },
   {
     "character": "S",
     "code": "U+0053",
     "codepoint": 83,
     "category": "alphabet",
-    "name": "ASCII S"
+    "name": "ASCII S",
+    "code-name": "ascii-upper-s",
+    "tags": []
   },
   {
     "character": "T",
     "code": "U+0054",
     "codepoint": 84,
     "category": "alphabet",
-    "name": "ASCII T"
+    "name": "ASCII T",
+    "code-name": "ascii-upper-t",
+    "tags": []
   },
   {
     "character": "U",
     "code": "U+0055",
     "codepoint": 85,
     "category": "alphabet",
-    "name": "ASCII U"
+    "name": "ASCII U",
+    "code-name": "ascii-upper-u",
+    "tags": []
   },
   {
     "character": "V",
     "code": "U+0056",
     "codepoint": 86,
     "category": "alphabet",
-    "name": "ASCII V"
+    "name": "ASCII V",
+    "code-name": "ascii-upper-v",
+    "tags": []
   },
   {
     "character": "W",
     "code": "U+0057",
     "codepoint": 87,
     "category": "alphabet",
-    "name": "ASCII W"
+    "name": "ASCII W",
+    "code-name": "ascii-upper-w",
+    "tags": []
   },
   {
     "character": "X",
     "code": "U+0058",
     "codepoint": 88,
     "category": "alphabet",
-    "name": "ASCII X"
+    "name": "ASCII X",
+    "code-name": "ascii-upper-x",
+    "tags": []
   },
   {
     "character": "Y",
     "code": "U+0059",
     "codepoint": 89,
     "category": "alphabet",
-    "name": "ASCII Y"
+    "name": "ASCII Y",
+    "code-name": "ascii-upper-y",
+    "tags": []
   },
   {
     "character": "Z",
     "code": "U+005A",
     "codepoint": 90,
     "category": "alphabet",
-    "name": "ASCII Z"
+    "name": "ASCII Z",
+    "code-name": "ascii-upper-z",
+    "tags": []
   },
   {
     "character": "[",
     "code": "U+005B",
     "codepoint": 91,
     "category": "alphabet",
-    "name": "ASCII ["
+    "name": "ASCII [",
+    "code-name": "ascii-open-bracket",
+    "tags": []
   },
   {
     "character": "\\",
     "code": "U+005C",
     "codepoint": 92,
     "category": "alphabet",
-    "name": "ASCII \\"
+    "name": "ASCII \\",
+    "code-name": "ascii-backslash",
+    "tags": []
   },
   {
     "character": "]",
     "code": "U+005D",
     "codepoint": 93,
     "category": "alphabet",
-    "name": "ASCII ]"
+    "name": "ASCII ]",
+    "code-name": "ascii-close-bracket",
+    "tags": []
   },
   {
     "character": "^",
     "code": "U+005E",
     "codepoint": 94,
     "category": "alphabet",
-    "name": "ASCII ^"
+    "name": "ASCII ^",
+    "code-name": "ascii-caret",
+    "tags": []
   },
   {
     "character": "_",
     "code": "U+005F",
     "codepoint": 95,
     "category": "alphabet",
-    "name": "ASCII _"
+    "name": "ASCII _",
+    "code-name": "ascii-underscore",
+    "tags": []
   },
   {
     "character": "`",
     "code": "U+0060",
     "codepoint": 96,
     "category": "alphabet",
-    "name": "ASCII `"
+    "name": "ASCII `",
+    "code-name": "ascii-backtick",
+    "tags": []
   },
   {
     "character": "a",
     "code": "U+0061",
     "codepoint": 97,
     "category": "alphabet",
-    "name": "ASCII lowercase a"
+    "name": "ASCII lowercase a",
+    "code-name": "ascii-lower-a",
+    "tags": []
   },
   {
     "character": "b",
     "code": "U+0062",
     "codepoint": 98,
     "category": "alphabet",
-    "name": "ASCII lowercase b"
+    "name": "ASCII lowercase b",
+    "code-name": "ascii-lower-b",
+    "tags": []
   },
   {
     "character": "c",
     "code": "U+0063",
     "codepoint": 99,
     "category": "alphabet",
-    "name": "ASCII lowercase c"
+    "name": "ASCII lowercase c",
+    "code-name": "ascii-lower-c",
+    "tags": []
   },
   {
     "character": "d",
     "code": "U+0064",
     "codepoint": 100,
     "category": "alphabet",
-    "name": "ASCII lowercase d"
+    "name": "ASCII lowercase d",
+    "code-name": "ascii-lower-d",
+    "tags": []
   },
   {
     "character": "e",
     "code": "U+0065",
     "codepoint": 101,
     "category": "alphabet",
-    "name": "ASCII lowercase e"
+    "name": "ASCII lowercase e",
+    "code-name": "ascii-lower-e",
+    "tags": []
   },
   {
     "character": "f",
     "code": "U+0066",
     "codepoint": 102,
     "category": "alphabet",
-    "name": "ASCII lowercase f"
+    "name": "ASCII lowercase f",
+    "code-name": "ascii-lower-f",
+    "tags": []
   },
   {
     "character": "g",
     "code": "U+0067",
     "codepoint": 103,
     "category": "alphabet",
-    "name": "ASCII lowercase g"
+    "name": "ASCII lowercase g",
+    "code-name": "ascii-lower-g",
+    "tags": []
   },
   {
     "character": "h",
     "code": "U+0068",
     "codepoint": 104,
     "category": "alphabet",
-    "name": "ASCII lowercase h"
+    "name": "ASCII lowercase h",
+    "code-name": "ascii-lower-h",
+    "tags": []
   },
   {
     "character": "i",
     "code": "U+0069",
     "codepoint": 105,
     "category": "alphabet",
-    "name": "ASCII lowercase i"
+    "name": "ASCII lowercase i",
+    "code-name": "ascii-lower-i",
+    "tags": []
   },
   {
     "character": "j",
     "code": "U+006A",
     "codepoint": 106,
     "category": "alphabet",
-    "name": "ASCII lowercase j"
+    "name": "ASCII lowercase j",
+    "code-name": "ascii-lower-j",
+    "tags": []
   },
   {
     "character": "k",
     "code": "U+006B",
     "codepoint": 107,
     "category": "alphabet",
-    "name": "ASCII lowercase k"
+    "name": "ASCII lowercase k",
+    "code-name": "ascii-lower-k",
+    "tags": []
   },
   {
     "character": "l",
     "code": "U+006C",
     "codepoint": 108,
     "category": "alphabet",
-    "name": "ASCII lowercase l"
+    "name": "ASCII lowercase l",
+    "code-name": "ascii-lower-l",
+    "tags": []
   },
   {
     "character": "m",
     "code": "U+006D",
     "codepoint": 109,
     "category": "alphabet",
-    "name": "ASCII lowercase m"
+    "name": "ASCII lowercase m",
+    "code-name": "ascii-lower-m",
+    "tags": []
   },
   {
     "character": "n",
     "code": "U+006E",
     "codepoint": 110,
     "category": "alphabet",
-    "name": "ASCII lowercase n"
+    "name": "ASCII lowercase n",
+    "code-name": "ascii-lower-n",
+    "tags": []
   },
   {
     "character": "o",
     "code": "U+006F",
     "codepoint": 111,
     "category": "alphabet",
-    "name": "ASCII lowercase o"
+    "name": "ASCII lowercase o",
+    "code-name": "ascii-lower-o",
+    "tags": []
   },
   {
     "character": "p",
     "code": "U+0070",
     "codepoint": 112,
     "category": "alphabet",
-    "name": "ASCII lowercase p"
+    "name": "ASCII lowercase p",
+    "code-name": "ascii-lower-p",
+    "tags": []
   },
   {
     "character": "q",
     "code": "U+0071",
     "codepoint": 113,
     "category": "alphabet",
-    "name": "ASCII lowercase q"
+    "name": "ASCII lowercase q",
+    "code-name": "ascii-lower-q",
+    "tags": []
   },
   {
     "character": "r",
     "code": "U+0072",
     "codepoint": 114,
     "category": "alphabet",
-    "name": "ASCII lowercase r"
+    "name": "ASCII lowercase r",
+    "code-name": "ascii-lower-r",
+    "tags": []
   },
   {
     "character": "s",
     "code": "U+0073",
     "codepoint": 115,
     "category": "alphabet",
-    "name": "ASCII lowercase s"
+    "name": "ASCII lowercase s",
+    "code-name": "ascii-lower-s",
+    "tags": []
   },
   {
     "character": "t",
     "code": "U+0074",
     "codepoint": 116,
     "category": "alphabet",
-    "name": "ASCII lowercase t"
+    "name": "ASCII lowercase t",
+    "code-name": "ascii-lower-t",
+    "tags": []
   },
   {
     "character": "u",
     "code": "U+0075",
     "codepoint": 117,
     "category": "alphabet",
-    "name": "ASCII lowercase u"
+    "name": "ASCII lowercase u",
+    "code-name": "ascii-lower-u",
+    "tags": []
   },
   {
     "character": "v",
     "code": "U+0076",
     "codepoint": 118,
     "category": "alphabet",
-    "name": "ASCII lowercase v"
+    "name": "ASCII lowercase v",
+    "code-name": "ascii-lower-v",
+    "tags": []
   },
   {
     "character": "w",
     "code": "U+0077",
     "codepoint": 119,
     "category": "alphabet",
-    "name": "ASCII lowercase w"
+    "name": "ASCII lowercase w",
+    "code-name": "ascii-lower-w",
+    "tags": []
   },
   {
     "character": "x",
     "code": "U+0078",
     "codepoint": 120,
     "category": "alphabet",
-    "name": "ASCII lowercase x"
+    "name": "ASCII lowercase x",
+    "code-name": "ascii-lower-x",
+    "tags": []
   },
   {
     "character": "y",
     "code": "U+0079",
     "codepoint": 121,
     "category": "alphabet",
-    "name": "ASCII lowercase y"
+    "name": "ASCII lowercase y",
+    "code-name": "ascii-lower-y",
+    "tags": []
   },
   {
     "character": "z",
     "code": "U+007A",
     "codepoint": 122,
     "category": "alphabet",
-    "name": "ASCII lowercase z"
+    "name": "ASCII lowercase z",
+    "code-name": "ascii-lower-z",
+    "tags": []
   },
   {
     "character": "{",
     "code": "U+007B",
     "codepoint": 123,
     "category": "alphabet",
-    "name": "ASCII {"
+    "name": "ASCII {",
+    "code-name": "ascii-open-brace",
+    "tags": []
   },
   {
     "character": "|",
     "code": "U+007C",
     "codepoint": 124,
     "category": "alphabet",
-    "name": "ASCII |"
+    "name": "ASCII |",
+    "code-name": "ascii-bar",
+    "tags": []
   },
   {
     "character": "}",
     "code": "U+007D",
     "codepoint": 125,
     "category": "alphabet",
-    "name": "ASCII }"
+    "name": "ASCII }",
+    "code-name": "ascii-close-brace",
+    "tags": []
   },
   {
     "character": "~",
     "code": "U+007E",
     "codepoint": 126,
     "category": "alphabet",
-    "name": "ASCII ~"
+    "name": "ASCII ~",
+    "code-name": "ascii-tilde",
+    "tags": []
   },
   {
     "code": "U+2194",
     "category": "icon",
     "name": "exchange",
     "character": "↔",
-    "codepoint": 8596
+    "codepoint": 8596,
+    "code-name": "icon-exchange",
+    "tags": []
   },
   {
     "code": "U+2195",
     "category": "icon",
     "name": "reverse",
     "character": "↕",
-    "codepoint": 8597
+    "codepoint": 8597,
+    "code-name": "icon-reverse",
+    "tags": []
   },
   {
     "character": "↖",
     "code": "U+2196",
     "codepoint": 8598,
     "category": "gamepad",
-    "name": "Left Trigger (LT)"
+    "name": "Left Trigger (LT)",
+    "code-name": "xbox-left-trigger",
+    "tags": []
   },
   {
     "character": "↗",
     "code": "U+2197",
     "codepoint": 8599,
     "category": "gamepad",
-    "name": "Right Trigger (RT)"
+    "name": "Right Trigger (RT)",
+    "code-name": "xbox-right-trigger",
+    "tags": []
   },
   {
     "character": "↘",
     "code": "U+2198",
     "codepoint": 8600,
     "category": "gamepad",
-    "name": "Left Shoulder (LB)"
+    "name": "Left Shoulder (LB)",
+    "code-name": "xbox-left-shoulder",
+    "tags": []
   },
   {
     "character": "↙",
     "code": "U+2199",
     "codepoint": 8601,
     "category": "gamepad",
-    "name": "Right Shoulder (RB)"
+    "name": "Right Shoulder (RB)",
+    "code-name": "xbox-right-shoulder",
+    "tags": []
   },
   {
     "code": "U+219A",
     "category": "gamepad",
     "name": "Left Trigger (ZL)",
     "character": "↚",
-    "codepoint": 8602
+    "codepoint": 8602,
+    "code-name": "nintendo-left-trigger",
+    "tags": []
   },
   {
     "code": "U+219B",
     "category": "gamepad",
     "name": "Right Trigger (ZR)",
     "character": "↛",
-    "codepoint": 8603
+    "codepoint": 8603,
+    "code-name": "nintendo-right-trigger",
+    "tags": []
   },
   {
     "code": "U+219C",
     "category": "gamepad",
     "name": "Left Shoulder (L)",
     "character": "↜",
-    "codepoint": 8604
+    "codepoint": 8604,
+    "code-name": "nintendo-left-shoulder",
+    "tags": []
   },
   {
     "code": "U+219D",
     "category": "gamepad",
     "name": "Right Shoulder (R)",
     "character": "↝",
-    "codepoint": 8605
+    "codepoint": 8605,
+    "code-name": "nintendo-right-shoulder",
+    "tags": []
   },
   {
     "character": "↞",
     "code": "U+219E",
     "codepoint": 8606,
     "category": "gamepad",
-    "name": "Dpad Left"
+    "name": "Dpad Left",
+    "code-name": "dpad-left",
+    "tags": []
   },
   {
     "character": "↟",
     "code": "U+219F",
     "codepoint": 8607,
     "category": "gamepad",
-    "name": "Dpad Up"
+    "name": "Dpad Up",
+    "code-name": "dpad-up",
+    "tags": []
   },
   {
     "character": "↠",
     "code": "U+21A0",
     "codepoint": 8608,
     "category": "gamepad",
-    "name": "Dpad Right"
+    "name": "Dpad Right",
+    "code-name": "dpad-right",
+    "tags": []
   },
   {
     "character": "↡",
     "code": "U+21A1",
     "codepoint": 8609,
     "category": "gamepad",
-    "name": "Dpad Down"
+    "name": "Dpad Down",
+    "code-name": "dpad-down",
+    "tags": []
   },
   {
     "code": "U+21A2",
     "category": "gamepad",
     "name": "Dpad Left/Right",
     "character": "↢",
-    "codepoint": 8610
+    "codepoint": 8610,
+    "code-name": "dpad-left-right",
+    "tags": []
   },
   {
     "code": "U+21A3",
     "category": "gamepad",
     "name": "Dpad Up/Down",
     "character": "↣",
-    "codepoint": 8611
+    "codepoint": 8611,
+    "code-name": "dpad-up-down",
+    "tags": []
   },
   {
     "character": "↤",
     "code": "U+21A4",
     "codepoint": 8612,
     "category": "gamepad",
-    "name": "Button Left (X)"
+    "name": "Button Left (X)",
+    "code-name": "gamepad-x",
+    "tags": []
   },
   {
     "character": "↥",
     "code": "U+21A5",
     "codepoint": 8613,
     "category": "gamepad",
-    "name": "Button Up (Y)"
+    "name": "Button Up (Y)",
+    "code-name": "gamepad-y",
+    "tags": []
   },
   {
     "character": "↦",
     "code": "U+21A6",
     "codepoint": 8614,
     "category": "gamepad",
-    "name": "Button Right (B)"
+    "name": "Button Right (B)",
+    "code-name": "gamepad-b",
+    "tags": []
   },
   {
     "character": "↧",
     "code": "U+21A7",
     "codepoint": 8615,
     "category": "gamepad",
-    "name": "Button Down (A)"
+    "name": "Button Down (A)",
+    "code-name": "gamepad-a",
+    "tags": []
   },
   {
     "character": "↩",
     "code": "U+21A9",
     "codepoint": 8617,
     "category": "gamepad",
-    "name": "Left Analog Clockwise"
+    "name": "Left Analog Clockwise",
+    "code-name": "analog-l-clockwise",
+    "tags": []
   },
   {
     "character": "↪",
     "code": "U+21AA",
     "codepoint": 8618,
     "category": "gamepad",
-    "name": "Left Analog Counter"
+    "name": "Left Analog Counter",
+    "code-name": "analog-l-counter",
+    "tags": []
   },
   {
     "character": "↫",
     "code": "U+21AB",
     "codepoint": 8619,
     "category": "gamepad",
-    "name": "Right Analog Clockwise"
+    "name": "Right Analog Clockwise",
+    "code-name": "analog-r-clockwise",
+    "tags": []
   },
   {
     "character": "↬",
     "code": "U+21AC",
     "codepoint": 8620,
     "category": "gamepad",
-    "name": "Right Analog Counter"
+    "name": "Right Analog Counter",
+    "code-name": "analog-r-counter",
+    "tags": []
   },
   {
     "character": "↭",
     "code": "U+21AD",
     "codepoint": 8621,
     "category": "gamepad",
-    "name": "Both Analog Clockwise"
+    "name": "Both Analog Clockwise",
+    "code-name": "analog-lr-blockwise",
+    "tags": []
   },
   {
     "character": "↮",
     "code": "U+21AE",
     "codepoint": 8622,
     "category": "gamepad",
-    "name": "Both Analog Counter"
+    "name": "Both Analog Counter",
+    "code-name": "analog-lr-counter",
+    "tags": []
   },
   {
     "character": "↰",
     "code": "U+21B0",
     "codepoint": 8624,
     "category": "gamepad",
-    "name": "Left Shoulder (L1)"
+    "name": "Left Shoulder (L1)",
+    "code-name": "sony-left-shoulder",
+    "tags": []
   },
   {
     "character": "↱",
     "code": "U+21B1",
     "codepoint": 8625,
     "category": "gamepad",
-    "name": "Right Shoulder (R1)"
+    "name": "Right Shoulder (R1)",
+    "code-name": "sony-right-shoulder",
+    "tags": []
   },
   {
     "character": "↲",
     "code": "U+21B2",
     "codepoint": 8626,
     "category": "gamepad",
-    "name": "Left Trigger (L2)"
+    "name": "Left Trigger (L2)",
+    "code-name": "sony-left-trigger",
+    "tags": []
   },
   {
     "character": "↳",
     "code": "U+21B3",
     "codepoint": 8627,
     "category": "gamepad",
-    "name": "Right Trigger (R2)"
+    "name": "Right Trigger (R2)",
+    "code-name": "sony-right-trigger",
+    "tags": []
   },
   {
     "code": "U+21B4",
     "category": "gamepad",
     "name": "Dpad Left/Down",
     "character": "↴",
-    "codepoint": 8628
+    "codepoint": 8628,
+    "code-name": "dpad-left-down",
+    "tags": []
   },
   {
     "code": "U+21B5",
     "category": "gamepad",
     "name": "Dpad Up/Right",
     "character": "↵",
-    "codepoint": 8629
+    "codepoint": 8629,
+    "code-name": "gamepad-up-right",
+    "tags": []
   },
   {
     "character": "↶",
     "code": "U+21B6",
     "codepoint": 8630,
     "category": "gamepad",
-    "name": "Analog Clockwise"
+    "name": "Analog Clockwise",
+    "code-name": "analog-clockwise",
+    "tags": []
   },
   {
     "character": "↷",
     "code": "U+21B7",
     "codepoint": 8631,
     "category": "gamepad",
-    "name": "Analog Counter"
+    "name": "Analog Counter",
+    "code-name": "analog-counter",
+    "tags": []
   },
   {
     "character": "↹",
     "code": "U+21B9",
     "codepoint": 8633,
     "category": "gamepad",
-    "name": "Both Analog Click"
+    "name": "Both Analog Click",
+    "code-name": "analog-click",
+    "tags": []
   },
   {
     "character": "↺",
     "code": "U+21BA",
     "codepoint": 8634,
     "category": "gamepad",
-    "name": "Left Analog Click"
+    "name": "Left Analog Click",
+    "code-name": "analog-l-click",
+    "tags": []
   },
   {
     "character": "↻",
     "code": "U+21BB",
     "codepoint": 8635,
     "category": "gamepad",
-    "name": "Right Analog Click"
+    "name": "Right Analog Click",
+    "code-name": "analog-r-click",
+    "tags": []
   },
   {
     "character": "↼",
     "code": "U+21BC",
     "codepoint": 8636,
     "category": "gamepad",
-    "name": "Left Analog Left"
+    "name": "Left Analog Left",
+    "code-name": "analog-l-left",
+    "tags": []
   },
   {
     "character": "↽",
     "code": "U+21BD",
     "codepoint": 8637,
     "category": "gamepad",
-    "name": "Right Analog Left"
+    "name": "Right Analog Left",
+    "code-name": "analog-r-left",
+    "tags": []
   },
   {
     "character": "↾",
     "code": "U+21BE",
     "codepoint": 8638,
     "category": "gamepad",
-    "name": "Left Analog Up"
+    "name": "Left Analog Up",
+    "code-name": "analog-l-up",
+    "tags": []
   },
   {
     "character": "↿",
     "code": "U+21BF",
     "codepoint": 8639,
     "category": "gamepad",
-    "name": "Right Analog Up"
+    "name": "Right Analog Up",
+    "code-name": "analog-r-up",
+    "tags": []
   },
   {
     "character": "⇀",
     "code": "U+21C0",
     "codepoint": 8640,
     "category": "gamepad",
-    "name": "Left Analog Right"
+    "name": "Left Analog Right",
+    "code-name": "analog-l-right",
+    "tags": []
   },
   {
     "character": "⇁",
     "code": "U+21C1",
     "codepoint": 8641,
     "category": "gamepad",
-    "name": "Right Analog Right"
+    "name": "Right Analog Right",
+    "code-name": "analog-r-right",
+    "tags": []
   },
   {
     "character": "⇂",
     "code": "U+21C2",
     "codepoint": 8642,
     "category": "gamepad",
-    "name": "Left Analog Down"
+    "name": "Left Analog Down",
+    "code-name": "analog-l-down",
+    "tags": []
   },
   {
     "character": "⇃",
     "code": "U+21C3",
     "codepoint": 8643,
     "category": "gamepad",
-    "name": "Right Analog Down"
+    "name": "Right Analog Down",
+    "code-name": "analog-r-down",
+    "tags": []
   },
   {
     "character": "⇄",
     "code": "U+21C4",
     "codepoint": 8644,
     "category": "gamepad",
-    "name": "Left Analog Left/Right"
+    "name": "Left Analog Left/Right",
+    "code-name": "analog-l-left-right",
+    "tags": []
   },
   {
     "character": "⇅",
     "code": "U+21C5",
     "codepoint": 8645,
     "category": "gamepad",
-    "name": "Left Analog Up/Down"
+    "name": "Left Analog Up/Down",
+    "code-name": "analog-l-up-down",
+    "tags": []
   },
   {
     "character": "⇆",
     "code": "U+21C6",
     "codepoint": 8646,
     "category": "gamepad",
-    "name": "Right Analog Left/Right"
+    "name": "Right Analog Left/Right",
+    "code-name": "analog-r-left-right",
+    "tags": []
   },
   {
     "character": "⇇",
     "code": "U+21C7",
     "codepoint": 8647,
     "category": "gamepad",
-    "name": "Analog Left"
+    "name": "Analog Left",
+    "code-name": "analog-left",
+    "tags": []
   },
   {
     "character": "⇈",
     "code": "U+21C8",
     "codepoint": 8648,
     "category": "gamepad",
-    "name": "Analog Up"
+    "name": "Analog Up",
+    "code-name": "analog-up",
+    "tags": []
   },
   {
     "character": "⇉",
     "code": "U+21C9",
     "codepoint": 8649,
     "category": "gamepad",
-    "name": "Analog Right"
+    "name": "Analog Right",
+    "code-name": "analog-right",
+    "tags": []
   },
   {
     "character": "⇊",
     "code": "U+21CA",
     "codepoint": 8650,
     "category": "gamepad",
-    "name": "Analog Down"
+    "name": "Analog Down",
+    "code-name": "analog-down",
+    "tags": []
   },
   {
     "code": "U+21CB",
     "category": "gamepad",
     "name": "Left Analog",
     "character": "⇋",
-    "codepoint": 8651
+    "codepoint": 8651,
+    "code-name": "analog-l",
+    "tags": []
   },
   {
     "code": "U+21CC",
     "category": "gamepad",
     "name": "Right Analog",
     "character": "⇌",
-    "codepoint": 8652
+    "codepoint": 8652,
+    "code-name": "analog-r",
+    "tags": []
   },
   {
     "code": "U+21CE",
     "category": "gamepad",
     "name": "Dpad",
     "character": "⇎",
-    "codepoint": 8654
+    "codepoint": 8654,
+    "code-name": "dpad",
+    "tags": []
   },
   {
     "character": "⇐",
     "code": "U+21D0",
     "codepoint": 8656,
     "category": "gamepad",
-    "name": "Button X"
+    "name": "Button X",
+    "code-name": "xbox-x",
+    "tags": []
   },
   {
     "character": "⇑",
     "code": "U+21D1",
     "codepoint": 8657,
     "category": "gamepad",
-    "name": "Button Y"
+    "name": "Button Y",
+    "code-name": "xbox-y",
+    "tags": []
   },
   {
     "character": "⇒",
     "code": "U+21D2",
     "codepoint": 8658,
     "category": "gamepad",
-    "name": "Button B"
+    "name": "Button B",
+    "code-name": "xbox-b",
+    "tags": []
   },
   {
     "character": "⇓",
     "code": "U+21D3",
     "codepoint": 8659,
     "category": "gamepad",
-    "name": "Button A"
+    "name": "Button A",
+    "code-name": "xbox-a",
+    "tags": []
   },
   {
     "character": "⇔",
     "code": "U+21D4",
     "codepoint": 8660,
     "category": "gamepad",
-    "name": "Analog Left/Right"
+    "name": "Analog Left/Right",
+    "code-name": "analog-left-right",
+    "tags": []
   },
   {
     "character": "⇕",
     "code": "U+21D5",
     "codepoint": 8661,
     "category": "gamepad",
-    "name": "Analog Up/Down"
+    "name": "Analog Up/Down",
+    "code-name": "analog-up-down",
+    "tags": []
   },
   {
     "character": "⇖",
     "code": "U+21D6",
     "codepoint": 8662,
     "category": "gamepad",
-    "name": "Analog Up Left"
+    "name": "Analog Up Left",
+    "code-name": "analog-up-left",
+    "tags": []
   },
   {
     "character": "⇗",
     "code": "U+21D7",
     "codepoint": 8663,
     "category": "gamepad",
-    "name": "Analog Up Right"
+    "name": "Analog Up Right",
+    "code-name": "analog-up-right",
+    "tags": []
   },
   {
     "character": "⇘",
     "code": "U+21D8",
     "codepoint": 8664,
     "category": "gamepad",
-    "name": "Analog Down Right"
+    "name": "Analog Down Right",
+    "code-name": "analog-down-right",
+    "tags": []
   },
   {
     "character": "⇙",
     "code": "U+21D9",
     "codepoint": 8665,
     "category": "gamepad",
-    "name": "Analog Down Left"
+    "name": "Analog Down Left",
+    "code-name": "analog-down-left",
+    "tags": []
   },
   {
     "code": "U+21DA",
     "category": "gamepad",
     "name": "Left Analog Touch",
     "character": "⇚",
-    "codepoint": 8666
+    "codepoint": 8666,
+    "code-name": "analog-l-touch",
+    "tags": []
   },
   {
     "code": "U+21DB",
     "category": "gamepad",
     "name": "Right Analog Touch",
     "character": "⇛",
-    "codepoint": 8667
+    "codepoint": 8667,
+    "code-name": "analog-r-touch",
+    "tags": []
   },
   {
     "code": "U+21DC",
     "category": "gamepad",
     "name": "Left Trigger Pull",
     "character": "⇜",
-    "codepoint": 8668
+    "codepoint": 8668,
+    "code-name": "xbox-left-trigger-pull",
+    "tags": []
   },
   {
     "code": "U+21DD",
     "category": "gamepad",
     "name": "Right Trigger Pull",
     "character": "⇝",
-    "codepoint": 8669
+    "codepoint": 8669,
+    "code-name": "xbox-right-trigger-pull",
+    "tags": []
   },
   {
     "code": "U+21DE",
     "category": "gamepad",
     "name": "Dpad Right/Down",
     "character": "⇞",
-    "codepoint": 8670
+    "codepoint": 8670,
+    "code-name": "dpad-right-down",
+    "tags": []
   },
   {
     "code": "U+21DF",
     "category": "gamepad",
     "name": "Dpad Left/Up",
     "character": "⇟",
-    "codepoint": 8671
+    "codepoint": 8671,
+    "code-name": "dupad-left-up",
+    "tags": []
   },
   {
     "character": "⇠",
     "code": "U+21E0",
     "codepoint": 8672,
     "category": "gamepad",
-    "name": "Button Square"
+    "name": "Button Square",
+    "code-name": "sony-x",
+    "tags": []
   },
   {
     "character": "⇡",
     "code": "U+21E1",
     "codepoint": 8673,
     "category": "gamepad",
-    "name": "Button Triangle"
+    "name": "Button Triangle",
+    "code-name": "sony-y",
+    "tags": []
   },
   {
     "character": "⇢",
     "code": "U+21E2",
     "codepoint": 8674,
     "category": "gamepad",
-    "name": "Button Circle"
+    "name": "Button Circle",
+    "code-name": "sony-b",
+    "tags": []
   },
   {
     "character": "⇣",
     "code": "U+21E3",
     "codepoint": 8675,
     "category": "gamepad",
-    "name": "Button Cross"
+    "name": "Button Cross",
+    "code-name": "sony-a",
+    "tags": []
   },
   {
     "code": "U+21E4",
     "category": "gamepad",
     "name": "Steam Menu",
     "character": "⇤",
-    "codepoint": 8676
+    "codepoint": 8676,
+    "code-name": "steam-menu",
+    "tags": []
   },
   {
     "code": "U+21E5",
     "category": "gamepad",
     "name": "Options Menu",
     "character": "⇥",
-    "codepoint": 8677
+    "codepoint": 8677,
+    "code-name": "steam-options",
+    "tags": []
   },
   {
     "character": "⇦",
     "code": "U+21E6",
     "codepoint": 8678,
     "category": "gamepad",
-    "name": "DualShock Share"
+    "name": "DualShock Share",
+    "code-name": "sony-share",
+    "tags": []
   },
   {
     "character": "⇧",
     "code": "U+21E7",
     "codepoint": 8679,
     "category": "gamepad",
-    "name": "DualShock Touchpad"
+    "name": "DualShock Touchpad",
+    "code-name": "sony-touchpad",
+    "tags": []
   },
   {
     "character": "⇨",
     "code": "U+21E8",
     "codepoint": 8680,
     "category": "gamepad",
-    "name": "DualShock Options"
+    "name": "DualShock Options",
+    "code-name": "sony-options",
+    "tags": []
   },
   {
     "code": "U+21E9",
     "name": "Gamecube Z",
     "category": "gamepad",
     "character": "⇩",
-    "codepoint": 8681
+    "codepoint": 8681,
+    "code-name": "nintendo-button-z",
+    "tags": []
   },
   {
     "code": "U+21EA",
     "category": "gamepad",
     "name": "Back Trigger (Z)",
     "character": "⇪",
-    "codepoint": 8682
+    "codepoint": 8682,
+    "code-name": "nintendo-trigger-z",
+    "tags": []
   },
   {
     "code": "U+21EB",
     "category": "gamepad",
     "name": "Button C",
     "character": "⇫",
-    "codepoint": 8683
+    "codepoint": 8683,
+    "code-name": "nintendo-c",
+    "tags": []
   },
   {
     "code": "U+21EC",
     "category": "gamepad",
     "name": "Button Z",
     "character": "⇬",
-    "codepoint": 8684
+    "codepoint": 8684,
+    "code-name": "nintendo-z",
+    "tags": []
   },
   {
     "code": "U+21ED",
     "category": "gamepad",
     "name": "Button Alt 1",
     "character": "⇭",
-    "codepoint": 8685
+    "codepoint": 8685,
+    "code-name": "nintendo-1",
+    "tags": []
   },
   {
     "code": "U+21EE",
     "category": "gamepad",
     "name": "Button Alt 2",
     "character": "⇮",
-    "codepoint": 8686
+    "codepoint": 8686,
+    "code-name": "nintendo-2",
+    "tags": []
   },
   {
     "character": "⇱",
     "code": "U+21F1",
     "codepoint": 8689,
     "category": "gamepad",
-    "name": "Left Analog Any"
+    "name": "Left Analog Any",
+    "code-name": "analog-l-any",
+    "tags": []
   },
   {
     "character": "⇲",
     "code": "U+21F2",
     "codepoint": 8690,
     "category": "gamepad",
-    "name": "Right Analog Any"
+    "name": "Right Analog Any",
+    "code-name": "analog-r-any",
+    "tags": []
   },
   {
     "character": "⇳",
     "code": "U+21F3",
     "codepoint": 8691,
     "category": "gamepad",
-    "name": "Analog Any"
+    "name": "Analog Any",
+    "code-name": "analog-any",
+    "tags": []
   },
   {
     "character": "⇵",
     "code": "U+21F5",
     "codepoint": 8693,
     "category": "gamepad",
-    "name": "Right Analog Up/Down"
+    "name": "Right Analog Up/Down",
+    "code-name": "analog-r-up-down",
+    "tags": []
   },
   {
     "character": "⇷",
     "code": "U+21F7",
     "codepoint": 8695,
     "category": "gamepad",
-    "name": "Select/Share"
+    "name": "Select/Share",
+    "code-name": "gamepad-select",
+    "tags": []
   },
   {
     "character": "⇸",
     "code": "U+21F8",
     "codepoint": 8696,
     "category": "gamepad",
-    "name": "Start"
+    "name": "Start",
+    "code-name": "gamepad-start",
+    "tags": []
   },
   {
     "character": "⇹",
     "code": "U+21F9",
     "codepoint": 8697,
     "category": "gamepad",
-    "name": "Home/Menu"
+    "name": "Home/Menu",
+    "code-name": "gamepad-home",
+    "tags": []
   },
   {
     "character": "⇺",
     "code": "U+21FA",
     "codepoint": 8698,
     "category": "gamepad",
-    "name": "Share/Capture"
+    "name": "Share/Capture/View",
+    "code-name": "xbox-view",
+    "tags": []
   },
   {
     "character": "⇻",
     "code": "U+21FB",
     "codepoint": 8699,
     "category": "gamepad",
-    "name": "Burger Menu"
+    "name": "Burger Menu",
+    "code-name": "xbox-menu",
+    "tags": []
   },
   {
     "character": "⇽",
     "code": "U+21FD",
     "codepoint": 8701,
     "category": "gamepad",
-    "name": "Minus"
+    "name": "Minus",
+    "code-name": "nintendo-minus",
+    "tags": []
   },
   {
     "character": "⇾",
     "code": "U+21FE",
     "codepoint": 8702,
     "category": "gamepad",
-    "name": "Plus"
+    "name": "Plus",
+    "code-name": "nintendo-plus",
+    "tags": []
   },
   {
     "code": "U+21FF",
     "name": "Joycon Dpad Left",
     "category": "gamepad",
     "character": "⇿",
-    "codepoint": 8703
+    "codepoint": 8703,
+    "code-name": "nintendo-dpad-left",
+    "tags": []
   },
   {
     "code": "U+2200",
     "name": "Joycon Dpad Up",
     "category": "gamepad",
     "character": "∀",
-    "codepoint": 8704
+    "codepoint": 8704,
+    "code-name": "nintendo-dpad-up",
+    "tags": []
   },
   {
     "code": "U+2201",
     "name": "Joycon Dpad Right",
     "category": "gamepad",
     "character": "∁",
-    "codepoint": 8705
+    "codepoint": 8705,
+    "code-name": "nintendo-dpad-right",
+    "tags": []
   },
   {
     "code": "U+2202",
     "name": "Joycon Dpad Down",
     "category": "gamepad",
     "character": "∂",
-    "codepoint": 8706
+    "codepoint": 8706,
+    "code-name": "nintendo-dpad-down",
+    "tags": []
   },
   {
     "code": "U+2203",
     "name": "Joycon SL",
     "category": "gamepad",
     "character": "∃",
-    "codepoint": 8707
+    "codepoint": 8707,
+    "code-name": "nintendo-joycon-sl",
+    "tags": []
   },
   {
     "code": "U+2204",
     "name": "Joycon SR",
     "category": "gamepad",
     "character": "∄",
-    "codepoint": 8708
+    "codepoint": 8708,
+    "code-name": "nintendo-joycon-sr",
+    "tags": []
   },
   {
     "code": "U+2205",
     "name": "Lenovo Legion Quick Settings",
     "category": "gamepad",
     "character": "∅",
-    "codepoint": 8709
+    "codepoint": 8709,
+    "code-name": "legion-settings",
+    "tags": []
   },
   {
     "code": "U+2206",
     "category": "gamepad",
     "name": "DualSense Share",
     "character": "∆",
-    "codepoint": 8710
+    "codepoint": 8710,
+    "code-name": "sony-dualsense-share",
+    "tags": []
   },
   {
     "code": "U+2207",
     "category": "gamepad",
     "name": "DualSense Touchpad",
     "character": "∇",
-    "codepoint": 8711
+    "codepoint": 8711,
+    "code-name": "sony-dualsense-touchpad",
+    "tags": []
   },
   {
     "code": "U+2208",
     "category": "gamepad",
     "name": "DualSense Options",
     "character": "∈",
-    "codepoint": 8712
+    "codepoint": 8712,
+    "code-name": "sony-dualsense-options",
+    "tags": []
   },
   {
     "code": "U+2209",
     "name": "Ayaneo LC",
     "category": "gamepad",
     "character": "∉",
-    "codepoint": 8713
+    "codepoint": 8713,
+    "code-name": "ayaneo-lc",
+    "tags": []
   },
   {
     "code": "U+220A",
     "name": "Ayaneo RC",
     "category": "gamepad",
     "character": "∊",
-    "codepoint": 8714
+    "codepoint": 8714,
+    "code-name": "ayaneo-rc",
+    "tags": []
   },
   {
     "code": "U+220B",
     "name": "Ayaneo Wave",
     "category": "gamepad",
     "character": "∋",
-    "codepoint": 8715
+    "codepoint": 8715,
+    "code-name": "ayaneo-wave",
+    "tags": []
   },
   {
     "code": "U+220C",
-    "name": "AYN Home",
+    "name": "Ayaneo Home",
     "category": "gamepad",
     "character": "∌",
-    "codepoint": 8716
+    "codepoint": 8716,
+    "code-name": "ayaneo-home",
+    "tags": []
   },
   {
     "code": "U+220D",
-    "name": "AYN LCC",
+    "name": "Ayaneo LCC",
     "category": "gamepad",
     "character": "∍",
-    "codepoint": 8717
+    "codepoint": 8717,
+    "code-name": "ayaneo-lcc",
+    "tags": []
   },
   {
     "code": "U+220E",
     "name": "GPD C1",
     "category": "gamepad",
     "character": "∎",
-    "codepoint": 8718
+    "codepoint": 8718,
+    "code-name": "gpd-c1",
+    "tags": []
   },
   {
     "code": "U+220F",
     "name": "GPD C2",
     "category": "gamepad",
     "character": "∏",
-    "codepoint": 8719
+    "codepoint": 8719,
+    "code-name": "gpd-c2",
+    "tags": []
   },
   {
     "code": "U+2210",
     "name": "Onexplayer Keyboard",
     "category": "gamepad",
     "character": "∐",
-    "codepoint": 8720
+    "codepoint": 8720,
+    "code-name": "onexplayer-keyboard",
+    "tags": []
   },
   {
     "code": "U+2211",
     "name": "Onexplayer Turbo",
     "category": "gamepad",
     "character": "∑",
-    "codepoint": 8721
+    "codepoint": 8721,
+    "code-name": "onexplayer-turbo",
+    "tags": []
   },
   {
     "code": "U+2212",
     "name": "M1",
     "category": "gamepad",
     "character": "−",
-    "codepoint": 8722
+    "codepoint": 8722,
+    "code-name": "gamepad-m1",
+    "tags": []
   },
   {
     "code": "U+2213",
     "name": "M2",
     "category": "gamepad",
     "character": "∓",
-    "codepoint": 8723
+    "codepoint": 8723,
+    "code-name": "gamepad-m2",
+    "tags": []
   },
   {
     "code": "U+2214",
     "category": "gamepad",
     "name": "M3",
     "character": "∔",
-    "codepoint": 8724
+    "codepoint": 8724,
+    "code-name": "gamepad-m3",
+    "tags": []
   },
   {
     "code": "U+2215",
     "category": "gamepad",
     "name": "Y1",
     "character": "∕",
-    "codepoint": 8725
+    "codepoint": 8725,
+    "code-name": "gamepad-y1",
+    "tags": []
   },
   {
     "code": "U+2216",
     "category": "gamepad",
     "name": "Y2",
     "character": "∖",
-    "codepoint": 8726
+    "codepoint": 8726,
+    "code-name": "gamepad-y2",
+    "tags": []
   },
   {
     "code": "U+2217",
     "category": "gamepad",
     "name": "Y3",
     "character": "∗",
-    "codepoint": 8727
+    "codepoint": 8727,
+    "code-name": "gamepad-y3",
+    "tags": []
   },
   {
     "code": "U+2218",
     "category": "gamepad",
     "name": "Onexplayer Function",
     "character": "∘",
-    "codepoint": 8728
+    "codepoint": 8728,
+    "code-name": "onexplayer-function",
+    "tags": []
   },
   {
     "code": "U+2219",
     "category": "gamepad",
     "name": "Onexplayer Home",
     "character": "∙",
-    "codepoint": 8729
+    "codepoint": 8729,
+    "code-name": "onexplayer-home",
+    "tags": []
   },
   {
     "code": "U+2264",
     "category": "gamepad",
     "name": "Left Trackpad Any",
     "character": "≤",
-    "codepoint": 8804
+    "codepoint": 8804,
+    "code-name": "trackpad-l-any",
+    "tags": []
   },
   {
     "code": "U+2265",
     "category": "gamepad",
     "name": "Right Trackpad Any",
     "character": "≥",
-    "codepoint": 8805
+    "codepoint": 8805,
+    "code-name": "trackpad-r-any",
+    "tags": []
   },
   {
     "code": "U+2266",
     "category": "gamepad",
     "name": "Left Trackpad Click",
     "character": "≦",
-    "codepoint": 8806
+    "codepoint": 8806,
+    "code-name": "trackpad-l-click",
+    "tags": []
   },
   {
     "code": "U+2267",
     "category": "gamepad",
     "name": "Right Trackpad Click",
     "character": "≧",
-    "codepoint": 8807
+    "codepoint": 8807,
+    "code-name": "trackpad-r-click",
+    "tags": []
   },
   {
     "code": "U+2268",
     "category": "gamepad",
     "name": "Left Trackpad Touch",
     "character": "≨",
-    "codepoint": 8808
+    "codepoint": 8808,
+    "code-name": "trackpad-l-touch",
+    "tags": []
   },
   {
     "code": "U+2269",
     "category": "gamepad",
     "name": "Right Trackpad Touch",
     "character": "≩",
-    "codepoint": 8809
+    "codepoint": 8809,
+    "code-name": "trackpad-r-touch",
+    "tags": []
   },
   {
     "code": "U+226E",
     "category": "gamepad",
     "name": "Left Trackpad Left",
     "character": "≮",
-    "codepoint": 8814
+    "codepoint": 8814,
+    "code-name": "trackpad-l-left",
+    "tags": []
   },
   {
     "code": "U+226F",
     "category": "gamepad",
     "name": "Right Trackpad Left",
     "character": "≯",
-    "codepoint": 8815
+    "codepoint": 8815,
+    "code-name": "trackpad-r-left",
+    "tags": []
   },
   {
     "code": "U+2270",
     "category": "gamepad",
     "name": "Left Trackpad Up",
     "character": "≰",
-    "codepoint": 8816
+    "codepoint": 8816,
+    "code-name": "trackpad-l-up",
+    "tags": []
   },
   {
     "code": "U+2271",
     "category": "gamepad",
     "name": "Right Trackpad Up",
     "character": "≱",
-    "codepoint": 8817
+    "codepoint": 8817,
+    "code-name": "trackpad-r-up",
+    "tags": []
   },
   {
     "code": "U+2272",
     "category": "gamepad",
     "name": "Left Trackpad Right",
     "character": "≲",
-    "codepoint": 8818
+    "codepoint": 8818,
+    "code-name": "trackpad-l-right",
+    "tags": []
   },
   {
     "code": "U+2273",
     "category": "gamepad",
     "name": "Right Trackpad Right",
     "character": "≳",
-    "codepoint": 8819
+    "codepoint": 8819,
+    "code-name": "trackpad-r-right",
+    "tags": []
   },
   {
     "code": "U+2274",
     "category": "gamepad",
     "name": "Left Trackpad Down",
     "character": "≴",
-    "codepoint": 8820
+    "codepoint": 8820,
+    "code-name": "trackpad-l-down",
+    "tags": []
   },
   {
     "code": "U+2275",
     "category": "gamepad",
     "name": "Right Trackpad Down",
     "character": "≵",
-    "codepoint": 8821
+    "codepoint": 8821,
+    "code-name": "trackpad-r-down",
+    "tags": []
   },
   {
     "code": "U+2276",
     "name": "SteamDeck L4",
     "category": "gamepad",
     "character": "≶",
-    "codepoint": 8822
+    "codepoint": 8822,
+    "code-name": "gamepad-l4",
+    "tags": []
   },
   {
     "code": "U+2277",
     "name": "SteamDeck R4",
     "category": "gamepad",
     "character": "≷",
-    "codepoint": 8823
+    "codepoint": 8823,
+    "code-name": "gamepad-r4",
+    "tags": []
   },
   {
     "code": "U+2278",
     "name": "SteamDeck L5",
     "category": "gamepad",
     "character": "≸",
-    "codepoint": 8824
+    "codepoint": 8824,
+    "code-name": "gamepad-l5",
+    "tags": []
   },
   {
     "code": "U+2279",
     "name": "SteamDeck R5",
     "category": "gamepad",
     "character": "≹",
-    "codepoint": 8825
+    "codepoint": 8825,
+    "code-name": "gamepad-r5",
+    "tags": []
   },
   {
     "code": "U+227A",
     "name": "Xbox Dpad Left",
     "category": "gamepad",
     "character": "≺",
-    "codepoint": 8826
+    "codepoint": 8826,
+    "code-name": "xbox-dpad-left",
+    "tags": []
   },
   {
     "code": "U+227B",
     "name": "Xbox Dpad Up",
     "category": "gamepad",
     "character": "≻",
-    "codepoint": 8827
+    "codepoint": 8827,
+    "code-name": "xbox-dpad-up",
+    "tags": []
   },
   {
     "code": "U+227C",
     "name": "Xbox Dpad Right",
     "category": "gamepad",
     "character": "≼",
-    "codepoint": 8828
+    "codepoint": 8828,
+    "code-name": "xbox-dpad-right",
+    "tags": []
   },
   {
     "code": "U+227D",
     "name": "Xbox Dpad Down",
     "category": "gamepad",
     "character": "≽",
-    "codepoint": 8829
+    "codepoint": 8829,
+    "code-name": "xbox-dpad-down",
+    "tags": []
   },
   {
     "code": "U+227E",
     "name": "Xbox Dpad Left Right",
     "category": "gamepad",
     "character": "≾",
-    "codepoint": 8830
+    "codepoint": 8830,
+    "code-name": "xbox-depad-left-right",
+    "tags": []
   },
   {
     "code": "U+227F",
     "name": "Xbox Dpad Up Down",
     "category": "gamepad",
     "character": "≿",
-    "codepoint": 8831
+    "codepoint": 8831,
+    "code-name": "xbox-dpad-up-down",
+    "tags": []
   },
   {
     "code": "U+2280",
     "name": "Xbox Dpad Left Up",
     "category": "gamepad",
     "character": "⊀",
-    "codepoint": 8832
+    "codepoint": 8832,
+    "code-name": "xbox-dpad-left-up",
+    "tags": []
   },
   {
     "code": "U+2281",
     "name": "Xbox Dpad Right Up",
     "category": "gamepad",
     "character": "⊁",
-    "codepoint": 8833
+    "codepoint": 8833,
+    "code-name": "xbox-dpad-right-up",
+    "tags": []
   },
   {
     "code": "U+2282",
     "name": "Xbox Dpad Left Down",
     "category": "gamepad",
     "character": "⊂",
-    "codepoint": 8834
+    "codepoint": 8834,
+    "code-name": "xbox-dpad-left-down",
+    "tags": []
   },
   {
     "code": "U+2283",
     "name": "Xbox Dpad Right Down",
     "category": "gamepad",
     "character": "⊃",
-    "codepoint": 8835
+    "codepoint": 8835,
+    "code-name": "xbox-dpad-right-down",
+    "tags": []
   },
   {
     "code": "U+2284",
     "name": "Xbox Dpad",
     "category": "gamepad",
     "character": "⊄",
-    "codepoint": 8836
+    "codepoint": 8836,
+    "code-name": "xbox-dpad",
+    "tags": []
   },
   {
     "code": "U+2316",
     "category": "icon",
     "name": "pin",
     "character": "⌖",
-    "codepoint": 8982
+    "codepoint": 8982,
+    "code-name": "icon-pin",
+    "tags": []
   },
   {
     "code": "U+23CD",
     "category": "android",
     "name": "Tabs",
     "character": "⏍",
-    "codepoint": 9165
+    "codepoint": 9165,
+    "code-name": "android-tabs",
+    "tags": []
   },
   {
     "code": "U+23CE",
     "category": "android",
     "name": "Back",
     "character": "⏎",
-    "codepoint": 9166
+    "codepoint": 9166,
+    "code-name": "android-back",
+    "tags": []
   },
   {
     "code": "U+23CF",
     "category": "android",
     "name": "Home Screen",
     "character": "⏏",
-    "codepoint": 9167
+    "codepoint": 9167,
+    "code-name": "android-home",
+    "tags": []
   },
   {
     "code": "U+23D0",
     "category": "android",
     "name": "Horizontal Dots",
     "character": "⏐",
-    "codepoint": 9168
+    "codepoint": 9168,
+    "code-name": "android-horizontal-dots",
+    "tags": []
   },
   {
     "code": "U+23D1",
     "category": "android",
     "name": "Vertical Dots",
     "character": "⏑",
-    "codepoint": 9169
+    "codepoint": 9169,
+    "code-name": "android-vertical-dots",
+    "tags": []
   },
   {
     "code": "U+23D2",
     "category": "android",
     "name": "Hamburger Menu",
     "character": "⏒",
-    "codepoint": 9170
+    "codepoint": 9170,
+    "code-name": "android-hamburger-menu",
+    "tags": []
   },
   {
     "code": "U+23F4",
     "category": "keyboard",
     "name": "Arrow Left",
     "character": "⏴",
-    "codepoint": 9204
+    "codepoint": 9204,
+    "code-name": "keyboard-left",
+    "tags": []
   },
   {
     "code": "U+23F5",
     "category": "keyboard",
     "name": "Arrow Up",
     "character": "⏵",
-    "codepoint": 9205
+    "codepoint": 9205,
+    "code-name": "keyboard-up",
+    "tags": []
   },
   {
     "code": "U+23F6",
     "category": "keyboard",
     "name": "Arrow Right",
     "character": "⏶",
-    "codepoint": 9206
+    "codepoint": 9206,
+    "code-name": "keyboard-right",
+    "tags": []
   },
   {
     "code": "U+23F7",
     "category": "keyboard",
     "name": "Arrow Down",
     "character": "⏷",
-    "codepoint": 9207
+    "codepoint": 9207,
+    "code-name": "keyboard-down",
+    "tags": []
   },
   {
     "code": "U+2423",
     "category": "keyboard",
     "name": "WASD",
     "character": "␣",
-    "codepoint": 9251
+    "codepoint": 9251,
+    "code-name": "keyboard-wasd",
+    "tags": []
   },
   {
     "code": "U+2424",
     "category": "keyboard",
     "name": "Arrow Keys",
     "character": "␤",
-    "codepoint": 9252
+    "codepoint": 9252,
+    "code-name": "keyboard-arrows",
+    "tags": []
   },
   {
     "code": "U+2425",
     "category": "keyboard",
     "name": "IJKL",
     "character": "␥",
-    "codepoint": 9253
+    "codepoint": 9253,
+    "code-name": "keyboard-ijkl",
+    "tags": []
   },
   {
     "code": "U+2426",
     "category": "keyboard",
     "name": "Fn",
     "character": "␦",
-    "codepoint": 9254
+    "codepoint": 9254,
+    "code-name": "keyboard-fn",
+    "tags": []
   },
   {
     "character": "␧",
     "code": "U+2427",
     "codepoint": 9255,
     "category": "keyboard",
-    "name": "Ctrl"
+    "name": "Ctrl",
+    "code-name": "keyboard-control",
+    "tags": []
   },
   {
     "character": "␨",
     "code": "U+2428",
     "codepoint": 9256,
     "category": "keyboard",
-    "name": "Alt"
+    "name": "Alt",
+    "code-name": "keyboard-alt",
+    "tags": []
   },
   {
     "character": "␩",
     "code": "U+2429",
     "codepoint": 9257,
     "category": "keyboard",
-    "name": "Shift"
+    "name": "Shift",
+    "code-name": "keyboard-shift",
+    "tags": []
   },
   {
     "character": "␪",
     "code": "U+242A",
     "codepoint": 9258,
     "category": "keyboard",
-    "name": "Super"
+    "name": "Super",
+    "code-name": "keyboard-super",
+    "tags": []
   },
   {
     "character": "␫",
     "code": "U+242B",
     "codepoint": 9259,
     "category": "keyboard",
-    "name": "Tab"
+    "name": "Tab",
+    "code-name": "keyboard-tab",
+    "tags": []
   },
   {
     "character": "␬",
     "code": "U+242C",
     "codepoint": 9260,
     "category": "keyboard",
-    "name": "Caps"
+    "name": "Caps",
+    "code-name": "keyboard-caps",
+    "tags": []
   },
   {
     "character": "␭",
     "code": "U+242D",
     "codepoint": 9261,
     "category": "keyboard",
-    "name": "Backspace"
+    "name": "Backspace",
+    "code-name": "keyboard-backspace",
+    "tags": []
   },
   {
     "character": "␮",
     "code": "U+242E",
     "codepoint": 9262,
     "category": "keyboard",
-    "name": "Enter"
+    "name": "Enter",
+    "code-name": "keyboard-enter",
+    "tags": []
   },
   {
     "character": "␯",
     "code": "U+242F",
     "codepoint": 9263,
     "category": "keyboard",
-    "name": "Esc"
+    "name": "Esc",
+    "code-name": "keyboard-escape",
+    "tags": []
   },
   {
     "character": "␰",
     "code": "U+2430",
     "codepoint": 9264,
     "category": "keyboard",
-    "name": "PrtSc"
+    "name": "PrtSc",
+    "code-name": "keyboard-print-screen",
+    "tags": []
   },
   {
     "character": "␱",
     "code": "U+2431",
     "codepoint": 9265,
     "category": "keyboard",
-    "name": "ScrLk"
+    "name": "ScrLk",
+    "code-name": "keyboard-scroll-lock",
+    "tags": []
   },
   {
     "character": "␲",
     "code": "U+2432",
     "codepoint": 9266,
     "category": "keyboard",
-    "name": "Pause"
+    "name": "Pause",
+    "code-name": "keyboard-pause",
+    "tags": []
   },
   {
     "character": "␳",
     "code": "U+2433",
     "codepoint": 9267,
     "category": "keyboard",
-    "name": "NumLock"
+    "name": "NumLock",
+    "code-name": "keyboard-num-lock",
+    "tags": []
   },
   {
     "character": "␴",
     "code": "U+2434",
     "codepoint": 9268,
     "category": "keyboard",
-    "name": "Insert"
+    "name": "Insert",
+    "code-name": "keyboard-insert",
+    "tags": []
   },
   {
     "character": "␵",
     "code": "U+2435",
     "codepoint": 9269,
     "category": "keyboard",
-    "name": "Home"
+    "name": "Home",
+    "code-name": "keyboard-home",
+    "tags": []
   },
   {
     "character": "␶",
     "code": "U+2436",
     "codepoint": 9270,
     "category": "keyboard",
-    "name": "Page Up"
+    "name": "Page Up",
+    "code-name": "keyboard-page-up",
+    "tags": []
   },
   {
     "character": "␷",
     "code": "U+2437",
     "codepoint": 9271,
     "category": "keyboard",
-    "name": "Delete"
+    "name": "Delete",
+    "code-name": "keyboard-delete",
+    "tags": []
   },
   {
     "character": "␸",
     "code": "U+2438",
     "codepoint": 9272,
     "category": "keyboard",
-    "name": "End"
+    "name": "End",
+    "code-name": "keyboard-end",
+    "tags": []
   },
   {
     "character": "␹",
     "code": "U+2439",
     "codepoint": 9273,
     "category": "keyboard",
-    "name": "Page Down"
+    "name": "Page Down",
+    "code-name": "keyboard-page-down",
+    "tags": []
   },
   {
     "character": "␺",
     "code": "U+243A",
     "codepoint": 9274,
     "category": "keyboard",
-    "name": "Space"
+    "name": "Space",
+    "code-name": "keyboard-space",
+    "tags": []
   },
   {
     "character": "␼",
     "code": "U+243C",
     "codepoint": 9276,
     "category": "device",
-    "name": "Gamepad"
+    "name": "Gamepad",
+    "code-name": "device-gamepad",
+    "tags": []
   },
   {
     "character": "␽",
     "code": "U+243D",
     "codepoint": 9277,
     "category": "device",
-    "name": "Keyboard"
+    "name": "Keyboard",
+    "code-name": "device-keyboard",
+    "tags": []
   },
   {
     "character": "␾",
     "code": "U+243E",
     "codepoint": 9278,
     "category": "device",
-    "name": "Mouse"
+    "name": "Mouse",
+    "code-name": "device-mouse",
+    "tags": []
   },
   {
     "character": "␿",
     "code": "U+243F",
     "codepoint": 9279,
     "category": "device",
-    "name": "Mouse and Keyboard"
+    "name": "Mouse and Keyboard",
+    "code-name": "device-mouse-keyboard",
+    "tags": []
   },
   {
     "character": "①",
     "code": "U+2460",
     "codepoint": 9312,
     "category": "keyboard",
-    "name": "F1"
+    "name": "F1",
+    "code-name": "keyboard-f1",
+    "tags": []
   },
   {
     "character": "②",
     "code": "U+2461",
     "codepoint": 9313,
     "category": "keyboard",
-    "name": "F2"
+    "name": "F2",
+    "code-name": "keyboard-f2",
+    "tags": []
   },
   {
     "character": "③",
     "code": "U+2462",
     "codepoint": 9314,
     "category": "keyboard",
-    "name": "F3"
+    "name": "F3",
+    "code-name": "keyboard-f3",
+    "tags": []
   },
   {
     "character": "④",
     "code": "U+2463",
     "codepoint": 9315,
     "category": "keyboard",
-    "name": "F4"
+    "name": "F4",
+    "code-name": "keyboard-f4",
+    "tags": []
   },
   {
     "character": "⑤",
     "code": "U+2464",
     "codepoint": 9316,
     "category": "keyboard",
-    "name": "F5"
+    "name": "F5",
+    "code-name": "keyboard-f5",
+    "tags": []
   },
   {
     "character": "⑥",
     "code": "U+2465",
     "codepoint": 9317,
     "category": "keyboard",
-    "name": "F6"
+    "name": "F6",
+    "code-name": "keyboard-f6",
+    "tags": []
   },
   {
     "character": "⑦",
     "code": "U+2466",
     "codepoint": 9318,
     "category": "keyboard",
-    "name": "F7"
+    "name": "F7",
+    "code-name": "keyboard-f7",
+    "tags": []
   },
   {
     "character": "⑧",
     "code": "U+2467",
     "codepoint": 9319,
     "category": "keyboard",
-    "name": "F8"
+    "name": "F8",
+    "code-name": "keyboard-f8",
+    "tags": []
   },
   {
     "character": "⑨",
     "code": "U+2468",
     "codepoint": 9320,
     "category": "keyboard",
-    "name": "F9"
+    "name": "F9",
+    "code-name": "keyboard-f9",
+    "tags": []
   },
   {
     "character": "⑩",
     "code": "U+2469",
     "codepoint": 9321,
     "category": "keyboard",
-    "name": "F10"
+    "name": "F10",
+    "code-name": "keyboard-f10",
+    "tags": []
   },
   {
     "character": "⑪",
     "code": "U+246A",
     "codepoint": 9322,
     "category": "keyboard",
-    "name": "F11"
+    "name": "F11",
+    "code-name": "keyboard-f11",
+    "tags": []
   },
   {
     "character": "⑫",
     "code": "U+246B",
     "codepoint": 9323,
     "category": "keyboard",
-    "name": "F12"
+    "name": "F12",
+    "code-name": "keyboard-f12",
+    "tags": []
   },
   {
     "code": "U+248F",
     "category": "keyboard",
     "name": "Empty Keycap",
     "character": "⒏",
-    "codepoint": 9359
+    "codepoint": 9359,
+    "code-name": "keyboard-key",
+    "tags": []
   },
   {
     "character": "⓵",
     "code": "U+24F5",
     "codepoint": 9461,
     "category": "icon",
-    "name": "1"
+    "name": "1",
+    "code-name": "icon-1",
+    "tags": []
   },
   {
     "character": "⓶",
     "code": "U+24F6",
     "codepoint": 9462,
     "category": "icon",
-    "name": "2"
+    "name": "2",
+    "code-name": "icon-2",
+    "tags": []
   },
   {
     "character": "⓷",
     "code": "U+24F7",
     "codepoint": 9463,
     "category": "icon",
-    "name": "3"
+    "name": "3",
+    "code-name": "icon-3",
+    "tags": []
   },
   {
     "character": "⓸",
     "code": "U+24F8",
     "codepoint": 9464,
     "category": "icon",
-    "name": "4"
+    "name": "4",
+    "code-name": "icon-4",
+    "tags": []
   },
   {
     "character": "⓹",
     "code": "U+24F9",
     "codepoint": 9465,
     "category": "icon",
-    "name": "5"
+    "name": "5",
+    "code-name": "icon-5",
+    "tags": []
   },
   {
     "character": "⓺",
     "code": "U+24FA",
     "codepoint": 9466,
     "category": "icon",
-    "name": "6"
+    "name": "6",
+    "code-name": "icon-6",
+    "tags": []
   },
   {
     "character": "⓻",
     "code": "U+24FB",
     "codepoint": 9467,
     "category": "icon",
-    "name": "7"
+    "name": "7",
+    "code-name": "icon-7",
+    "tags": []
   },
   {
     "character": "⓼",
     "code": "U+24FC",
     "codepoint": 9468,
     "category": "icon",
-    "name": "8"
+    "name": "8",
+    "code-name": "icon-8",
+    "tags": []
   },
   {
     "character": "⓽",
     "code": "U+24FD",
     "codepoint": 9469,
     "category": "icon",
-    "name": "9"
+    "name": "9",
+    "code-name": "icon-9",
+    "tags": []
   },
   {
     "character": "⓿",
     "code": "U+24FF",
     "codepoint": 9471,
     "category": "icon",
-    "name": "0"
+    "name": "0",
+    "code-name": "icon-0",
+    "tags": []
   },
   {
     "code": "U+2605",
     "category": "icon",
     "name": "star",
     "character": "★",
-    "codepoint": 9733
+    "codepoint": 9733,
+    "code-name": "icon-star",
+    "tags": []
   },
   {
     "code": "U+2620",
     "category": "icon",
     "name": "skull",
     "character": "☠",
-    "codepoint": 9760
+    "codepoint": 9760,
+    "code-name": "icon-skull",
+    "tags": []
   },
   {
     "code": "U+2639",
     "category": "icon",
     "name": "frown",
     "character": "☹",
-    "codepoint": 9785
+    "codepoint": 9785,
+    "code-name": "icon-frown",
+    "tags": []
   },
   {
     "code": "U+263A",
     "category": "icon",
     "name": "smile",
     "character": "☺",
-    "codepoint": 9786
+    "codepoint": 9786,
+    "code-name": "icon-smile",
+    "tags": []
   },
   {
     "code": "U+2661",
     "category": "icon",
     "name": "empty heart",
     "character": "♡",
-    "codepoint": 9825
+    "codepoint": 9825,
+    "code-name": "icon-empty-heart",
+    "tags": []
   },
   {
     "code": "U+2665",
     "category": "icon",
     "name": "heart",
     "character": "♥",
-    "codepoint": 9829
+    "codepoint": 9829,
+    "code-name": "icon-full-heart",
+    "tags": []
   },
   {
     "code": "U+2673",
     "category": "icon",
     "name": "D4",
     "character": "♳",
-    "codepoint": 9843
+    "codepoint": 9843,
+    "code-name": "icon-d4",
+    "tags": []
   },
   {
     "code": "U+2674",
     "category": "icon",
     "name": "D6",
     "character": "♴",
-    "codepoint": 9844
+    "codepoint": 9844,
+    "code-name": "icon-d6",
+    "tags": []
   },
   {
     "code": "U+2675",
     "category": "icon",
     "name": "D8",
     "character": "♵",
-    "codepoint": 9845
+    "codepoint": 9845,
+    "code-name": "icon-d8",
+    "tags": []
   },
   {
     "code": "U+2676",
     "category": "icon",
     "name": "D10",
     "character": "♶",
-    "codepoint": 9846
+    "codepoint": 9846,
+    "code-name": "icon-d10",
+    "tags": []
   },
   {
     "code": "U+2677",
     "category": "icon",
     "name": "D12",
     "character": "♷",
-    "codepoint": 9847
+    "codepoint": 9847,
+    "code-name": "icon-d12",
+    "tags": []
   },
   {
     "code": "U+2678",
     "category": "icon",
     "name": "D20",
     "character": "♸",
-    "codepoint": 9848
+    "codepoint": 9848,
+    "code-name": "icon-d20",
+    "tags": []
   },
   {
     "code": "U+2680",
     "category": "icon",
     "name": "D6 1",
     "character": "⚀",
-    "codepoint": 9856
+    "codepoint": 9856,
+    "code-name": "icon-d6-1",
+    "tags": []
   },
   {
     "code": "U+2681",
     "category": "icon",
     "name": "D6 2",
     "character": "⚁",
-    "codepoint": 9857
+    "codepoint": 9857,
+    "code-name": "icon-d6-2",
+    "tags": []
   },
   {
     "code": "U+2682",
     "category": "icon",
     "name": "D6 3",
     "character": "⚂",
-    "codepoint": 9858
+    "codepoint": 9858,
+    "code-name": "icon-d6-3",
+    "tags": []
   },
   {
     "code": "U+2683",
     "category": "icon",
     "name": "D6 4",
     "character": "⚃",
-    "codepoint": 9859
+    "codepoint": 9859,
+    "code-name": "icon-d6-4",
+    "tags": []
   },
   {
     "code": "U+2684",
     "category": "icon",
     "name": "D6 5",
     "character": "⚄",
-    "codepoint": 9860
+    "codepoint": 9860,
+    "code-name": "icon-d6-5",
+    "tags": []
   },
   {
     "code": "U+2685",
     "category": "icon",
     "name": "D6 6",
     "character": "⚅",
-    "codepoint": 9861
+    "codepoint": 9861,
+    "code-name": "icon-d6-6",
+    "tags": []
   },
   {
     "code": "U+2691",
     "category": "icon",
     "name": "flag",
     "character": "⚑",
-    "codepoint": 9873
+    "codepoint": 9873,
+    "code-name": "icon-flag",
+    "tags": []
   },
   {
     "code": "U+2699",
     "category": "icon",
     "name": "Gears / Options / Settings",
     "character": "⚙",
-    "codepoint": 9881
+    "codepoint": 9881,
+    "code-name": "icon-gears",
+    "tags": []
   },
   {
     "code": "U+2717",
     "category": "icon",
     "name": "cross",
     "character": "✗",
-    "codepoint": 10007
+    "codepoint": 10007,
+    "code-name": "icon-cross",
+    "tags": []
   },
   {
     "code": "U+2753",
     "category": "icon",
     "name": "question",
     "character": "❓",
-    "codepoint": 10067
+    "codepoint": 10067,
+    "code-name": "icon-question",
+    "tags": []
   },
   {
     "code": "U+2757",
     "category": "icon",
     "name": "exclamation",
     "character": "❗",
-    "codepoint": 10071
+    "codepoint": 10071,
+    "code-name": "icon-bang",
+    "tags": []
   },
   {
     "code": "U+278A",
     "category": "mouse",
     "name": "Mouse Button 1",
     "character": "➊",
-    "codepoint": 10122
+    "codepoint": 10122,
+    "code-name": "mouse-1",
+    "tags": []
   },
   {
     "code": "U+278B",
     "category": "mouse",
     "name": "Mouse Button 2",
     "character": "➋",
-    "codepoint": 10123
+    "codepoint": 10123,
+    "code-name": "mouse-2",
+    "tags": []
   },
   {
     "code": "U+278C",
     "category": "mouse",
     "name": "Mouse Button 3",
     "character": "➌",
-    "codepoint": 10124
+    "codepoint": 10124,
+    "code-name": "mouse-3",
+    "tags": []
   },
   {
     "code": "U+278D",
     "category": "mouse",
     "name": "Mouse Button 4",
     "character": "➍",
-    "codepoint": 10125
+    "codepoint": 10125,
+    "code-name": "mouse-4",
+    "tags": []
   },
   {
     "code": "U+278E",
     "category": "mouse",
     "name": "Mouse Button 5",
     "character": "➎",
-    "codepoint": 10126
+    "codepoint": 10126,
+    "code-name": "mouse-5",
+    "tags": []
   },
   {
     "code": "U+278F",
     "category": "mouse",
     "name": "Mouse Button 6",
     "character": "➏",
-    "codepoint": 10127
+    "codepoint": 10127,
+    "code-name": "mouse-6",
+    "tags": []
   },
   {
     "code": "U+2790",
     "category": "mouse",
     "name": "Mouse Button 7",
     "character": "➐",
-    "codepoint": 10128
+    "codepoint": 10128,
+    "code-name": "mouse-7",
+    "tags": []
   },
   {
     "code": "U+2791",
     "category": "mouse",
     "name": "Mouse Button 8",
     "character": "➑",
-    "codepoint": 10129
+    "codepoint": 10129,
+    "code-name": "mouse-8",
+    "tags": []
   },
   {
     "character": "⟰",
     "code": "U+27F0",
     "codepoint": 10224,
     "category": "mouse",
-    "name": "Scroll Up"
+    "name": "Scroll Up",
+    "code-name": "mouse-scroll-up",
+    "tags": []
   },
   {
     "character": "⟱",
     "code": "U+27F1",
     "codepoint": 10225,
     "category": "mouse",
-    "name": "Scroll Down"
+    "name": "Scroll Down",
+    "code-name": "mouse-scroll-down",
+    "tags": []
   },
   {
     "character": "⟵",
     "code": "U+27F5",
     "codepoint": 10229,
     "category": "mouse",
-    "name": "Left Click"
+    "name": "Left Click",
+    "code-name": "mouse-left",
+    "tags": []
   },
   {
     "character": "⟶",
     "code": "U+27F6",
     "codepoint": 10230,
     "category": "mouse",
-    "name": "Right Click"
+    "name": "Right Click",
+    "code-name": "mouse-right",
+    "tags": []
   },
   {
     "character": "⟷",
     "code": "U+27F7",
     "codepoint": 10231,
     "category": "mouse",
-    "name": "Middle Click"
+    "name": "Middle Click",
+    "code-name": "mouse-middle",
+    "tags": []
   },
   {
     "code": "U+27FA",
     "category": "mouse",
     "name": "Mouse Left/Right",
     "character": "⟺",
-    "codepoint": 10234
+    "codepoint": 10234,
+    "code-name": "mouse-left-right",
+    "tags": []
   },
   {
     "code": "U+27FB",
     "category": "mouse",
     "name": "Mouse Up/Down",
     "character": "⟻",
-    "codepoint": 10235
+    "codepoint": 10235,
+    "code-name": "mouse-up-down",
+    "tags": []
   },
   {
     "code": "U+27FC",
     "category": "mouse",
     "name": "Mouse Any",
     "character": "⟼",
-    "codepoint": 10236
+    "codepoint": 10236,
+    "code-name": "mouse-any",
+    "tags": []
   },
   {
     "code": "U+2B1B",
     "category": "icon",
     "name": "Box / Crate",
     "character": "⬛",
-    "codepoint": 11035
+    "codepoint": 11035,
+    "code-name": "icon-box",
+    "tags": []
   },
   {
     "character": "",
     "code": "U+E000",
     "codepoint": 57344,
     "category": "logo",
-    "name": "PlayStation"
+    "name": "PlayStation",
+    "code-name": "icon-playstation",
+    "tags": []
   },
   {
     "character": "",
     "code": "U+E001",
     "codepoint": 57345,
     "category": "logo",
-    "name": "Xbox"
+    "name": "Xbox",
+    "code-name": "icon-xbox",
+    "tags": []
   },
   {
     "character": "",
     "code": "U+E002",
     "codepoint": 57346,
     "category": "logo",
-    "name": "Nintendo Switch"
+    "name": "Nintendo Switch",
+    "code-name": "icon-nintendo-switch",
+    "tags": []
   },
   {
     "code": "U+E003",
     "name": "Ayaneo",
     "category": "logo",
     "character": "",
-    "codepoint": 57347
+    "codepoint": 57347,
+    "code-name": "icon-ayaneo",
+    "tags": []
   },
   {
     "code": "U+E004",
     "name": "Lenovo Legion",
     "category": "logo",
     "character": "",
-    "codepoint": 57348
+    "codepoint": 57348,
+    "code-name": "icon-lenovo-legion",
+    "tags": []
   },
   {
     "code": "U+E005",
     "name": "Rog Ally Armoury",
     "category": "gamepad",
     "character": "",
-    "codepoint": 57349
+    "codepoint": 57349,
+    "code-name": "icon-rog-ally-armoury",
+    "tags": []
   },
   {
     "code": "U+E006",
-    "name": "Rog Alloy Command",
+    "name": "Rog Ally Command",
     "category": "gamepad",
     "character": "",
-    "codepoint": 57350
+    "codepoint": 57350,
+    "code-name": "icon-icon-rog-ally-command",
+    "tags": []
   },
   {
     "code": "U+E007",
     "category": "logo",
     "name": "Apple / Mac",
     "character": "",
-    "codepoint": 57351
+    "codepoint": 57351,
+    "code-name": "icon-mac",
+    "tags": []
   },
   {
     "code": "U+E008",
     "category": "logo",
     "name": "Windows",
     "character": "",
-    "codepoint": 57352
+    "codepoint": 57352,
+    "code-name": "icon-windows",
+    "tags": []
   },
   {
     "code": "U+E009",
     "category": "logo",
     "name": "Linux",
     "character": "",
-    "codepoint": 57353
+    "codepoint": 57353,
+    "code-name": "icon-linux",
+    "tags": []
   },
   {
     "code": "U+E00A",
     "category": "logo",
     "name": "BSD",
     "character": "",
-    "codepoint": 57354
+    "codepoint": 57354,
+    "code-name": "icon-bsd",
+    "tags": []
   },
   {
     "code": "U+E00B",
     "category": "logo",
     "name": "Steam",
     "character": "",
-    "codepoint": 57355
+    "codepoint": 57355,
+    "code-name": "icon-steam",
+    "tags": []
   },
   {
     "code": "U+E00C",
     "category": "logo",
     "name": "Itch.io",
     "character": "",
-    "codepoint": 57356
+    "codepoint": 57356,
+    "code-name": "icon-itch-io",
+    "tags": []
   },
   {
     "code": "U+E00D",
     "category": "logo",
     "name": "Humble",
     "character": "",
-    "codepoint": 57357
+    "codepoint": 57357,
+    "code-name": "icon-humble",
+    "tags": []
   },
   {
     "code": "U+E00E",
     "category": "logo",
     "name": "Epic Game Store",
     "character": "",
-    "codepoint": 57358
+    "codepoint": 57358,
+    "code-name": "icon-epic-game-store",
+    "tags": []
   },
   {
     "code": "U+E00F",
     "category": "logo",
     "name": "Good Old Games (GOG)",
     "character": "",
-    "codepoint": 57359
+    "codepoint": 57359,
+    "code-name": "icon-good-old-games",
+    "tags": []
   },
   {
     "code": "U+FF10",
     "category": "keyboard",
     "name": "Key 0",
     "character": "０",
-    "codepoint": 65296
+    "codepoint": 65296,
+    "code-name": "keyboard-0",
+    "tags": []
   },
   {
     "code": "U+FF11",
     "category": "keyboard",
     "name": "Key 1",
     "character": "１",
-    "codepoint": 65297
+    "codepoint": 65297,
+    "code-name": "keyboard-1",
+    "tags": []
   },
   {
     "code": "U+FF12",
     "category": "keyboard",
     "name": "Key 2",
     "character": "２",
-    "codepoint": 65298
+    "codepoint": 65298,
+    "code-name": "keyboard-2",
+    "tags": []
   },
   {
     "code": "U+FF13",
     "category": "keyboard",
     "name": "Key 3",
     "character": "３",
-    "codepoint": 65299
+    "codepoint": 65299,
+    "code-name": "keyboard-3",
+    "tags": []
   },
   {
     "code": "U+FF14",
     "category": "keyboard",
     "name": "Key 4",
     "character": "４",
-    "codepoint": 65300
+    "codepoint": 65300,
+    "code-name": "keyboard-4",
+    "tags": []
   },
   {
     "code": "U+FF15",
     "category": "keyboard",
     "name": "Key 5",
     "character": "５",
-    "codepoint": 65301
+    "codepoint": 65301,
+    "code-name": "keyboard-5",
+    "tags": []
   },
   {
     "code": "U+FF16",
     "category": "keyboard",
     "name": "Key 6",
     "character": "６",
-    "codepoint": 65302
+    "codepoint": 65302,
+    "code-name": "keyboard-6",
+    "tags": []
   },
   {
     "code": "U+FF17",
     "category": "keyboard",
     "name": "Key 7",
     "character": "７",
-    "codepoint": 65303
+    "codepoint": 65303,
+    "code-name": "keyboard-7",
+    "tags": []
   },
   {
     "code": "U+FF18",
     "category": "keyboard",
     "name": "Key 8",
     "character": "８",
-    "codepoint": 65304
+    "codepoint": 65304,
+    "code-name": "keyboard-8",
+    "tags": []
   },
   {
     "code": "U+FF19",
     "category": "keyboard",
     "name": "Key 9",
     "character": "９",
-    "codepoint": 65305
+    "codepoint": 65305,
+    "code-name": "keyboard-9",
+    "tags": []
   },
   {
     "code": "U+FF21",
     "category": "keyboard",
     "name": "Key A",
     "character": "Ａ",
-    "codepoint": 65313
+    "codepoint": 65313,
+    "code-name": "keyboard-a",
+    "tags": []
   },
   {
     "code": "U+FF22",
     "category": "keyboard",
     "name": "Key B",
     "character": "Ｂ",
-    "codepoint": 65314
+    "codepoint": 65314,
+    "code-name": "keyboard-b",
+    "tags": []
   },
   {
     "code": "U+FF23",
     "category": "keyboard",
     "name": "Key C",
     "character": "Ｃ",
-    "codepoint": 65315
+    "codepoint": 65315,
+    "code-name": "keyboard-c",
+    "tags": []
   },
   {
     "code": "U+FF24",
     "category": "keyboard",
     "name": "Key D",
     "character": "Ｄ",
-    "codepoint": 65316
+    "codepoint": 65316,
+    "code-name": "keyboard-d",
+    "tags": []
   },
   {
     "code": "U+FF25",
     "category": "keyboard",
     "name": "Key E",
     "character": "Ｅ",
-    "codepoint": 65317
+    "codepoint": 65317,
+    "code-name": "keyboard-e",
+    "tags": []
   },
   {
     "code": "U+FF26",
     "category": "keyboard",
     "name": "Key F",
     "character": "Ｆ",
-    "codepoint": 65318
+    "codepoint": 65318,
+    "code-name": "keyboard-f",
+    "tags": []
   },
   {
     "code": "U+FF27",
     "category": "keyboard",
     "name": "Key G",
     "character": "Ｇ",
-    "codepoint": 65319
+    "codepoint": 65319,
+    "code-name": "keyboard-g",
+    "tags": []
   },
   {
     "code": "U+FF28",
     "category": "keyboard",
     "name": "Key H",
     "character": "Ｈ",
-    "codepoint": 65320
+    "codepoint": 65320,
+    "code-name": "keyboard-h",
+    "tags": []
   },
   {
     "code": "U+FF29",
     "category": "keyboard",
     "name": "Key I",
     "character": "Ｉ",
-    "codepoint": 65321
+    "codepoint": 65321,
+    "code-name": "keyboard-i",
+    "tags": []
   },
   {
     "code": "U+FF2A",
     "category": "keyboard",
     "name": "Key J",
     "character": "Ｊ",
-    "codepoint": 65322
+    "codepoint": 65322,
+    "code-name": "keyboard-j",
+    "tags": []
   },
   {
     "code": "U+FF2B",
     "category": "keyboard",
     "name": "Key K",
     "character": "Ｋ",
-    "codepoint": 65323
+    "codepoint": 65323,
+    "code-name": "keyboard-k",
+    "tags": []
   },
   {
     "code": "U+FF2C",
     "category": "keyboard",
     "name": "Key L",
     "character": "Ｌ",
-    "codepoint": 65324
+    "codepoint": 65324,
+    "code-name": "keyboard-l",
+    "tags": []
   },
   {
     "code": "U+FF2D",
     "category": "keyboard",
     "name": "Key M",
     "character": "Ｍ",
-    "codepoint": 65325
+    "codepoint": 65325,
+    "code-name": "keyboard-m",
+    "tags": []
   },
   {
     "code": "U+FF2E",
     "category": "keyboard",
     "name": "Key N",
     "character": "Ｎ",
-    "codepoint": 65326
+    "codepoint": 65326,
+    "code-name": "keyboard-n",
+    "tags": []
   },
   {
     "code": "U+FF2F",
     "category": "keyboard",
     "name": "Key O",
     "character": "Ｏ",
-    "codepoint": 65327
+    "codepoint": 65327,
+    "code-name": "keyboard-o",
+    "tags": []
   },
   {
     "code": "U+FF30",
     "category": "keyboard",
     "name": "Key P",
     "character": "Ｐ",
-    "codepoint": 65328
+    "codepoint": 65328,
+    "code-name": "keyboard-p",
+    "tags": []
   },
   {
     "code": "U+FF31",
     "category": "keyboard",
     "name": "Key Q",
     "character": "Ｑ",
-    "codepoint": 65329
+    "codepoint": 65329,
+    "code-name": "keyboard-q",
+    "tags": []
   },
   {
     "code": "U+FF32",
     "category": "keyboard",
     "name": "Key R",
     "character": "Ｒ",
-    "codepoint": 65330
+    "codepoint": 65330,
+    "code-name": "keyboard-r",
+    "tags": []
   },
   {
     "code": "U+FF33",
     "category": "keyboard",
     "name": "Key S",
     "character": "Ｓ",
-    "codepoint": 65331
+    "codepoint": 65331,
+    "code-name": "keyboard-s",
+    "tags": []
   },
   {
     "code": "U+FF34",
     "category": "keyboard",
     "name": "Key T",
     "character": "Ｔ",
-    "codepoint": 65332
+    "codepoint": 65332,
+    "code-name": "keyboard-t",
+    "tags": []
   },
   {
     "code": "U+FF35",
     "category": "keyboard",
     "name": "Key U",
     "character": "Ｕ",
-    "codepoint": 65333
+    "codepoint": 65333,
+    "code-name": "keyboard-u",
+    "tags": []
   },
   {
     "code": "U+FF36",
     "category": "keyboard",
     "name": "Key V",
     "character": "Ｖ",
-    "codepoint": 65334
+    "codepoint": 65334,
+    "code-name": "keyboard-v",
+    "tags": []
   },
   {
     "code": "U+FF37",
     "category": "keyboard",
     "name": "Key W",
     "character": "Ｗ",
-    "codepoint": 65335
+    "codepoint": 65335,
+    "code-name": "keyboard-w",
+    "tags": []
   },
   {
     "code": "U+FF38",
     "category": "keyboard",
     "name": "Key X",
     "character": "Ｘ",
-    "codepoint": 65336
+    "codepoint": 65336,
+    "code-name": "keyboard-x",
+    "tags": []
   },
   {
     "code": "U+FF39",
     "category": "keyboard",
     "name": "Key Y",
     "character": "Ｙ",
-    "codepoint": 65337
+    "codepoint": 65337,
+    "code-name": "keyboard-y",
+    "tags": []
   },
   {
     "code": "U+FF3A",
     "category": "keyboard",
     "name": "Key Z",
     "character": "Ｚ",
-    "codepoint": 65338
+    "codepoint": 65338,
+    "code-name": "keyboard-z",
+    "tags": []
   },
   {
     "code": "U+1F3A7",
     "category": "icon",
     "name": "Headphones",
     "character": "🎧",
-    "codepoint": 127911
+    "codepoint": 127911,
+    "code-name": "icon-headphones",
+    "tags": []
   },
   {
     "code": "U+1F3B6",
     "category": "icon",
     "name": "Music",
     "character": "🎶",
-    "codepoint": 127926
+    "codepoint": 127926,
+    "code-name": "icon-music",
+    "tags": []
   },
   {
     "code": "U+1F41F",
     "category": "icon",
     "name": "fish",
     "character": "🐟",
-    "codepoint": 128031
+    "codepoint": 128031,
+    "code-name": "icon-fish",
+    "tags": []
   },
   {
     "code": "U+1F483",
     "category": "device",
     "name": "Dance Pad",
     "character": "💃",
-    "codepoint": 128131
+    "codepoint": 128131,
+    "code-name": "device-dance-pad",
+    "tags": []
   },
   {
     "code": "U+1F4BB",
     "category": "icon",
     "name": "Laptop",
     "character": "💻",
-    "codepoint": 128187
+    "codepoint": 128187,
+    "code-name": "icon-laptop",
+    "tags": []
   },
   {
     "code": "U+1F4BE",
     "category": "icon",
     "name": "diskette",
     "character": "💾",
-    "codepoint": 128190
+    "codepoint": 128190,
+    "code-name": "icon-diskette",
+    "tags": []
   },
   {
     "code": "U+1F4DD",
     "category": "icon",
     "name": "Write",
     "character": "📝",
-    "codepoint": 128221
+    "codepoint": 128221,
+    "code-name": "icon-write",
+    "tags": []
   },
   {
     "code": "U+1F4F1",
-    "category": "icon",
+    "category": "device",
     "name": "Phone",
     "character": "📱",
-    "codepoint": 128241
+    "codepoint": 128241,
+    "code-name": "device-phone",
+    "tags": []
   },
   {
     "code": "U+1F4F7",
     "category": "icon",
     "name": "Camera",
     "character": "📷",
-    "codepoint": 128247
+    "codepoint": 128247,
+    "code-name": "icon-camera",
+    "tags": []
   },
   {
     "code": "U+1F508",
     "category": "icon",
     "name": "Speaker",
     "character": "🔈",
-    "codepoint": 128264
+    "codepoint": 128264,
+    "code-name": "icon-speaker",
+    "tags": []
   },
   {
     "code": "U+1F52B",
     "category": "device",
     "name": "Light Gun",
     "character": "🔫",
-    "codepoint": 128299
+    "codepoint": 128299,
+    "code-name": "device-light-gun",
+    "tags": []
   },
   {
     "code": "U+1F56C",
     "category": "icon",
     "name": "SFX / Sound Effect / Noise",
     "character": "🕬",
-    "codepoint": 128364
+    "codepoint": 128364,
+    "code-name": "icon-noise",
+    "tags": []
   },
   {
     "code": "U+1F578",
     "category": "device",
     "name": "Steering Wheel",
     "character": "🕸",
-    "codepoint": 128376
+    "codepoint": 128376,
+    "code-name": "device-steering-wheel",
+    "tags": []
   },
   {
     "code": "U+1F579",
-    "category": "icon",
+    "category": "device",
     "name": "Fight Stick / Joystick",
     "character": "🕹",
-    "codepoint": 128377
+    "codepoint": 128377,
+    "code-name": "device-joy-stick",
+    "tags": []
   },
   {
     "code": "U+1F57B",
     "category": "device",
     "name": "VR Headset",
     "character": "🕻",
-    "codepoint": 128379
+    "codepoint": 128379,
+    "code-name": "device-vr-headset",
+    "tags": []
   },
   {
     "code": "U+1F57C",
     "category": "device",
     "name": "VR Controller",
     "character": "🕼",
-    "codepoint": 128380
+    "codepoint": 128380,
+    "code-name": "device-vr-controller",
+    "tags": []
   },
   {
     "code": "U+1F57D",
     "category": "device",
     "name": "Flight Stick",
     "character": "🕽",
-    "codepoint": 128381
+    "codepoint": 128381,
+    "code-name": "device-flight-stick",
+    "tags": []
   },
   {
     "code": "U+1F5A5",
     "category": "icon",
     "name": "CPU / Processor",
     "character": "🖥",
-    "codepoint": 128421
+    "codepoint": 128421,
+    "code-name": "icon-processor",
+    "tags": []
   },
   {
     "code": "U+1F5A7",
     "category": "icon",
     "name": "Web / Internet / Link",
     "character": "🖧",
-    "codepoint": 128423
+    "codepoint": 128423,
+    "code-name": "icon-internet",
+    "tags": []
   },
   {
     "code": "U+1F5A8",
     "category": "icon",
     "name": "GPU / Graphics Card",
     "character": "🖨",
-    "codepoint": 128424
+    "codepoint": 128424,
+    "code-name": "icon-graphics-card",
+    "tags": []
   },
   {
     "code": "U+1F5AA",
     "category": "icon",
     "name": "RAM / Memory",
     "character": "🖪",
-    "codepoint": 128426
+    "codepoint": 128426,
+    "code-name": "icon-memory",
+    "tags": []
   },
   {
     "code": "U+1F5AB",
     "category": "icon",
     "name": "USB Stick",
     "character": "🖫",
-    "codepoint": 128427
+    "codepoint": 128427,
+    "code-name": "icon-usb-stick",
+    "tags": []
   },
   {
     "code": "U+1F5AC",
     "category": "icon",
     "name": "Database",
     "character": "🖬",
-    "codepoint": 128428
+    "codepoint": 128428,
+    "code-name": "icon-database",
+    "tags": []
   },
   {
     "code": "U+1F5B4",
     "category": "icon",
     "name": "Hard Disk / Drive",
     "character": "🖴",
-    "codepoint": 128436
+    "codepoint": 128436,
+    "code-name": "icon-hard-disk",
+    "tags": []
   },
   {
     "code": "U+1F5B5",
     "category": "icon",
     "name": "Screen / Video",
     "character": "🖵",
-    "codepoint": 128437
+    "codepoint": 128437,
+    "code-name": "icon-screen",
+    "tags": []
   },
   {
     "code": "U+1F5B9",
     "category": "icon",
     "name": "Text Entry / Edit",
     "character": "🖹",
-    "codepoint": 128441
+    "codepoint": 128441,
+    "code-name": "icon-text-entry",
+    "tags": []
   },
   {
     "code": "U+1F5E3",
     "category": "icon",
     "name": "Speaking Voice",
     "character": "🗣",
-    "codepoint": 128483
+    "codepoint": 128483,
+    "code-name": "icon-speak",
+    "tags": []
   },
   {
     "code": "U+1F5E9",
     "category": "icon",
     "name": "Language",
     "character": "🗩",
-    "codepoint": 128489
+    "codepoint": 128489,
+    "code-name": "icon-language",
+    "tags": []
   },
   {
     "code": "U+1F6AA",
     "category": "icon",
     "name": "Exit / Quit / Leave",
     "character": "🚪",
-    "codepoint": 128682
+    "codepoint": 128682,
+    "code-name": "icon-exit",
+    "tags": []
   },
   {
     "code": "U+1F6C8",
     "category": "icon",
     "name": "Information",
     "character": "🛈",
-    "codepoint": 128712
+    "codepoint": 128712,
+    "code-name": "icon-information",
+    "tags": []
   },
   {
     "code": "U+1F6D2",
     "category": "icon",
     "name": "Shopping Cart",
     "character": "🛒",
-    "codepoint": 128722
+    "codepoint": 128722,
+    "code-name": "icon-shopping-cart",
+    "tags": []
   }
 ]
