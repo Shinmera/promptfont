@@ -3187,20 +3187,20 @@
   },
   {
     "code": "U+E005",
-    "name": "Rog Ally Armoury",
+    "name": "ROG Ally Armoury",
     "category": "gamepad",
     "character": "",
     "codepoint": 57349,
-    "code-name": "icon-rog-ally-armoury",
+    "code-name": "rog-ally-armoury",
     "tags": []
   },
   {
     "code": "U+E006",
-    "name": "Rog Ally Command",
+    "name": "ROG Ally Command",
     "category": "gamepad",
     "character": "",
     "codepoint": 57350,
-    "code-name": "icon-icon-rog-ally-command",
+    "code-name": "rog-ally-command",
     "tags": []
   },
   {
