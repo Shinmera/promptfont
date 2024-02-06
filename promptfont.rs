@@ -1,3 +1,4 @@
+// PromptFont by Yukari "Shinmera" Hafner, accessible at https://shinmera.com/promptfont
 pub const ASCII_BANG: &'static str = "!";
 pub const ASCII_BANG_INT: u64 = 33;
 pub const ASCII_DOUBLEQUOTE: &'static str = "\"";

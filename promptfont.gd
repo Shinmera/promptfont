@@ -1,3 +1,6 @@
+# PromptFont by Yukari "Shinmera" Hafner, accessible at https://shinmera.com/promptfont
+class_name PromptFont
+extends Resource
 const ASCII_BANG: StringName = &"!";
 const ASCII_BANG_INT: int = 33;
 const ASCII_DOUBLEQUOTE: StringName = &"\"";
