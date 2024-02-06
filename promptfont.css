@@ -1,3 +1,4 @@
+// PromptFont by Yukari "Shinmera" Hafner, accessible at https://shinmera.com/promptfont
 @font-face{font-family:'promptfont'; src:url('promptfont.ttf');}
 .pf{font-family:promptfont;font-style:normal;}
 .pf-icon-exchange:before{content:"\2194"}
