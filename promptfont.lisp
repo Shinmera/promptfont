@@ -367,6 +367,8 @@
 (cl:define-symbol-macro icon-humble "")
 (cl:define-symbol-macro icon-epic-game-store "")
 (cl:define-symbol-macro icon-good-old-games "")
+(cl:define-symbol-macro msi-claw-center "")
+(cl:define-symbol-macro msi-claw-quick "")
 (cl:define-symbol-macro keyboard-0 "０")
 (cl:define-symbol-macro keyboard-1 "１")
 (cl:define-symbol-macro keyboard-2 "２")

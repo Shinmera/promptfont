@@ -730,6 +730,10 @@ public static class PromptFont {
     public const int ICON_EPIC_GAME_STORE_INT = 0x0E00E;
     public const string ICON_GOOD_OLD_GAMES = "";
     public const int ICON_GOOD_OLD_GAMES_INT = 0x0E00F;
+    public const string MSI_CLAW_CENTER = "";
+    public const int MSI_CLAW_CENTER_INT = 0x0E010;
+    public const string MSI_CLAW_QUICK = "";
+    public const int MSI_CLAW_QUICK_INT = 0x0E011;
     public const string KEYBOARD_0 = "０";
     public const int KEYBOARD_0_INT = 0x0FF10;
     public const string KEYBOARD_1 = "１";

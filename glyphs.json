@@ -3285,6 +3285,24 @@
     "tags": []
   },
   {
+    "code": "U+E010",
+    "name": "MSI Claw Center",
+    "category": "gamepad",
+    "character": "",
+    "codepoint": 57360,
+    "code-name": "msi-claw-center",
+    "tags": []
+  },
+  {
+    "code": "U+E011",
+    "name": "MSI Claw Quick",
+    "category": "gamepad",
+    "character": "",
+    "codepoint": 57361,
+    "code-name": "msi-claw-quick",
+    "tags": []
+  },
+  {
     "code": "U+FF10",
     "category": "keyboard",
     "name": "Key 0",
