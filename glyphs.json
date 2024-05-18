@@ -2862,6 +2862,15 @@
     "tags": []
   },
   {
+    "code": "U+2606",
+    "category": "icon",
+    "name": "empty star",
+    "code-name": "icon-empty-star",
+    "tags": [],
+    "character": "☆",
+    "codepoint": 9734
+  },
+  {
     "code": "U+2620",
     "category": "icon",
     "name": "skull",
