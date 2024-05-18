@@ -1980,6 +1980,60 @@
     "tags": []
   },
   {
+    "code": "U+2225",
+    "category": "gamepad",
+    "name": "Button Left/Right (X/B)",
+    "code-name": "gamepad-x-b",
+    "tags": [],
+    "character": "∥",
+    "codepoint": 8741
+  },
+  {
+    "code": "U+2226",
+    "category": "gamepad",
+    "name": "Button Down/Up (A/Y)",
+    "code-name": "gamepad-a-y",
+    "tags": [],
+    "character": "∦",
+    "codepoint": 8742
+  },
+  {
+    "code": "U+2227",
+    "category": "gamepad",
+    "name": "Button Left/Up (X/Y)",
+    "code-name": "gamepad-x-y",
+    "tags": [],
+    "character": "∧",
+    "codepoint": 8743
+  },
+  {
+    "code": "U+2228",
+    "category": "gamepad",
+    "name": "Button Right/Up (B/Y)",
+    "code-name": "gamepad-b-y",
+    "tags": [],
+    "character": "∨",
+    "codepoint": 8744
+  },
+  {
+    "code": "U+2229",
+    "category": "gamepad",
+    "name": "Button Right/Down (A/B)",
+    "code-name": "gamepad-a-b",
+    "tags": [],
+    "character": "∩",
+    "codepoint": 8745
+  },
+  {
+    "code": "U+222A",
+    "category": "gamepad",
+    "name": "Button Right/Down (X/A)",
+    "code-name": "gamepad-x-a",
+    "tags": [],
+    "character": "∪",
+    "codepoint": 8746
+  },
+  {
     "code": "U+2264",
     "category": "gamepad",
     "name": "Left Trackpad Any",
