@@ -2889,6 +2889,15 @@
     "tags": []
   },
   {
+    "code": "U+2660",
+    "category": "icon",
+    "name": "full spade",
+    "code-name": "icon-full-spade",
+    "tags": [],
+    "character": "♠",
+    "codepoint": 9824
+  },
+  {
     "code": "U+2661",
     "category": "icon",
     "name": "empty heart",
@@ -2898,6 +2907,33 @@
     "tags": []
   },
   {
+    "code": "U+2662",
+    "category": "icon",
+    "name": "empty diamond",
+    "code-name": "icon-empty-diamond",
+    "tags": [],
+    "character": "♢",
+    "codepoint": 9826
+  },
+  {
+    "code": "U+2663",
+    "category": "icon",
+    "name": "full club",
+    "code-name": "icon-full-club",
+    "tags": [],
+    "character": "♣",
+    "codepoint": 9827
+  },
+  {
+    "code": "U+2664",
+    "category": "icon",
+    "name": "empty spade",
+    "code-name": "icon-empty-spade",
+    "tags": [],
+    "character": "♤",
+    "codepoint": 9828
+  },
+  {
     "code": "U+2665",
     "category": "icon",
     "name": "heart",
@@ -2905,6 +2941,24 @@
     "codepoint": 9829,
     "code-name": "icon-full-heart",
     "tags": []
+  },
+  {
+    "code": "U+2666",
+    "category": "icon",
+    "name": "full diamond",
+    "code-name": "icon-full-diamond",
+    "tags": [],
+    "character": "♦",
+    "codepoint": 9830
+  },
+  {
+    "code": "U+2667",
+    "category": "icon",
+    "name": "empty club",
+    "code-name": "icon-empty-club",
+    "tags": [],
+    "character": "♧",
+    "codepoint": 9831
   },
   {
     "code": "U+2673",
