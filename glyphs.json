@@ -1620,6 +1620,24 @@
     "tags": []
   },
   {
+    "code": "U+21EF",
+    "category": "icon",
+    "name": "Dpad Right/Up",
+    "code-name": "dpad-right-up",
+    "tags": [],
+    "character": "⇯",
+    "codepoint": 8687
+  },
+  {
+    "code": "U+21F0",
+    "category": "icon",
+    "name": "Dpad Left/Down",
+    "code-name": "dpad-left-down",
+    "tags": [],
+    "character": "⇰",
+    "codepoint": 8688
+  },
+  {
     "character": "⇱",
     "code": "U+21F1",
     "codepoint": 8689,
