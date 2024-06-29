@@ -130,7 +130,10 @@ public static class PromptFont {~%")
   (format stream "~
 # PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont~%")
   (format stream "~&~a = ~s~%" (to-c-name code-name) character)
-  ())
+  (format stream "~&
+def get(name){
+  return globals()[name]
+}"))
 
 (define-processor lisp (stream code-name character)
   (format stream "~
@@ -138,7 +141,12 @@ public static class PromptFont {~%")
 \(defpackage #:org.shirakumo.fraf.promptfont (:use))
 \(in-package #:org.shirakumo.fraf.promptfont)~%~%")
   (format stream "~&(cl:define-symbol-macro ~a ~s)~%" code-name character)
-  (format stream "~&~%~
+  (format stream "~&(cl:setf (cl:symbol-value '~a) ~s)~%" code-name character)
+  (format stream "~&
+(cl:defun get (get)
+  (cl:etypecase get
+    (cl:symbol (get (cl:symbol-name get)))
+    (cl:string (cl:symbol-value (cl:find-symbol get #.cl:*package*)))))
 (cl:do-symbols (cl:symbol cl:*package*)
   (cl:export cl:symbol))~%"))
 
