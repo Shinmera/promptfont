@@ -106,10 +106,34 @@ exec sbcl \
   (format stream "~
 // PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont
 #ifndef __PROMPTFONT_H__
-#define __PROMPTFONT_H__~%")
+#define __PROMPTFONT_H__
+#include <string.h>
+#include <stdlib.h>
+
+struct PF_icon{
+  const char *name;
+  const int codepoint;
+};
+
+struct PF_icon PF_icons[] = {")
   (format stream "~&#define PF_~a ~s~%" (to-c-name code-name) character)
   (format stream "~&#define PF_~a_INT 0x~5,'0x~%" (to-c-name code-name) codepoint)
-  (format stream "~&#endif~%"))
+  (format stream "~&  ~s, 0x~5,'0x,~%" code-name codepoint)
+  (format stream "~&};
+
+static int PF_cmp(const void *s1, const void *s2){
+  const struct PF_icon *e1 = s1;
+  const struct PF_icon *e2 = s2;
+  return strcmp(e1->name, e2->name);
+}
+
+static int PF_get(const char *name){
+  struct PF_icon *result, key = {name};
+  result = bsearch(&key, PF_icons, sizeof(PF_icons)/sizeof(struct PF_icon), sizeof(struct PF_icon), PF_cmp);
+  if(result) return result->codepoint;
+  return 0;
+}
+#endif~%"))
 
 (define-processor cs (stream code-name character codepoint)
   (format stream "~
