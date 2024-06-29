@@ -118,10 +118,10 @@ public static class PromptFont {~%")
   (format stream "~&    public const string ~a = ~s;~%" (to-c-name code-name) character)
   (format stream "~&    public const int ~a_INT = 0x~5,'0x;~%" (to-c-name code-name) codepoint)
   (format stream "~&
-    string Get(string name){
+    static string Get(string name){
       return (string)(typeof(PromptFont).GetProperty(name).GetValue(null));
     }
-    int GetInt(string name){
+    static int GetInt(string name){
       return (int)(typeof(PromptFont).GetProperty(name+\"_INT\").GetValue(null));
     }
 }~%"))
