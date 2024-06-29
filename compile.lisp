@@ -11,6 +11,7 @@ exec sbcl \
 
 (defpackage #:promptfont-compiler
   (:use #:cl)
+  (:shadow #:search)
   (:export))
 
 (in-package #:promptfont-compiler)
@@ -291,6 +292,53 @@ for file in argv[2:]:
        (file "promptfont" "gd")
        (directory (file :wild "png"))))
 
+(defun query (&rest glyphs)
+  (let ((data (with-open-file (stream (file "glyphs" "json"))
+                (shasht:read-json stream))))
+    (unless glyphs
+      (error "Specify at least one glyph to query."))
+    (dolist (glyph glyphs)
+      (loop for entry across data
+            do (flet ((p (property) (gethash property entry)))
+                 (when (or (string-equal glyph (p "character"))
+                           (string-equal glyph (p "code"))
+                           (string-equal glyph (princ-to-string (p "codepoint")))
+                           (string-equal glyph (p "name"))
+                           (string-equal glyph (p "code-name")))
+                   (format T "Character: ~12t~a
+Code: ~12t~a
+Codepoint: ~12t~d
+Category: ~12t~a
+Name: ~12t~a
+Code-Name: ~12t~a
+Tags: ~12t~{~a~^, ~}~%~%"
+                           (p "character") (p "code") (p "codepoint") (p "category") (p "name") (p "code-name")
+                           (coerce (p "tags") 'list))
+                   (return)))))))
+
+(defun search (&rest query)
+  (let ((data (with-open-file (stream (file "glyphs" "json"))
+                (shasht:read-json stream))))
+    (loop for entry across data
+          do (flet ((p (property) (gethash property entry))
+                    (? (property) (loop for part in query
+                                        always (cl:search part property :test #'char-equal))))
+               (when (or (? (p "character"))
+                         (? (p "code"))
+                         (? (p "name"))
+                         (? (p "code-name"))
+                         (? (p "category"))
+                         (loop for tag across (p "tags") thereis (? tag)))
+                 (format T "Character: ~12t~a
+Code: ~12t~a
+Codepoint: ~12t~d
+Category: ~12t~a
+Name: ~12t~a
+Code-Name: ~12t~a
+Tags: ~12t~{~a~^, ~}~%~%"
+                         (p "character") (p "code") (p "codepoint") (p "category") (p "name") (p "code-name")
+                         (coerce (p "tags") 'list)))))))
+
 (defun run-command (command &rest args)
   (apply (intern (format NIL "~:@(~a~)" command) #.*package*) args))
 
@@ -314,6 +362,8 @@ Commands:
   css     --- Generates the promptfont.css file
   web     --- Generates the index.html file
   release --- Generates a release zip
+  query   --- Show info for one or more glyphs
+  search  --- Search for matching glyphs
 
 You typically do not need this utility as it is run automatically by
 the GitHub CI when you create a PR.
