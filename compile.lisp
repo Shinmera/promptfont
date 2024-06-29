@@ -112,13 +112,14 @@ exec sbcl \
 
 struct PF_icon{
   const char *name;
+  const char *string;
   const int codepoint;
 };
 
 struct PF_icon PF_icons[] = {")
   (format stream "~&#define PF_~a ~s~%" (to-c-name code-name) character)
   (format stream "~&#define PF_~a_INT 0x~5,'0x~%" (to-c-name code-name) codepoint)
-  (format stream "~&  ~s, 0x~5,'0x,~%" code-name codepoint)
+  (format stream "~&  {\"PF_~a\", ~s, 0x~5,'0x},~%" (to-c-name code-name) character codepoint)
   (format stream "~&};
 
 static int PF_cmp(const void *s1, const void *s2){
@@ -127,7 +128,14 @@ static int PF_cmp(const void *s1, const void *s2){
   return strcmp(e1->name, e2->name);
 }
 
-static int PF_get(const char *name){
+static const char *PF_get(const char *name){
+  struct PF_icon *result, key = {name};
+  result = bsearch(&key, PF_icons, sizeof(PF_icons)/sizeof(struct PF_icon), sizeof(struct PF_icon), PF_cmp);
+  if(result) return result->string;
+  return 0;
+}
+
+static int PF_get_int(const char *name){
   struct PF_icon *result, key = {name};
   result = bsearch(&key, PF_icons, sizeof(PF_icons)/sizeof(struct PF_icon), sizeof(struct PF_icon), PF_cmp);
   if(result) return result->codepoint;
@@ -150,13 +158,17 @@ public static class PromptFont {~%")
     }
 }~%"))
 
-(define-processor py (stream code-name character)
+(define-processor py (stream code-name character codepoint)
   (format stream "~
 # PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont~%")
   (format stream "~&~a = ~s~%" (to-c-name code-name) character)
+  (format stream "~&~a_INT = ~a~%" (to-c-name code-name) codepoint)
   (format stream "~&
 def get(name){
   return globals()[name]
+}
+def get_int(name){
+  return globals()[name+\"_INT\"]
 }"))
 
 (define-processor lisp (stream code-name character)
@@ -174,11 +186,12 @@ def get(name){
 (cl:do-symbols (cl:symbol cl:*package*)
   (cl:export cl:symbol))~%"))
 
-(define-processor lua (stream code-name character)
+(define-processor lua (stream code-name character codepoint)
   (format stream "~
 -- PromptFont by Yukari \"Shinmera\" Hafner, accessible at https://shinmera.com/promptfont
 local GLYPHS = {}~%")
   (format stream "~&GLYPHS.~a = ~s~%" (to-c-name code-name) character)
+  (format stream "~&GLYPHS.~a_INT = ~a~%" (to-c-name code-name) codepoint)
   (format stream "~&return GLYPHS~%"))
 
 (define-processor rs (stream code-name character codepoint)
@@ -195,7 +208,15 @@ class_name PromptFont
 extends Resource~%")
   (format stream "~&const ~a: StringName = &~s;~%" (to-c-name code-name) character)
   (format stream "~&const ~a_INT: int = ~a;~%" (to-c-name code-name) codepoint)
-  ())
+  (format stream "~&
+static var promptfont: PromptFont
+static func _static_init() -> void:
+    promptfont = PromptFont.new()
+
+static func get_str(name: StringName) -> StringName:
+    return promptfont.get(name)
+static func get_int(name: StringName) -> int:
+    return promptfont.get(name+\"_INT\")~%"))
 
 (defun fixup (&optional (file (file "glyphs" "json")))
   (let ((data (with-open-file (stream file)
