@@ -13,5 +13,6 @@ promptfont.lisp
 promptfont.lua
 promptfont.rs
 promptfont.gd
+promptfont-compiler.*
 *.png
 *.zip
