@@ -34,9 +34,10 @@ exec sbcl \
                (real (princ-to-string arg)))))
       (apply #'uiop:run-program
              (list* program (loop for arg in program-args
-                                  append (if (listp arg) 
-                                             (mapcar #'normalize arg)
-                                             (list (normalize arg)))))
+                                  append (typecase arg
+                                           (null ())
+                                           (list (mapcar #'normalize arg))
+                                           (T (list (normalize arg))))))
              args))))
 
 (defun outdated-p (out in)
@@ -290,6 +291,9 @@ for file in argv[2:]:
        (file "promptfont" "lua")
        (file "promptfont" "rs")
        (file "promptfont" "gd")
+       (probe-file (file "promptfont" "run"))
+       (probe-file (file "promptfont" "exe"))
+       (probe-file (file "promptfont" "o"))
        (directory (file :wild "png"))))
 
 (defun query (&rest glyphs)
@@ -346,13 +350,6 @@ Tags: ~12t~{~a~^, ~}~%~%"
   (dolist (command (or commands '(fixup fonts txt css h cs py lisp lua rs gd web atlas release)))
     (run-command command)))
 
-(defun dump ()
-  (sb-ext:save-lisp-and-die
-   (file "promptfont-compiler" #+win32 "exe" #+linux "run" #-(or win32 linux) "o")
-   :toplevel #'main
-   :executable T
-   :compression T))
-
 (defun help ()
   (format T "PromptFont data management utilities
 by Yukari \"Shinmera\" Hafner
@@ -378,27 +375,19 @@ Compile Data:
           --- Generates the glyph texture atlas files
               Defaults to all banks and size of 64
 
-  txt     --- Generates the promptfont.txt file
-
-  css     --- Generates the promptfont.css file
-
-  h       --- Generates the promptfont.h file
-
-  cs      --- Generates the promptfont.cs file
-
-  py      --- Generates the promptfont.py file
-
-  lisp    --- Generates the promptfont.lisp file
-
-  lua     --- Generates the promptfont.lua file
-
-  rs      --- Generates the promptfont.rs file
-
-  gd      --- Generates the promptfont.gd file
-
   web     --- Generates the index.html file
 
   release --- Generates a release zip
+
+  txt     --- Generate the respective glyph mapping source file
+  css
+  h
+  cs
+  py
+  lisp
+  lua
+  rs
+  gd
 
 You typically do not need this utility as it is run automatically by
 the GitHub CI when you create a PR.
@@ -407,6 +396,13 @@ https://shinmera.com/promptfont
 " (uiop:argv0)))
 
 (defun main ()
-  (destructuring-bind (argv0 &optional (command "all") &rest args) (uiop:raw-command-line-arguments)
+  (destructuring-bind (argv0 &optional (command "help") &rest args) (uiop:raw-command-line-arguments)
     (declare (ignore argv0))
     (apply #'run-command command args)))
+
+(defun dump ()
+  (sb-ext:save-lisp-and-die
+   (file "promptfont" #+win32 "exe" #+linux "run" #-(or win32 linux) "o")
+   :toplevel #'main
+   :executable T
+   :compression 22))
