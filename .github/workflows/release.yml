@@ -10,9 +10,9 @@ jobs:
       uses: actions/cache@v3
       with:
         path: |
-          ~/quicklisp/
-          ~/.wine/
-          ~/trial-deproyment/
+          ~/quicklisp
+          ~/.wine
+          ~/trial-deproyment
         key: ${{ runner.os }}
         restore-keys: ${{ runner.os }}
     - name: Install packages
