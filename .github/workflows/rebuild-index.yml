@@ -5,29 +5,51 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Setup
+    - name: Restore cache
+      id: cache
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/quicklisp
+          ~/.wine
+          ~/trial-deployment
+        key: ${{ runner.os }}
+        restore-keys: ${{ runner.os }}
+    - name: Install packages
       run: |
         git config --global user.name "CI"
         git config --global user.email "shinmera@tymoon.eu"
-        sudo apt-get -qq install sbcl curl fontforge imagemagick inkscape
+        sudo apt-get -qq install wine curl fontforge imagemagick inkscape --no-install-recommends
+    - name: Install env
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        git clone --depth 1 https://gitea.tymoon.eu/Shirakumo/trial-deployment.git ~/trial-deployment
         curl -o ~/quicklisp.lisp https://beta.quicklisp.org/quicklisp.lisp
-        sbcl --load ~/quicklisp.lisp \
+        ~/trial-deployment/sbcl-lin \
+             --load ~/quicklisp.lisp \
              --eval '(quicklisp-quickstart:install)' \
              --eval '(ql-util:without-prompting (ql:add-to-init-file))' \
              --eval '(ql:quickload :shasht)' \
              --eval '(ql:quickload :clip)' \
              --eval '(ql:quickload :pathname-utils)' \
              --quit
-    - uses: actions/cache@v3
-      with:
-        path: |
-          ~/quicklisp/
-        key: ${{ runner.os }}
-        restore-keys: ${{ runner.os }}
-    - uses: actions/checkout@v1
+        ~/trial-deployment/sbcl-win \
+             --load ~/quicklisp.lisp \
+             --eval '(quicklisp-quickstart:install)' \
+             --eval '(ql-util:without-prompting (ql:add-to-init-file))' \
+             --eval '(ql:quickload :shasht)' \
+             --eval '(ql:quickload :clip)' \
+             --eval '(ql:quickload :pathname-utils)' \
+             --quit
+    - uses: actions/checkout@v2
     - name: Rebuild
       run: |
-        ./compile.lisp
+        ~/trial-deployment/sbcl-lin \
+              --noinform \
+              --disable-debugger \
+              --eval "(ql:quickload '(clip shasht pathname-utils) :silent T)" \
+              --load "compile.lisp" \
+              --eval '(promptfont-compiler::all)'
     - name: GH Pages deploy
       if: github.head_ref == null
       run: |

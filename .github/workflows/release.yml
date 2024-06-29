@@ -12,7 +12,7 @@ jobs:
         path: |
           ~/quicklisp
           ~/.wine
-          ~/trial-deproyment
+          ~/trial-deployment
         key: ${{ runner.os }}
         restore-keys: ${{ runner.os }}
     - name: Install packages
