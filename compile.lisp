@@ -166,12 +166,12 @@ public static class PromptFont {~%")
   (format stream "~&~a = ~s~%" (to-c-name code-name) character)
   (format stream "~&~a_INT = ~a~%" (to-c-name code-name) codepoint)
   (format stream "~&
-def get(name){
+def get(name):
   return globals()[name]
-}
-def get_int(name){
+
+def get_int(name):
   return globals()[name+\"_INT\"]
-}"))
+"))
 
 (define-processor lisp (stream code-name character)
   (format stream "~
