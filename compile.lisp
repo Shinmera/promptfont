@@ -64,7 +64,7 @@ exec sbcl \
 
 (defun parse-glyphs (&optional (file (file "glyphs" "json")))
   (let ((sections (make-hash-table :test 'equal)))
-    (loop for glyph across (load-glyphs)
+    (loop for glyph across (load-glyphs file)
           do (push (loop for k being the hash-keys of glyph using (hash-value v)
                          collect (intern (string-upcase k) "KEYWORD")
                          collect v)
@@ -84,7 +84,7 @@ exec sbcl \
     `(defun ,type (&optional (file (file "glyphs" "json")) (output (file "promptfont" ,(string-downcase type))))
        (with-open-file (,stream output :direction :output :if-exists :supersede)
          ,(first body)
-         (loop for ,glyph across (load-glyphs)
+         (loop for ,glyph across (load-glyphs file)
                do (let ,(loop for arg in args
                               collect `(,arg (gethash ,(string-downcase arg) ,glyph)))
                     ,@(butlast (rest body))))
@@ -289,7 +289,7 @@ static func get_int(name: StringName) -> int:
                  (check-match "character")
                  (check-match "code")
                  (check-match "codepoint")))
-      (write-glyphs (concatenate 'vector glyphs (vector entry))))))
+      (write-glyphs (concatenate 'vector data (vector entry))))))
 
 (defun fixup (&optional (file (file "glyphs" "json")))
   (let ((data (load-glyphs file))
