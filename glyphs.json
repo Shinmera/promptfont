@@ -1837,20 +1837,20 @@
   },
   {
     "code": "U+220C",
-    "name": "Ayaneo Home",
+    "name": "Ayn Home",
     "category": "gamepad",
     "character": "∌",
     "codepoint": 8716,
-    "code-name": "ayaneo-home",
+    "code-name": "ayn-home",
     "tags": []
   },
   {
     "code": "U+220D",
-    "name": "Ayaneo LCC",
+    "name": "Ayn LCC",
     "category": "gamepad",
     "character": "∍",
     "codepoint": 8717,
-    "code-name": "ayaneo-lcc",
+    "code-name": "ayn-lcc",
     "tags": []
   },
   {
