@@ -22,15 +22,10 @@ If you want to actually allocate new glyphs into the font yourself, you'll need 
 1. Open the promptfont.sfd file with FontForge
 2. Find suitable spaces for your glyphs and import the SVGs. Preferably group the glyphs together with the existing ones, and for the generic icons use the appropriate Unicode codepoint if there is one
 3. Save the SFD file
-4. Update the `glyphs.json` file with your new entries. Add your new entries to the bottom of the file as follows:
-   ```json
-   {
-     "code": "U+BEEF",
-     "name": "my character",
-     "category": "gamepad"
-   }
+4. Run the compiler program (either as `compile.lisp` if you have SBCL installed, or via the precompiled binary in the releases) to add the glyphs:
    ```
-   The available categories are: alphabet, android, device, gamepad, icon, keyboard, logo, mouse
-5. Run the `compile.lisp` script to fix up the `glyphs.json` file
-6. If any of the names of your new glyphs are already taken, the script will warn you about it. Please update the names if that's the case, they should be globally unique
+   promptfont.exe add U+XXXX 'My New Glyph' my-new-glyph device
+   ```
+   For more information on how to run the command and so on, run `promptfont.exe help`
+6. If any of the names of your new glyphs are already taken, the compiler will warn you about it. Please update the names if that's the case, they should be globally unique
 7. Commit the sfd and json files
