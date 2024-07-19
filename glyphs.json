@@ -1962,6 +1962,51 @@
     "tags": []
   },
   {
+    "code": "U+221A",
+    "name": "GPD Menu",
+    "code-name": "gpd-menu",
+    "category": "gamepad",
+    "tags": [],
+    "character": "√",
+    "codepoint": 8730
+  },
+  {
+    "code": "U+221B",
+    "name": "OrangePi Controller",
+    "code-name": "orangepi-controller",
+    "category": "gamepad",
+    "tags": [],
+    "character": "∛",
+    "codepoint": 8731
+  },
+  {
+    "code": "U+221C",
+    "name": "OrangePi Home",
+    "code-name": "orangepi-home",
+    "category": "gamepad",
+    "tags": [],
+    "character": "∜",
+    "codepoint": 8732
+  },
+  {
+    "code": "U+221D",
+    "name": "Zotac Zone Logo",
+    "code-name": "zotac-zone-logo",
+    "category": "gamepad",
+    "tags": [],
+    "character": "∝",
+    "codepoint": 8733
+  },
+  {
+    "code": "U+221E",
+    "name": "Zotac Zone Menu",
+    "code-name": "zotac-zone-menu",
+    "category": "gamepad",
+    "tags": [],
+    "character": "∞",
+    "codepoint": 8734
+  },
+  {
     "code": "U+2225",
     "category": "gamepad",
     "name": "Button Left/Right (X/B)",
@@ -2068,6 +2113,42 @@
     "codepoint": 8809,
     "code-name": "trackpad-r-touch",
     "tags": []
+  },
+  {
+    "code": "U+226A",
+    "name": "Left Trackpad Left/Right",
+    "code-name": "trackpad-l-left-right",
+    "category": "gamepad",
+    "tags": [],
+    "character": "≪",
+    "codepoint": 8810
+  },
+  {
+    "code": "U+226B",
+    "name": "Left Trackpad Up/Down",
+    "code-name": "trackpad-l-up-down",
+    "category": "gamepad",
+    "tags": [],
+    "character": "≫",
+    "codepoint": 8811
+  },
+  {
+    "code": "U+226C",
+    "name": "Right Trackpad Left/Right",
+    "code-name": "trackpad-r-left-right",
+    "category": "gamepad",
+    "tags": [],
+    "character": "≬",
+    "codepoint": 8812
+  },
+  {
+    "code": "U+226D",
+    "name": "Right Trackpad Up/Down",
+    "code-name": "trackpad-r-up-down",
+    "category": "gamepad",
+    "tags": [],
+    "character": "≭",
+    "codepoint": 8813
   },
   {
     "code": "U+226E",
@@ -2626,6 +2707,33 @@
     "name": "Mouse and Keyboard",
     "code-name": "device-mouse-keyboard",
     "tags": []
+  },
+  {
+    "code": "U+2440",
+    "name": "DualShock 4",
+    "code-name": "device-ds4",
+    "category": "device",
+    "tags": [],
+    "character": "⑀",
+    "codepoint": 9280
+  },
+  {
+    "code": "U+2441",
+    "name": "DualSense",
+    "code-name": "device-dualsense",
+    "category": "device",
+    "tags": [],
+    "character": "⑁",
+    "codepoint": 9281
+  },
+  {
+    "code": "U+2442",
+    "name": "Xbox360",
+    "code-name": "device-x360",
+    "category": "device",
+    "tags": [],
+    "character": "⑂",
+    "codepoint": 9282
   },
   {
     "character": "①",
