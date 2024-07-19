@@ -11,7 +11,7 @@ exec sbcl \
 
 (defpackage #:promptfont-compiler
   (:use #:cl)
-  (:shadow #:search)
+  (:shadow #:search #:remove)
   (:export))
 
 (in-package #:promptfont-compiler)
@@ -53,10 +53,18 @@ exec sbcl \
 (defun join (sequence)
   (format NIL "~{~a~^ ~}" (coerce sequence 'list)))
 
+(defun load-glyphs (&optional (file (file "glyphs" "json")))
+  (with-open-file (stream file)
+    (shasht:read-json stream)))
+
+(defun write-glyphs (data &optional (file (file "glyphs" "json")))
+  (sort data #'< :key (lambda (entry) (gethash "codepoint" entry)))
+  (with-open-file (stream file :direction :output :if-exists :supersede)
+    (shasht:write-json data stream)))
+
 (defun parse-glyphs (&optional (file (file "glyphs" "json")))
   (let ((sections (make-hash-table :test 'equal)))
-    (loop for glyph across (with-open-file (stream file)
-                             (shasht:read-json stream))
+    (loop for glyph across (load-glyphs)
           do (push (loop for k being the hash-keys of glyph using (hash-value v)
                          collect (intern (string-upcase k) "KEYWORD")
                          collect v)
@@ -76,8 +84,7 @@ exec sbcl \
     `(defun ,type (&optional (file (file "glyphs" "json")) (output (file "promptfont" ,(string-downcase type))))
        (with-open-file (,stream output :direction :output :if-exists :supersede)
          ,(first body)
-         (loop for ,glyph across (with-open-file (stream file)
-                                   (shasht:read-json stream))
+         (loop for ,glyph across (load-glyphs)
                do (let ,(loop for arg in args
                               collect `(,arg (gethash ,(string-downcase arg) ,glyph)))
                     ,@(butlast (rest body))))
@@ -220,33 +227,76 @@ static func get_str(name: StringName) -> StringName:
 static func get_int(name: StringName) -> int:
     return promptfont.get(name+\"_INT\")~%"))
 
+(defun remove (glyph)
+  (let ((data (load-glyphs)))
+    (setf data (remove-if (lambda (entry)
+                            (flet ((p (property) (gethash property entry)))
+                              (or (string-equal glyph (p "character"))
+                                  (string-equal glyph (p "code"))
+                                  (string-equal glyph (princ-to-string (p "codepoint")))
+                                  (string-equal glyph (p "name"))
+                                  (string-equal glyph (p "code-name")))))
+                          data))
+    (write-glyphs data)))
+
+(defun normalize-glyph (entry &optional names)
+  (let ((cp (or (gethash "codepoint" entry)
+                (when (gethash "code" entry) (parse-integer (gethash "code" entry) :start 2 :radix 16))
+                (when (gethash "character" entry) (char-code (char (gethash "character" entry) 0)))
+                (error "Bad entry: character is missing both codepoint, code, and character attributes!"))))
+    (setf (gethash "character" entry) (string (code-char cp)))
+    (setf (gethash "codepoint" entry) cp)
+    (setf (gethash "code" entry) (format NIL "U+~4,'0x" cp))
+    (unless (gethash "category" entry)
+      (status "Warning: character ~5,'0x is missing a category!" cp)
+      (setf (gethash "category" entry) "misc"))
+    (when (= 0 (length (gethash "tags" entry)))
+      (status "Warning: character ~5,'0x is missing a tags array!" cp)
+      (setf (gethash "tags" entry) #()))
+    (cond ((null (gethash "code-name" entry))
+           (error "Character ~5,'0x is missing the code-name entry."
+                  cp))
+          ((and names (gethash (gethash "code-name" entry) names))
+           (error "Character ~5,'0x has code-name ~s, which is already taken by ~a"
+                  cp (gethash "code-name" entry) (gethash (gethash "code-name" entry) names)))
+          (names
+           (setf (gethash (gethash "name" entry) names) (gethash "code-name" entry))))
+    (when (null (gethash "name" entry))
+      (error "Character ~5,'0x is missing a name." cp))))
+
+(defun add (codepoint name code-name &optional category &rest tags)
+  (let ((entry (make-hash-table :test 'equal)))
+    (cond ((= 1 (length codepoint))
+           (setf (gethash "character" entry) codepoint))
+          ((string= "U+" codepoint :end2 2)
+           (setf (gethash "code" entry) codepoint))
+          ((every #'digit-char-p codepoint)
+           (setf (gethash "codepoint" entry) (parse-integer codepoint)))
+          (T
+           (error "Unknown character format: ~s" codepoint)))
+    (setf (gethash "name" entry) name)
+    (setf (gethash "code-name" entry) code-name)
+    (setf (gethash "category" entry) category)
+    (setf (gethash "tags" entry) (coerce tags 'vector))
+    (normalize-glyph entry)
+    (let ((data (load-glyphs)))
+      (loop for glyph across data
+            do (flet ((check-match (property)
+                        (when (equalp (gethash property entry) (gethash property glyph))
+                          (error "A character with the same ~a already exists!" property))))
+                 (check-match "name")
+                 (check-match "code-name")
+                 (check-match "character")
+                 (check-match "code")
+                 (check-match "codepoint")))
+      (write-glyphs (concatenate 'vector glyphs (vector entry))))))
+
 (defun fixup (&optional (file (file "glyphs" "json")))
-  (let ((data (with-open-file (stream file)
-                (shasht:read-json stream)))
+  (let ((data (load-glyphs file))
         (names (make-hash-table :test 'equalp)))
     (loop for entry across data
-          for cp = (or (gethash "codepoint" entry)
-                       (parse-integer (gethash "code" entry) :start 2 :radix 16)
-                       (error "Bad entry: character is missing both codepoint and code attributes!"))
-          do (setf (gethash "character" entry) (string (code-char cp)))
-             (setf (gethash "codepoint" entry) cp)
-             (setf (gethash "code" entry) (format NIL "U+~4,'0x" cp))
-             (when (= 0 (length (gethash "tags" entry)))
-               (status "Warning: character ~5,'0x is missing a tags array!" cp)
-               (setf (gethash "tags" entry) #()))
-             (cond ((null (gethash "code-name" entry))
-                    (error "Character ~5,'0x is missing the code-name entry."
-                           cp))
-                   ((gethash (gethash "code-name" entry) names)
-                    (error "Character ~5,'0x has code-name ~s, which is already taken by ~a"
-                           cp (gethash "code-name" entry) (gethash (gethash "code-name" entry) names)))
-                   (T
-                    (setf (gethash (gethash "name" entry) names) (gethash "code-name" entry))))
-             (when (null (gethash "name" entry))
-               (error "Character ~5,'0x is missing a name." cp)))
-    (sort data #'< :key (lambda (entry) (gethash "codepoint" entry)))
-    (with-open-file (stream file :direction :output :if-exists :supersede)
-      (shasht:write-json data stream))))
+          do (normalize-glyph entry names))
+    (write-glyphs data file)))
 
 (defun fonts (&optional (file (file "promptfont" "sfd")))
   (run "fontforge" "-c" "fnt = fontforge.open(argv[1])
@@ -297,8 +347,7 @@ for file in argv[2:]:
        (directory (file :wild "png"))))
 
 (defun query (&rest glyphs)
-  (let ((data (with-open-file (stream (file "glyphs" "json"))
-                (shasht:read-json stream))))
+  (let ((data (load-glyphs)))
     (unless glyphs
       (error "Specify at least one glyph to query."))
     (dolist (glyph glyphs)
@@ -321,8 +370,7 @@ Tags: ~12t~{~a~^, ~}~%~%"
                    (return)))))))
 
 (defun search (&rest query)
-  (let ((data (with-open-file (stream (file "glyphs" "json"))
-                (shasht:read-json stream))))
+  (let ((data (load-glyphs)))
     (loop for entry across data
           do (flet ((p (property) (gethash property entry))
                     (? (property) (loop for part in query
@@ -363,11 +411,18 @@ Query Data:
 
   search  --- Search for matching glyphs
 
+Modify Data:
+  remove [character/code/codepoint/name/code-name]
+          --- Remove a glyph
+
+  add codepoint name code-name [category] [tag...]
+          --- Add a new glyph
+
+  fixup   --- Fixes up the glyphs.json file
+
 Compile Data:
   all [command...]
           --- Performs all below commands. This is run by default
-
-  fixup   --- Fixes up the glyphs.json file
 
   fonts   --- Generates the promptfont.ttf and .otf files
 
