@@ -4,6 +4,9 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     steps:
     - name: Restore cache
       id: cache
@@ -52,15 +55,14 @@ jobs:
               --eval "(ql:quickload '(clip shasht pathname-utils) :silent T)" \
               --load "compile.lisp" \
               --eval '(promptfont-compiler::all)'
-    - name: GH Pages deploy
-      if: github.head_ref == null
-      run: |
-        git clone -q --branch=gh-pages https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git ~/gh-pages
-        cp $FILES ~/gh-pages/
-        git -C ~/gh-pages add $FILES
-        git -C ~/gh-pages commit -qm "CI index rebuild." || echo "Nothing to commit."
-        git -C ~/gh-pages push -q origin gh-pages
+        mkdir -p "$OUTPUT/"
+        cp index.html index.css "$OUTPUT/"
       env:
-        FILES: |
-          index.html
-          index.css
+        OUTPUT: ${{ format('{0}/gh-pages/', runner.temp) }}
+    - name: Upload Github Pages Artefact
+      uses: actions/upload-pages-artifact@v3.0.1
+      with:
+        path: ${{ format('{0}/gh-pages/', runner.temp) }}
+    - name: Write to Github Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
