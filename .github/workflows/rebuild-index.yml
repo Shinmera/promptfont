@@ -13,12 +13,14 @@ jobs:
           ~/quicklisp
           ~/.wine
           ~/trial-deployment
+          ~/.sbclrc
         key: ${{ runner.os }}
         restore-keys: ${{ runner.os }}
     - name: Install packages
       run: |
         git config --global user.name "CI"
         git config --global user.email "shinmera@tymoon.eu"
+        sudo apt-get update
         sudo apt-get -qq install wine curl fontforge imagemagick inkscape --no-install-recommends
     - name: Install env
       if: steps.cache.outputs.cache-hit != 'true'
