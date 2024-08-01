@@ -2736,6 +2736,69 @@
     "codepoint": 9282
   },
   {
+    "code": "U+244A",
+    "name": "Alt Gr",
+    "code-name": "keyboard-alt-gr",
+    "category": "keyboard",
+    "tags": [],
+    "character": "⑊",
+    "codepoint": 9290
+  },
+  {
+    "code": "U+244B",
+    "name": "Left Alt",
+    "code-name": "keyboard-alt-l",
+    "category": "keyboard",
+    "tags": [],
+    "character": "⑋",
+    "codepoint": 9291
+  },
+  {
+    "code": "U+244C",
+    "name": "Right Alt",
+    "code-name": "keyboard-alt-r",
+    "category": "keyboard",
+    "tags": [],
+    "character": "⑌",
+    "codepoint": 9292
+  },
+  {
+    "code": "U+244D",
+    "name": "Left Ctrl",
+    "code-name": "keyboard-control-l",
+    "category": "keyboard",
+    "tags": [],
+    "character": "⑍",
+    "codepoint": 9293
+  },
+  {
+    "code": "U+244E",
+    "name": "Right Ctrl",
+    "code-name": "keyboard-control-r",
+    "category": "keyboard",
+    "tags": [],
+    "character": "⑎",
+    "codepoint": 9294
+  },
+  {
+    "code": "U+244F",
+    "name": "Left Shift",
+    "code-name": "keyboard-shift-l",
+    "category": "keyboard",
+    "tags": [],
+    "character": "⑏",
+    "codepoint": 9295
+  },
+  {
+    "code": "U+2450",
+    "name": "Right Shift",
+    "code-name": "keyboard-shift-r",
+    "category": "keyboard",
+    "tags": [],
+    "character": "⑐",
+    "codepoint": 9296
+  },
+  {
     "character": "①",
     "code": "U+2460",
     "codepoint": 9312,
