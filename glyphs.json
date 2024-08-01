@@ -2061,6 +2061,51 @@
     "codepoint": 8746
   },
   {
+    "code": "U+222B",
+    "name": "Button Press",
+    "code-name": "button-press",
+    "category": "gamepad",
+    "tags": [],
+    "character": "∫",
+    "codepoint": 8747
+  },
+  {
+    "code": "U+222C",
+    "name": "Button Double Press",
+    "code-name": "button-double-press",
+    "category": "gamepad",
+    "tags": [],
+    "character": "∬",
+    "codepoint": 8748
+  },
+  {
+    "code": "U+222D",
+    "name": "Button Hold Press",
+    "code-name": "button-hold-press",
+    "category": "gamepad",
+    "tags": [],
+    "character": "∭",
+    "codepoint": 8749
+  },
+  {
+    "code": "U+222E",
+    "name": "Button Hold Release",
+    "code-name": "button-hold-release",
+    "category": "gamepad",
+    "tags": [],
+    "character": "∮",
+    "codepoint": 8750
+  },
+  {
+    "code": "U+222F",
+    "name": "Button Hold",
+    "code-name": "button-hold",
+    "category": "gamepad",
+    "tags": [],
+    "character": "∯",
+    "codepoint": 8751
+  },
+  {
     "code": "U+2264",
     "category": "gamepad",
     "name": "Left Trackpad Any",
