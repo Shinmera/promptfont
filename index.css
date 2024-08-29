@@ -77,9 +77,9 @@ a.button:hover {
 }
 main {
     background: #EEEEEE;
-    padding: 4em 0;
+    padding: 2em 0;
 }
-.search {
+input.search {
     box-sizing: border-box;
     font-size: 1.5em;
     width: 20em;
@@ -88,6 +88,21 @@ main {
     padding: 0.2em 0.5em;
     border: 1px solid #CCCCCC;
     border-radius: 0.2em;
+}
+input.compose {
+    box-sizing: border-box;
+    font-family: promptfont;
+    font-size: 1.5em;
+    width: 100%;
+    display: block;
+    margin: 0 auto 1em auto;
+    padding: 0.2em 0.5em;
+    background: rgba(0,0,0,0.1);
+    border: none;
+    text-align: center;
+}
+input.compose:focus {
+    outline: none;
 }
 .glyphsection {
     display: flex;
@@ -179,7 +194,7 @@ img{
     background: #303030;
     color: #EFEFEF;
 }
-#popup .copy:hover{
+#popup .copy:hover, #popup .compose:hover{
     color: orange;
     cursor: pointer;
 }

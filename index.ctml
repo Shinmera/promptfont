@@ -30,6 +30,7 @@
       </p>
     </header>
     <main>
+      <input class="compose" placeholder="Compose..." spellcheck="false">
       <input class="search" type="search" placeholder="Search..." spellcheck="false" autofocus>
       <c:splice iterate="sections">
         <section class="glyphsection" lquery="(attr :id name)">
@@ -54,40 +55,41 @@
     <div id="popup" class="hidden">
       <div class="box">
         <nav>
-          <i class="copy" title="Copy glyph" data-value="character">&#x0021;</i>
-          <code class="copy" title="Copy unicode" data-value="code">U+0021</code>
-          <h2 class="copy" title="Copy name" data-value="name">Exclamation mark</h2>
+          <i class="copy" title="Copy glyph" data-text="character">&#x0021;</i>
+          <code class="copy" title="Copy unicode" data-text="code">U+0021</code>
+          <h2 class="copy" title="Copy name" data-text="name">Exclamation mark</h2>
+          <span class="compose" title="Add to compose box" data-value="character">Compose</span>
         </nav>
-        <div class="preview black"><i data-value="character">&#x0021;</i></div>
-        <div class="preview white"><i data-value="character">&#x0021;</i></div>
+        <div class="preview black"><i data-text="character">&#x0021;</i></div>
+        <div class="preview white"><i data-text="character">&#x0021;</i></div>
         <div class="info">
           <div class="row">
             <label>Category:</label>
-            <span data-value="category">ascii</span>
+            <span data-text="category">ascii</span>
           </div>
           <div class="row">
             <label>Name:</label>
-            <span data-value="name" class="copy" title="Copy name">!</span>
+            <span data-text="name" class="copy" title="Copy name">!</span>
           </div>
           <div class="row">
             <label>Code Name:</label>
-            <code data-value="codeName" class="copy" title="Copy code name">exclamation</code>
+            <code data-text="codeName" class="copy" title="Copy code name">exclamation</code>
           </div>
           <div class="row">
             <label>Glyph:</label>
-            <span data-value="character" class="copy" title="Copy glyph">&#x0021;</span>
+            <span data-text="character" class="copy" title="Copy glyph">&#x0021;</span>
           </div>
           <div class="row">
             <label>Unicode:</label>
-            <code data-value="code" class="copy" title="Copy unicode">U+0021</code>
+            <code data-text="code" class="copy" title="Copy unicode">U+0021</code>
           </div>
           <div class="row">
             <label>Codepoint:</label>
-            <span data-value="codepoint" class="copy" title="Copy codepoint">33</span>
+            <span data-text="codepoint" class="copy" title="Copy codepoint">33</span>
           </div>
           <div class="row">
             <label>Tags:</label>
-            <span data-value="tags">ascii</span>
+            <span data-text="tags">ascii</span>
           </div>
         </div>
       </div>
@@ -123,14 +125,21 @@
       popup.addEventListener("click", ()=>popup.classList.add("hidden"));
       popup.querySelector(".box").addEventListener("click", (ev)=>ev.stopPropagation());
       let showPopup = (glyph)=>{
-          for(let el of popup.querySelectorAll("[data-value]")){
-              el.innerText = glyph.dataset[el.dataset.value];
-          }
+          for(let el of popup.querySelectorAll("[data-text]"))
+              el.innerText = glyph.dataset[el.dataset.text];
+          for(let el of popup.querySelectorAll("[data-value]"))
+              el.setAttribute("value", glyph.dataset[el.dataset.value]);
           popup.classList.remove("hidden");
       };
       for(let el of popup.querySelectorAll(".copy")){
           el.addEventListener("click", ()=>{
               copyToClipboard(el.innerText);
+          });
+      }
+      for(let el of popup.querySelectorAll(".compose")){
+          el.addEventListener("click", ()=>{
+              document.querySelector("input.compose").value += el.getAttribute("value");
+              popup.classList.add("hidden");
           });
       }
       
