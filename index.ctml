@@ -58,7 +58,7 @@
           <i class="copy" title="Copy glyph" data-text="character">&#x0021;</i>
           <code class="copy" title="Copy unicode" data-text="code">U+0021</code>
           <h2 class="copy" title="Copy name" data-text="name">Exclamation mark</h2>
-          <span class="compose" title="Add to compose box" data-value="character">Compose</span>
+          <span class="compose" title="Add to compose box">Compose</span>
         </nav>
         <div class="preview black"><i data-text="character">&#x0021;</i></div>
         <div class="preview white"><i data-text="character">&#x0021;</i></div>
@@ -121,32 +121,6 @@
               ()=>showNotice("Failed to copy to clipboard."));
       };
 
-      let popup = document.querySelector("#popup");
-      popup.addEventListener("click", ()=>popup.classList.add("hidden"));
-      popup.querySelector(".box").addEventListener("click", (ev)=>ev.stopPropagation());
-      let showPopup = (glyph)=>{
-          for(let el of popup.querySelectorAll("[data-text]"))
-              el.innerText = glyph.dataset[el.dataset.text];
-          for(let el of popup.querySelectorAll("[data-value]"))
-              el.setAttribute("value", glyph.dataset[el.dataset.value]);
-          popup.classList.remove("hidden");
-      };
-      for(let el of popup.querySelectorAll(".copy")){
-          el.addEventListener("click", ()=>{
-              copyToClipboard(el.innerText);
-          });
-      }
-      for(let el of popup.querySelectorAll(".compose")){
-          el.addEventListener("click", ()=>{
-              document.querySelector("input.compose").value += el.getAttribute("value");
-              popup.classList.add("hidden");
-          });
-      }
-      
-      for(let el of document.querySelectorAll(".glyph")){
-          el.addEventListener("click", ()=>showPopup(el));
-      }
-
       let match = (query, el)=>{
           query = query.trim().toLowerCase();
           if(query === "") return true;
@@ -160,6 +134,39 @@
           }
           return true;
       };
+
+      let compose = (glyph)=>{
+          document.querySelector("input.compose").value += glyph.dataset["character"];
+      };
+
+      let popup = document.querySelector("#popup");
+      popup.glyph = null;
+      popup.addEventListener("click", ()=>popup.classList.add("hidden"));
+      popup.querySelector(".box").addEventListener("click", (ev)=>ev.stopPropagation());
+      let hidePopup = ()=>popup.classList.add("hidden");
+      let showPopup = (glyph)=>{
+          popup.glyph = glyph;
+          for(let el of popup.querySelectorAll("[data-text]"))
+              el.innerText = glyph.dataset[el.dataset.text];
+          popup.classList.remove("hidden");
+      };
+      for(let el of popup.querySelectorAll(".copy")){
+          el.addEventListener("click", ()=>{
+              copyToClipboard(el.innerText);
+          });
+      }
+      for(let el of popup.querySelectorAll(".compose")){
+          el.addEventListener("click", ()=>{
+              compose(popup.glyph);
+              hidePopup();
+          });
+      }
+      for(let el of document.querySelectorAll(".glyph")){
+          el.addEventListener("click", (ev)=>{
+              if(ev.ctrlKey) compose(el);
+              else showPopup(el)
+          });
+      }
       
       let search = document.querySelector("input[type=search]");
       search.addEventListener("input", (ev)=>{
@@ -175,7 +182,7 @@
                   section.classList.remove("hidden");
               else
                   section.classList.add("hidden");
-          }
+      }
           });
     </script>
   </body>
