@@ -2477,19 +2477,19 @@
   {
     "code": "U+23F5",
     "category": "keyboard",
-    "name": "Arrow Up",
+    "name": "Arrow Right",
     "character": "⏵",
     "codepoint": 9205,
-    "code-name": "keyboard-up",
+    "code-name": "keyboard-right",
     "tags": []
   },
   {
     "code": "U+23F6",
     "category": "keyboard",
-    "name": "Arrow Right",
+    "name": "Arrow Up",
     "character": "⏶",
     "codepoint": 9206,
-    "code-name": "keyboard-right",
+    "code-name": "keyboard-up",
     "tags": []
   },
   {
