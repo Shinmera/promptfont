@@ -58,7 +58,7 @@ jobs:
               --eval '(promptfont-compiler::web)' \
               --quit
         mkdir -p "$OUTPUT/"
-        cp index.html index.css promptfont.ttf "$OUTPUT/"
+        cp index.html index.css LICENSE.txt promptfont.ttf "$OUTPUT/"
       env:
         OUTPUT: ${{ format('{0}/gh-pages/', runner.temp) }}
     - name: Upload Github Pages Artefact
