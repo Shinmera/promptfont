@@ -25,11 +25,18 @@ The [PromptFont release](https://github.com/Shinmera/promptfont/archive/refs/hea
   - ``category`` The category the glyph belongs to
   - ``name`` The unique human-readable name of the glyph
   - ``code-name`` The unique code-readable name of the glyph. It only contains lowercase characters a-z, numbers 0-9, and dashes. This should make it easy to turn into a code symbol
-  - ``tags`` A list of tags that apply to the glyph. The following tags are known:
+  - ``tags`` A list of tags that apply to the glyph. There are a number of tags for glyph variants and so on, but the most important categories are probably:
+    - ``analog`` Analog stick movements and `l`, `r`, `s` for the sticks
+    - ``button`` Button presses and `x`, `y`, `a`, `b`, `l1`, `r1`, `l3`, `r3`, etc for the buttons
+    - ``dpad`` Dpad movements
+    - ``key`` Keyboard keys
+    - ``touch``, ``press``, ``hold``, ``release``, ``move-l``, ``move-r``, ``move-u``, ``move-d``, etc for movements
+    - ``device`` Device icons
     - ``xbox`` Applies to Xbox style gamepads
     - ``nintendo`` Applies to Nintendo style gamepads
     - ``sony`` Applies to Sony Playstation style gamepads
     - ``generic`` Applies to any gamepad
+    - ``ui`` User interface icons
 - ``tags.txt``
   A plaintext CSV file that maps all of the tags to the ``code-name`` of each glyph that was tagged as such. Each line is simply the tag name followed by the code names separated by a space.
 - ``promptfont.txt``
