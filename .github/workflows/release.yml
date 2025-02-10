@@ -60,7 +60,7 @@ jobs:
               --eval '(promptfont-compiler::dump)'
         ./promptfont.run all
     - name: Upload artifact
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: promptfont-${{ github.ref_name }}
         path: promptfont.zip
@@ -72,7 +72,7 @@ jobs:
         allowUpdates: true
         name: Release ${{ github.ref_name }}
         artifacts: promptfont.zip
-    - uses: Ayowel/butler-to-itch@v1.0.0
+    - uses: Ayowel/butler-to-itch@v1.1.0
       with:
         butler_key: ${{ secrets.BUTLER_CREDENTIALS }}
         itch_user: shinmera
