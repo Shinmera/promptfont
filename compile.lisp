@@ -323,6 +323,15 @@ for file in argv[2:]:
          (dolist (dir (directory (merge-pathnames "glyphs/*/" (file))))
            (atlas (pathname-utils:directory-name dir))))))
 
+(defun tags (&optional (file (file "tags" "txt")))
+  (let ((tags (make-hash-table :test 'equalp)))
+    (loop for glyph across (load-glyphs)
+          do (loop for tag across (gethash "tags" glyph)
+                   do (push (gethash "code-name" glyph) (gethash tag tags))))
+    (with-open-file (stream file :direction :output :if-exists :supersede)
+      (dolist (tag (sort (loop for tag being the hash-keys of tags collect tag) #'string<))
+        (format stream "~a~{ ~a~}~%" tag (sort (gethash tag tags) #'string<))))))
+
 (defun release (&optional (file (file "promptfont" "zip")))
   (run "zip" "-j" "-X" file
        (file "LICENSE" "txt")
@@ -330,6 +339,7 @@ for file in argv[2:]:
        (file "index" "html")
        (file "index" "css")
        (file "glyphs" "json")
+       (file "tags" "txt")
        (file "promptfont" "txt")
        (file "promptfont" "ttf")
        (file "promptfont" "otf")
@@ -395,7 +405,7 @@ Tags: ~12t~{~a~^, ~}~%~%"
   (apply (intern (format NIL "~:@(~a~)" command) #.*package*) args))
 
 (defun all (&rest commands)
-  (dolist (command (or commands '(fixup fonts txt css h cs py lisp lua rs gd web atlas release)))
+  (dolist (command (or commands '(fixup fonts tags txt css h cs py lisp lua rs gd web atlas release)))
     (run-command command)))
 
 (defun help ()
@@ -433,6 +443,8 @@ Compile Data:
   web     --- Generates the index.html file
 
   release --- Generates a release zip
+
+  tags    --- Generate the tag index file
 
   txt     --- Generate the respective glyph mapping source file
   css

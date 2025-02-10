@@ -1,6 +1,7 @@
 *.sfd-*
 index.html
 chars.txt
+tags.txt
 promptfont.*
 *.png
 *.zip

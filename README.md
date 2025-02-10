@@ -28,8 +28,10 @@ The [PromptFont release](https://github.com/Shinmera/promptfont/archive/refs/hea
   - ``tags`` A list of tags that apply to the glyph. The following tags are known:
     - ``xbox`` Applies to Xbox style gamepads
     - ``nintendo`` Applies to Nintendo style gamepads
-    - ``playstation`` Applies to Playstation style gamepads
+    - ``sony`` Applies to Sony Playstation style gamepads
     - ``generic`` Applies to any gamepad
+- ``tags.txt``
+  A plaintext CSV file that maps all of the tags to the ``code-name`` of each glyph that was tagged as such. Each line is simply the tag name followed by the code names separated by a space.
 - ``promptfont.txt``
   A plaintext UTF-8 file that contains all the characters that the font provides.
 - ``promptfont.ttf`` and ``promptfont.otf``
