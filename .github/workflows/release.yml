@@ -72,7 +72,7 @@ jobs:
         allowUpdates: true
         name: Release ${{ github.ref_name }}
         artifacts: promptfont.zip
-    - uses: Ayowel/butler-to-itch@v1.1.0
+    - uses: Ayowel/butler-to-itch@v1
       with:
         butler_key: ${{ secrets.BUTLER_CREDENTIALS }}
         itch_user: shinmera
