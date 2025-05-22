@@ -1442,6 +1442,18 @@
     ]
   },
   {
+    "code": "U+21A8",
+    "name": "Face Buttons",
+    "code-name": "gamepad-buttons",
+    "category": "gamepad",
+    "tags": [
+      "button",
+      "generic"
+    ],
+    "character": "↨",
+    "codepoint": 8616
+  },
+  {
     "character": "↩",
     "code": "U+21A9",
     "codepoint": 8617,
@@ -1629,6 +1641,19 @@
       "s",
       "move-ccw"
     ]
+  },
+  {
+    "code": "U+21B8",
+    "name": "Analog Stick Click",
+    "code-name": "analog-stick-click",
+    "category": "gamepad",
+    "tags": [
+      "button",
+      "generic",
+      "press"
+    ],
+    "character": "↸",
+    "codepoint": 8632
   },
   {
     "character": "↹",
@@ -1909,6 +1934,18 @@
       "analog",
       "r"
     ]
+  },
+  {
+    "code": "U+21CD",
+    "name": "Analog Stick",
+    "code-name": "analog-stick",
+    "category": "gamepad",
+    "tags": [
+      "generic",
+      "analog"
+    ],
+    "character": "⇍",
+    "codepoint": 8653
   },
   {
     "code": "U+21CE",
@@ -4942,6 +4979,18 @@
       "scroll",
       "move-d"
     ]
+  },
+  {
+    "code": "U+27F2",
+    "name": "Scroll Up/Down",
+    "code-name": "mouse-scroll-up-down",
+    "category": "mouse",
+    "tags": [
+      "scroll",
+      "move-ud"
+    ],
+    "character": "⟲",
+    "codepoint": 10226
   },
   {
     "character": "⟵",
