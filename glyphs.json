@@ -1243,7 +1243,8 @@
     "tags": [
       "button",
       "xbox",
-      "l1"
+      "l1",
+      "wide-alternate"
     ]
   },
   {
@@ -1256,7 +1257,8 @@
     "tags": [
       "button",
       "xbox",
-      "r1"
+      "r1",
+      "wide-alternate"
     ]
   },
   {
@@ -1295,7 +1297,8 @@
     "tags": [
       "button",
       "nintendo",
-      "l1"
+      "l1",
+      "wide-alternate"
     ]
   },
   {
@@ -1308,7 +1311,8 @@
     "tags": [
       "button",
       "nintendo",
-      "r1"
+      "r1",
+      "wide-alternate"
     ]
   },
   {
@@ -1520,7 +1524,8 @@
       "generic",
       "analog",
       "lr",
-      "move-cw"
+      "move-cw",
+      "wide-alternate"
     ]
   },
   {
@@ -1534,7 +1539,8 @@
       "generic",
       "analog",
       "lr",
-      "move-ccw"
+      "move-ccw",
+      "wide-alternate"
     ]
   },
   {
@@ -1546,7 +1552,8 @@
     "code-name": "sony-left-shoulder",
     "tags": [
       "sony",
-      "l1"
+      "l1",
+      "wide-alternate"
     ]
   },
   {
@@ -1559,7 +1566,8 @@
     "tags": [
       "button",
       "sony",
-      "r1"
+      "r1",
+      "wide-alternate"
     ]
   },
   {
@@ -1666,7 +1674,8 @@
       "button",
       "generic",
       "lr",
-      "press"
+      "press",
+      "wide-alternate"
     ]
   },
   {
@@ -2239,7 +2248,8 @@
     "tags": [
       "button",
       "steam",
-      "menu"
+      "menu",
+      "wide-alternate"
     ]
   },
   {
@@ -2252,7 +2262,8 @@
     "tags": [
       "button",
       "steam",
-      "options"
+      "options",
+      "wide-alternate"
     ]
   },
   {
@@ -2280,7 +2291,8 @@
       "sony",
       "home",
       "touchpad",
-      "dualshock"
+      "dualshock",
+      "wide-alternate"
     ]
   },
   {
@@ -2309,7 +2321,8 @@
       "button",
       "nintendo",
       "z",
-      "gamecube"
+      "gamecube",
+      "wide-alternate"
     ]
   },
   {
@@ -2444,7 +2457,8 @@
       "button",
       "generic",
       "select",
-      "share"
+      "share",
+      "wide-alternate"
     ]
   },
   {
@@ -2457,7 +2471,8 @@
     "tags": [
       "button",
       "generic",
-      "start"
+      "start",
+      "wide-alternate"
     ]
   },
   {
@@ -2471,7 +2486,8 @@
       "button",
       "generic",
       "home",
-      "menu"
+      "menu",
+      "wide-alternate"
     ]
   },
   {
@@ -2599,7 +2615,8 @@
       "nintendo",
       "sl",
       "l1",
-      "joycon"
+      "joycon",
+      "wide-alternate"
     ]
   },
   {
@@ -2614,7 +2631,8 @@
       "nintendo",
       "sr",
       "r1",
-      "joycon"
+      "joycon",
+      "wide-alternate"
     ]
   },
   {
@@ -2684,7 +2702,8 @@
     "tags": [
       "button",
       "ayaneo",
-      "lc"
+      "lc",
+      "wide-alternate"
     ]
   },
   {
@@ -2697,7 +2716,8 @@
     "tags": [
       "button",
       "ayaneo",
-      "rc"
+      "rc",
+      "wide-alternate"
     ]
   },
   {
@@ -2750,7 +2770,8 @@
     "tags": [
       "button",
       "gpd",
-      "c1"
+      "c1",
+      "wide-alternate"
     ]
   },
   {
@@ -2763,7 +2784,8 @@
     "tags": [
       "button",
       "gpd",
-      "c2"
+      "c2",
+      "wide-alternate"
     ]
   },
   {
@@ -2789,7 +2811,8 @@
     "tags": [
       "button",
       "onexplayer",
-      "turbo"
+      "turbo",
+      "wide-alternate"
     ]
   },
   {
@@ -2802,7 +2825,8 @@
     "tags": [
       "generic",
       "button",
-      "m1"
+      "m1",
+      "wide-alternate"
     ]
   },
   {
@@ -2815,7 +2839,8 @@
     "tags": [
       "generic",
       "button",
-      "m2"
+      "m2",
+      "wide-alternate"
     ]
   },
   {
@@ -2828,7 +2853,8 @@
     "tags": [
       "generic",
       "button",
-      "m3"
+      "m3",
+      "wide-alternate"
     ]
   },
   {
@@ -2841,7 +2867,8 @@
     "tags": [
       "generic",
       "button",
-      "y1"
+      "y1",
+      "wide-alternate"
     ]
   },
   {
@@ -2854,7 +2881,8 @@
     "tags": [
       "generic",
       "button",
-      "y2"
+      "y2",
+      "wide-alternate"
     ]
   },
   {
@@ -2867,7 +2895,8 @@
     "tags": [
       "generic",
       "button",
-      "y3"
+      "y3",
+      "wide-alternate"
     ]
   },
   {
@@ -2880,7 +2909,8 @@
     "tags": [
       "onexplayer",
       "button",
-      "function"
+      "function",
+      "wide-alternate"
     ]
   },
   {
@@ -2906,7 +2936,8 @@
       "gpd",
       "button",
       "menu",
-      "home"
+      "home",
+      "wide-alternate"
     ],
     "character": "√",
     "codepoint": 8730
@@ -2946,7 +2977,8 @@
     "tags": [
       "zotaczone",
       "button",
-      "logo"
+      "logo",
+      "wide-alternate"
     ],
     "character": "∝",
     "codepoint": 8733
@@ -2960,7 +2992,8 @@
       "zotaczone",
       "button",
       "menu",
-      "home"
+      "home",
+      "wide-alternate"
     ],
     "character": "∞",
     "codepoint": 8734
@@ -3709,7 +3742,8 @@
     "code-name": "keyboard-wasd",
     "tags": [
       "key",
-      "wasd"
+      "wasd",
+      "wide-alternate"
     ]
   },
   {
@@ -3721,7 +3755,8 @@
     "code-name": "keyboard-arrows",
     "tags": [
       "key",
-      "arrows"
+      "arrows",
+      "wide-alternate"
     ]
   },
   {
@@ -3733,7 +3768,8 @@
     "code-name": "keyboard-ijkl",
     "tags": [
       "key",
-      "ijkl"
+      "ijkl",
+      "wide-alternate"
     ]
   },
   {
@@ -3758,7 +3794,8 @@
     "tags": [
       "key",
       "ctrl",
-      "control"
+      "control",
+      "wide-alternate"
     ]
   },
   {
@@ -3771,7 +3808,8 @@
     "tags": [
       "key",
       "alt",
-      "meta"
+      "meta",
+      "wide-alternate"
     ]
   },
   {
@@ -3796,7 +3834,8 @@
     "tags": [
       "key",
       "super",
-      "win"
+      "win",
+      "wide-alternate"
     ]
   },
   {
@@ -3808,7 +3847,8 @@
     "code-name": "keyboard-tab",
     "tags": [
       "key",
-      "tab"
+      "tab",
+      "wide-alternate"
     ]
   },
   {
@@ -3821,7 +3861,8 @@
     "tags": [
       "key",
       "caps",
-      "caps-lock"
+      "caps-lock",
+      "wide-alternate"
     ]
   },
   {
@@ -3833,7 +3874,8 @@
     "code-name": "keyboard-backspace",
     "tags": [
       "key",
-      "backspace"
+      "backspace",
+      "wide-alternate"
     ]
   },
   {
@@ -3846,7 +3888,8 @@
     "tags": [
       "key",
       "enter",
-      "return"
+      "return",
+      "wide-alternate"
     ]
   },
   {
@@ -4005,7 +4048,8 @@
       "key",
       "space",
       "spc",
-      " "
+      " ",
+      "wide-alternate"
     ]
   },
   {
@@ -4018,7 +4062,8 @@
     "tags": [
       "device",
       "gamepad",
-      "generic"
+      "generic",
+      "wide-alternate"
     ]
   },
   {
@@ -4030,7 +4075,8 @@
     "code-name": "device-keyboard",
     "tags": [
       "device",
-      "keyboard"
+      "keyboard",
+      "wide-alternate"
     ]
   },
   {
@@ -4055,7 +4101,8 @@
     "tags": [
       "device",
       "keyboard",
-      "mouse"
+      "mouse",
+      "wide-alternate"
     ]
   },
   {
@@ -4067,7 +4114,8 @@
       "device",
       "sony",
       "gamepad",
-      "dualshock"
+      "dualshock",
+      "wide-alternate"
     ],
     "character": "⑀",
     "codepoint": 9280
@@ -4081,7 +4129,8 @@
       "device",
       "sony",
       "gamepad",
-      "dualsense"
+      "dualsense",
+      "wide-alternate"
     ],
     "character": "⑁",
     "codepoint": 9281
@@ -4095,7 +4144,8 @@
       "device",
       "xbox",
       "gamepad",
-      "xbox360"
+      "xbox360",
+      "wide-alternate"
     ],
     "character": "⑂",
     "codepoint": 9282
@@ -4110,7 +4160,8 @@
       "altgr",
       "alt-gr",
       "alt",
-      "left"
+      "left",
+      "wide-alternate"
     ],
     "character": "⑊",
     "codepoint": 9290
@@ -4125,7 +4176,8 @@
       "alt",
       "left-alt",
       "lalt",
-      "left"
+      "left",
+      "wide-alternate"
     ],
     "character": "⑋",
     "codepoint": 9291
@@ -4140,7 +4192,8 @@
       "alt",
       "right-alt",
       "ralt",
-      "right"
+      "right",
+      "wide-alternate"
     ],
     "character": "⑌",
     "codepoint": 9292
@@ -4156,7 +4209,8 @@
       "ctrl",
       "left-control",
       "lctrl",
-      "left"
+      "left",
+      "wide-alternate"
     ],
     "character": "⑍",
     "codepoint": 9293
@@ -4172,7 +4226,8 @@
       "ctrl",
       "right-control",
       "rctrl",
-      "right"
+      "right",
+      "wide-alternate"
     ],
     "character": "⑎",
     "codepoint": 9294
@@ -4186,7 +4241,8 @@
       "key",
       "shift",
       "left-shift",
-      "left"
+      "left",
+      "wide-alternate"
     ],
     "character": "⑏",
     "codepoint": 9295
@@ -4200,7 +4256,8 @@
       "key",
       "shift",
       "right-shift",
-      "right"
+      "right",
+      "wide-alternate"
     ],
     "character": "⑐",
     "codepoint": 9296

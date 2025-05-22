@@ -37,6 +37,7 @@ The [PromptFont release](https://github.com/Shinmera/promptfont/archive/refs/hea
     - ``sony`` Applies to Sony Playstation style gamepads
     - ``generic`` Applies to any gamepad
     - ``ui`` User interface icons
+    - ``wide-alternate`` The glyph has a wider alternate variant to its standard unit square representation. You can get the variant by shifting the codepoint up by 2560 (`0xA00`).
 - ``tags.txt``
   A plaintext CSV file that maps all of the tags to the ``code-name`` of each glyph that was tagged as such. Each line is simply the tag name followed by the code names separated by a space.
 - ``promptfont.txt``
