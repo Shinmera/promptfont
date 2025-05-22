@@ -273,7 +273,7 @@ static func get_int(name: StringName) -> int:
           ((every #'digit-char-p codepoint)
            (setf (gethash "codepoint" entry) (parse-integer codepoint)))
           (T
-           (error "Unknown character format: ~s" codepoint)))
+           (error "Unknown character format: ~s~%Should be either an actual character, an integer, or a U+XXXX hexadecimal unicode codepoint." codepoint)))
     (setf (gethash "name" entry) name)
     (setf (gethash "code-name" entry) code-name)
     (setf (gethash "category" entry) category)
