@@ -55,10 +55,11 @@ jobs:
               --eval "(ql:quickload '(clip shasht pathname-utils) :silent T)" \
               --load "compile.lisp" \
               --eval '(promptfont-compiler::fonts)' \
+              --eval '(promptfont-compiler::css)' \
               --eval '(promptfont-compiler::web)' \
               --quit
         mkdir -p "$OUTPUT/"
-        cp index.html index.css LICENSE.txt promptfont.ttf preview.png "$OUTPUT/"
+        cp index.html index.css LICENSE.txt promptfont.ttf promptfont.css preview.png "$OUTPUT/"
       env:
         OUTPUT: ${{ format('{0}/gh-pages/', runner.temp) }}
     - name: Upload Github Pages Artefact
