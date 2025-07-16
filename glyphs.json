@@ -4538,6 +4538,18 @@
     ]
   },
   {
+    "code": "U+263C",
+    "name": "Sun",
+    "code-name": "icon-sun",
+    "category": "icon",
+    "tags": [
+      "ui",
+      "settings"
+    ],
+    "character": "☀",
+    "codepoint": 9728
+  },
+  {
     "code": "U+2605",
     "category": "icon",
     "name": "star",
@@ -4889,6 +4901,20 @@
       "ui",
       "map"
     ]
+  },
+  {
+    "code": "U+2726",
+    "name": "Spark",
+    "code-name": "icon-spark",
+    "category": "icon",
+    "tags": [
+      "ui",
+      "settings",
+      "star",
+      "effect"
+    ],
+    "character": "✦",
+    "codepoint": 10022
   },
   {
     "code": "U+2753",
@@ -5366,6 +5392,169 @@
     ]
   },
   {
+    "code": "U+E012",
+    "name": "Meta",
+    "code-name": "icon-meta",
+    "category": "logo",
+    "tags": [
+      "device",
+      "platform",
+      "meta"
+    ],
+    "character": "",
+    "codepoint": 57362
+  },
+  {
+    "code": "U+FF01",
+    "category": "keyboard",
+    "name": "Key !",
+    "code-name": "keyboard-exclamation",
+    "tags": [
+      "key",
+      "!"
+    ]
+  },
+  {
+    "code": "U+FF02",
+    "category": "keyboard",
+    "name": "Key \"",
+    "code-name": "keyboard-doublequote",
+    "tags": [
+      "key",
+      "\""
+    ]
+  },
+  {
+    "code": "U+FF03",
+    "category": "keyboard",
+    "name": "Key #",
+    "code-name": "keyboard-pound",
+    "tags": [
+      "key",
+      "#"
+    ]
+  },
+  {
+    "code": "U+FF04",
+    "category": "keyboard",
+    "name": "Key $",
+    "code-name": "keyboard-dollar",
+    "tags": [
+      "key",
+      "$"
+    ]
+  },
+  {
+    "code": "U+FF05",
+    "category": "keyboard",
+    "name": "Key %",
+    "code-name": "keyboard-percent",
+    "tags": [
+      "key",
+      "%"
+    ]
+  },
+  {
+    "code": "U+FF06",
+    "category": "keyboard",
+    "name": "Key &",
+    "code-name": "keyboard-ampersand",
+    "tags": [
+      "key",
+      "&"
+    ]
+  },
+  {
+    "code": "U+FF07",
+    "category": "keyboard",
+    "name": "Key '",
+    "code-name": "keyboard-quote",
+    "tags": [
+      "key",
+      "'"
+    ]
+  },
+  {
+    "code": "U+FF08",
+    "category": "keyboard",
+    "name": "Key (",
+    "code-name": "keyboard-open-parenthesis",
+    "tags": [
+      "key",
+      "("
+    ]
+  },
+  {
+    "code": "U+FF09",
+    "category": "keyboard",
+    "name": "Key )",
+    "code-name": "keyboard-close-parenthesis",
+    "tags": [
+      "key",
+      ")"
+    ]
+  },
+  {
+    "code": "U+FF0A",
+    "category": "keyboard",
+    "name": "Key *",
+    "code-name": "keyboard-star",
+    "tags": [
+      "key",
+      "*"
+    ]
+  },
+  {
+    "code": "U+FF0B",
+    "category": "keyboard",
+    "name": "Key +",
+    "code-name": "keyboard-plus",
+    "tags": [
+      "key",
+      "+"
+    ]
+  },
+  {
+    "code": "U+FF0C",
+    "category": "keyboard",
+    "name": "Key ,",
+    "code-name": "keyboard-comma",
+    "tags": [
+      "key",
+      ","
+    ]
+  },
+  {
+    "code": "U+FF0D",
+    "category": "keyboard",
+    "name": "Key -",
+    "code-name": "keyboard-dash",
+    "tags": [
+      "key",
+      "-"
+    ]
+  },
+  {
+    "code": "U+FF0E",
+    "category": "keyboard",
+    "name": "Key .",
+    "code-name": "keyboard-period",
+    "tags": [
+      "key",
+      "."
+    ]
+  },
+  {
+    "code": "U+FF0F",
+    "category": "keyboard",
+    "name": "Key /",
+    "code-name": "keyboard-slash",
+    "tags": [
+      "key",
+      "/"
+    ]
+  },
+  {
     "code": "U+FF10",
     "category": "keyboard",
     "name": "Key 0",
@@ -5483,6 +5672,76 @@
     "tags": [
       "key",
       "9"
+    ]
+  },
+  {
+    "code": "U+FF1A",
+    "category": "keyboard",
+    "name": "Key :",
+    "code-name": "keyboard-colon",
+    "tags": [
+      "key",
+      ":"
+    ]
+  },
+  {
+    "code": "U+FF1B",
+    "category": "keyboard",
+    "name": "Key ;",
+    "code-name": "keyboard-semicolon",
+    "tags": [
+      "key",
+      ";"
+    ]
+  },
+  {
+    "code": "U+FF1C",
+    "category": "keyboard",
+    "name": "Key <",
+    "code-name": "keyboard-open-caret",
+    "tags": [
+      "key",
+      "<"
+    ]
+  },
+  {
+    "code": "U+FF1D",
+    "category": "keyboard",
+    "name": "Key =",
+    "code-name": "keyboard-equals",
+    "tags": [
+      "key",
+      "="
+    ]
+  },
+  {
+    "code": "U+FF1E",
+    "category": "keyboard",
+    "name": "Key >",
+    "code-name": "keyboard-close-caret",
+    "tags": [
+      "key",
+      ">"
+    ]
+  },
+  {
+    "code": "U+FF1F",
+    "category": "keyboard",
+    "name": "Key ?",
+    "code-name": "keyboard-question-mark",
+    "tags": [
+      "key",
+      "?"
+    ]
+  },
+  {
+    "code": "U+FF20",
+    "category": "keyboard",
+    "name": "Key @",
+    "code-name": "keyboard-at",
+    "tags": [
+      "key",
+      "@"
     ]
   },
   {
@@ -5798,6 +6057,118 @@
     ]
   },
   {
+    "code": "U+FF3B",
+    "category": "keyboard",
+    "name": "Key [",
+    "code-name": "keyboard-open-bracket",
+    "tags": [
+      "key",
+      "["
+    ]
+  },
+  {
+    "code": "U+FF3C",
+    "category": "keyboard",
+    "name": "Key \\",
+    "code-name": "keyboard-backslash",
+    "tags": [
+      "key",
+      "\\"
+    ]
+  },
+  {
+    "code": "U+FF3D",
+    "category": "keyboard",
+    "name": "Key ]",
+    "code-name": "keyboard-close-bracket",
+    "tags": [
+      "key",
+      "]"
+    ]
+  },
+  {
+    "code": "U+FF3E",
+    "category": "keyboard",
+    "name": "Key ^",
+    "code-name": "keyboard-caret",
+    "tags": [
+      "key",
+      "^"
+    ]
+  },
+  {
+    "code": "U+FF3F",
+    "category": "keyboard",
+    "name": "Key _",
+    "code-name": "keyboard-underscore",
+    "tags": [
+      "key",
+      "_"
+    ]
+  },
+  {
+    "code": "U+FF40",
+    "category": "keyboard",
+    "name": "Key `",
+    "code-name": "keyboard-backtick",
+    "tags": [
+      "key",
+      "`"
+    ]
+  },
+  {
+    "code": "U+FF5B",
+    "category": "keyboard",
+    "name": "Key {",
+    "code-name": "keyboard-open-brace",
+    "tags": [
+      "key",
+      "{"
+    ]
+  },
+  {
+    "code": "U+FF5C",
+    "category": "keyboard",
+    "name": "Key |",
+    "code-name": "keyboard-bar",
+    "tags": [
+      "key",
+      "|"
+    ]
+  },
+  {
+    "code": "U+FF5D",
+    "category": "keyboard",
+    "name": "Key }",
+    "code-name": "keyboard-close-brace",
+    "tags": [
+      "key",
+      "}"
+    ]
+  },
+  {
+    "code": "U+FF5E",
+    "category": "keyboard",
+    "name": "Key ~",
+    "code-name": "keyboard-tilde",
+    "tags": [
+      "key",
+      "~"
+    ]
+  },
+  {
+    "code": "U+1F319",
+    "name": "Moon",
+    "code-name": "icon-moon",
+    "category": "icon",
+    "tags": [
+      "ui",
+      "settings"
+    ],
+    "character": "🌙",
+    "codepoint": 127769
+  },
+  {
     "code": "U+1F3A7",
     "category": "icon",
     "name": "Headphones",
@@ -5900,14 +6271,26 @@
   {
     "code": "U+1F4F7",
     "category": "icon",
-    "name": "Camera",
+    "name": "Webcam",
     "character": "📷",
     "codepoint": 128247,
-    "code-name": "icon-camera",
+    "code-name": "icon-webcam",
     "tags": [
       "device",
       "camera"
     ]
+  },
+  {
+    "code": "U+1F4F8",
+    "name": "Camera",
+    "code-name": "icon-camera",
+    "category": "icon",
+    "tags": [
+      "device",
+      "camera"
+    ],
+    "character": "📸",
+    "codepoint": 128248
   },
   {
     "code": "U+1F508",
@@ -6115,6 +6498,17 @@
     ]
   },
   {
+    "code": "U+1F5BC",
+    "name": "Image",
+    "code-name": "icon-image",
+    "category": "icon",
+    "tags": [
+      "ui"
+    ],
+    "character": "🖼",
+    "codepoint": 128444
+  },
+  {
     "code": "U+1F5E3",
     "category": "icon",
     "name": "Speaking Voice",
@@ -6174,5 +6568,16 @@
       "ui",
       "map"
     ]
+  },
+  {
+    "code": "U+1F789",
+    "name": "Aperture",
+    "code-name": "icon-aperture",
+    "category": "icon",
+    "tags": [
+      "ui"
+    ],
+    "character": "🞉",
+    "codepoint": 128905
   }
 ]
