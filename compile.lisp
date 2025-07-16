@@ -460,11 +460,11 @@ You typically do not need this utility as it is run automatically by
 the GitHub CI when you create a PR.
 
 https://shinmera.com/promptfont
-" (uiop:argv0)))
+" (first (uiop:raw-command-line-arguments))))
 
 (defun main ()
   (destructuring-bind (argv0 &optional (command "help") &rest args) (uiop:raw-command-line-arguments)
-    (declare (ignore argv0))
+    (setf *here* (pathname-utils:to-directory (pathname-utils:parse-native-namestring argv0)))
     (apply #'run-command command args)))
 
 (defun dump ()

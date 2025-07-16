@@ -4538,7 +4538,7 @@
     ]
   },
   {
-    "code": "U+263C",
+    "code": "U+2600",
     "name": "Sun",
     "code-name": "icon-sun",
     "category": "icon",
@@ -5412,7 +5412,9 @@
     "tags": [
       "key",
       "!"
-    ]
+    ],
+    "character": "！",
+    "codepoint": 65281
   },
   {
     "code": "U+FF02",
@@ -5422,7 +5424,9 @@
     "tags": [
       "key",
       "\""
-    ]
+    ],
+    "character": "＂",
+    "codepoint": 65282
   },
   {
     "code": "U+FF03",
@@ -5432,7 +5436,9 @@
     "tags": [
       "key",
       "#"
-    ]
+    ],
+    "character": "＃",
+    "codepoint": 65283
   },
   {
     "code": "U+FF04",
@@ -5442,7 +5448,9 @@
     "tags": [
       "key",
       "$"
-    ]
+    ],
+    "character": "＄",
+    "codepoint": 65284
   },
   {
     "code": "U+FF05",
@@ -5452,7 +5460,9 @@
     "tags": [
       "key",
       "%"
-    ]
+    ],
+    "character": "％",
+    "codepoint": 65285
   },
   {
     "code": "U+FF06",
@@ -5462,7 +5472,9 @@
     "tags": [
       "key",
       "&"
-    ]
+    ],
+    "character": "＆",
+    "codepoint": 65286
   },
   {
     "code": "U+FF07",
@@ -5472,7 +5484,9 @@
     "tags": [
       "key",
       "'"
-    ]
+    ],
+    "character": "＇",
+    "codepoint": 65287
   },
   {
     "code": "U+FF08",
@@ -5482,7 +5496,9 @@
     "tags": [
       "key",
       "("
-    ]
+    ],
+    "character": "（",
+    "codepoint": 65288
   },
   {
     "code": "U+FF09",
@@ -5492,7 +5508,9 @@
     "tags": [
       "key",
       ")"
-    ]
+    ],
+    "character": "）",
+    "codepoint": 65289
   },
   {
     "code": "U+FF0A",
@@ -5502,7 +5520,9 @@
     "tags": [
       "key",
       "*"
-    ]
+    ],
+    "character": "＊",
+    "codepoint": 65290
   },
   {
     "code": "U+FF0B",
@@ -5512,7 +5532,9 @@
     "tags": [
       "key",
       "+"
-    ]
+    ],
+    "character": "＋",
+    "codepoint": 65291
   },
   {
     "code": "U+FF0C",
@@ -5522,7 +5544,9 @@
     "tags": [
       "key",
       ","
-    ]
+    ],
+    "character": "，",
+    "codepoint": 65292
   },
   {
     "code": "U+FF0D",
@@ -5532,7 +5556,9 @@
     "tags": [
       "key",
       "-"
-    ]
+    ],
+    "character": "－",
+    "codepoint": 65293
   },
   {
     "code": "U+FF0E",
@@ -5542,7 +5568,9 @@
     "tags": [
       "key",
       "."
-    ]
+    ],
+    "character": "．",
+    "codepoint": 65294
   },
   {
     "code": "U+FF0F",
@@ -5552,7 +5580,9 @@
     "tags": [
       "key",
       "/"
-    ]
+    ],
+    "character": "／",
+    "codepoint": 65295
   },
   {
     "code": "U+FF10",
@@ -5682,7 +5712,9 @@
     "tags": [
       "key",
       ":"
-    ]
+    ],
+    "character": "：",
+    "codepoint": 65306
   },
   {
     "code": "U+FF1B",
@@ -5692,7 +5724,9 @@
     "tags": [
       "key",
       ";"
-    ]
+    ],
+    "character": "；",
+    "codepoint": 65307
   },
   {
     "code": "U+FF1C",
@@ -5702,7 +5736,9 @@
     "tags": [
       "key",
       "<"
-    ]
+    ],
+    "character": "＜",
+    "codepoint": 65308
   },
   {
     "code": "U+FF1D",
@@ -5712,7 +5748,9 @@
     "tags": [
       "key",
       "="
-    ]
+    ],
+    "character": "＝",
+    "codepoint": 65309
   },
   {
     "code": "U+FF1E",
@@ -5722,7 +5760,9 @@
     "tags": [
       "key",
       ">"
-    ]
+    ],
+    "character": "＞",
+    "codepoint": 65310
   },
   {
     "code": "U+FF1F",
@@ -5732,7 +5772,9 @@
     "tags": [
       "key",
       "?"
-    ]
+    ],
+    "character": "？",
+    "codepoint": 65311
   },
   {
     "code": "U+FF20",
@@ -5742,7 +5784,9 @@
     "tags": [
       "key",
       "@"
-    ]
+    ],
+    "character": "＠",
+    "codepoint": 65312
   },
   {
     "code": "U+FF21",
@@ -6064,7 +6108,9 @@
     "tags": [
       "key",
       "["
-    ]
+    ],
+    "character": "［",
+    "codepoint": 65339
   },
   {
     "code": "U+FF3C",
@@ -6074,7 +6120,9 @@
     "tags": [
       "key",
       "\\"
-    ]
+    ],
+    "character": "＼",
+    "codepoint": 65340
   },
   {
     "code": "U+FF3D",
@@ -6084,7 +6132,9 @@
     "tags": [
       "key",
       "]"
-    ]
+    ],
+    "character": "］",
+    "codepoint": 65341
   },
   {
     "code": "U+FF3E",
@@ -6094,7 +6144,9 @@
     "tags": [
       "key",
       "^"
-    ]
+    ],
+    "character": "＾",
+    "codepoint": 65342
   },
   {
     "code": "U+FF3F",
@@ -6104,7 +6156,9 @@
     "tags": [
       "key",
       "_"
-    ]
+    ],
+    "character": "＿",
+    "codepoint": 65343
   },
   {
     "code": "U+FF40",
@@ -6114,7 +6168,9 @@
     "tags": [
       "key",
       "`"
-    ]
+    ],
+    "character": "｀",
+    "codepoint": 65344
   },
   {
     "code": "U+FF5B",
@@ -6124,7 +6180,9 @@
     "tags": [
       "key",
       "{"
-    ]
+    ],
+    "character": "｛",
+    "codepoint": 65371
   },
   {
     "code": "U+FF5C",
@@ -6134,7 +6192,9 @@
     "tags": [
       "key",
       "|"
-    ]
+    ],
+    "character": "｜",
+    "codepoint": 65372
   },
   {
     "code": "U+FF5D",
@@ -6144,7 +6204,9 @@
     "tags": [
       "key",
       "}"
-    ]
+    ],
+    "character": "｝",
+    "codepoint": 65373
   },
   {
     "code": "U+FF5E",
@@ -6154,7 +6216,9 @@
     "tags": [
       "key",
       "~"
-    ]
+    ],
+    "character": "～",
+    "codepoint": 65374
   },
   {
     "code": "U+1F319",
