@@ -9,14 +9,14 @@ If you use this font in your project please leave an attribution notice in your 
 > PromptFont by Yukari "Shinmera" Hafner, available at https://shinmera.com/promptfont
 
 ## Release Files
-The [PromptFont release](https://github.com/Shinmera/promptfont/archive/refs/heads/gh-pages.zip) includes a couple of files. Here's what they're for:
+The [PromptFont release](https://shinmera.com/project/promptfont/archive/refs/heads/gh-pages.zip) includes a couple of files. Here's what they're for:
 
 - ``LICENSE.txt``
   A copy of the SIL Open Font license
 - ``README.md``
   A copy of this readme
 - ``index.html``
-  A copy of the [website](https://shinmera.github.io/promptfont) so you can use it offline as well
+  A copy of the [website](https://shinmera.com/docs/promptfont) so you can use it offline as well
 - ``glyphs.json``
   This is a JSON file with an array of the glyphs the font provides. Each glyph is an object with the following attributes:
   - ``character`` The actual character as a one-character string

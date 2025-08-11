@@ -7,7 +7,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="PromptFont - A Font for Button Prompts">
     <meta property="og:description" content="This is a font with special glyphs to display button prompts in games and applications with special input devices.">
-    <meta property="og:image" content="https://shinmera.github.io/promptfont/preview.png" />
+    <meta property="og:image" content="https://shinmera.com/docs/promptfont/preview.png" />
     <meta property="og:image:alt" content="PromptFont Preview">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
@@ -19,9 +19,9 @@
     <header>
       <h1>
         PromptFont
-        <a class="button" href="https://github.com/Shinmera/promptfont/">GitHub</a>
+        <a class="button" href="https://shinmera.com/project/promptfont/">GitHub</a>
         <a class="button" href="https://shinmera.itch.io/promptfont">Itch.io</a>
-        <a class="button" href="https://github.com/Shinmera/promptfont/releases/latest/download/promptfont.zip">Download</a>
+        <a class="button" href="https://shinmera.com/project/promptfont/releases/latest/download/promptfont.zip">Download</a>
       </h1>
       <p>This is a font designed for button prompts in games. It includes the base alphabet, as well as icons for modifier and control keys, and gamepad buttons. All the icons included in the font are custom made and available under the same <a href="LICENSE.txt">SIL Open Font Licence</a>. Included trademarks however of course still belong to their respective owners.</p>
       <p>The downloadable package includes the font in TTF and OTF format, the glyphs rendered to sprite atlases, this index for easy searching, a CSS file for HTML/JS projects, a JSON file listing all of the glyphs along with convenient names and tagging, and source files for C, C++, C#, Python, Lua, Lisp, Rust, and GDScript that define the glyphs as easy to use code constants.</p>

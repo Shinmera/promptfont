@@ -58,7 +58,7 @@ OS2XHeight: 490
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "PromptFont 1.0" "" "" "" "" "" "" "" "https://github.com/shinmera/promptfont" "" "SIL Open Font License 1.1" "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "PromptFont 1.0" "" "" "" "" "" "" "" "https://shinmera.com/project/promptfont" "" "SIL Open Font License 1.1" "http://scripts.sil.org/OFL"
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
